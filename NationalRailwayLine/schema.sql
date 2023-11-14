@@ -1,0 +1,3 @@
+/* (Beta) Export of data model NationalRailwayLine of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE NationalRailwayLine_type AS ENUM ('NationalRailwayLine');
+CREATE TABLE NationalRailwayLine (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, location JSON, name TEXT, owner JSON, seeAlso JSON, source TEXT, type NationalRailwayLine_type);
