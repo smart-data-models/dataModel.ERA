@@ -1,0 +1,266 @@
+{
+    "@id": "dtmi:com:ngsi-ld:Tunnel;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Tunnel + mapped from ERA ontology by Smart Data Models adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/Tunnel/schema.json",
+    "description": "A railway tunnel is an excavation or a construction around the track provided to allow the railway to pass for example higher land, buildings or water.",
+    "displayName": "Tunnel",
+    "contents": [
+        {
+            "name": "alternateName",
+            "writable": true,
+            "displayName": "alternateName",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "An alternative name for this item"
+        },
+        {
+            "name": "areaServed",
+            "writable": true,
+            "displayName": "areaServed",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The geographic area where a service or offered item is provided"
+        },
+        {
+            "name": "complianceInfTsi",
+            "writable": true,
+            "displayName": "complianceInfTsi",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Compliance of the tunnel with INF TSI"
+        },
+        {
+            "name": "crossSectionArea",
+            "writable": true,
+            "displayName": "crossSectionArea",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Cross section area"
+        },
+        {
+            "name": "dataProvider",
+            "writable": true,
+            "displayName": "dataProvider",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters identifying the provider of the harmonised data entity"
+        },
+        {
+            "name": "dateCreated",
+            "writable": true,
+            "displayName": "dateCreated",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Entity creation timestamp. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "dateModified",
+            "writable": true,
+            "displayName": "dateModified",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Timestamp of the last modification of the entity. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "demonstrationSRT",
+            "writable": true,
+            "displayName": "demonstrationSRT",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "EI declaration of demonstration for tunnel (SRT)"
+        },
+        {
+            "name": "description",
+            "writable": true,
+            "displayName": "description",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A description of this item"
+        },
+        {
+            "name": "dieselThermalAllowed",
+            "writable": true,
+            "displayName": "dieselThermalAllowed",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Diesel or other thermal traction allowed"
+        },
+        {
+            "name": "endLocation",
+            "writable": true,
+            "displayName": "endLocation",
+            "@type": "Relationship",
+            "comment": "End of tunnel"
+        },
+        {
+            "name": "hasEmergencyPlan",
+            "writable": true,
+            "displayName": "hasEmergencyPlan",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of emergency plan"
+        },
+        {
+            "name": "hasEvacuationAndRescuePoints",
+            "writable": true,
+            "displayName": "hasEvacuationAndRescuePoints",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of evacuation and rescue points"
+        },
+        {
+            "name": "hasWalkway",
+            "writable": true,
+            "displayName": "hasWalkway",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of walkways"
+        },
+        {
+            "name": "location",
+            "writable": true,
+            "displayName": "location"
+        },
+        {
+            "name": "name",
+            "writable": true,
+            "displayName": "name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The name of this item"
+        },
+        {
+            "name": "nationalRollingStockFireCategory",
+            "writable": true,
+            "displayName": "nationalRollingStockFireCategory",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "National fire category of rolling stock required"
+        },
+        {
+            "name": "rollingStockFireCategory",
+            "writable": true,
+            "displayName": "rollingStockFireCategory",
+            "@type": "Relationship",
+            "comment": "Fire category of rolling stock required"
+        },
+        {
+            "name": "seeAlso",
+            "writable": true,
+            "displayName": "seeAlso"
+        },
+        {
+            "name": "source",
+            "writable": true,
+            "displayName": "source",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object"
+        },
+        {
+            "name": "specialTunnelArea",
+            "writable": true,
+            "displayName": "specialTunnelArea",
+            "@type": "Relationship",
+            "comment": "Special tunnel area"
+        },
+        {
+            "name": "startLocation",
+            "writable": true,
+            "displayName": "startLocation",
+            "@type": "Relationship",
+            "comment": "Start of tunnel"
+        },
+        {
+            "name": "tunnelDocRef",
+            "writable": true,
+            "displayName": "tunnelDocRef",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Reference to a document available from the IM with precise description of the tunnel"
+        },
+        {
+            "name": "tunnelIdentification",
+            "writable": true,
+            "displayName": "tunnelIdentification",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Tunnel identification"
+        },
+        {
+            "name": "tunnelKilometerEnd",
+            "writable": true,
+            "displayName": "tunnelKilometerEnd",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Tunnel kilometer end"
+        },
+        {
+            "name": "tunnelKilometerStart",
+            "writable": true,
+            "displayName": "tunnelKilometerStart",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Tunnel kilometer start"
+        },
+        {
+            "name": "verificationSRT",
+            "writable": true,
+            "displayName": "verificationSRT",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "EC declaration of verification for tunnel (SRT)"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "owner",
+            "schema": {
+                "@type": "Array",
+                "elementSchema": "string"
+            },
+            "comment": "A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)",
+            "displayName": "owner"
+        },
+        {
+            "@type": "object",
+            "name": "address",
+            "comment": "The mailing address",
+            "displayName": "address",
+            "fields": [
+                {
+                    "name": "addressCountry",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressLocality",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressRegion",
+                    "schema": "string"
+                },
+                {
+                    "name": "district",
+                    "schema": "string"
+                },
+                {
+                    "name": "postOfficeBoxNumber",
+                    "schema": "string"
+                },
+                {
+                    "name": "postalCode",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetAddress",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetNr",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
