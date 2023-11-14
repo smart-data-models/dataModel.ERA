@@ -1,0 +1,78 @@
+description: This is a compilation list of all CONTRIBUTORS across different objects (data models) alphabetically ordered. All fields are non mandatory
+contributors:
+-
+ name: Marina
+ surname: Aguado
+ mail:
+ organization: ERA
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023
+-
+ name: Wouter
+ surname: Beek
+ mail:
+ organization: Triply
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023
+-
+ name: Pieter
+ surname: Colpaert
+ mail:
+ organization: Ghent University - imec
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023
+-
+ name: Oscar
+ surname: Corcho
+ mail:
+ organization: UPM
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023
+-
+ name: Edna
+ surname: Ruckhaus
+ mail:
+ organization: UPM
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023
+-
+ name: Julián
+ surname: Rojas
+ mail:
+ organization: Ghent University - imec
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023
+-
+ name: Dylan
+ surname: Van Assche
+ mail:
+ organization: Ghent University - imec
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023  
+-
+ name: Polymnia
+ surname: Vasilopoulou
+ mail:
+ organization: ERA
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023
+-
+ name: Ivo
+ surname: Velitchkov
+ mail:
+ organization: DG DIGIT
+ project:
+ comments: Original author of the ontology https://data-interop.era.europa.eu/era-vocabulary/
+ year: 2023
+
+
+
+
