@@ -1,0 +1,3 @@
+/* (Beta) Export of data model SectionOfLine of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE SectionOfLine_type AS ENUM ('SectionOfLine');
+CREATE TABLE SectionOfLine (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, lineNationalId TEXT, location JSON, name TEXT, opEnd TEXT, opStart TEXT, owner JSON, seeAlso JSON, solNature TEXT, source TEXT, track TEXT, type SectionOfLine_type);
