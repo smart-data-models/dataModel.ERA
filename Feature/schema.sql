@@ -1,0 +1,3 @@
+/* (Beta) Export of data model Feature of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE Feature_type AS ENUM ('Feature');
+CREATE TABLE Feature (address JSON, alternateName TEXT, areaServed TEXT, currentlyValid BOOLEAN, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, length NUMERIC, location JSON, name TEXT, owner JSON, seeAlso JSON, source TEXT, type Feature_type);
