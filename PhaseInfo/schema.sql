@@ -1,0 +1,3 @@
+/* (Beta) Export of data model PhaseInfo of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE PhaseInfo_type AS ENUM ('PhaseInfo');
+CREATE TABLE PhaseInfo (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, location JSON, name TEXT, owner JSON, phaseInfoKm NUMERIC, phaseInfoLength NUMERIC, phaseInfoPantographLowered BOOLEAN, phaseInfoSwitchOffBreaker BOOLEAN, seeAlso JSON, source TEXT, systemSeparationInfoKm NUMERIC, type PhaseInfo_type);
