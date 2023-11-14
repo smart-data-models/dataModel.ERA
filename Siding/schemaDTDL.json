@@ -1,0 +1,261 @@
+{
+    "@id": "dtmi:com:ngsi-ld:Siding;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "Siding + mapped from ERA ontology by Smart Data Models adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/Siding/schema.json",
+    "description": "Sidings are all those tracks where running trains in service movements ends and which are not used for operational routing of a train.",
+    "displayName": "Siding",
+    "contents": [
+        {
+            "name": "alternateName",
+            "writable": true,
+            "displayName": "alternateName",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "An alternative name for this item"
+        },
+        {
+            "name": "areaServed",
+            "writable": true,
+            "displayName": "areaServed",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The geographic area where a service or offered item is provided"
+        },
+        {
+            "name": "dataProvider",
+            "writable": true,
+            "displayName": "dataProvider",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters identifying the provider of the harmonised data entity"
+        },
+        {
+            "name": "dateCreated",
+            "writable": true,
+            "displayName": "dateCreated",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Entity creation timestamp. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "dateModified",
+            "writable": true,
+            "displayName": "dateModified",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Timestamp of the last modification of the entity. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "demonstrationINF",
+            "writable": true,
+            "displayName": "demonstrationINF",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "EI declaration of demonstration for track/siding [INF]"
+        },
+        {
+            "name": "description",
+            "writable": true,
+            "displayName": "description",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A description of this item"
+        },
+        {
+            "name": "gradient",
+            "writable": true,
+            "displayName": "gradient",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Gradient for stabling tracks"
+        },
+        {
+            "name": "hasElectricShoreSupply",
+            "writable": true,
+            "displayName": "hasElectricShoreSupply",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of electric shore supply"
+        },
+        {
+            "name": "hasExternalCleaning",
+            "writable": true,
+            "displayName": "hasExternalCleaning",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of external cleaning facilities"
+        },
+        {
+            "name": "hasRefuelling",
+            "writable": true,
+            "displayName": "hasRefuelling",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of refuelling"
+        },
+        {
+            "name": "hasSandRestocking",
+            "writable": true,
+            "displayName": "hasSandRestocking",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of sand restocking"
+        },
+        {
+            "name": "hasToiletDischarge",
+            "writable": true,
+            "displayName": "hasToiletDischarge",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of toilet discharge"
+        },
+        {
+            "name": "hasWaterRestocking",
+            "writable": true,
+            "displayName": "hasWaterRestocking",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of water restocking"
+        },
+        {
+            "name": "location",
+            "writable": true,
+            "displayName": "location"
+        },
+        {
+            "name": "maxCurrentStandstillPantograph",
+            "writable": true,
+            "displayName": "maxCurrentStandstillPantograph",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum current at standstill per pantograph"
+        },
+        {
+            "name": "minimumHorizontalRadius",
+            "writable": true,
+            "displayName": "minimumHorizontalRadius",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum radius of horizontal curve"
+        },
+        {
+            "name": "minimumVerticalRadius",
+            "writable": true,
+            "displayName": "minimumVerticalRadius",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Minimum radius of vertical curve"
+        },
+        {
+            "name": "minimumVerticalRadiusCrest",
+            "writable": true,
+            "displayName": "minimumVerticalRadiusCrest",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum radius of vertical curve crest"
+        },
+        {
+            "name": "minimumVerticalRadiusHollow",
+            "writable": true,
+            "displayName": "minimumVerticalRadiusHollow",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum radius of vertical curve hollow"
+        },
+        {
+            "name": "name",
+            "writable": true,
+            "displayName": "name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The name of this item"
+        },
+        {
+            "name": "seeAlso",
+            "writable": true,
+            "displayName": "seeAlso"
+        },
+        {
+            "name": "sidingId",
+            "writable": true,
+            "displayName": "sidingId",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Identification of siding"
+        },
+        {
+            "name": "source",
+            "writable": true,
+            "displayName": "source",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object"
+        },
+        {
+            "name": "tenClassification",
+            "writable": true,
+            "displayName": "tenClassification",
+            "@type": "Relationship",
+            "comment": "TEN classification (of track, of platform, of siding)"
+        },
+        {
+            "name": "verificationINF",
+            "writable": true,
+            "displayName": "verificationINF",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "EC declaration of verification for track/siding [INF]"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "owner",
+            "schema": {
+                "@type": "Array",
+                "elementSchema": "string"
+            },
+            "comment": "A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)",
+            "displayName": "owner"
+        },
+        {
+            "@type": "object",
+            "name": "address",
+            "comment": "The mailing address",
+            "displayName": "address",
+            "fields": [
+                {
+                    "name": "addressCountry",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressLocality",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressRegion",
+                    "schema": "string"
+                },
+                {
+                    "name": "district",
+                    "schema": "string"
+                },
+                {
+                    "name": "postOfficeBoxNumber",
+                    "schema": "string"
+                },
+                {
+                    "name": "postalCode",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetAddress",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetNr",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
