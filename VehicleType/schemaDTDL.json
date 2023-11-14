@@ -1,0 +1,1283 @@
+{
+    "@id": "dtmi:com:ngsi-ld:VehicleType;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "VehicleType + mapped from ERA ontology by Smart Data Models adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/VehicleType/schema.json",
+    "description": "A vehicle type that has been authorized to operate on the EU railway infrastructure.",
+    "displayName": "VehicleType",
+    "contents": [
+        {
+            "name": "alternateName",
+            "writable": true,
+            "displayName": "alternateName",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "An alternative name for this item"
+        },
+        {
+            "name": "alternativeName",
+            "writable": true,
+            "displayName": "alternativeName",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Alternative name"
+        },
+        {
+            "name": "altitudeRange",
+            "writable": true,
+            "displayName": "altitudeRange",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Altitude range"
+        },
+        {
+            "name": "altitudeRangeDetail",
+            "writable": true,
+            "displayName": "altitudeRangeDetail",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Altitude range detail"
+        },
+        {
+            "name": "areaServed",
+            "writable": true,
+            "displayName": "areaServed",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The geographic area where a service or offered item is provided"
+        },
+        {
+            "name": "authorizedCountry",
+            "writable": true,
+            "displayName": "authorizedCountry",
+            "@type": "Relationship",
+            "comment": "Authorized country"
+        },
+        {
+            "name": "axleBearingConditionMonitoring",
+            "writable": true,
+            "displayName": "axleBearingConditionMonitoring",
+            "@type": "Relationship",
+            "comment": "Axle bearing condition monitoring"
+        },
+        {
+            "name": "axleSpacing",
+            "writable": true,
+            "displayName": "axleSpacing",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Axle spacing"
+        },
+        {
+            "name": "boardingAids",
+            "writable": true,
+            "displayName": "boardingAids",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Boarding aids"
+        },
+        {
+            "name": "brakeWeightPercentage",
+            "writable": true,
+            "displayName": "brakeWeightPercentage",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Brake weight percentage"
+        },
+        {
+            "name": "cantDefficiency",
+            "writable": true,
+            "displayName": "cantDefficiency",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Cant defficiency"
+        },
+        {
+            "name": "category",
+            "writable": true,
+            "displayName": "category",
+            "@type": "Relationship",
+            "comment": "Vehicle category"
+        },
+        {
+            "name": "catenaryMaxRatedCurrent",
+            "writable": true,
+            "displayName": "catenaryMaxRatedCurrent",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Catenary max rated current"
+        },
+        {
+            "name": "certificate",
+            "writable": true,
+            "displayName": "certificate",
+            "@type": "Relationship",
+            "comment": "Certificate"
+        },
+        {
+            "name": "conditionsTrainFormation",
+            "writable": true,
+            "displayName": "conditionsTrainFormation",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Conditions train formation"
+        },
+        {
+            "name": "contactStripMaterial",
+            "writable": true,
+            "displayName": "contactStripMaterial",
+            "@type": "Relationship",
+            "comment": "Permitted contact strip material"
+        },
+        {
+            "name": "dangerousGoodsTankCode",
+            "writable": true,
+            "displayName": "dangerousGoodsTankCode",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Dangerous goods tank code"
+        },
+        {
+            "name": "dataGSMRNetwork",
+            "writable": true,
+            "displayName": "dataGSMRNetwork",
+            "@type": "Relationship",
+            "comment": "Data GSM-R network"
+        },
+        {
+            "name": "dataProvider",
+            "writable": true,
+            "displayName": "dataProvider",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters identifying the provider of the harmonised data entity"
+        },
+        {
+            "name": "dataRadioCompatible",
+            "writable": true,
+            "displayName": "dataRadioCompatible",
+            "@type": "Relationship",
+            "comment": "Radio system compatibility data"
+        },
+        {
+            "name": "dateCreated",
+            "writable": true,
+            "displayName": "dateCreated",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Entity creation timestamp. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "dateModified",
+            "writable": true,
+            "displayName": "dateModified",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Timestamp of the last modification of the entity. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "description",
+            "writable": true,
+            "displayName": "description",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A description of this item"
+        },
+        {
+            "name": "designMassExceptionalPayload",
+            "writable": true,
+            "displayName": "designMassExceptionalPayload",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Design mass under exceptional payload"
+        },
+        {
+            "name": "designMassNormalPayload",
+            "writable": true,
+            "displayName": "designMassNormalPayload",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Design mass under normal payload"
+        },
+        {
+            "name": "designMassWorkingOrder",
+            "writable": true,
+            "displayName": "designMassWorkingOrder",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Design mass in working order"
+        },
+        {
+            "name": "drivingCabs",
+            "writable": true,
+            "displayName": "drivingCabs",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Driving cabs"
+        },
+        {
+            "name": "eddyCurrentBrakePrevention",
+            "writable": true,
+            "displayName": "eddyCurrentBrakePrevention",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Eddy current brake prevention"
+        },
+        {
+            "name": "eddyCurrentBrakingFitted",
+            "writable": true,
+            "displayName": "eddyCurrentBrakingFitted",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Eddy current braking fitted"
+        },
+        {
+            "name": "emergencyBrake",
+            "writable": true,
+            "displayName": "emergencyBrake",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Emergency braking"
+        },
+        {
+            "name": "endCouplingType",
+            "writable": true,
+            "displayName": "endCouplingType",
+            "@type": "Relationship",
+            "comment": "End coupling type"
+        },
+        {
+            "name": "energyMeterInstalled",
+            "writable": true,
+            "displayName": "energyMeterInstalled",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Energy meter installed"
+        },
+        {
+            "name": "energySupplyMaxPower",
+            "writable": true,
+            "displayName": "energySupplyMaxPower",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Energy supply max power"
+        },
+        {
+            "name": "energySupplySystem",
+            "writable": true,
+            "displayName": "energySupplySystem",
+            "@type": "Relationship",
+            "comment": "Energy supply system"
+        },
+        {
+            "name": "etcsBaseline",
+            "writable": true,
+            "displayName": "etcsBaseline",
+            "@type": "Relationship",
+            "comment": "ETCS baseline"
+        },
+        {
+            "name": "etcsDataCommApp",
+            "writable": true,
+            "displayName": "etcsDataCommApp",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "ETCS data communication application"
+        },
+        {
+            "name": "etcsEquipmentOnBoardLevel",
+            "writable": true,
+            "displayName": "etcsEquipmentOnBoardLevel",
+            "@type": "Relationship",
+            "comment": "ETCS equipment level"
+        },
+        {
+            "name": "etcsInfill",
+            "writable": true,
+            "displayName": "etcsInfill",
+            "@type": "Relationship",
+            "comment": "ETCS infill installed lineside"
+        },
+        {
+            "name": "etcsNationalApplications",
+            "writable": true,
+            "displayName": "etcsNationalApplications",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "ETCS national applications"
+        },
+        {
+            "name": "etcsOnBoardImplementation",
+            "writable": true,
+            "displayName": "etcsOnBoardImplementation",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "ETCS on-board implementation"
+        },
+        {
+            "name": "etcsSystemCompatibility",
+            "writable": true,
+            "displayName": "etcsSystemCompatibility",
+            "@type": "Relationship",
+            "comment": "ETCS system compatibility"
+        },
+        {
+            "name": "ferromagneticWheelMaterial",
+            "writable": true,
+            "displayName": "ferromagneticWheelMaterial",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Ferromagnetic wheel material"
+        },
+        {
+            "name": "fireSafetyCategory",
+            "writable": true,
+            "displayName": "fireSafetyCategory",
+            "@type": "Relationship",
+            "comment": "Fire safety category"
+        },
+        {
+            "name": "fixedSeats",
+            "writable": true,
+            "displayName": "fixedSeats",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Fixed seats"
+        },
+        {
+            "name": "flangeLubricationFitted",
+            "writable": true,
+            "displayName": "flangeLubricationFitted",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Flange lubrication fitted"
+        },
+        {
+            "name": "gaugingProfile",
+            "writable": true,
+            "displayName": "gaugingProfile",
+            "@type": "Relationship",
+            "comment": "Gauging"
+        },
+        {
+            "name": "gsmRRadioDataCommunication",
+            "writable": true,
+            "displayName": "gsmRRadioDataCommunication",
+            "@type": "Relationship",
+            "comment": "GSM-R radio data communication"
+        },
+        {
+            "name": "gsmRSetsInDrivingCab",
+            "writable": true,
+            "displayName": "gsmRSetsInDrivingCab",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "GSM-R sets in driving cab"
+        },
+        {
+            "name": "gsmRVersion",
+            "writable": true,
+            "displayName": "gsmRVersion",
+            "@type": "Relationship",
+            "comment": "GSM-R version"
+        },
+        {
+            "name": "hasAutomaticDroppingDevice",
+            "writable": true,
+            "displayName": "hasAutomaticDroppingDevice",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has automatic dropping device"
+        },
+        {
+            "name": "hasCantDefficiencyCompensation",
+            "writable": true,
+            "displayName": "hasCantDefficiencyCompensation",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has cant defficiency compensation"
+        },
+        {
+            "name": "hasCurrentLimitation",
+            "writable": true,
+            "displayName": "hasCurrentLimitation",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has current limitation"
+        },
+        {
+            "name": "hasLubricationDevicePrevention",
+            "writable": true,
+            "displayName": "hasLubricationDevicePrevention",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has lubrication device prevention"
+        },
+        {
+            "name": "hasParkingBrake",
+            "writable": true,
+            "displayName": "hasParkingBrake",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has parking brake"
+        },
+        {
+            "name": "hasRegenerativeBrake",
+            "writable": true,
+            "displayName": "hasRegenerativeBrake",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Permission for regenerative braking"
+        },
+        {
+            "name": "hasSandingPrevention",
+            "writable": true,
+            "displayName": "hasSandingPrevention",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has sanding prevention"
+        },
+        {
+            "name": "hasShuntingRestrictions",
+            "writable": true,
+            "displayName": "hasShuntingRestrictions",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has shunting restrictions"
+        },
+        {
+            "name": "hasTrainIntegrityConfirmation",
+            "writable": true,
+            "displayName": "hasTrainIntegrityConfirmation",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has train integrity confirmation"
+        },
+        {
+            "name": "hasWheelSlideProtectionSystem",
+            "writable": true,
+            "displayName": "hasWheelSlideProtectionSystem",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Has wheel slide protection system"
+        },
+        {
+            "name": "legacyRadioSystem",
+            "writable": true,
+            "displayName": "legacyRadioSystem",
+            "@type": "Relationship",
+            "comment": "Other radio systems installed (Radio Legacy Systems)"
+        },
+        {
+            "name": "letterMarking",
+            "writable": true,
+            "displayName": "letterMarking",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Letter marking"
+        },
+        {
+            "name": "loadingPlatformHeight",
+            "writable": true,
+            "displayName": "loadingPlatformHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Loading platform height"
+        },
+        {
+            "name": "location",
+            "writable": true,
+            "displayName": "location"
+        },
+        {
+            "name": "magneticBrakePrevention",
+            "writable": true,
+            "displayName": "magneticBrakePrevention",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Magnetic brake prevention"
+        },
+        {
+            "name": "magneticBrakingFitted",
+            "writable": true,
+            "displayName": "magneticBrakingFitted",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Magnetic braking fitted"
+        },
+        {
+            "name": "manufacturer",
+            "writable": true,
+            "displayName": "manufacturer",
+            "@type": "Relationship",
+            "comment": "Manufacturer"
+        },
+        {
+            "name": "manufacturingCountry",
+            "writable": true,
+            "displayName": "manufacturingCountry",
+            "@type": "Relationship",
+            "comment": "Manufacturing country"
+        },
+        {
+            "name": "massPerWheel",
+            "writable": true,
+            "displayName": "massPerWheel",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Mass per wheel"
+        },
+        {
+            "name": "maxCurrentStandstillPantograph",
+            "writable": true,
+            "displayName": "maxCurrentStandstillPantograph",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum current at standstill per pantograph"
+        },
+        {
+            "name": "maxDistConsecutiveAxles",
+            "writable": true,
+            "displayName": "maxDistConsecutiveAxles",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum permitted distance between two consecutive axles in case of TSI non-compliance"
+        },
+        {
+            "name": "maxFlangeHeight",
+            "writable": true,
+            "displayName": "maxFlangeHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum permitted height of the flange"
+        },
+        {
+            "name": "maxImpedanceWheelset",
+            "writable": true,
+            "displayName": "maxImpedanceWheelset",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum permitted impedance between opposite wheels of a wheelset when not TSI compliant"
+        },
+        {
+            "name": "maxLengthVehicleNose",
+            "writable": true,
+            "displayName": "maxLengthVehicleNose",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum length vehicle nose"
+        },
+        {
+            "name": "maximumAverageDeceleration",
+            "writable": true,
+            "displayName": "maximumAverageDeceleration",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum average deceleration"
+        },
+        {
+            "name": "maximumBrakeThermalEnergyCapacity",
+            "writable": true,
+            "displayName": "maximumBrakeThermalEnergyCapacity",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum brake thermal energy capacity"
+        },
+        {
+            "name": "maximumContactWireHeight",
+            "writable": true,
+            "displayName": "maximumContactWireHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum contact wire height"
+        },
+        {
+            "name": "maximumDesignSpeed",
+            "writable": true,
+            "displayName": "maximumDesignSpeed",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum design speed"
+        },
+        {
+            "name": "maximumLocomotivesCoupled",
+            "writable": true,
+            "displayName": "maximumLocomotivesCoupled",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum locomotives coupled"
+        },
+        {
+            "name": "maximumServiceBrake",
+            "writable": true,
+            "displayName": "maximumServiceBrake",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Maximum service break"
+        },
+        {
+            "name": "maximumSpeedAndCantDeficiency",
+            "writable": true,
+            "displayName": "maximumSpeedAndCantDeficiency",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Maximum speed and cant deficiency"
+        },
+        {
+            "name": "maximumSpeedEmpty",
+            "writable": true,
+            "displayName": "maximumSpeedEmpty",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum speed empty"
+        },
+        {
+            "name": "maximumTemperature",
+            "writable": true,
+            "displayName": "maximumTemperature",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Temperature range (maximum)"
+        },
+        {
+            "name": "meetsRequirementVehicleAuthorisation",
+            "writable": true,
+            "displayName": "meetsRequirementVehicleAuthorisation",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Meets requirement vehicle authorization"
+        },
+        {
+            "name": "minAxleLoad",
+            "writable": true,
+            "displayName": "minAxleLoad",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted axle load"
+        },
+        {
+            "name": "minDistConsecutiveAxles",
+            "writable": true,
+            "displayName": "minDistConsecutiveAxles",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted distance between two consecutive axles"
+        },
+        {
+            "name": "minDistFirstLastAxle",
+            "writable": true,
+            "displayName": "minDistFirstLastAxle",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted distance between first and last axle"
+        },
+        {
+            "name": "minFlangeHeight",
+            "writable": true,
+            "displayName": "minFlangeHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted height of the flange"
+        },
+        {
+            "name": "minFlangeThickness",
+            "writable": true,
+            "displayName": "minFlangeThickness",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted thickness of the flange"
+        },
+        {
+            "name": "minRimWidth",
+            "writable": true,
+            "displayName": "minRimWidth",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted width of the rim"
+        },
+        {
+            "name": "minVehicleImpedance",
+            "writable": true,
+            "displayName": "minVehicleImpedance",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Vehicle impedance"
+        },
+        {
+            "name": "minWheelDiameter",
+            "writable": true,
+            "displayName": "minWheelDiameter",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted wheel diameter"
+        },
+        {
+            "name": "minimumConcaveVerticalRadius",
+            "writable": true,
+            "displayName": "minimumConcaveVerticalRadius",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum concave vertical radius"
+        },
+        {
+            "name": "minimumContactWireHeight",
+            "writable": true,
+            "displayName": "minimumContactWireHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum contact wire height"
+        },
+        {
+            "name": "minimumConvexVerticalRadius",
+            "writable": true,
+            "displayName": "minimumConvexVerticalRadius",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum convex vertical radius"
+        },
+        {
+            "name": "minimumHorizontalRadius",
+            "writable": true,
+            "displayName": "minimumHorizontalRadius",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum radius of horizontal curve"
+        },
+        {
+            "name": "minimumTemperature",
+            "writable": true,
+            "displayName": "minimumTemperature",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Temperature range (minimum)"
+        },
+        {
+            "name": "minimumWheelDiameter",
+            "writable": true,
+            "displayName": "minimumWheelDiameter",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum wheel diameter for fixed obtuse crossings"
+        },
+        {
+            "name": "name",
+            "writable": true,
+            "displayName": "name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The name of this item"
+        },
+        {
+            "name": "nonCodedRestrictions",
+            "writable": true,
+            "displayName": "nonCodedRestrictions",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Non coded restrictions"
+        },
+        {
+            "name": "numberElementsRakeFreightWagons",
+            "writable": true,
+            "displayName": "numberElementsRakeFreightWagons",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Number elements rake freight wagons"
+        },
+        {
+            "name": "numberOfPantographsInContactWithOCL",
+            "writable": true,
+            "displayName": "numberOfPantographsInContactWithOCL",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Number of pantographs in contact with OCL"
+        },
+        {
+            "name": "numberOfToilets",
+            "writable": true,
+            "displayName": "numberOfToilets",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Number of toilets"
+        },
+        {
+            "name": "oclType",
+            "writable": true,
+            "displayName": "oclType",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Ocl type"
+        },
+        {
+            "name": "parkingBrake",
+            "writable": true,
+            "displayName": "parkingBrake",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Parking brake"
+        },
+        {
+            "name": "parkingBrakeMandatory",
+            "writable": true,
+            "displayName": "parkingBrakeMandatory",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Parking brake mandatory"
+        },
+        {
+            "name": "parkingBrakeMaximumGradient",
+            "writable": true,
+            "displayName": "parkingBrakeMaximumGradient",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Parking brake maximum gradient"
+        },
+        {
+            "name": "parkingBrakeType",
+            "writable": true,
+            "displayName": "parkingBrakeType",
+            "@type": "Relationship",
+            "comment": "Parking brake type"
+        },
+        {
+            "name": "passByNoiseLevel",
+            "writable": true,
+            "displayName": "passByNoiseLevel",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Pass-by noise level"
+        },
+        {
+            "name": "permissiblePayload",
+            "writable": true,
+            "displayName": "permissiblePayload",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Permissible payload"
+        },
+        {
+            "name": "portableBoardingAids",
+            "writable": true,
+            "displayName": "portableBoardingAids",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Portable boarding aids"
+        },
+        {
+            "name": "preventRegenerativeBrakeUse",
+            "writable": true,
+            "displayName": "preventRegenerativeBrakeUse",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Prevent regenerative brake use"
+        },
+        {
+            "name": "previousVehicleType",
+            "writable": true,
+            "displayName": "previousVehicleType",
+            "@type": "Relationship",
+            "comment": "Previous vehicle type"
+        },
+        {
+            "name": "prioritySeats",
+            "writable": true,
+            "displayName": "prioritySeats",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Priority seats"
+        },
+        {
+            "name": "prmAccessibleToilets",
+            "writable": true,
+            "displayName": "prmAccessibleToilets",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Prm accessible toilets"
+        },
+        {
+            "name": "protectionLegacySystem",
+            "writable": true,
+            "displayName": "protectionLegacySystem",
+            "@type": "Relationship",
+            "comment": "Train protection legacy system"
+        },
+        {
+            "name": "quasiStaticGuidingForce",
+            "writable": true,
+            "displayName": "quasiStaticGuidingForce",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Quasi static guiding force"
+        },
+        {
+            "name": "radioSwitchOverSpecialConditions",
+            "writable": true,
+            "displayName": "radioSwitchOverSpecialConditions",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Radio switch over special conditions"
+        },
+        {
+            "name": "railInclination",
+            "writable": true,
+            "displayName": "railInclination",
+            "@type": "Relationship",
+            "comment": "Rail inclination"
+        },
+        {
+            "name": "referencePassByNoiseLevel",
+            "writable": true,
+            "displayName": "referencePassByNoiseLevel",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Reference pass-by noise level"
+        },
+        {
+            "name": "seeAlso",
+            "writable": true,
+            "displayName": "seeAlso"
+        },
+        {
+            "name": "shortestDistanceBetweenPantographsInContactWithOCL",
+            "writable": true,
+            "displayName": "shortestDistanceBetweenPantographsInContactWithOCL",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Shortest distance between pantographs in contact with OCL"
+        },
+        {
+            "name": "sleepingPlaces",
+            "writable": true,
+            "displayName": "sleepingPlaces",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Sleeping places"
+        },
+        {
+            "name": "snowIceHailConditions",
+            "writable": true,
+            "displayName": "snowIceHailConditions",
+            "@type": "Relationship",
+            "comment": "Snow ice hail conditions"
+        },
+        {
+            "name": "source",
+            "writable": true,
+            "displayName": "source",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object"
+        },
+        {
+            "name": "startingNoiseLevel",
+            "writable": true,
+            "displayName": "startingNoiseLevel",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Starting noise level"
+        },
+        {
+            "name": "staticAxleLoadExceptionalPayload",
+            "writable": true,
+            "displayName": "staticAxleLoadExceptionalPayload",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Static axle load under exceptional payload"
+        },
+        {
+            "name": "staticAxleLoadNormalPayload",
+            "writable": true,
+            "displayName": "staticAxleLoadNormalPayload",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Static axle load under normal payload"
+        },
+        {
+            "name": "staticAxleLoadWorkingOrder",
+            "writable": true,
+            "displayName": "staticAxleLoadWorkingOrder",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Static axle load in working order"
+        },
+        {
+            "name": "stationaryNoiseLevel",
+            "writable": true,
+            "displayName": "stationaryNoiseLevel",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Stationary noise level"
+        },
+        {
+            "name": "structuralCategory",
+            "writable": true,
+            "displayName": "structuralCategory",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Structural category"
+        },
+        {
+            "name": "subCategory",
+            "writable": true,
+            "displayName": "subCategory",
+            "@type": "Relationship",
+            "comment": "Vehicle subcategory"
+        },
+        {
+            "name": "supportedPlatformHeight",
+            "writable": true,
+            "displayName": "supportedPlatformHeight",
+            "@type": "Relationship",
+            "comment": "Supported platform height"
+        },
+        {
+            "name": "thermalCapacityDistance",
+            "writable": true,
+            "displayName": "thermalCapacityDistance",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Thermal capacity distance"
+        },
+        {
+            "name": "thermalCapacityGradient",
+            "writable": true,
+            "displayName": "thermalCapacityGradient",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Thermal capacity gradient"
+        },
+        {
+            "name": "thermalCapacitySpeed",
+            "writable": true,
+            "displayName": "thermalCapacitySpeed",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Thermal capacity speed"
+        },
+        {
+            "name": "thermalCapacityTSIReference",
+            "writable": true,
+            "displayName": "thermalCapacityTSIReference",
+            "@type": "Relationship",
+            "comment": "Thermal capacity TSI reference"
+        },
+        {
+            "name": "thermalCapacityTime",
+            "writable": true,
+            "displayName": "thermalCapacityTime",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Thermal capacity time"
+        },
+        {
+            "name": "totalVehicleMass",
+            "writable": true,
+            "displayName": "totalVehicleMass",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Total vehicle mass"
+        },
+        {
+            "name": "trainControlSwitchOverSpecialConditions",
+            "writable": true,
+            "displayName": "trainControlSwitchOverSpecialConditions",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Train control switch over special conditions"
+        },
+        {
+            "name": "trainDetectionSystemType",
+            "writable": true,
+            "displayName": "trainDetectionSystemType",
+            "@type": "Relationship",
+            "comment": "Type of train detection system"
+        },
+        {
+            "name": "transportableOnFerry",
+            "writable": true,
+            "displayName": "transportableOnFerry",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Transportable on ferry"
+        },
+        {
+            "name": "typeVersionId",
+            "writable": true,
+            "displayName": "typeVersionId",
+            "@type": "Relationship",
+            "comment": "Type version id"
+        },
+        {
+            "name": "typeVersionNumber",
+            "writable": true,
+            "displayName": "typeVersionNumber",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Type version number"
+        },
+        {
+            "name": "usesGroup555",
+            "writable": true,
+            "displayName": "usesGroup555",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "GSM-R use of group 555"
+        },
+        {
+            "name": "vehicleContactForce",
+            "writable": true,
+            "displayName": "vehicleContactForce",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Vehicle contact force"
+        },
+        {
+            "name": "vehicleKinematicGaugeOther",
+            "writable": true,
+            "displayName": "vehicleKinematicGaugeOther",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Vehicle kinematic gauge other"
+        },
+        {
+            "name": "vehicleMaxSandingOutput",
+            "writable": true,
+            "displayName": "vehicleMaxSandingOutput",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Vehicle max sanding output"
+        },
+        {
+            "name": "vehiclePantographHead",
+            "writable": true,
+            "displayName": "vehiclePantographHead",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Vehicle pantograph head"
+        },
+        {
+            "name": "vehicleTypeMaximumSpeedAndCantDeficiency",
+            "writable": true,
+            "displayName": "vehicleTypeMaximumSpeedAndCantDeficiency",
+            "@type": "Relationship",
+            "comment": "Vehicle type maximum speed and cant deficiency"
+        },
+        {
+            "name": "vehiclesComposingFixedFormation",
+            "writable": true,
+            "displayName": "vehiclesComposingFixedFormation",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Vehicles composing fixed formation"
+        },
+        {
+            "name": "voiceGSMRNetwork",
+            "writable": true,
+            "displayName": "voiceGSMRNetwork",
+            "@type": "Relationship",
+            "comment": "Voice GSM-R network"
+        },
+        {
+            "name": "voiceOperationalCommImpl",
+            "writable": true,
+            "displayName": "voiceOperationalCommImpl",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Voice operational communication implementation"
+        },
+        {
+            "name": "voiceRadioCompatible",
+            "writable": true,
+            "displayName": "voiceRadioCompatible",
+            "@type": "Relationship",
+            "comment": "Radio system compatibility voice"
+        },
+        {
+            "name": "wheelSetGauge",
+            "writable": true,
+            "displayName": "wheelSetGauge",
+            "@type": "Relationship",
+            "comment": "Nominal track gauge"
+        },
+        {
+            "name": "wheelSetGaugeChangeoverFacility",
+            "writable": true,
+            "displayName": "wheelSetGaugeChangeoverFacility",
+            "@type": "Relationship",
+            "comment": "Wheelset gauge changeover facility"
+        },
+        {
+            "name": "wheelSetGaugeTransformationMethod",
+            "writable": true,
+            "displayName": "wheelSetGaugeTransformationMethod",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Wheel set gauge transformation method"
+        },
+        {
+            "name": "wheelchairSleepingPlaces",
+            "writable": true,
+            "displayName": "wheelchairSleepingPlaces",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Wheelchair sleeping spaces"
+        },
+        {
+            "name": "wheelchairSpaces",
+            "writable": true,
+            "displayName": "wheelchairSpaces",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Wheelchair spaces"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "owner",
+            "schema": {
+                "@type": "Array",
+                "elementSchema": "string"
+            },
+            "comment": "A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)",
+            "displayName": "owner"
+        },
+        {
+            "@type": "object",
+            "name": "address",
+            "comment": "The mailing address",
+            "displayName": "address",
+            "fields": [
+                {
+                    "name": "addressCountry",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressLocality",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressRegion",
+                    "schema": "string"
+                },
+                {
+                    "name": "district",
+                    "schema": "string"
+                },
+                {
+                    "name": "postOfficeBoxNumber",
+                    "schema": "string"
+                },
+                {
+                    "name": "postalCode",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetAddress",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetNr",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
