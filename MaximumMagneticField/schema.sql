@@ -1,0 +1,3 @@
+/* (Beta) Export of data model MaximumMagneticField of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE MaximumMagneticField_type AS ENUM ('MaximumMagneticField');
+CREATE TABLE MaximumMagneticField (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, location JSON, maximumMagneticFieldDirectionX NUMERIC, maximumMagneticFieldDirectionY NUMERIC, maximumMagneticFieldDirectionZ NUMERIC, name TEXT, owner JSON, seeAlso JSON, source TEXT, type MaximumMagneticField_type);
