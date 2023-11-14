@@ -1,0 +1,3 @@
+/* (Beta) Export of data model FrenchTrainDetectionSystemLimitation of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE FrenchTrainDetectionSystemLimitation_type AS ENUM ('FrenchTrainDetectionSystemLimitation');
+CREATE TABLE FrenchTrainDetectionSystemLimitation (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, frenchTrainDetectionSystemLimitationApplicable BOOLEAN, frenchTrainDetectionSystemLimitationNumber TEXT, id TEXT PRIMARY KEY, location JSON, name TEXT, owner JSON, seeAlso JSON, source TEXT, type FrenchTrainDetectionSystemLimitation_type);
