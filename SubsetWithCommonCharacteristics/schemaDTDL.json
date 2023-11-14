@@ -1,0 +1,1344 @@
+{
+    "@id": "dtmi:com:ngsi-ld:SubsetWithCommonCharacteristics;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "SubsetWithCommonCharacteristics + mapped from ERA ontology by Smart Data Models adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/SubsetWithCommonCharacteristics/schema.json",
+    "description": "Subset of items shared by sections of lines and/or operational points of a member state. For the purposes of the register of infrastructure, each infrastructure manager shall describe its railway network at least by sections of line and operational points and optionally via common characteristic subsets.",
+    "displayName": "SubsetWithCommonCharacteristics",
+    "contents": [
+        {
+            "name": "IdPhoneErtmsRadioBlockCenter",
+            "writable": true,
+            "displayName": "IdPhoneErtmsRadioBlockCenter",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "ID and phone number of ERTMS/ETCS Radio Block Center"
+        },
+        {
+            "name": "TSIMagneticFields",
+            "writable": true,
+            "displayName": "TSIMagneticFields",
+            "@type": "Relationship",
+            "comment": "Existence and TSI compliance of rules for magnetic fields emitted by a vehicle"
+        },
+        {
+            "name": "TSITractionHarmonics",
+            "writable": true,
+            "displayName": "TSITractionHarmonics",
+            "@type": "Relationship",
+            "comment": "Existence and TSI compliance of limits in harmonics in the traction current of vehicles"
+        },
+        {
+            "name": "accelerationLevelCrossing",
+            "writable": true,
+            "displayName": "accelerationLevelCrossing",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Acceleration allowed at level crossing"
+        },
+        {
+            "name": "additionalBrakingInformationDocument",
+            "writable": true,
+            "displayName": "additionalBrakingInformationDocument",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Documents available by the IM relating to braking performance"
+        },
+        {
+            "name": "alternateName",
+            "writable": true,
+            "displayName": "alternateName",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "An alternative name for this item"
+        },
+        {
+            "name": "areaServed",
+            "writable": true,
+            "displayName": "areaServed",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The geographic area where a service or offered item is provided"
+        },
+        {
+            "name": "atoCommunicationSystem",
+            "writable": true,
+            "displayName": "atoCommunicationSystem",
+            "@type": "Relationship",
+            "comment": "ATO communication system"
+        },
+        {
+            "name": "atoErrorCorrectionsOnboard",
+            "writable": true,
+            "displayName": "atoErrorCorrectionsOnboard",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "ATO error corrections required for the on-board"
+        },
+        {
+            "name": "atoGradeAutomation",
+            "writable": true,
+            "displayName": "atoGradeAutomation",
+            "@type": "Relationship",
+            "comment": "ATO Grade of Automation"
+        },
+        {
+            "name": "atoSystemVersion",
+            "writable": true,
+            "displayName": "atoSystemVersion",
+            "@type": "Relationship",
+            "comment": "ATO System version"
+        },
+        {
+            "name": "automaticDroppingDeviceRequired",
+            "writable": true,
+            "displayName": "automaticDroppingDeviceRequired",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Automatic dropping device required"
+        },
+        {
+            "name": "bigMetalMass",
+            "writable": true,
+            "displayName": "bigMetalMass",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Big metal mass"
+        },
+        {
+            "name": "cantDeficiency",
+            "writable": true,
+            "displayName": "cantDeficiency",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Cant deficiency"
+        },
+        {
+            "name": "cantDeficiencyBasicSSP",
+            "writable": true,
+            "displayName": "cantDeficiencyBasicSSP",
+            "@type": "Relationship",
+            "comment": "Cant Deficiency used for the basic SSP"
+        },
+        {
+            "name": "compatibilityProcedureDocument",
+            "writable": true,
+            "displayName": "compatibilityProcedureDocument",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Document with the procedure(s) for static and dynamic route compatibility checks"
+        },
+        {
+            "name": "conditionsSwitchClassBSystems",
+            "writable": true,
+            "displayName": "conditionsSwitchClassBSystems",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Special technical conditions required to switch over between ERTMS/ETCS and Class B systems"
+        },
+        {
+            "name": "conditionsSwitchTrainProtectionSystems",
+            "writable": true,
+            "displayName": "conditionsSwitchTrainProtectionSystems",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Special conditions to switch over between different class B train protection, control and warning systems"
+        },
+        {
+            "name": "conditionsUseReflectivePlates",
+            "writable": true,
+            "displayName": "conditionsUseReflectivePlates",
+            "@type": "Relationship",
+            "comment": "Conditions for use of reflective plates"
+        },
+        {
+            "name": "contactLineSystem",
+            "writable": true,
+            "displayName": "contactLineSystem",
+            "@type": "Relationship",
+            "comment": "Contact line system"
+        },
+        {
+            "name": "contactStripMaterial",
+            "writable": true,
+            "displayName": "contactStripMaterial",
+            "@type": "Relationship",
+            "comment": "Permitted contact strip material"
+        },
+        {
+            "name": "contactStripMaterialMetallicContent",
+            "writable": true,
+            "displayName": "contactStripMaterialMetallicContent",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Contact strip material metallic content"
+        },
+        {
+            "name": "dNvovtrp",
+            "writable": true,
+            "displayName": "dNvovtrp",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "D_NVOVTRP"
+        },
+        {
+            "name": "dNvpotrp",
+            "writable": true,
+            "displayName": "dNvpotrp",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "D_NVPOTRP"
+        },
+        {
+            "name": "dNvroll",
+            "writable": true,
+            "displayName": "dNvroll",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "D_NVROLL"
+        },
+        {
+            "name": "dataProvider",
+            "writable": true,
+            "displayName": "dataProvider",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters identifying the provider of the harmonised data entity"
+        },
+        {
+            "name": "dataRadioCompatible",
+            "writable": true,
+            "displayName": "dataRadioCompatible",
+            "@type": "Relationship",
+            "comment": "Radio system compatibility data"
+        },
+        {
+            "name": "dateCreated",
+            "writable": true,
+            "displayName": "dateCreated",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Entity creation timestamp. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "dateModified",
+            "writable": true,
+            "displayName": "dateModified",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Timestamp of the last modification of the entity. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "demonstrationENE",
+            "writable": true,
+            "displayName": "demonstrationENE",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "EI declaration of demonstration for track (ENE)"
+        },
+        {
+            "name": "description",
+            "writable": true,
+            "displayName": "description",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A description of this item"
+        },
+        {
+            "name": "distSignToPhaseEnd",
+            "writable": true,
+            "displayName": "distSignToPhaseEnd",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Distance between signboard and phase separation ending"
+        },
+        {
+            "name": "documentRestrictionPositionContactLineSeparation",
+            "writable": true,
+            "displayName": "documentRestrictionPositionContactLineSeparation",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Document with restriction related to the position of Multiple Traction unit(s) to comply with contact line separation"
+        },
+        {
+            "name": "documentRestrictionPowerConsumption",
+            "writable": true,
+            "displayName": "documentRestrictionPowerConsumption",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Document with restriction related to power consumption of specific electric traction unit(s)"
+        },
+        {
+            "name": "eddyCurrentBraking",
+            "writable": true,
+            "displayName": "eddyCurrentBraking",
+            "@type": "Relationship",
+            "comment": "Use of eddy current brakes"
+        },
+        {
+            "name": "eddyCurrentBrakingConditionsDocument",
+            "writable": true,
+            "displayName": "eddyCurrentBrakingConditionsDocument",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Document with the conditions for the use of eddy current brakes"
+        },
+        {
+            "name": "etcsDegradedSituation",
+            "writable": true,
+            "displayName": "etcsDegradedSituation",
+            "@type": "Relationship",
+            "comment": "ETCS level for degraded situation"
+        },
+        {
+            "name": "etcsErrorCorrectionsOnboard",
+            "writable": true,
+            "displayName": "etcsErrorCorrectionsOnboard",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "ETCS error corrections required for the on-board"
+        },
+        {
+            "name": "etcsImplementsLevelCrossingProcedure",
+            "writable": true,
+            "displayName": "etcsImplementsLevelCrossingProcedure",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "ETCS trackside implements level crossing procedure or an equivalent solution"
+        },
+        {
+            "name": "etcsInfill",
+            "writable": true,
+            "displayName": "etcsInfill",
+            "@type": "Relationship",
+            "comment": "ETCS infill installed lineside"
+        },
+        {
+            "name": "etcsInfillLineAccess",
+            "writable": true,
+            "displayName": "etcsInfillLineAccess",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "ETCS infill necessary for line access"
+        },
+        {
+            "name": "etcsLevel",
+            "writable": true,
+            "displayName": "etcsLevel",
+            "@type": "Relationship",
+            "comment": "Etcs level"
+        },
+        {
+            "name": "etcsMVersion",
+            "writable": true,
+            "displayName": "etcsMVersion",
+            "@type": "Relationship",
+            "comment": "ETCS M_version"
+        },
+        {
+            "name": "etcsNationalPacket44",
+            "writable": true,
+            "displayName": "etcsNationalPacket44",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "ETCS national packet 44 application implemented"
+        },
+        {
+            "name": "etcsOptionalFunctions",
+            "writable": true,
+            "displayName": "etcsOptionalFunctions",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "ETCS optional functions"
+        },
+        {
+            "name": "etcsSystemFunctionalitiesNextFiveYears",
+            "writable": true,
+            "displayName": "etcsSystemFunctionalitiesNextFiveYears",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "ETCS system version 2.2 or 3.0 functionalities to be required in the next 5 years"
+        },
+        {
+            "name": "etcsTransmitsTrackConditions",
+            "writable": true,
+            "displayName": "etcsTransmitsTrackConditions",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Is the ETCS trackside engineered to transmit Track Conditions"
+        },
+        {
+            "name": "etcsTransmittedTrackConditions",
+            "writable": true,
+            "displayName": "etcsTransmittedTrackConditions",
+            "@type": "Relationship",
+            "comment": "Track conditions which can be transmitted"
+        },
+        {
+            "name": "flangeLubeForbidden",
+            "writable": true,
+            "displayName": "flangeLubeForbidden",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Use of flange lubrication forbidden"
+        },
+        {
+            "name": "freightCorridor",
+            "writable": true,
+            "displayName": "freightCorridor",
+            "@type": "Relationship",
+            "comment": "Part of a Railway freight corridor"
+        },
+        {
+            "name": "gaugingCheckLocation",
+            "writable": true,
+            "displayName": "gaugingCheckLocation",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Railway location of particular points requiring specific checks"
+        },
+        {
+            "name": "gaugingProfile",
+            "writable": true,
+            "displayName": "gaugingProfile",
+            "@type": "Relationship",
+            "comment": "Gauging"
+        },
+        {
+            "name": "gaugingTransversalDocument",
+            "writable": true,
+            "displayName": "gaugingTransversalDocument",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Document with the transversal section of the particular points requiring specific checks"
+        },
+        {
+            "name": "gprsForETCS",
+            "writable": true,
+            "displayName": "gprsForETCS",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "GPRS for ETCS"
+        },
+        {
+            "name": "gprsImplementationArea",
+            "writable": true,
+            "displayName": "gprsImplementationArea",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Area of implementation of GPRS"
+        },
+        {
+            "name": "gradientProfile",
+            "writable": true,
+            "displayName": "gradientProfile",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Gradient profile"
+        },
+        {
+            "name": "gsmRActiveMobiles",
+            "writable": true,
+            "displayName": "gsmRActiveMobiles",
+            "@type": "Relationship",
+            "comment": "Number of active GSM-R mobiles (EDOR) or simultaneous communication session on-board for ETCS Level 2 (or level 3) needed to perform radio block centre handovers without having an operational disruption"
+        },
+        {
+            "name": "gsmRAdditionalInfo",
+            "writable": true,
+            "displayName": "gsmRAdditionalInfo",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Additional information on network characteristics"
+        },
+        {
+            "name": "gsmRNoCoverage",
+            "writable": true,
+            "displayName": "gsmRNoCoverage",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "No GSM-R coverage"
+        },
+        {
+            "name": "gsmROptionalFunctions",
+            "writable": true,
+            "displayName": "gsmROptionalFunctions",
+            "@type": "Relationship",
+            "comment": "Optional GSM-R functions"
+        },
+        {
+            "name": "gsmRVersion",
+            "writable": true,
+            "displayName": "gsmRVersion",
+            "@type": "Relationship",
+            "comment": "GSM-R version"
+        },
+        {
+            "name": "gsmrConstraintsOperateOnlyInCircuitSwitch",
+            "writable": true,
+            "displayName": "gsmrConstraintsOperateOnlyInCircuitSwitch",
+            "@type": "Relationship",
+            "comment": "Specific constraints imposed by the GSM-R network operator on ETCS on-board units only able to operate in circuit-switch"
+        },
+        {
+            "name": "gsmrErrorCorrectionsOnboard",
+            "writable": true,
+            "displayName": "gsmrErrorCorrectionsOnboard",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "GSM-R error corrections required for the on-board"
+        },
+        {
+            "name": "gsmrForcedDeregistrationFunctionalNumber",
+            "writable": true,
+            "displayName": "gsmrForcedDeregistrationFunctionalNumber",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "GSM-R network is configured to allow forced de-registration of a functional number by another driver"
+        },
+        {
+            "name": "gsmrNetworkCoverage",
+            "writable": true,
+            "displayName": "gsmrNetworkCoverage",
+            "@type": "Relationship",
+            "comment": "GSM-R networks covered by a roaming agreement"
+        },
+        {
+            "name": "hasAdditionalBrakingInformation",
+            "writable": true,
+            "displayName": "hasAdditionalBrakingInformation",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Availability by the IM of additional information"
+        },
+        {
+            "name": "hasBallast",
+            "writable": true,
+            "displayName": "hasBallast",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of ballast"
+        },
+        {
+            "name": "hasETCSRestrictionsConditions",
+            "writable": true,
+            "displayName": "hasETCSRestrictionsConditions",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of operating restrictions or conditions"
+        },
+        {
+            "name": "hasHotAxleBoxDetector",
+            "writable": true,
+            "displayName": "hasHotAxleBoxDetector",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of trackside hot axle box detector (HABD)"
+        },
+        {
+            "name": "hasLevelCrossings",
+            "writable": true,
+            "displayName": "hasLevelCrossings",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of level crossings"
+        },
+        {
+            "name": "hasOtherTrainProtection",
+            "writable": true,
+            "displayName": "hasOtherTrainProtection",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of other train protection, control and warning systems installed"
+        },
+        {
+            "name": "hasSevereWeatherConditions",
+            "writable": true,
+            "displayName": "hasSevereWeatherConditions",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of severe climatic conditions"
+        },
+        {
+            "name": "hasSystemSeparation",
+            "writable": true,
+            "displayName": "hasSystemSeparation",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "System separation"
+        },
+        {
+            "name": "hasTSITrainDetection",
+            "writable": true,
+            "displayName": "hasTSITrainDetection",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of train detection system fully compliant with the TSI"
+        },
+        {
+            "name": "highSpeedLoadModelCompliance",
+            "writable": true,
+            "displayName": "highSpeedLoadModelCompliance",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Compliance of structures with the High Speed Load Model (HSLM) dynamic load model"
+        },
+        {
+            "name": "hotAxleBoxDetectorDirection",
+            "writable": true,
+            "displayName": "hotAxleBoxDetectorDirection",
+            "@type": "Relationship",
+            "comment": "Hot axle box detector direction"
+        },
+        {
+            "name": "hotAxleBoxDetectorGeneration",
+            "writable": true,
+            "displayName": "hotAxleBoxDetectorGeneration",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Generation of trackside HABD"
+        },
+        {
+            "name": "hotAxleBoxDetectorIdentification",
+            "writable": true,
+            "displayName": "hotAxleBoxDetectorIdentification",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Identification of trackside HABD"
+        },
+        {
+            "name": "hotAxleBoxDetectorLocation",
+            "writable": true,
+            "displayName": "hotAxleBoxDetectorLocation",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Railway location of trackside HABD"
+        },
+        {
+            "name": "hotAxleBoxDetectorTSICompliant",
+            "writable": true,
+            "displayName": "hotAxleBoxDetectorTSICompliant",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Trackside HABD TSI compliant"
+        },
+        {
+            "name": "instructionsSwitchRadioSystems",
+            "writable": true,
+            "displayName": "instructionsSwitchRadioSystems",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Special instructions to switch over between different radio systems"
+        },
+        {
+            "name": "isQuietRoute",
+            "writable": true,
+            "displayName": "isQuietRoute",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Belonging to a quieter route"
+        },
+        {
+            "name": "legacyRadioSystem",
+            "writable": true,
+            "displayName": "legacyRadioSystem",
+            "@type": "Relationship",
+            "comment": "Other radio systems installed (Radio Legacy Systems)"
+        },
+        {
+            "name": "lineCategory",
+            "writable": true,
+            "displayName": "lineCategory",
+            "@type": "Relationship",
+            "comment": "Category of line"
+        },
+        {
+            "name": "linesideDistanceIndicationAppearance",
+            "writable": true,
+            "displayName": "linesideDistanceIndicationAppearance",
+            "@type": "Relationship",
+            "comment": "Lineside distance indication appearance"
+        },
+        {
+            "name": "linesideDistanceIndicationFrequency",
+            "writable": true,
+            "displayName": "linesideDistanceIndicationFrequency",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Lineside distance indication frequency"
+        },
+        {
+            "name": "linesideDistanceIndicationPositioning",
+            "writable": true,
+            "displayName": "linesideDistanceIndicationPositioning",
+            "@type": "Relationship",
+            "comment": "Lineside distance indication positioning"
+        },
+        {
+            "name": "loadCapability",
+            "writable": true,
+            "displayName": "loadCapability",
+            "@type": "Relationship",
+            "comment": "Load Capability"
+        },
+        {
+            "name": "location",
+            "writable": true,
+            "displayName": "location"
+        },
+        {
+            "name": "mNvcontact",
+            "writable": true,
+            "displayName": "mNvcontact",
+            "@type": "Relationship",
+            "comment": "M_NVCONTACT"
+        },
+        {
+            "name": "mNvderun",
+            "writable": true,
+            "displayName": "mNvderun",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "M_NVDERUN"
+        },
+        {
+            "name": "magneticBraking",
+            "writable": true,
+            "displayName": "magneticBraking",
+            "@type": "Relationship",
+            "comment": "Use of magnetic brakes"
+        },
+        {
+            "name": "magneticBrakingConditionsDocument",
+            "writable": true,
+            "displayName": "magneticBrakingConditionsDocument",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Document with the conditions for the use of magnetic brakes"
+        },
+        {
+            "name": "maximumAltitude",
+            "writable": true,
+            "displayName": "maximumAltitude",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum altitude"
+        },
+        {
+            "name": "maximumBrakingDistance",
+            "writable": true,
+            "displayName": "maximumBrakingDistance",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum braking distance requested"
+        },
+        {
+            "name": "maximumContactWireHeight",
+            "writable": true,
+            "displayName": "maximumContactWireHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum contact wire height"
+        },
+        {
+            "name": "maximumPermittedSpeed",
+            "writable": true,
+            "displayName": "maximumPermittedSpeed",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum permitted speed"
+        },
+        {
+            "name": "maximumTemperature",
+            "writable": true,
+            "displayName": "maximumTemperature",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Temperature range (maximum)"
+        },
+        {
+            "name": "maximumTrainDeceleration",
+            "writable": true,
+            "displayName": "maximumTrainDeceleration",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum train deceleration"
+        },
+        {
+            "name": "minDistConsecutiveAxles",
+            "writable": true,
+            "displayName": "minDistConsecutiveAxles",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted distance between two consecutive axles"
+        },
+        {
+            "name": "minDistFirstLastAxle",
+            "writable": true,
+            "displayName": "minDistFirstLastAxle",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted distance between first and last axle"
+        },
+        {
+            "name": "minFlangeHeight",
+            "writable": true,
+            "displayName": "minFlangeHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted height of the flange"
+        },
+        {
+            "name": "minFlangeThickness",
+            "writable": true,
+            "displayName": "minFlangeThickness",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted thickness of the flange"
+        },
+        {
+            "name": "minRimWidth",
+            "writable": true,
+            "displayName": "minRimWidth",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted width of the rim"
+        },
+        {
+            "name": "minWheelDiameter",
+            "writable": true,
+            "displayName": "minWheelDiameter",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum permitted wheel diameter"
+        },
+        {
+            "name": "minimumContactWireHeight",
+            "writable": true,
+            "displayName": "minimumContactWireHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum contact wire height"
+        },
+        {
+            "name": "minimumHorizontalRadius",
+            "writable": true,
+            "displayName": "minimumHorizontalRadius",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum radius of horizontal curve"
+        },
+        {
+            "name": "minimumTemperature",
+            "writable": true,
+            "displayName": "minimumTemperature",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Temperature range (minimum)"
+        },
+        {
+            "name": "minimumWheelDiameter",
+            "writable": true,
+            "displayName": "minimumWheelDiameter",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Minimum wheel diameter for fixed obtuse crossings"
+        },
+        {
+            "name": "multipleTrainProtectionRequired",
+            "writable": true,
+            "displayName": "multipleTrainProtectionRequired",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Need for more than one train protection, control and warning system required on board"
+        },
+        {
+            "name": "name",
+            "writable": true,
+            "displayName": "name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The name of this item"
+        },
+        {
+            "name": "nationalLoadCapability",
+            "writable": true,
+            "displayName": "nationalLoadCapability",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "National classification for load capability"
+        },
+        {
+            "name": "nationalValuesBrakeModel",
+            "writable": true,
+            "displayName": "nationalValuesBrakeModel",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "National Values used for the brake model"
+        },
+        {
+            "name": "osmClass",
+            "writable": true,
+            "displayName": "osmClass",
+            "@type": "Relationship",
+            "comment": "Open street map class"
+        },
+        {
+            "name": "otherCantDeficiencyBasicSSP",
+            "writable": true,
+            "displayName": "otherCantDeficiencyBasicSSP",
+            "@type": "Relationship",
+            "comment": "Other Cant Deficiency train categories for which the ETCS trackside is configured to provide SSP"
+        },
+        {
+            "name": "otherPantographHead",
+            "writable": true,
+            "displayName": "otherPantographHead",
+            "@type": "Relationship",
+            "comment": "Accepted other pantograph heads"
+        },
+        {
+            "name": "otherTrainProtection",
+            "writable": true,
+            "displayName": "otherTrainProtection",
+            "@type": "Relationship",
+            "comment": "Other train protection, control and warning systems for degraded situation"
+        },
+        {
+            "name": "passesThroughTunnel",
+            "writable": true,
+            "displayName": "passesThroughTunnel",
+            "@type": "Relationship",
+            "comment": "Passes through tunnel"
+        },
+        {
+            "name": "permitUseReflectivePlates",
+            "writable": true,
+            "displayName": "permitUseReflectivePlates",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Permit of use of reflective plates"
+        },
+        {
+            "name": "permittedContactForce",
+            "writable": true,
+            "displayName": "permittedContactForce",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Contact force permitted"
+        },
+        {
+            "name": "phaseInfo",
+            "writable": true,
+            "displayName": "phaseInfo",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Information on phase separation"
+        },
+        {
+            "name": "phaseSeparation",
+            "writable": true,
+            "displayName": "phaseSeparation",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Phase separation"
+        },
+        {
+            "name": "platform",
+            "writable": true,
+            "displayName": "platform",
+            "@type": "Relationship",
+            "comment": "Platform"
+        },
+        {
+            "name": "profileNumberSemiTrailers",
+            "writable": true,
+            "displayName": "profileNumberSemiTrailers",
+            "@type": "Relationship",
+            "comment": "Standard combined transport profile number for semi-trailers"
+        },
+        {
+            "name": "profileNumberSwapBodies",
+            "writable": true,
+            "displayName": "profileNumberSwapBodies",
+            "@type": "Relationship",
+            "comment": "Standard combined transport profile number for swap bodies"
+        },
+        {
+            "name": "protectionLegacySystem",
+            "writable": true,
+            "displayName": "protectionLegacySystem",
+            "@type": "Relationship",
+            "comment": "Train protection legacy system"
+        },
+        {
+            "name": "publicNetworkRoaming",
+            "writable": true,
+            "displayName": "publicNetworkRoaming",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "GSM-R existence of roaming to public networks"
+        },
+        {
+            "name": "publicNetworkRoamingDetails",
+            "writable": true,
+            "displayName": "publicNetworkRoamingDetails",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "GSM-R details on roaming to public networks"
+        },
+        {
+            "name": "qNvdriverAdhes",
+            "writable": true,
+            "displayName": "qNvdriverAdhes",
+            "@type": "Relationship",
+            "comment": "Q_NVDRIVER_ADHES"
+        },
+        {
+            "name": "qNvemrrls",
+            "writable": true,
+            "displayName": "qNvemrrls",
+            "@type": "Relationship",
+            "comment": "Q_NVEMRRLS"
+        },
+        {
+            "name": "qNvsbtsmperm",
+            "writable": true,
+            "displayName": "qNvsbtsmperm",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Q_NVSBTSMPERM"
+        },
+        {
+            "name": "radioNetworkId",
+            "writable": true,
+            "displayName": "radioNetworkId",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Radio Network ID"
+        },
+        {
+            "name": "railInclination",
+            "writable": true,
+            "displayName": "railInclination",
+            "@type": "Relationship",
+            "comment": "Rail inclination"
+        },
+        {
+            "name": "railSystemType",
+            "writable": true,
+            "displayName": "railSystemType",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Rail system type"
+        },
+        {
+            "name": "raisedPantographsDistanceAndSpeed",
+            "writable": true,
+            "displayName": "raisedPantographsDistanceAndSpeed",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Requirements for number of raised pantographs and spacing between them, at the given speed"
+        },
+        {
+            "name": "reasonsEtcsRadioBlockCenterReject",
+            "writable": true,
+            "displayName": "reasonsEtcsRadioBlockCenterReject",
+            "@type": "Relationship",
+            "comment": "Reasons for which an ETCS Radio Block Center can reject a train"
+        },
+        {
+            "name": "redLightsRequired",
+            "writable": true,
+            "displayName": "redLightsRequired",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Steady red lights required"
+        },
+        {
+            "name": "safeConsistLengthInformationNecessary",
+            "writable": true,
+            "displayName": "safeConsistLengthInformationNecessary",
+            "@type": "Relationship",
+            "comment": "Safe consist length information from on-board necessary for access the line and SIL"
+        },
+        {
+            "name": "seeAlso",
+            "writable": true,
+            "displayName": "seeAlso"
+        },
+        {
+            "name": "source",
+            "writable": true,
+            "displayName": "source",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object"
+        },
+        {
+            "name": "specificInformation",
+            "writable": true,
+            "displayName": "specificInformation",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Specific information"
+        },
+        {
+            "name": "standardCombinedTransporRollerUnits",
+            "writable": true,
+            "displayName": "standardCombinedTransporRollerUnits",
+            "@type": "Relationship",
+            "comment": "Standard combined transport profile number for roller units"
+        },
+        {
+            "name": "standardCombinedTransportContainers",
+            "writable": true,
+            "displayName": "standardCombinedTransportContainers",
+            "@type": "Relationship",
+            "comment": "Standard combined transport profile number for containers"
+        },
+        {
+            "name": "structureCheckLocation",
+            "writable": true,
+            "displayName": "structureCheckLocation",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Railway location of structures requiring specific checks"
+        },
+        {
+            "name": "subsetName",
+            "writable": true,
+            "displayName": "subsetName",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Name of a subset with common characteristics"
+        },
+        {
+            "name": "switchProtectControlWarning",
+            "writable": true,
+            "displayName": "switchProtectControlWarning",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of switch over between different protection, control and warning systems while running"
+        },
+        {
+            "name": "switchRadioSystem",
+            "writable": true,
+            "displayName": "switchRadioSystem",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of switch over between different radio systems"
+        },
+        {
+            "name": "systemSeparationInfo",
+            "writable": true,
+            "displayName": "systemSeparationInfo",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Information on system separation"
+        },
+        {
+            "name": "tNvcontact",
+            "writable": true,
+            "displayName": "tNvcontact",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "T_NVCONTACT"
+        },
+        {
+            "name": "tNvovtrp",
+            "writable": true,
+            "displayName": "tNvovtrp",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "T_NVOVTRP"
+        },
+        {
+            "name": "temperatureRange",
+            "writable": true,
+            "displayName": "temperatureRange",
+            "@type": "Relationship",
+            "comment": "Temperature range"
+        },
+        {
+            "name": "tenGISId",
+            "writable": true,
+            "displayName": "tenGISId",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "TEN GIS identity"
+        },
+        {
+            "name": "tiltingSupported",
+            "writable": true,
+            "displayName": "tiltingSupported",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Indication whether tilting functions are supported by ETCS"
+        },
+        {
+            "name": "trackLoadCapability",
+            "writable": true,
+            "displayName": "trackLoadCapability",
+            "@type": "Relationship",
+            "comment": "Track load capability"
+        },
+        {
+            "name": "trackPhaseInfo",
+            "writable": true,
+            "displayName": "trackPhaseInfo",
+            "@type": "Relationship",
+            "comment": "Track phase info"
+        },
+        {
+            "name": "trackRaisedPantographsDistanceAndSpeed",
+            "writable": true,
+            "displayName": "trackRaisedPantographsDistanceAndSpeed",
+            "@type": "Relationship",
+            "comment": "Track raised pantograph distance and speed"
+        },
+        {
+            "name": "trackSystemSeparationInfo",
+            "writable": true,
+            "displayName": "trackSystemSeparationInfo",
+            "@type": "Relationship",
+            "comment": "Track system separation info"
+        },
+        {
+            "name": "trainDetectionSystem",
+            "writable": true,
+            "displayName": "trainDetectionSystem",
+            "@type": "Relationship",
+            "comment": "Train detection system"
+        },
+        {
+            "name": "trainIntegrityOnBoardRequired",
+            "writable": true,
+            "displayName": "trainIntegrityOnBoardRequired",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Train integrity confirmation from on-board (not from driver) necessary for line access"
+        },
+        {
+            "name": "tsiPantographHead",
+            "writable": true,
+            "displayName": "tsiPantographHead",
+            "@type": "Relationship",
+            "comment": "Accepted TSI compliant pantograph heads"
+        },
+        {
+            "name": "tsiSwitchCrossing",
+            "writable": true,
+            "displayName": "tsiSwitchCrossing",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "TSI compliance of in service values for switches and crossings"
+        },
+        {
+            "name": "usesGroup555",
+            "writable": true,
+            "displayName": "usesGroup555",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "GSM-R use of group 555"
+        },
+        {
+            "name": "vNvallowovtrp",
+            "writable": true,
+            "displayName": "vNvallowovtrp",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "V_NVALLOWOVTRP"
+        },
+        {
+            "name": "vNvsupovtrp",
+            "writable": true,
+            "displayName": "vNvsupovtrp",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "V_NVSUPOVTRP"
+        },
+        {
+            "name": "vehicleTypesCompatibleTrafficLoad",
+            "writable": true,
+            "displayName": "vehicleTypesCompatibleTrafficLoad",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "List of vehicle types already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems"
+        },
+        {
+            "name": "vehiclesCompatibleTrafficLoad",
+            "writable": true,
+            "displayName": "vehiclesCompatibleTrafficLoad",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "List of vehicles already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems"
+        },
+        {
+            "name": "verificationCCS",
+            "writable": true,
+            "displayName": "verificationCCS",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "EC declaration of verification for track (CCS)"
+        },
+        {
+            "name": "verificationENE",
+            "writable": true,
+            "displayName": "verificationENE",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "EC declaration of verification for track (ENE)"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "owner",
+            "schema": {
+                "@type": "Array",
+                "elementSchema": "string"
+            },
+            "comment": "A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)",
+            "displayName": "owner"
+        },
+        {
+            "@type": "object",
+            "name": "address",
+            "comment": "The mailing address",
+            "displayName": "address",
+            "fields": [
+                {
+                    "name": "addressCountry",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressLocality",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressRegion",
+                    "schema": "string"
+                },
+                {
+                    "name": "district",
+                    "schema": "string"
+                },
+                {
+                    "name": "postOfficeBoxNumber",
+                    "schema": "string"
+                },
+                {
+                    "name": "postalCode",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetAddress",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetNr",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
