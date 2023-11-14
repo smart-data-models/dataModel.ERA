@@ -1,0 +1,60 @@
+---
+# Copyleft (c) 2022 Contributors to Smart Data Models initiative
+# 
+
+
+components:
+  schemas: 
+    FrenchTrainDetectionSystemLimitation: 
+      $ref: "https://smart-data-models.github.io/dataModel.ERA/FrenchTrainDetectionSystemLimitation/model.yaml#/FrenchTrainDetectionSystemLimitation"
+info:
+  description:  |
+    Specific for route compatibility check on French network. Sections with: 
+-1 Tonnage circulated per track is inferior to 15000 tons/day/track 
+-2 Directional Interlocking 
+-3 45-second delay for directional interlocking 
+-4 Installation with track circuit announcement 
+-5 Absence of a shunting assistance pedal in the normal direction of circulation for non-reversible double track lines 
+-6 Absence of a shunting assistance pedal regardless of the direction of traffic for single track lines and tracks for two way working 
+-7 Absence of a pedal announcement mechanism 
+-8 45-second delay for specific announcement reset devices
+  title: FrenchTrainDetectionSystemLimitation
+  version: "0.0.1"
+openapi: "3.0.0"
+
+paths: 
+  /ngsi-ld/v1/entities: 
+    get: 
+      description: "Retrieve a set of entities which matches a specific query from an NGSI-LD system"
+      parameters: 
+        - 
+          in: query
+          name: type
+          required: true
+          schema: 
+            enum: 
+              - FrenchTrainDetectionSystemLimitation
+            type: string
+      responses: 
+        ? "200"
+        : 
+          content: 
+            application/ld+json: 
+              examples: 
+                keyvalues: 
+                  summary: "Key-Values Pairs"
+                  value: 
+                    - 
+                      $ref: "https://smart-data-models.github.io/dataModel.ERA/FrenchTrainDetectionSystemLimitation/examples/example.json"
+                normalized: 
+                  summary: "Normalized NGSI-LD"
+                  value: 
+                    - 
+                      $ref: "https://smart-data-models.github.io/dataModel.ERA/FrenchTrainDetectionSystemLimitation/examples/example-normalized.jsonld"
+          description: OK
+      tags: 
+        - ngsi-ld
+tags: 
+  - 
+    description: "NGSI-LD Linked-data Format"
+    name: ngsi-ld
