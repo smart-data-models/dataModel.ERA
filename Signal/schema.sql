@@ -1,0 +1,3 @@
+/* (Beta) Export of data model Signal of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE Signal_type AS ENUM ('Signal');
+CREATE TABLE Signal (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, location JSON, name TEXT, owner JSON, relativeDistanceDangerPoint NUMERIC, seeAlso JSON, signalId TEXT, signalOrientation TEXT, signalType TEXT, source TEXT, track TEXT, type Signal_type);
