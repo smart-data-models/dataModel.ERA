@@ -1,0 +1,3 @@
+/* (Beta) Export of data model NetElement of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE NetElement_type AS ENUM ('NetElement');
+CREATE TABLE NetElement (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, elementPart TEXT, endIntrinsicCoordinate NUMERIC, hasImplementation TEXT, id TEXT PRIMARY KEY, location JSON, name TEXT, owner JSON, seeAlso JSON, source TEXT, startIntrinsicCoordinate NUMERIC, type NetElement_type);
