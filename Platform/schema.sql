@@ -1,0 +1,3 @@
+/* (Beta) Export of data model Platform of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE Platform_type AS ENUM ('Platform');
+CREATE TABLE Platform (address JSON, alternateName TEXT, areaBoardingAid NUMERIC, areaServed TEXT, assistanceStartingTrain BOOLEAN, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, hasPlatformCurvature BOOLEAN, id TEXT PRIMARY KEY, location JSON, name TEXT, owner JSON, platformHeight TEXT, platformId TEXT, seeAlso JSON, source TEXT, tenClassification TEXT, type Platform_type);
