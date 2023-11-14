@@ -1,0 +1,332 @@
+{
+    "@id": "dtmi:com:ngsi-ld:TrainDetectionSystem;0",
+    "@type": "Interface",
+    "@context": "dtmi:dtdl:context;2",
+    "comment": "TrainDetectionSystem + mapped from ERA ontology by Smart Data Models adapted to DTDL from smartdatamodels.org. Source: https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/TrainDetectionSystem/schema.json",
+    "description": "System used to detect the position of vehicles in the railway track.",
+    "displayName": "TrainDetectionSystem",
+    "contents": [
+        {
+            "name": "alternateName",
+            "writable": true,
+            "displayName": "alternateName",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "An alternative name for this item"
+        },
+        {
+            "name": "areaServed",
+            "writable": true,
+            "displayName": "areaServed",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The geographic area where a service or offered item is provided"
+        },
+        {
+            "name": "dataProvider",
+            "writable": true,
+            "displayName": "dataProvider",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters identifying the provider of the harmonised data entity"
+        },
+        {
+            "name": "dateCreated",
+            "writable": true,
+            "displayName": "dateCreated",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Entity creation timestamp. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "dateModified",
+            "writable": true,
+            "displayName": "dateModified",
+            "@type": "Property",
+            "schema": "dateTime",
+            "comment": "Timestamp of the last modification of the entity. This will usually be allocated by the storage platform"
+        },
+        {
+            "name": "description",
+            "writable": true,
+            "displayName": "description",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A description of this item"
+        },
+        {
+            "name": "flangeLubeRules",
+            "writable": true,
+            "displayName": "flangeLubeRules",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Existence of rules on on-board flange lubrication"
+        },
+        {
+            "name": "frenchTrainDetectionSystemLimitation",
+            "writable": true,
+            "displayName": "frenchTrainDetectionSystemLimitation",
+            "@type": "Relationship",
+            "comment": "Section with train detection limitation, only for the French network"
+        },
+        {
+            "name": "frequencyBandsForDetection",
+            "writable": true,
+            "displayName": "frequencyBandsForDetection",
+            "@type": "Relationship",
+            "comment": "Frequency bands for detection"
+        },
+        {
+            "name": "location",
+            "writable": true,
+            "displayName": "location"
+        },
+        {
+            "name": "maxDistConsecutiveAxles",
+            "writable": true,
+            "displayName": "maxDistConsecutiveAxles",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum permitted distance between two consecutive axles in case of TSI non-compliance"
+        },
+        {
+            "name": "maxDistEndTrainFirstAxle",
+            "writable": true,
+            "displayName": "maxDistEndTrainFirstAxle",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum distance between end of train and first axle"
+        },
+        {
+            "name": "maxFlangeHeight",
+            "writable": true,
+            "displayName": "maxFlangeHeight",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum permitted height of the flange"
+        },
+        {
+            "name": "maxImpedanceWheelset",
+            "writable": true,
+            "displayName": "maxImpedanceWheelset",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum permitted impedance between opposite wheels of a wheelset when not TSI compliant"
+        },
+        {
+            "name": "maxSandingOutput",
+            "writable": true,
+            "displayName": "maxSandingOutput",
+            "@type": "Relationship",
+            "comment": "Maximum amount of sand"
+        },
+        {
+            "name": "maximumInterferenceCurrent",
+            "writable": true,
+            "displayName": "maximumInterferenceCurrent",
+            "@type": "Property",
+            "schema": "long",
+            "comment": "Maximum interference current"
+        },
+        {
+            "name": "minVehicleImpedance",
+            "writable": true,
+            "displayName": "minVehicleImpedance",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Vehicle impedance"
+        },
+        {
+            "name": "name",
+            "writable": true,
+            "displayName": "name",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "The name of this item"
+        },
+        {
+            "name": "requiredSandingOverride",
+            "writable": true,
+            "displayName": "requiredSandingOverride",
+            "@type": "Property",
+            "schema": "boolean",
+            "comment": "Sanding override by driver required"
+        },
+        {
+            "name": "seeAlso",
+            "writable": true,
+            "displayName": "seeAlso"
+        },
+        {
+            "name": "source",
+            "writable": true,
+            "displayName": "source",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object"
+        },
+        {
+            "name": "tdsFrenchTrainDetectionSystemLimitation",
+            "writable": true,
+            "displayName": "tdsFrenchTrainDetectionSystemLimitation",
+            "@type": "Relationship",
+            "comment": "Section with train detection limitation, only for the French network"
+        },
+        {
+            "name": "tdsMaximumMagneticField",
+            "writable": true,
+            "displayName": "tdsMaximumMagneticField",
+            "@type": "Relationship",
+            "comment": "Train detection system maximum magnetic field"
+        },
+        {
+            "name": "tdsMinAxleLoadVehicleCategory",
+            "writable": true,
+            "displayName": "tdsMinAxleLoadVehicleCategory",
+            "@type": "Relationship",
+            "comment": "Train detection system min axle load vehicle category"
+        },
+        {
+            "name": "trainDetectionSystemSpecificCheck",
+            "writable": true,
+            "displayName": "trainDetectionSystemSpecificCheck",
+            "@type": "Relationship",
+            "comment": "Type of track circuits to which specific checks are needed"
+        },
+        {
+            "name": "trainDetectionSystemSpecificCheckDocument",
+            "writable": true,
+            "displayName": "trainDetectionSystemSpecificCheckDocument",
+            "@type": "Property",
+            "schema": "string",
+            "comment": "Document with the procedure(s) related to the type of train detection systems declared in 1.2.1.1.6.1"
+        },
+        {
+            "name": "trainDetectionSystemType",
+            "writable": true,
+            "displayName": "trainDetectionSystemType",
+            "@type": "Relationship",
+            "comment": "Type of train detection system"
+        },
+        {
+            "name": "tsiCompliantCompositeBrakeBlocks",
+            "writable": true,
+            "displayName": "tsiCompliantCompositeBrakeBlocks",
+            "@type": "Relationship",
+            "comment": "TSI compliance of rules on the use of composite brake blocks"
+        },
+        {
+            "name": "tsiCompliantFerromagneticWheel",
+            "writable": true,
+            "displayName": "tsiCompliantFerromagneticWheel",
+            "@type": "Relationship",
+            "comment": "TSI compliance of Ferromagnetic characteristics of wheel material required"
+        },
+        {
+            "name": "tsiCompliantMaxDistConsecutiveAxles",
+            "writable": true,
+            "displayName": "tsiCompliantMaxDistConsecutiveAxles",
+            "@type": "Relationship",
+            "comment": "TSI compliance of maximum permitted distance between two consecutive axles"
+        },
+        {
+            "name": "tsiCompliantMaxImpedanceWheelset",
+            "writable": true,
+            "displayName": "tsiCompliantMaxImpedanceWheelset",
+            "@type": "Relationship",
+            "comment": "TSI compliance of maximum permitted impedance between opposite wheels of a wheelset"
+        },
+        {
+            "name": "tsiCompliantMetalConstruction",
+            "writable": true,
+            "displayName": "tsiCompliantMetalConstruction",
+            "@type": "Relationship",
+            "comment": "TSI compliance of rules for vehicle metal construction"
+        },
+        {
+            "name": "tsiCompliantMetalFreeSpace",
+            "writable": true,
+            "displayName": "tsiCompliantMetalFreeSpace",
+            "@type": "Relationship",
+            "comment": "TSI compliance of rules for metal-free space around wheels"
+        },
+        {
+            "name": "tsiCompliantRSTShuntImpedance",
+            "writable": true,
+            "displayName": "tsiCompliantRSTShuntImpedance",
+            "@type": "Relationship",
+            "comment": "TSI compliance of rules on combination of RST characteristics influencing shunting impedance"
+        },
+        {
+            "name": "tsiCompliantSandCharacteristics",
+            "writable": true,
+            "displayName": "tsiCompliantSandCharacteristics",
+            "@type": "Relationship",
+            "comment": "TSI Compliance of rules on sand characteristics"
+        },
+        {
+            "name": "tsiCompliantSanding",
+            "writable": true,
+            "displayName": "tsiCompliantSanding",
+            "@type": "Relationship",
+            "comment": "TSI compliance of sanding"
+        },
+        {
+            "name": "tsiCompliantShuntDevices",
+            "writable": true,
+            "displayName": "tsiCompliantShuntDevices",
+            "@type": "Relationship",
+            "comment": "TSI compliance of rules on shunt assisting devices"
+        },
+        {
+            "@type": "Telemetry",
+            "name": "owner",
+            "schema": {
+                "@type": "Array",
+                "elementSchema": "string"
+            },
+            "comment": "A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)",
+            "displayName": "owner"
+        },
+        {
+            "@type": "object",
+            "name": "address",
+            "comment": "The mailing address",
+            "displayName": "address",
+            "fields": [
+                {
+                    "name": "addressCountry",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressLocality",
+                    "schema": "string"
+                },
+                {
+                    "name": "addressRegion",
+                    "schema": "string"
+                },
+                {
+                    "name": "district",
+                    "schema": "string"
+                },
+                {
+                    "name": "postOfficeBoxNumber",
+                    "schema": "string"
+                },
+                {
+                    "name": "postalCode",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetAddress",
+                    "schema": "string"
+                },
+                {
+                    "name": "streetNr",
+                    "schema": "string"
+                }
+            ]
+        }
+    ]
+}
