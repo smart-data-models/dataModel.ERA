@@ -1,0 +1,3 @@
+/* (Beta) Export of data model InfrastructureObject of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE InfrastructureObject_type AS ENUM ('InfrastructureObject');
+CREATE TABLE InfrastructureObject (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, hasAbstraction TEXT, id TEXT PRIMARY KEY, inCountry TEXT, infrastructureMgr TEXT, lineReference TEXT, location JSON, name TEXT, owner JSON, seeAlso JSON, source TEXT, type InfrastructureObject_type, validityEndDate TEXT, validityStartDate TEXT);
