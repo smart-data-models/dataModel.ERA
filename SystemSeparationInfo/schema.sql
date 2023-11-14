@@ -1,0 +1,3 @@
+/* (Beta) Export of data model SystemSeparationInfo of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE SystemSeparationInfo_type AS ENUM ('SystemSeparationInfo');
+CREATE TABLE SystemSeparationInfo (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, location JSON, name TEXT, owner JSON, seeAlso JSON, source TEXT, systemSeparationInfoChangeSupplySystem TEXT, systemSeparationInfoLength NUMERIC, systemSeparationInfoPantographLowered BOOLEAN, systemSeparationInfoSwitchOffBreaker BOOLEAN, type SystemSeparationInfo_type);
