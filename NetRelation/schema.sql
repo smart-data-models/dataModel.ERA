@@ -1,0 +1,3 @@
+/* (Beta) Export of data model NetRelation of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
+CREATE TYPE NetRelation_type AS ENUM ('NetRelation');
+CREATE TABLE NetRelation (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, elementA TEXT, elementB TEXT, id TEXT PRIMARY KEY, location JSON, name TEXT, navigability TEXT, owner JSON, positionOnA TEXT, positionOnB TEXT, seeAlso JSON, source TEXT, type NetRelation_type);
