@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -79.0649155,
-          11.28973
-        ]
-      }
+      "coordinates": [
+        -79.0649155,
+        11.28973
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Amount fall concern"
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Agreement it often society several there arrive. Right marriage be where student five"
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Here drop total sort teacher pick knowledge. Yeah time station stop. Scene threat economy bit. Education couple economic Democrat chair."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Last hold everybody true air. Anything member book base north. Discover shake he would several series my painting. Whether capital mai"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Drop son guy give. Once southern seek guess wait final."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Central away be number Congress choice. Rich money too identify general behavior tough."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Maintain too loss why those write. Design policy truth. Office trouble never stand."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Politics scene because choose avoid assume personal teach. Why market interest tough way more none. "
-      }
+      "streetAddress": "Amount fall concern",
+      "addressLocality": "Agreement it often society several there arrive. Right marriage be where student five",
+      "addressRegion": "Here drop total sort teacher pick knowledge. Yeah time station stop. Scene threat economy bit. Education couple economic Democrat chair.",
+      "addressCountry": "Last hold everybody true air. Anything member book base north. Discover shake he would several series my painting. Whether capital mai",
+      "postalCode": "Drop son guy give. Once southern seek guess wait final.",
+      "postOfficeBoxNumber": "Central away be number Congress choice. Rich money too identify general behavior tough.",
+      "streetNr": "Maintain too loss why those write. Design policy truth. Office trouble never stand.",
+      "district": "Politics scene because choose avoid assume personal teach. Why market interest tough way more none. "
     }
   },
   "areaServed": {
