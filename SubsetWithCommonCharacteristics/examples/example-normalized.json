@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          19.420622,
-          125.057551
-        ]
-      }
+      "coordinates": [
+        19.420622,
+        125.057551
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Until mind clear out series event each. Concern hand organization drug. Animal cup within energy. Save decisio"
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Turn medical majority white ready source. Middle dinner participant large TV. Increase summer yourself since though."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Out now day. C"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Relate PM look party possible. Science Mrs information newspaper. Local husband share Republican development book food Mr."
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Morning car large their page. Home agen"
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Bar draw leg weste"
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Idea "
-      },
-      "district": {
-        "type": "Text",
-        "value": "Establish bring just. Follow line run old. Win mean market coach enter begin physica"
-      }
+      "streetAddress": "Until mind clear out series event each. Concern hand organization drug. Animal cup within energy. Save decisio",
+      "addressLocality": "Turn medical majority white ready source. Middle dinner participant large TV. Increase summer yourself since though.",
+      "addressRegion": "Out now day. C",
+      "addressCountry": "Relate PM look party possible. Science Mrs information newspaper. Local husband share Republican development book food Mr.",
+      "postalCode": "Morning car large their page. Home agen",
+      "postOfficeBoxNumber": "Bar draw leg weste",
+      "streetNr": "Idea ",
+      "district": "Establish bring just. Follow line run old. Win mean market coach enter begin physica"
     }
   },
   "areaServed": {
