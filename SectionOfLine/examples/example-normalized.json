@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -49.248493,
-          -99.418946
-        ]
-      }
+      "coordinates": [
+        -49.248493,
+        -99.418946
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Consider affect seven difference impact or. Carry sport identify magazine listen science "
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Phone quality top current. Range until big suggest both focus."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Light through th"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Ready pay for presen"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Purpose feel son current mission address. Future although everyone affect."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Point road player personal around rich cut. If try raise meet process."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Somebody lawyer production often nearly news. Material he front."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Stage especially site list writer. Political pr"
-      }
+      "streetAddress": "Consider affect seven difference impact or. Carry sport identify magazine listen science ",
+      "addressLocality": "Phone quality top current. Range until big suggest both focus.",
+      "addressRegion": "Light through th",
+      "addressCountry": "Ready pay for presen",
+      "postalCode": "Purpose feel son current mission address. Future although everyone affect.",
+      "postOfficeBoxNumber": "Point road player personal around rich cut. If try raise meet process.",
+      "streetNr": "Somebody lawyer production often nearly news. Material he front.",
+      "district": "Stage especially site list writer. Political pr"
     }
   },
   "areaServed": {
