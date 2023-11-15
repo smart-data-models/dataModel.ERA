@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -74.8296485,
-          108.332861
-        ]
-      }
+      "coordinates": [
+        -74.8296485,
+        108.332861
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Community single me pass anything during. My form world image partner over."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Put little like analysis phone traditional morning."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Center agent do."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Perhaps reason least blood group. Station purpose clearly decision lay per assume. "
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Sport meeting answer arm. Be lawyer front painting go particular much. Clearly"
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Hard together trouble guess without herself six. Night"
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Myself network just business bill too chance. Body small accept radio similar. By nice understand upon"
-      },
-      "district": {
-        "type": "Text",
-        "value": "Feel peace dinner catch. Ten federal make home where already line. Whose turn player."
-      }
+      "streetAddress": "Community single me pass anything during. My form world image partner over.",
+      "addressLocality": "Put little like analysis phone traditional morning.",
+      "addressRegion": "Center agent do.",
+      "addressCountry": "Perhaps reason least blood group. Station purpose clearly decision lay per assume. ",
+      "postalCode": "Sport meeting answer arm. Be lawyer front painting go particular much. Clearly",
+      "postOfficeBoxNumber": "Hard together trouble guess without herself six. Night",
+      "streetNr": "Myself network just business bill too chance. Body small accept radio similar. By nice understand upon",
+      "district": "Feel peace dinner catch. Ten federal make home where already line. Whose turn player."
     }
   },
   "areaServed": {
