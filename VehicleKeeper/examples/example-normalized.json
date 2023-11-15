@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          48.213131,
-          -151.498321
-        ]
-      }
+      "coordinates": [
+        48.213131,
+        -151.498321
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Company recently close affect. Others Congress "
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Region purpose probably expert road give. Occur and according some. Event outside usually newspaper."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Remember discuss Democrat party. Since claim appear stuff pull alo"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Nature find"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Point begin economy minute. Necessary candidate woman church which beautiful."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Affect top receive to security remember area street. Only operation important modern thing join."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Significant defense agent now "
-      },
-      "district": {
-        "type": "Text",
-        "value": "Pass heart with several esta"
-      }
+      "streetAddress": "Company recently close affect. Others Congress ",
+      "addressLocality": "Region purpose probably expert road give. Occur and according some. Event outside usually newspaper.",
+      "addressRegion": "Remember discuss Democrat party. Since claim appear stuff pull alo",
+      "addressCountry": "Nature find",
+      "postalCode": "Point begin economy minute. Necessary candidate woman church which beautiful.",
+      "postOfficeBoxNumber": "Affect top receive to security remember area street. Only operation important modern thing join.",
+      "streetNr": "Significant defense agent now ",
+      "district": "Pass heart with several esta"
     }
   },
   "areaServed": {
