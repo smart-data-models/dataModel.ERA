@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -7.7970405,
-          -90.393951
-        ]
-      }
+      "coordinates": [
+        -7.7970405,
+        -90.393951
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Goal feel cultural race officer. Future table pay. Grow letter though all type century "
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Shoulder hold leader hospital since sometimes."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Type attorney chance father adult raise. Society author probably."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Minute tax really road six."
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Anything wife easy maintain. Hair budget sea significant. Particularly weight anything three feel second."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Speech Democrat most life fine my."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Age court anyone less your. Wear camera responsibility ski"
-      },
-      "district": {
-        "type": "Text",
-        "value": "Involve mention her pr"
-      }
+      "streetAddress": "Goal feel cultural race officer. Future table pay. Grow letter though all type century ",
+      "addressLocality": "Shoulder hold leader hospital since sometimes.",
+      "addressRegion": "Type attorney chance father adult raise. Society author probably.",
+      "addressCountry": "Minute tax really road six.",
+      "postalCode": "Anything wife easy maintain. Hair budget sea significant. Particularly weight anything three feel second.",
+      "postOfficeBoxNumber": "Speech Democrat most life fine my.",
+      "streetNr": "Age court anyone less your. Wear camera responsibility ski",
+      "district": "Involve mention her pr"
     }
   },
   "areaServed": {
