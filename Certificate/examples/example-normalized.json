@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -52.637063,
-          23.558812
-        ]
-      }
+      "coordinates": [
+        -52.637063,
+        23.558812
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Modern society station campaign. Important through to discover guess. Someone consider entire li"
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Firm art goal mind as include. Visit memory leg care probably because commercial how."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Success right poor each near foot. At without shake main current strategy. Stand along stuff keep coach tow"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Wrong fall write onto forget. Air hard quality. Rise try blue either s"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Point structure evening policy here. Use talk pressure democratic want."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Cell board else course always recent. Property almost serve before."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Special shake soldier bed include. Thus doctor political blue even girl."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Accept west participant suggest whatever feel later. Rule deep owner."
-      }
+      "streetAddress": "Modern society station campaign. Important through to discover guess. Someone consider entire li",
+      "addressLocality": "Firm art goal mind as include. Visit memory leg care probably because commercial how.",
+      "addressRegion": "Success right poor each near foot. At without shake main current strategy. Stand along stuff keep coach tow",
+      "addressCountry": "Wrong fall write onto forget. Air hard quality. Rise try blue either s",
+      "postalCode": "Point structure evening policy here. Use talk pressure democratic want.",
+      "postOfficeBoxNumber": "Cell board else course always recent. Property almost serve before.",
+      "streetNr": "Special shake soldier bed include. Thus doctor political blue even girl.",
+      "district": "Accept west participant suggest whatever feel later. Rule deep owner."
     }
   },
   "areaServed": {
