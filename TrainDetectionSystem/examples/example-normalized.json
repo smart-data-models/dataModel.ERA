@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -14.40594,
-          -126.652052
-        ]
-      }
+      "coordinates": [
+        -14.40594,
+        -126.652052
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Camera western fall think like."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Unit someone everything sing effort. Upon indeed cover give none everything war. He attack true tree. L"
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Mind material process every pay long. Million later technology. Local speech kind determine."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Forget new detail. Ask sometimes next might. Shoulder forget city doctor our agency."
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Shoulder policy former brother national early why."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Economic long eight human break way. Issue store third available. Major nor media teach whatever."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Continue bring full about maybe. Economy who population though product"
-      },
-      "district": {
-        "type": "Text",
-        "value": "Science prepare answer fish fire. Various administration guy. Technology think lot necessary foot."
-      }
+      "streetAddress": "Camera western fall think like.",
+      "addressLocality": "Unit someone everything sing effort. Upon indeed cover give none everything war. He attack true tree. L",
+      "addressRegion": "Mind material process every pay long. Million later technology. Local speech kind determine.",
+      "addressCountry": "Forget new detail. Ask sometimes next might. Shoulder forget city doctor our agency.",
+      "postalCode": "Shoulder policy former brother national early why.",
+      "postOfficeBoxNumber": "Economic long eight human break way. Issue store third available. Major nor media teach whatever.",
+      "streetNr": "Continue bring full about maybe. Economy who population though product",
+      "district": "Science prepare answer fish fire. Various administration guy. Technology think lot necessary foot."
     }
   },
   "areaServed": {
