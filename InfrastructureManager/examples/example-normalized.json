@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -36.3334725,
-          -142.001584
-        ]
-      }
+      "coordinates": [
+        -36.3334725,
+        -142.001584
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Moment someone learn short affect. Could those herself mention without use."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Able born appear fact. Too nature record second letter. Hit pattern because unit easy address befo"
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Physical same read success fight."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Girl want over allow ask begin three. Say month call how employee treat environmental energy. Reflect through society experienc"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Here simply my force child kid. Why behavior last here. Back PM carry actually interview rise."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Partner magazine cause before. Decide method experience exactly. Operation final feeling staff ten."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Tell or ok else another allow standard."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Hot player second fall. Participant state draw agent suggest visit however we. Line we blue. Sit record TV can."
-      }
+      "streetAddress": "Moment someone learn short affect. Could those herself mention without use.",
+      "addressLocality": "Able born appear fact. Too nature record second letter. Hit pattern because unit easy address befo",
+      "addressRegion": "Physical same read success fight.",
+      "addressCountry": "Girl want over allow ask begin three. Say month call how employee treat environmental energy. Reflect through society experienc",
+      "postalCode": "Here simply my force child kid. Why behavior last here. Back PM carry actually interview rise.",
+      "postOfficeBoxNumber": "Partner magazine cause before. Decide method experience exactly. Operation final feeling staff ten.",
+      "streetNr": "Tell or ok else another allow standard.",
+      "district": "Hot player second fall. Participant state draw agent suggest visit however we. Line we blue. Sit record TV can."
     }
   },
   "areaServed": {
