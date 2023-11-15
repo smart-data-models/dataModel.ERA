@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          7.167995,
-          -149.393214
-        ]
-      }
+      "coordinates": [
+        7.167995,
+        -149.393214
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Upon certainly west population. A walk result product major draw "
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Account rich measure every price energy allow. Put customer c"
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Prepare family across front. Nothing main religious strategy seven notice where."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Word wai"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Meet know training. Land grow old kid effect. Form director decide join draw."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Several center notice ever deal his. National parent fund focus pull those door."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Place course bad watch environment while third. There half join Republican and control perhaps network. Him remain structure."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Activity"
-      }
+      "streetAddress": "Upon certainly west population. A walk result product major draw ",
+      "addressLocality": "Account rich measure every price energy allow. Put customer c",
+      "addressRegion": "Prepare family across front. Nothing main religious strategy seven notice where.",
+      "addressCountry": "Word wai",
+      "postalCode": "Meet know training. Land grow old kid effect. Form director decide join draw.",
+      "postOfficeBoxNumber": "Several center notice ever deal his. National parent fund focus pull those door.",
+      "streetNr": "Place course bad watch environment while third. There half join Republican and control perhaps network. Him remain structure.",
+      "district": "Activity"
     }
   },
   "areaServed": {
