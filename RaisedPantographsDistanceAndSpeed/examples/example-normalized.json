@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          52.853707,
-          -40.868675
-        ]
-      }
+      "coordinates": [
+        52.853707,
+        -40.868675
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Special son three figure cost mili"
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Myself character lot apply. Course remember market moment face boy purpose. "
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Air bar step cover at front. Interest result reality Mrs foot have mouth. Open thousand wo"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Consumer include little. Seem "
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Out everything senior. Out staff"
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Official foreign month shake bring service see. One everything military store instead assume memory. Build entire one man ground."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": ""
-      },
-      "district": {
-        "type": "Text",
-        "value": "Worker expect realize above. I differenc"
-      }
+      "streetAddress": "Special son three figure cost mili",
+      "addressLocality": "Myself character lot apply. Course remember market moment face boy purpose. ",
+      "addressRegion": "Air bar step cover at front. Interest result reality Mrs foot have mouth. Open thousand wo",
+      "addressCountry": "Consumer include little. Seem ",
+      "postalCode": "Out everything senior. Out staff",
+      "postOfficeBoxNumber": "Official foreign month shake bring service see. One everything military store instead assume memory. Build entire one man ground.",
+      "streetNr": "",
+      "district": "Worker expect realize above. I differenc"
     }
   },
   "areaServed": {
