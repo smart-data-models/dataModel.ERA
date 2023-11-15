@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          0.7759285,
-          6.065558
-        ]
-      }
+      "coordinates": [
+        0.7759285,
+        6.065558
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Beat change nor western floor. Quickly continue let often."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Certainly from interesting race standard natura"
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Sense road week mention or. Worker still partner position wall fly training. By field husband professional."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Tend thank artist prepare. Pretty choice"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Measure dark able win usually respond whom. Cult"
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Possible consumer war call at certain. Wrong stuff program color professional. Tax fish medical end performance as Mrs run."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Both in human kid trouble else. Cause wi"
-      },
-      "district": {
-        "type": "Text",
-        "value": "Box vote much somebody. Story center listen push. Manager last address degree exactly."
-      }
+      "streetAddress": "Beat change nor western floor. Quickly continue let often.",
+      "addressLocality": "Certainly from interesting race standard natura",
+      "addressRegion": "Sense road week mention or. Worker still partner position wall fly training. By field husband professional.",
+      "addressCountry": "Tend thank artist prepare. Pretty choice",
+      "postalCode": "Measure dark able win usually respond whom. Cult",
+      "postOfficeBoxNumber": "Possible consumer war call at certain. Wrong stuff program color professional. Tax fish medical end performance as Mrs run.",
+      "streetNr": "Both in human kid trouble else. Cause wi",
+      "district": "Box vote much somebody. Story center listen push. Manager last address degree exactly."
     }
   },
   "areaServed": {
