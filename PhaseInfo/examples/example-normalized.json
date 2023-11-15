@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          79.5846865,
-          60.386195
-        ]
-      }
+      "coordinates": [
+        79.5846865,
+        60.386195
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Toward idea thought. Among drop position election wear."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Thousand lay myself necessary good them movement. More hour type view. Various still c"
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Year must writer thousand stuff language. Bill plant r"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Analysis argue so performance itself really for."
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Around executive beyond myself school same turn. Against ten usually that activity claim take operation."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Bill they yet month wind benefit. Training itself property college large hundred night."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Black discover economic dark simply. They their rich trip citizen."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Return anything ma"
-      }
+      "streetAddress": "Toward idea thought. Among drop position election wear.",
+      "addressLocality": "Thousand lay myself necessary good them movement. More hour type view. Various still c",
+      "addressRegion": "Year must writer thousand stuff language. Bill plant r",
+      "addressCountry": "Analysis argue so performance itself really for.",
+      "postalCode": "Around executive beyond myself school same turn. Against ten usually that activity claim take operation.",
+      "postOfficeBoxNumber": "Bill they yet month wind benefit. Training itself property college large hundred night.",
+      "streetNr": "Black discover economic dark simply. They their rich trip citizen.",
+      "district": "Return anything ma"
     }
   },
   "areaServed": {
