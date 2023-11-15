@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -87.0756655,
-          -98.077607
-        ]
-      }
+      "coordinates": [
+        -87.0756655,
+        -98.077607
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Recently southern war measure. Behind collection relationship something. Join blue expert should happy according deal."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Community sit about space need win man. Prevent place we whatever image stock."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Into his give degree however."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Identify couple five deep bar popular product not. Design sell security trip never adult heart course."
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Product five yourself open. Purpose decade "
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Involve argue cup subject arm bab"
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Fish share "
-      },
-      "district": {
-        "type": "Text",
-        "value": "Speech customer perhaps ball defense attorney. Pattern indeed bank result hear. Society different open health. Back reduce his know green next produce."
-      }
+      "streetAddress": "Recently southern war measure. Behind collection relationship something. Join blue expert should happy according deal.",
+      "addressLocality": "Community sit about space need win man. Prevent place we whatever image stock.",
+      "addressRegion": "Into his give degree however.",
+      "addressCountry": "Identify couple five deep bar popular product not. Design sell security trip never adult heart course.",
+      "postalCode": "Product five yourself open. Purpose decade ",
+      "postOfficeBoxNumber": "Involve argue cup subject arm bab",
+      "streetNr": "Fish share ",
+      "district": "Speech customer perhaps ball defense attorney. Pattern indeed bank result hear. Society different open health. Back reduce his know green next produce."
     }
   },
   "areaServed": {
