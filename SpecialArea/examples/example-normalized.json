@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          22.340017,
-          19.489173
-        ]
-      }
+      "coordinates": [
+        22.340017,
+        19.489173
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Stay I draw painting sometimes chance. Teacher where quality before commercial property."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Exactly question left writer eye. Movie land rich another knowledge mu"
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Good over fish perform. Training lead fund true middle force use. Chair along drop that maintain. "
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Car easy budget their goal along. Against late alone foot hard differen"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Nor various glass why result spee"
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Half reduce ahead on from quite movement. Movie offer enough type. Name organization apply he hotel."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "No entire boy pick imagine another. Describe purpose president third piece none prepare."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Traditional development argue hundred. Friend usually after among class put."
-      }
+      "streetAddress": "Stay I draw painting sometimes chance. Teacher where quality before commercial property.",
+      "addressLocality": "Exactly question left writer eye. Movie land rich another knowledge mu",
+      "addressRegion": "Good over fish perform. Training lead fund true middle force use. Chair along drop that maintain. ",
+      "addressCountry": "Car easy budget their goal along. Against late alone foot hard differen",
+      "postalCode": "Nor various glass why result spee",
+      "postOfficeBoxNumber": "Half reduce ahead on from quite movement. Movie offer enough type. Name organization apply he hotel.",
+      "streetNr": "No entire boy pick imagine another. Describe purpose president third piece none prepare.",
+      "district": "Traditional development argue hundred. Friend usually after among class put."
     }
   },
   "areaServed": {
