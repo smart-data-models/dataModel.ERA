@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          61.970078,
-          -74.303326
-        ]
-      }
+      "coordinates": [
+        61.970078,
+        -74.303326
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Interview today ago. Eight together class financial former forward under. Hope no window fall discuss we foreign glass."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Resource respond arrive remain use most. Process "
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Job start fish church. Or however baby possible front positive what. Writer last hospital item describe special. Lot experience rule."
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Section "
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Size though picture school artist. Include might result value especially five. Wife article tend production."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Buy how fine note actually democratic. Such family type give send. Start cause build cut suggest."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Resource give top movement. Southern their than last."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Center ready threat chance wide. Because than shoulder near. Head wind fall pl"
-      }
+      "streetAddress": "Interview today ago. Eight together class financial former forward under. Hope no window fall discuss we foreign glass.",
+      "addressLocality": "Resource respond arrive remain use most. Process ",
+      "addressRegion": "Job start fish church. Or however baby possible front positive what. Writer last hospital item describe special. Lot experience rule.",
+      "addressCountry": "Section ",
+      "postalCode": "Size though picture school artist. Include might result value especially five. Wife article tend production.",
+      "postOfficeBoxNumber": "Buy how fine note actually democratic. Such family type give send. Start cause build cut suggest.",
+      "streetNr": "Resource give top movement. Southern their than last.",
+      "district": "Center ready threat chance wide. Because than shoulder near. Head wind fall pl"
     }
   },
   "areaServed": {
