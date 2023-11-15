@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -6.809152,
-          70.994051
-        ]
-      }
+      "coordinates": [
+        -6.809152,
+        70.994051
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Them generation story painting economy hair their. Keep together among she."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Charge win great only."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Popular thank would represent course. Just image represent decision parent. Degree west lay gar"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Health history lose defense. About husband market student short cost green. Morning poor example alre"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Ready course edge author. Century once lead approach after."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Dream now federal nice. Fish give entire home detail against."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Turn become hotel game "
-      },
-      "district": {
-        "type": "Text",
-        "value": "Cover whole pay customer management approach theory."
-      }
+      "streetAddress": "Them generation story painting economy hair their. Keep together among she.",
+      "addressLocality": "Charge win great only.",
+      "addressRegion": "Popular thank would represent course. Just image represent decision parent. Degree west lay gar",
+      "addressCountry": "Health history lose defense. About husband market student short cost green. Morning poor example alre",
+      "postalCode": "Ready course edge author. Century once lead approach after.",
+      "postOfficeBoxNumber": "Dream now federal nice. Fish give entire home detail against.",
+      "streetNr": "Turn become hotel game ",
+      "district": "Cover whole pay customer management approach theory."
     }
   },
   "areaServed": {
