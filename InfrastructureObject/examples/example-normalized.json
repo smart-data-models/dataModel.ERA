@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          22.2632155,
-          -43.950467
-        ]
-      }
+      "coordinates": [
+        22.2632155,
+        -43.950467
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Internatio"
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Much east health history people million continue. Either cultural quite its throw day section. Test week start clear into air require"
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Seem mode"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Small cold lay station new. Every ever star financial. "
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Family goal effort rather. Improve threat five general me general."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Since our wife run hour exist letter. Above seek now rest pick then."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Involve that close few million. Understand wife toward catch off station. Action threat sell mission example."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Production already capital early. Special stage operation break region. Animal hold key bed value continue west. Mission turn less skin beat seem."
-      }
+      "streetAddress": "Internatio",
+      "addressLocality": "Much east health history people million continue. Either cultural quite its throw day section. Test week start clear into air require",
+      "addressRegion": "Seem mode",
+      "addressCountry": "Small cold lay station new. Every ever star financial. ",
+      "postalCode": "Family goal effort rather. Improve threat five general me general.",
+      "postOfficeBoxNumber": "Since our wife run hour exist letter. Above seek now rest pick then.",
+      "streetNr": "Involve that close few million. Understand wife toward catch off station. Action threat sell mission example.",
+      "district": "Production already capital early. Special stage operation break region. Animal hold key bed value continue west. Mission turn less skin beat seem."
     }
   },
   "areaServed": {
