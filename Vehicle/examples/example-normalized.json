@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          20.376035,
-          172.96204
-        ]
-      }
+      "coordinates": [
+        20.376035,
+        172.96204
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Lay agree media everyone. Ability because cover."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Watch right student high TV. Moment well seek natural write choose be real. Recognize note themselves foot fast eat visit her. Simple chair green generation large."
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Se"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Course down what maybe physical. Memory dev"
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "White quite go which. Lay wall carry election adult across. Growth morning daughter by both animal choose agree."
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "To bit provide individual. Drug let bed v"
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Of price ever raise their heart. Dinner song industry and family. Debate hold first say hotel fly federal."
-      },
-      "district": {
-        "type": "Text",
-        "value": "Order teacher yes head. Report partner without government discuss shoulder."
-      }
+      "streetAddress": "Lay agree media everyone. Ability because cover.",
+      "addressLocality": "Watch right student high TV. Moment well seek natural write choose be real. Recognize note themselves foot fast eat visit her. Simple chair green generation large.",
+      "addressRegion": "Se",
+      "addressCountry": "Course down what maybe physical. Memory dev",
+      "postalCode": "White quite go which. Lay wall carry election adult across. Growth morning daughter by both animal choose agree.",
+      "postOfficeBoxNumber": "To bit provide individual. Drug let bed v",
+      "streetNr": "Of price ever raise their heart. Dinner song industry and family. Debate hold first say hotel fly federal.",
+      "district": "Order teacher yes head. Report partner without government discuss shoulder."
     }
   },
   "areaServed": {
