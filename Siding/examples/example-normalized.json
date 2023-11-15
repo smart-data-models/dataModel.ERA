@@ -45,50 +45,23 @@
     "type": "geo:json",
     "value": {
       "type": "Point",
-      "coordinates": {
-        "type": "StructuredValue",
-        "value": [
-          -36.875369,
-          98.837859
-        ]
-      }
+      "coordinates": [
+        -36.875369,
+        98.837859
+      ]
     }
   },
   "address": {
     "type": "StructuredValue",
     "value": {
-      "streetAddress": {
-        "type": "Text",
-        "value": "Consumer employee major free billion instead. Treatment yet keep action work close. Nearly check drive I range magazine appear. Quickly respond property."
-      },
-      "addressLocality": {
-        "type": "Text",
-        "value": "Since "
-      },
-      "addressRegion": {
-        "type": "Text",
-        "value": "Radio across best yard. Central until beyond knowledge care matter. Without air d"
-      },
-      "addressCountry": {
-        "type": "Text",
-        "value": "Argue data get fire. Water opportunity citizen. Score interview letter evidence."
-      },
-      "postalCode": {
-        "type": "Text",
-        "value": "Personal build"
-      },
-      "postOfficeBoxNumber": {
-        "type": "Text",
-        "value": "Leader enough weight everything."
-      },
-      "streetNr": {
-        "type": "Text",
-        "value": "Drug debate effect sure manage point. Economic but single commercial standard. Indicate environment guess long da"
-      },
-      "district": {
-        "type": "Text",
-        "value": "Area cost hundred same. Sense anyone anyone."
-      }
+      "streetAddress": "Consumer employee major free billion instead. Treatment yet keep action work close. Nearly check drive I range magazine appear. Quickly respond property.",
+      "addressLocality": "Since ",
+      "addressRegion": "Radio across best yard. Central until beyond knowledge care matter. Without air d",
+      "addressCountry": "Argue data get fire. Water opportunity citizen. Score interview letter evidence.",
+      "postalCode": "Personal build",
+      "postOfficeBoxNumber": "Leader enough weight everything.",
+      "streetNr": "Drug debate effect sure manage point. Economic but single commercial standard. Indicate environment guess long da",
+      "district": "Area cost hundred same. Sense anyone anyone."
     }
   },
   "areaServed": {
