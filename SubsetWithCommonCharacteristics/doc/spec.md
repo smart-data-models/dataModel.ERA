@@ -1,1228 +1,1226 @@
-<!-- 10-Header -->  
-[![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)  
-Entity: SubsetWithCommonCharacteristics  
-=======================================<!-- /10-Header -->  
-<!-- 15-License -->  
-[Open License](https://github.com/smart-data-models//dataModel.ERA/blob/master/SubsetWithCommonCharacteristics/LICENSE.md)  
-[document generated automatically](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)  
-<!-- /15-License -->  
-<!-- 20-Description -->  
-Global description: **Subset of items shared by sections of lines and/or operational points of a member state. For the purposes of the register of infrastructure, each infrastructure manager shall describe its railway network at least by sections of line and operational points and optionally via common characteristic subsets.**  
-version: 0.0.1  
-<!-- /20-Description -->  
-<!-- 30-PropertiesList -->  
-
-## List of properties  
-
-<sup><sub>[*] If there is not a type in an attribute is because it could have several types or different formats/patterns</sub></sup>  
-- `IdPhoneErtmsRadioBlockCenter[string]`: ID and phone number of ERTMS/ETCS Radio Block Center  - `TSIMagneticFields[uri]`: Existence and TSI compliance of rules for magnetic fields emitted by a vehicle  - `TSITractionHarmonics[uri]`: Existence and TSI compliance of limits in harmonics in the traction current of vehicles  - `accelerationLevelCrossing[string]`: Acceleration allowed at level crossing  - `additionalBrakingInformationDocument[string]`: Documents available by the IM relating to braking performance  - `address[object]`: The mailing address  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: The country. For example, Spain  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)  
-	- `addressLocality[string]`: The locality in which the street address is, and which is in the region  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)  
-	- `addressRegion[string]`: The region in which the locality is, and which is in the country  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)  
-	- `district[string]`: A district is a type of administrative division that, in some countries, is managed by the local government    
-	- `postOfficeBoxNumber[string]`: The post office box number for PO box addresses. For example, 03578  . Model: [https://schema.org/postOfficeBoxNumber](https://schema.org/postOfficeBoxNumber)  
-	- `postalCode[string]`: The postal code. For example, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)  
-	- `streetAddress[string]`: The street address  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)  
-	- `streetNr[string]`: Number identifying a specific property on a public street    
-- `alternateName[string]`: An alternative name for this item  - `areaServed[string]`: The geographic area where a service or offered item is provided  . Model: [https://schema.org/Text](https://schema.org/Text)- `atoCommunicationSystem[uri]`: ATO communication system  - `atoErrorCorrectionsOnboard[string]`: ATO error corrections required for the on-board  - `atoGradeAutomation[uri]`: ATO Grade of Automation  - `atoSystemVersion[uri]`: ATO System version  - `automaticDroppingDeviceRequired[boolean]`: Automatic dropping device required  - `bigMetalMass[boolean]`: Big metal mass  - `cantDeficiency[number]`: Cant deficiency  - `cantDeficiencyBasicSSP[uri]`: Cant Deficiency used for the basic SSP  - `compatibilityProcedureDocument[string]`: Document with the procedure(s) for static and dynamic route compatibility checks  - `conditionsSwitchClassBSystems[string]`: Special technical conditions required to switch over between ERTMS/ETCS and Class B systems  - `conditionsSwitchTrainProtectionSystems[string]`: Special conditions to switch over between different class B train protection, control and warning systems  - `conditionsUseReflectivePlates[uri]`: Conditions for use of reflective plates  - `contactLineSystem[uri]`: Contact line system  - `contactStripMaterial[uri]`: Permitted contact strip material  - `contactStripMaterialMetallicContent[number]`: Contact strip material metallic content  - `dNvovtrp[number]`: D_NVOVTRP  - `dNvpotrp[number]`: D_NVPOTRP  - `dNvroll[number]`: D_NVROLL  - `dataProvider[string]`: A sequence of characters identifying the provider of the harmonised data entity  - `dataRadioCompatible[uri]`: Radio system compatibility data  - `dateCreated[date-time]`: Entity creation timestamp. This will usually be allocated by the storage platform  - `dateModified[date-time]`: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform  - `demonstrationENE[string]`: EI declaration of demonstration for track (ENE)  - `description[string]`: A description of this item  - `distSignToPhaseEnd[number]`: Distance between signboard and phase separation ending  - `documentRestrictionPositionContactLineSeparation[string]`: Document with restriction related to the position of Multiple Traction unit(s) to comply with contact line separation  - `documentRestrictionPowerConsumption[string]`: Document with restriction related to power consumption of specific electric traction unit(s)  - `eddyCurrentBraking[uri]`: Use of eddy current brakes  - `eddyCurrentBrakingConditionsDocument[string]`: Document with the conditions for the use of eddy current brakes  - `etcsDegradedSituation[uri]`: ETCS level for degraded situation  - `etcsErrorCorrectionsOnboard[string]`: ETCS error corrections required for the on-board  - `etcsImplementsLevelCrossingProcedure[boolean]`: ETCS trackside implements level crossing procedure or an equivalent solution  - `etcsInfill[uri]`: ETCS infill installed lineside  - `etcsInfillLineAccess[boolean]`: ETCS infill necessary for line access  - `etcsLevel[uri]`: Etcs level  - `etcsMVersion[uri]`: ETCS M_version  - `etcsNationalPacket44[boolean]`: ETCS national packet 44 application implemented  - `etcsOptionalFunctions[string]`: ETCS optional functions  - `etcsSystemFunctionalitiesNextFiveYears[string]`: ETCS system version 2.2 or 3.0 functionalities to be required in the next 5 years  - `etcsTransmitsTrackConditions[boolean]`: Is the ETCS trackside engineered to transmit Track Conditions  - `etcsTransmittedTrackConditions[uri]`: Track conditions which can be transmitted  - `flangeLubeForbidden[boolean]`: Use of flange lubrication forbidden  - `freightCorridor[uri]`: Part of a Railway freight corridor  - `gaugingCheckLocation[string]`: Railway location of particular points requiring specific checks  - `gaugingProfile[uri]`: Gauging  - `gaugingTransversalDocument[string]`: Document with the transversal section of the particular points requiring specific checks  - `gprsForETCS[boolean]`: GPRS for ETCS  - `gprsImplementationArea[string]`: Area of implementation of GPRS  - `gradientProfile[string]`: Gradient profile  - `gsmRActiveMobiles[uri]`: Number of active GSM-R mobiles (EDOR) or simultaneous communication session on-board for ETCS Level 2 (or level 3) needed to perform radio block centre handovers without having an operational disruption  - `gsmRAdditionalInfo[string]`: Additional information on network characteristics  - `gsmRNoCoverage[boolean]`: No GSM-R coverage  - `gsmROptionalFunctions[uri]`: Optional GSM-R functions  - `gsmRVersion[uri]`: GSM-R version  - `gsmrConstraintsOperateOnlyInCircuitSwitch[uri]`: Specific constraints imposed by the GSM-R network operator on ETCS on-board units only able to operate in circuit-switch  - `gsmrErrorCorrectionsOnboard[string]`: GSM-R error corrections required for the on-board  - `gsmrForcedDeregistrationFunctionalNumber[boolean]`: GSM-R network is configured to allow forced de-registration of a functional number by another driver  - `gsmrNetworkCoverage[uri]`: GSM-R networks covered by a roaming agreement  - `hasAdditionalBrakingInformation[boolean]`: Availability by the IM of additional information  - `hasBallast[boolean]`: Existence of ballast  - `hasETCSRestrictionsConditions[boolean]`: Existence of operating restrictions or conditions  - `hasHotAxleBoxDetector[boolean]`: Existence of trackside hot axle box detector (HABD)  - `hasLevelCrossings[boolean]`: Existence of level crossings  - `hasOtherTrainProtection[boolean]`: Existence of other train protection, control and warning systems installed  - `hasSevereWeatherConditions[boolean]`: Existence of severe climatic conditions  - `hasSystemSeparation[boolean]`: System separation  - `hasTSITrainDetection[boolean]`: Existence of train detection system fully compliant with the TSI  - `highSpeedLoadModelCompliance[boolean]`: Compliance of structures with the High Speed Load Model (HSLM) dynamic load model  - `hotAxleBoxDetectorDirection[uri]`: Hot axle box detector direction  - `hotAxleBoxDetectorGeneration[string]`: Generation of trackside HABD  - `hotAxleBoxDetectorIdentification[string]`: Identification of trackside HABD  - `hotAxleBoxDetectorLocation[number]`: Railway location of trackside HABD  - `hotAxleBoxDetectorTSICompliant[boolean]`: Trackside HABD TSI compliant  - `id[*]`: Unique identifier of the entity  - `instructionsSwitchRadioSystems[string]`: Special instructions to switch over between different radio systems  - `isQuietRoute[boolean]`: Belonging to a quieter route  - `legacyRadioSystem[uri]`: Other radio systems installed (Radio Legacy Systems)  - `lineCategory[uri]`: Category of line  - `linesideDistanceIndicationAppearance[uri]`: Lineside distance indication appearance  - `linesideDistanceIndicationFrequency[number]`: Lineside distance indication frequency  - `linesideDistanceIndicationPositioning[uri]`: Lineside distance indication positioning  - `loadCapability[uri]`: Load Capability  - `location[*]`: Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon  - `mNvcontact[uri]`: M_NVCONTACT  - `mNvderun[boolean]`: M_NVDERUN  - `magneticBraking[uri]`: Use of magnetic brakes  - `magneticBrakingConditionsDocument[string]`: Document with the conditions for the use of magnetic brakes  - `maximumAltitude[number]`: Maximum altitude  - `maximumBrakingDistance[number]`: Maximum braking distance requested  - `maximumContactWireHeight[number]`: Maximum contact wire height  - `maximumPermittedSpeed[number]`: Maximum permitted speed  - `maximumTemperature[number]`: Temperature range (maximum)  - `maximumTrainDeceleration[number]`: Maximum train deceleration  - `minDistConsecutiveAxles[number]`: Minimum permitted distance between two consecutive axles  - `minDistFirstLastAxle[number]`: Minimum permitted distance between first and last axle  - `minFlangeHeight[number]`: Minimum permitted height of the flange  - `minFlangeThickness[number]`: Minimum permitted thickness of the flange  - `minRimWidth[number]`: Minimum permitted width of the rim  - `minWheelDiameter[number]`: Minimum permitted wheel diameter  - `minimumContactWireHeight[number]`: Minimum contact wire height  - `minimumHorizontalRadius[number]`: Minimum radius of horizontal curve  - `minimumTemperature[number]`: Temperature range (minimum)  - `minimumWheelDiameter[number]`: Minimum wheel diameter for fixed obtuse crossings  - `multipleTrainProtectionRequired[boolean]`: Need for more than one train protection, control and warning system required on board  - `name[string]`: The name of this item  - `nationalLoadCapability[string]`: National classification for load capability  - `nationalValuesBrakeModel[string]`: National Values used for the brake model  - `osmClass[uri]`: Open street map class  - `otherCantDeficiencyBasicSSP[uri]`: Other Cant Deficiency train categories for which the ETCS trackside is configured to provide SSP  - `otherPantographHead[uri]`: Accepted other pantograph heads  - `otherTrainProtection[uri]`: Other train protection, control and warning systems for degraded situation  - `owner[array]`: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)  - `passesThroughTunnel[uri]`: Passes through tunnel  - `permitUseReflectivePlates[boolean]`: Permit of use of reflective plates  - `permittedContactForce[string]`: Contact force permitted  - `phaseInfo[string]`: Information on phase separation  - `phaseSeparation[boolean]`: Phase separation  - `platform[uri]`: Platform  - `profileNumberSemiTrailers[uri]`: Standard combined transport profile number for semi-trailers  - `profileNumberSwapBodies[uri]`: Standard combined transport profile number for swap bodies  - `protectionLegacySystem[uri]`: Train protection legacy system  - `publicNetworkRoaming[boolean]`: GSM-R existence of roaming to public networks  - `publicNetworkRoamingDetails[string]`: GSM-R details on roaming to public networks  - `qNvdriverAdhes[uri]`: Q_NVDRIVER_ADHES  - `qNvemrrls[uri]`: Q_NVEMRRLS  - `qNvsbtsmperm[boolean]`: Q_NVSBTSMPERM  - `radioNetworkId[number]`: Radio Network ID  - `railInclination[uri]`: Rail inclination  - `railSystemType[string]`: Rail system type  - `raisedPantographsDistanceAndSpeed[string]`: Requirements for number of raised pantographs and spacing between them, at the given speed  - `reasonsEtcsRadioBlockCenterReject[uri]`: Reasons for which an ETCS Radio Block Center can reject a train  - `redLightsRequired[boolean]`: Steady red lights required  - `safeConsistLengthInformationNecessary[uri]`: Safe consist length information from on-board necessary for access the line and SIL  - `seeAlso[*]`: list of uri pointing to additional resources about the item  - `source[string]`: A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object  - `specificInformation[string]`: Specific information  - `standardCombinedTransporRollerUnits[uri]`: Standard combined transport profile number for roller units  - `standardCombinedTransportContainers[uri]`: Standard combined transport profile number for containers  - `structureCheckLocation[number]`: Railway location of structures requiring specific checks  - `subsetName[string]`: Name of a subset with common characteristics  - `switchProtectControlWarning[boolean]`: Existence of switch over between different protection, control and warning systems while running  - `switchRadioSystem[boolean]`: Existence of switch over between different radio systems  - `systemSeparationInfo[string]`: Information on system separation  - `tNvcontact[number]`: T_NVCONTACT  - `tNvovtrp[number]`: T_NVOVTRP  - `temperatureRange[uri]`: Temperature range  - `tenGISId[string]`: TEN GIS identity  - `tiltingSupported[boolean]`: Indication whether tilting functions are supported by ETCS  - `trackLoadCapability[uri]`: Track load capability  - `trackPhaseInfo[uri]`: Track phase info  - `trackRaisedPantographsDistanceAndSpeed[uri]`: Track raised pantograph distance and speed  - `trackSystemSeparationInfo[uri]`: Track system separation info  - `trainDetectionSystem[uri]`: Train detection system  - `trainIntegrityOnBoardRequired[boolean]`: Train integrity confirmation from on-board (not from driver) necessary for line access  - `tsiPantographHead[uri]`: Accepted TSI compliant pantograph heads  - `tsiSwitchCrossing[boolean]`: TSI compliance of in service values for switches and crossings  - `type[string]`: NGSI data type. It has to be SubsetWithCommonCharacteristics  - `usesGroup555[boolean]`: GSM-R use of group 555  - `vNvallowovtrp[number]`: V_NVALLOWOVTRP  - `vNvsupovtrp[number]`: V_NVSUPOVTRP  - `vehicleTypesCompatibleTrafficLoad[string]`: List of vehicle types already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems  - `vehiclesCompatibleTrafficLoad[string]`: List of vehicles already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems  - `verificationCCS[string]`: EC declaration of verification for track (CCS)  - `verificationENE[string]`: EC declaration of verification for track (ENE)  <!-- /30-PropertiesList -->  
-<!-- 35-RequiredProperties -->  
-Required properties  
-- `id`  - `type`  <!-- /35-RequiredProperties -->  
-<!-- 40-RequiredProperties -->  
-data model mapped from ERA ontology https://data-interop.era.europa.eu/era-vocabulary (European Union Agency for Railways)  
-<!-- /40-RequiredProperties -->  
-<!-- 50-DataModelHeader -->  
-## Data Model description of properties  
-Sorted alphabetically (click for details)  
-<!-- /50-DataModelHeader -->  
-<!-- 60-ModelYaml -->  
-<details><summary><strong>full yaml details</strong></summary>    
-```yaml  
-SubsetWithCommonCharacteristics:    
-  description: 'Subset of items shared by sections of lines and/or operational points of a member state. For the purposes of the register of infrastructure, each infrastructure manager shall describe its railway network at least by sections of line and operational points and optionally via common characteristic subsets.'    
-  properties:    
-    IdPhoneErtmsRadioBlockCenter:    
-      description: ID and phone number of ERTMS/ETCS Radio Block Center    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    TSIMagneticFields:    
-      description: Existence and TSI compliance of rules for magnetic fields emitted by a vehicle    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    TSITractionHarmonics:    
-      description: Existence and TSI compliance of limits in harmonics in the traction current of vehicles    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    accelerationLevelCrossing:    
-      description: Acceleration allowed at level crossing    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    additionalBrakingInformationDocument:    
-      description: Documents available by the IM relating to braking performance    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    address:    
-      description: The mailing address    
-      properties:    
-        addressCountry:    
-          description: 'The country. For example, Spain'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressCountry    
-            type: Property    
-        addressLocality:    
-          description: 'The locality in which the street address is, and which is in the region'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressLocality    
-            type: Property    
-        addressRegion:    
-          description: 'The region in which the locality is, and which is in the country'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressRegion    
-            type: Property    
-        district:    
-          description: 'A district is a type of administrative division that, in some countries, is managed by the local government'    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        postOfficeBoxNumber:    
-          description: 'The post office box number for PO box addresses. For example, 03578'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/postOfficeBoxNumber    
-            type: Property    
-        postalCode:    
-          description: 'The postal code. For example, 24004'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/https://schema.org/postalCode    
-            type: Property    
-        streetAddress:    
-          description: The street address    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/streetAddress    
-            type: Property    
-        streetNr:    
-          description: Number identifying a specific property on a public street    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      type: object    
-      x-ngsi:    
-        model: https://schema.org/address    
-        type: Property    
-    alternateName:    
-      description: An alternative name for this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    areaServed:    
-      description: The geographic area where a service or offered item is provided    
-      type: string    
-      x-ngsi:    
-        model: https://schema.org/Text    
-        type: Property    
-    atoCommunicationSystem:    
-      description: ATO communication system    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    atoErrorCorrectionsOnboard:    
-      description: ATO error corrections required for the on-board    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    atoGradeAutomation:    
-      description: ATO Grade of Automation    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    atoSystemVersion:    
-      description: ATO System version    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    automaticDroppingDeviceRequired:    
-      description: Automatic dropping device required    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    bigMetalMass:    
-      description: Big metal mass    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    cantDeficiency:    
-      description: Cant deficiency    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    cantDeficiencyBasicSSP:    
-      description: Cant Deficiency used for the basic SSP    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    compatibilityProcedureDocument:    
-      description: Document with the procedure(s) for static and dynamic route compatibility checks    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    conditionsSwitchClassBSystems:    
-      description: Special technical conditions required to switch over between ERTMS/ETCS and Class B systems    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    conditionsSwitchTrainProtectionSystems:    
-      description: 'Special conditions to switch over between different class B train protection, control and warning systems'    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    conditionsUseReflectivePlates:    
-      description: Conditions for use of reflective plates    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    contactLineSystem:    
-      description: Contact line system    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    contactStripMaterial:    
-      description: Permitted contact strip material    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    contactStripMaterialMetallicContent:    
-      description: Contact strip material metallic content    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    dNvovtrp:    
-      description: D_NVOVTRP    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    dNvpotrp:    
-      description: D_NVPOTRP    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    dNvroll:    
-      description: D_NVROLL    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    dataProvider:    
-      description: A sequence of characters identifying the provider of the harmonised data entity    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dataRadioCompatible:    
-      description: Radio system compatibility data    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    dateCreated:    
-      description: Entity creation timestamp. This will usually be allocated by the storage platform    
-      format: date-time    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dateModified:    
-      description: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform    
-      format: date-time    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    demonstrationENE:    
-      description: EI declaration of demonstration for track (ENE)    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    description:    
-      description: A description of this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    distSignToPhaseEnd:    
-      description: Distance between signboard and phase separation ending    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    documentRestrictionPositionContactLineSeparation:    
-      description: Document with restriction related to the position of Multiple Traction unit(s) to comply with contact line separation    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    documentRestrictionPowerConsumption:    
-      description: Document with restriction related to power consumption of specific electric traction unit(s)    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    eddyCurrentBraking:    
-      description: Use of eddy current brakes    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    eddyCurrentBrakingConditionsDocument:    
-      description: Document with the conditions for the use of eddy current brakes    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    etcsDegradedSituation:    
-      description: ETCS level for degraded situation    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    etcsErrorCorrectionsOnboard:    
-      description: ETCS error corrections required for the on-board    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    etcsImplementsLevelCrossingProcedure:    
-      description: ETCS trackside implements level crossing procedure or an equivalent solution    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    etcsInfill:    
-      description: ETCS infill installed lineside    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    etcsInfillLineAccess:    
-      description: ETCS infill necessary for line access    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    etcsLevel:    
-      description: Etcs level    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    etcsMVersion:    
-      description: ETCS M_version    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    etcsNationalPacket44:    
-      description: ETCS national packet 44 application implemented    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    etcsOptionalFunctions:    
-      description: ETCS optional functions    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    etcsSystemFunctionalitiesNextFiveYears:    
-      description: ETCS system version 2.2 or 3.0 functionalities to be required in the next 5 years    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    etcsTransmitsTrackConditions:    
-      description: Is the ETCS trackside engineered to transmit Track Conditions    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    etcsTransmittedTrackConditions:    
-      description: Track conditions which can be transmitted    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    flangeLubeForbidden:    
-      description: Use of flange lubrication forbidden    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    freightCorridor:    
-      description: Part of a Railway freight corridor    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    gaugingCheckLocation:    
-      description: Railway location of particular points requiring specific checks    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    gaugingProfile:    
-      description: Gauging    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    gaugingTransversalDocument:    
-      description: Document with the transversal section of the particular points requiring specific checks    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    gprsForETCS:    
-      description: GPRS for ETCS    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    gprsImplementationArea:    
-      description: Area of implementation of GPRS    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    gradientProfile:    
-      description: Gradient profile    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    gsmRActiveMobiles:    
-      description: Number of active GSM-R mobiles (EDOR) or simultaneous communication session on-board for ETCS Level 2 (or level 3) needed to perform radio block centre handovers without having an operational disruption    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    gsmRAdditionalInfo:    
-      description: Additional information on network characteristics    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    gsmRNoCoverage:    
-      description: No GSM-R coverage    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    gsmROptionalFunctions:    
-      description: Optional GSM-R functions    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    gsmRVersion:    
-      description: GSM-R version    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    gsmrConstraintsOperateOnlyInCircuitSwitch:    
-      description: Specific constraints imposed by the GSM-R network operator on ETCS on-board units only able to operate in circuit-switch    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    gsmrErrorCorrectionsOnboard:    
-      description: GSM-R error corrections required for the on-board    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    gsmrForcedDeregistrationFunctionalNumber:    
-      description: GSM-R network is configured to allow forced de-registration of a functional number by another driver    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    gsmrNetworkCoverage:    
-      description: GSM-R networks covered by a roaming agreement    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    hasAdditionalBrakingInformation:    
-      description: Availability by the IM of additional information    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasBallast:    
-      description: Existence of ballast    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasETCSRestrictionsConditions:    
-      description: Existence of operating restrictions or conditions    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasHotAxleBoxDetector:    
-      description: Existence of trackside hot axle box detector (HABD)    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasLevelCrossings:    
-      description: Existence of level crossings    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasOtherTrainProtection:    
-      description: 'Existence of other train protection, control and warning systems installed'    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasSevereWeatherConditions:    
-      description: Existence of severe climatic conditions    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasSystemSeparation:    
-      description: System separation    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasTSITrainDetection:    
-      description: Existence of train detection system fully compliant with the TSI    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    highSpeedLoadModelCompliance:    
-      description: Compliance of structures with the High Speed Load Model (HSLM) dynamic load model    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hotAxleBoxDetectorDirection:    
-      description: Hot axle box detector direction    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    hotAxleBoxDetectorGeneration:    
-      description: Generation of trackside HABD    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    hotAxleBoxDetectorIdentification:    
-      description: Identification of trackside HABD    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    hotAxleBoxDetectorLocation:    
-      description: Railway location of trackside HABD    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    hotAxleBoxDetectorTSICompliant:    
-      description: Trackside HABD TSI compliant    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    id:    
-      anyOf:    
-        - description: Identifier format of any NGSI entity    
-          maxLength: 256    
-          minLength: 1    
-          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        - description: Identifier format of any NGSI entity    
-          format: uri    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      description: Unique identifier of the entity    
-      x-ngsi:    
-        type: Property    
-    instructionsSwitchRadioSystems:    
-      description: Special instructions to switch over between different radio systems    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    isQuietRoute:    
-      description: Belonging to a quieter route    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    legacyRadioSystem:    
-      description: Other radio systems installed (Radio Legacy Systems)    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    lineCategory:    
-      description: Category of line    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    linesideDistanceIndicationAppearance:    
-      description: Lineside distance indication appearance    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    linesideDistanceIndicationFrequency:    
-      description: Lineside distance indication frequency    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    linesideDistanceIndicationPositioning:    
-      description: Lineside distance indication positioning    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    loadCapability:    
-      description: Load Capability    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    location:    
-      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'    
-      oneOf:    
-        - description: Geojson reference to the item. Point    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                type: number    
-              minItems: 2    
-              type: array    
-            type:    
-              enum:    
-                - Point    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON Point    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. LineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  type: number    
-                minItems: 2    
-                type: array    
-              minItems: 2    
-              type: array    
-            type:    
-              enum:    
-                - LineString    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON LineString    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. Polygon    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    type: number    
-                  minItems: 2    
-                  type: array    
-                minItems: 4    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - Polygon    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON Polygon    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiPoint    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  type: number    
-                minItems: 2    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiPoint    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiPoint    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiLineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    type: number    
-                  minItems: 2    
-                  type: array    
-                minItems: 2    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiLineString    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiLineString    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiLineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    items:    
-                      type: number    
-                    minItems: 2    
-                    type: array    
-                  minItems: 4    
-                  type: array    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiPolygon    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiPolygon    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-      x-ngsi:    
-        type: GeoProperty    
-    mNvcontact:    
-      description: M_NVCONTACT    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    mNvderun:    
-      description: M_NVDERUN    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    magneticBraking:    
-      description: Use of magnetic brakes    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    magneticBrakingConditionsDocument:    
-      description: Document with the conditions for the use of magnetic brakes    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    maximumAltitude:    
-      description: Maximum altitude    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumBrakingDistance:    
-      description: Maximum braking distance requested    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumContactWireHeight:    
-      description: Maximum contact wire height    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumPermittedSpeed:    
-      description: Maximum permitted speed    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumTemperature:    
-      description: Temperature range (maximum)    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumTrainDeceleration:    
-      description: Maximum train deceleration    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minDistConsecutiveAxles:    
-      description: Minimum permitted distance between two consecutive axles    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minDistFirstLastAxle:    
-      description: Minimum permitted distance between first and last axle    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minFlangeHeight:    
-      description: Minimum permitted height of the flange    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minFlangeThickness:    
-      description: Minimum permitted thickness of the flange    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minRimWidth:    
-      description: Minimum permitted width of the rim    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minWheelDiameter:    
-      description: Minimum permitted wheel diameter    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumContactWireHeight:    
-      description: Minimum contact wire height    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumHorizontalRadius:    
-      description: Minimum radius of horizontal curve    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumTemperature:    
-      description: Temperature range (minimum)    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumWheelDiameter:    
-      description: Minimum wheel diameter for fixed obtuse crossings    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    multipleTrainProtectionRequired:    
-      description: 'Need for more than one train protection, control and warning system required on board'    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    name:    
-      description: The name of this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    nationalLoadCapability:    
-      description: National classification for load capability    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    nationalValuesBrakeModel:    
-      description: National Values used for the brake model    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    osmClass:    
-      description: Open street map class    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    otherCantDeficiencyBasicSSP:    
-      description: Other Cant Deficiency train categories for which the ETCS trackside is configured to provide SSP    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    otherPantographHead:    
-      description: Accepted other pantograph heads    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    otherTrainProtection:    
-      description: 'Other train protection, control and warning systems for degraded situation'    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    owner:    
-      description: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)    
-      items:    
-        anyOf:    
-          - description: Identifier format of any NGSI entity    
-            maxLength: 256    
-            minLength: 1    
-            pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-            type: string    
-            x-ngsi:    
-              type: Property    
-          - description: Identifier format of any NGSI entity    
-            format: uri    
-            type: string    
-            x-ngsi:    
-              type: Property    
-        description: Unique identifier of the entity    
-        x-ngsi:    
-          type: Property    
-      type: array    
-      x-ngsi:    
-        type: Property    
-    passesThroughTunnel:    
-      description: Passes through tunnel    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    permitUseReflectivePlates:    
-      description: Permit of use of reflective plates    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    permittedContactForce:    
-      description: Contact force permitted    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    phaseInfo:    
-      description: Information on phase separation    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    phaseSeparation:    
-      description: Phase separation    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    platform:    
-      description: Platform    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    profileNumberSemiTrailers:    
-      description: Standard combined transport profile number for semi-trailers    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    profileNumberSwapBodies:    
-      description: Standard combined transport profile number for swap bodies    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    protectionLegacySystem:    
-      description: Train protection legacy system    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    publicNetworkRoaming:    
-      description: GSM-R existence of roaming to public networks    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    publicNetworkRoamingDetails:    
-      description: GSM-R details on roaming to public networks    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    qNvdriverAdhes:    
-      description: Q_NVDRIVER_ADHES    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    qNvemrrls:    
-      description: Q_NVEMRRLS    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    qNvsbtsmperm:    
-      description: Q_NVSBTSMPERM    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    radioNetworkId:    
-      description: Radio Network ID    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    railInclination:    
-      description: Rail inclination    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    railSystemType:    
-      description: Rail system type    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    raisedPantographsDistanceAndSpeed:    
-      description: 'Requirements for number of raised pantographs and spacing between them, at the given speed'    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    reasonsEtcsRadioBlockCenterReject:    
-      description: Reasons for which an ETCS Radio Block Center can reject a train    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    redLightsRequired:    
-      description: Steady red lights required    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    safeConsistLengthInformationNecessary:    
-      description: Safe consist length information from on-board necessary for access the line and SIL    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    seeAlso:    
-      description: list of uri pointing to additional resources about the item    
-      oneOf:    
-        - items:    
-            format: uri    
-            type: string    
-          minItems: 1    
-          type: array    
-        - format: uri    
-          type: string    
-      x-ngsi:    
-        type: Property    
-    source:    
-      description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object'    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    specificInformation:    
-      description: Specific information    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    standardCombinedTransporRollerUnits:    
-      description: Standard combined transport profile number for roller units    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    standardCombinedTransportContainers:    
-      description: Standard combined transport profile number for containers    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    structureCheckLocation:    
-      description: Railway location of structures requiring specific checks    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    subsetName:    
-      description: Name of a subset with common characteristics    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    switchProtectControlWarning:    
-      description: 'Existence of switch over between different protection, control and warning systems while running'    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    switchRadioSystem:    
-      description: Existence of switch over between different radio systems    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    systemSeparationInfo:    
-      description: Information on system separation    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    tNvcontact:    
-      description: T_NVCONTACT    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    tNvovtrp:    
-      description: T_NVOVTRP    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    temperatureRange:    
-      description: Temperature range    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tenGISId:    
-      description: TEN GIS identity    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    tiltingSupported:    
-      description: Indication whether tilting functions are supported by ETCS    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    trackLoadCapability:    
-      description: Track load capability    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    trackPhaseInfo:    
-      description: Track phase info    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    trackRaisedPantographsDistanceAndSpeed:    
-      description: Track raised pantograph distance and speed    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    trackSystemSeparationInfo:    
-      description: Track system separation info    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    trainDetectionSystem:    
-      description: Train detection system    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    trainIntegrityOnBoardRequired:    
-      description: Train integrity confirmation from on-board (not from driver) necessary for line access    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    tsiPantographHead:    
-      description: Accepted TSI compliant pantograph heads    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiSwitchCrossing:    
-      description: TSI compliance of in service values for switches and crossings    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    type:    
-      description: NGSI data type. It has to be SubsetWithCommonCharacteristics    
-      enum:    
-        - SubsetWithCommonCharacteristics    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    usesGroup555:    
-      description: GSM-R use of group 555    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    vNvallowovtrp:    
-      description: V_NVALLOWOVTRP    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    vNvsupovtrp:    
-      description: V_NVSUPOVTRP    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    vehicleTypesCompatibleTrafficLoad:    
-      description: List of vehicle types already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    vehiclesCompatibleTrafficLoad:    
-      description: List of vehicles already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    verificationCCS:    
-      description: EC declaration of verification for track (CCS)    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    verificationENE:    
-      description: EC declaration of verification for track (ENE)    
-      type: string    
-      x-ngsi:    
-        type: Property    
-  required:    
-    - id    
-    - type    
-  type: object    
-  x-derived-from: http://data.europa.eu/949/SubsetWithCommonCharacteristics    
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'    
-  x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/SubsetWithCommonCharacteristics/LICENSE.md    
-  x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json    
-  x-model-tags: 'ERA vocabulary, railway, train'    
-  x-version: 0.0.1    
-```  
-</details>    
-<!-- /60-ModelYaml -->  
-<!-- 70-MiddleNotes -->  
-<!-- /70-MiddleNotes -->  
-<!-- 80-Examples -->  
-## Example payloads    
-#### SubsetWithCommonCharacteristics NGSI-v2 key-values Example    
-Here is an example of a SubsetWithCommonCharacteristics in JSON-LD format as key-values. This is compatible with NGSI-v2 when  using `options=keyValues` and returns the context data of an individual entity.  
-<details><summary><strong>show/hide example</strong></summary>    
+<!-- 10-Header -->    
+[![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
+Entity: SubsetWithCommonCharacteristics    
+=======================================<!-- /10-Header -->    
+<!-- 15-License -->    
+[Open License](https://github.com/smart-data-models//dataModel.ERA/blob/master/SubsetWithCommonCharacteristics/LICENSE.md)    
+[document generated automatically](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->    
+<!-- 20-Description -->    
+Global description: **Subset of items shared by sections of lines and/or operational points of a member state. For the purposes of the register of infrastructure, each infrastructure manager shall describe its railway network at least by sections of line and operational points and optionally via common characteristic subsets.**    
+version: 0.0.1    
+<!-- /20-Description -->    
+<!-- 30-PropertiesList -->    
+## List of properties    
+<sup><sub>[*] If there is not a type in an attribute is because it could have several types or different formats/patterns</sub></sup>    
+- `IdPhoneErtmsRadioBlockCenter[string]`: ID and phone number of ERTMS/ETCS Radio Block Center  - `TSIMagneticFields[uri]`: Existence and TSI compliance of rules for magnetic fields emitted by a vehicle  - `TSITractionHarmonics[uri]`: Existence and TSI compliance of limits in harmonics in the traction current of vehicles  - `accelerationLevelCrossing[string]`: Acceleration allowed at level crossing  - `additionalBrakingInformationDocument[string]`: Documents available by the IM relating to braking performance  - `address[object]`: The mailing address  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: The country. For example, Spain  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+	- `addressLocality[string]`: The locality in which the street address is, and which is in the region  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
+	- `addressRegion[string]`: The region in which the locality is, and which is in the country  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
+	- `district[string]`: A district is a type of administrative division that, in some countries, is managed by the local government      
+	- `postOfficeBoxNumber[string]`: The post office box number for PO box addresses. For example, 03578  . Model: [https://schema.org/postOfficeBoxNumber](https://schema.org/postOfficeBoxNumber)    
+	- `postalCode[string]`: The postal code. For example, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
+	- `streetAddress[string]`: The street address  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
+	- `streetNr[string]`: Number identifying a specific property on a public street      
+- `alternateName[string]`: An alternative name for this item  - `areaServed[string]`: The geographic area where a service or offered item is provided  . Model: [https://schema.org/Text](https://schema.org/Text)- `atoCommunicationSystem[uri]`: ATO communication system  - `atoErrorCorrectionsOnboard[string]`: ATO error corrections required for the on-board  - `atoGradeAutomation[uri]`: ATO Grade of Automation  - `atoSystemVersion[uri]`: ATO System version  - `automaticDroppingDeviceRequired[boolean]`: Automatic dropping device required  - `bigMetalMass[boolean]`: Big metal mass  - `cantDeficiency[number]`: Cant deficiency  - `cantDeficiencyBasicSSP[uri]`: Cant Deficiency used for the basic SSP  - `compatibilityProcedureDocument[string]`: Document with the procedure(s) for static and dynamic route compatibility checks  - `conditionsSwitchClassBSystems[string]`: Special technical conditions required to switch over between ERTMS/ETCS and Class B systems  - `conditionsSwitchTrainProtectionSystems[string]`: Special conditions to switch over between different class B train protection, control and warning systems  - `conditionsUseReflectivePlates[uri]`: Conditions for use of reflective plates  - `contactLineSystem[uri]`: Contact line system  - `contactStripMaterial[uri]`: Permitted contact strip material  - `contactStripMaterialMetallicContent[number]`: Contact strip material metallic content  - `dNvovtrp[number]`: D_NVOVTRP  - `dNvpotrp[number]`: D_NVPOTRP  - `dNvroll[number]`: D_NVROLL  - `dataProvider[string]`: A sequence of characters identifying the provider of the harmonised data entity  - `dataRadioCompatible[uri]`: Radio system compatibility data  - `dateCreated[date-time]`: Entity creation timestamp. This will usually be allocated by the storage platform  - `dateModified[date-time]`: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform  - `demonstrationENE[string]`: EI declaration of demonstration for track (ENE)  - `description[string]`: A description of this item  - `distSignToPhaseEnd[number]`: Distance between signboard and phase separation ending  - `documentRestrictionPositionContactLineSeparation[string]`: Document with restriction related to the position of Multiple Traction unit(s) to comply with contact line separation  - `documentRestrictionPowerConsumption[string]`: Document with restriction related to power consumption of specific electric traction unit(s)  - `eddyCurrentBraking[uri]`: Use of eddy current brakes  - `eddyCurrentBrakingConditionsDocument[string]`: Document with the conditions for the use of eddy current brakes  - `etcsDegradedSituation[uri]`: ETCS level for degraded situation  - `etcsErrorCorrectionsOnboard[string]`: ETCS error corrections required for the on-board  - `etcsImplementsLevelCrossingProcedure[boolean]`: ETCS trackside implements level crossing procedure or an equivalent solution  - `etcsInfill[uri]`: ETCS infill installed lineside  - `etcsInfillLineAccess[boolean]`: ETCS infill necessary for line access  - `etcsLevel[uri]`: Etcs level  - `etcsMVersion[uri]`: ETCS M_version  - `etcsNationalPacket44[boolean]`: ETCS national packet 44 application implemented  - `etcsOptionalFunctions[string]`: ETCS optional functions  - `etcsSystemFunctionalitiesNextFiveYears[string]`: ETCS system version 2.2 or 3.0 functionalities to be required in the next 5 years  - `etcsTransmitsTrackConditions[boolean]`: Is the ETCS trackside engineered to transmit Track Conditions  - `etcsTransmittedTrackConditions[uri]`: Track conditions which can be transmitted  - `flangeLubeForbidden[boolean]`: Use of flange lubrication forbidden  - `freightCorridor[uri]`: Part of a Railway freight corridor  - `gaugingCheckLocation[string]`: Railway location of particular points requiring specific checks  - `gaugingProfile[uri]`: Gauging  - `gaugingTransversalDocument[string]`: Document with the transversal section of the particular points requiring specific checks  - `gprsForETCS[boolean]`: GPRS for ETCS  - `gprsImplementationArea[string]`: Area of implementation of GPRS  - `gradientProfile[string]`: Gradient profile  - `gsmRActiveMobiles[uri]`: Number of active GSM-R mobiles (EDOR) or simultaneous communication session on-board for ETCS Level 2 (or level 3) needed to perform radio block centre handovers without having an operational disruption  - `gsmRAdditionalInfo[string]`: Additional information on network characteristics  - `gsmRNoCoverage[boolean]`: No GSM-R coverage  - `gsmROptionalFunctions[uri]`: Optional GSM-R functions  - `gsmRVersion[uri]`: GSM-R version  - `gsmrConstraintsOperateOnlyInCircuitSwitch[uri]`: Specific constraints imposed by the GSM-R network operator on ETCS on-board units only able to operate in circuit-switch  - `gsmrErrorCorrectionsOnboard[string]`: GSM-R error corrections required for the on-board  - `gsmrForcedDeregistrationFunctionalNumber[boolean]`: GSM-R network is configured to allow forced de-registration of a functional number by another driver  - `gsmrNetworkCoverage[uri]`: GSM-R networks covered by a roaming agreement  - `hasAdditionalBrakingInformation[boolean]`: Availability by the IM of additional information  - `hasBallast[boolean]`: Existence of ballast  - `hasETCSRestrictionsConditions[boolean]`: Existence of operating restrictions or conditions  - `hasHotAxleBoxDetector[boolean]`: Existence of trackside hot axle box detector (HABD)  - `hasLevelCrossings[boolean]`: Existence of level crossings  - `hasOtherTrainProtection[boolean]`: Existence of other train protection, control and warning systems installed  - `hasSevereWeatherConditions[boolean]`: Existence of severe climatic conditions  - `hasSystemSeparation[boolean]`: System separation  - `hasTSITrainDetection[boolean]`: Existence of train detection system fully compliant with the TSI  - `highSpeedLoadModelCompliance[boolean]`: Compliance of structures with the High Speed Load Model (HSLM) dynamic load model  - `hotAxleBoxDetectorDirection[uri]`: Hot axle box detector direction  - `hotAxleBoxDetectorGeneration[string]`: Generation of trackside HABD  - `hotAxleBoxDetectorIdentification[string]`: Identification of trackside HABD  - `hotAxleBoxDetectorLocation[number]`: Railway location of trackside HABD  - `hotAxleBoxDetectorTSICompliant[boolean]`: Trackside HABD TSI compliant  - `id[*]`: Unique identifier of the entity  - `instructionsSwitchRadioSystems[string]`: Special instructions to switch over between different radio systems  - `isQuietRoute[boolean]`: Belonging to a quieter route  - `legacyRadioSystem[uri]`: Other radio systems installed (Radio Legacy Systems)  - `lineCategory[uri]`: Category of line  - `linesideDistanceIndicationAppearance[uri]`: Lineside distance indication appearance  - `linesideDistanceIndicationFrequency[number]`: Lineside distance indication frequency  - `linesideDistanceIndicationPositioning[uri]`: Lineside distance indication positioning  - `loadCapability[uri]`: Load Capability  - `location[*]`: Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon  - `mNvcontact[uri]`: M_NVCONTACT  - `mNvderun[boolean]`: M_NVDERUN  - `magneticBraking[uri]`: Use of magnetic brakes  - `magneticBrakingConditionsDocument[string]`: Document with the conditions for the use of magnetic brakes  - `maximumAltitude[number]`: Maximum altitude  - `maximumBrakingDistance[number]`: Maximum braking distance requested  - `maximumContactWireHeight[number]`: Maximum contact wire height  - `maximumPermittedSpeed[number]`: Maximum permitted speed  - `maximumTemperature[number]`: Temperature range (maximum)  - `maximumTrainDeceleration[number]`: Maximum train deceleration  - `minDistConsecutiveAxles[number]`: Minimum permitted distance between two consecutive axles  - `minDistFirstLastAxle[number]`: Minimum permitted distance between first and last axle  - `minFlangeHeight[number]`: Minimum permitted height of the flange  - `minFlangeThickness[number]`: Minimum permitted thickness of the flange  - `minRimWidth[number]`: Minimum permitted width of the rim  - `minWheelDiameter[number]`: Minimum permitted wheel diameter  - `minimumContactWireHeight[number]`: Minimum contact wire height  - `minimumHorizontalRadius[number]`: Minimum radius of horizontal curve  - `minimumTemperature[number]`: Temperature range (minimum)  - `minimumWheelDiameter[number]`: Minimum wheel diameter for fixed obtuse crossings  - `multipleTrainProtectionRequired[boolean]`: Need for more than one train protection, control and warning system required on board  - `name[string]`: The name of this item  - `nationalLoadCapability[string]`: National classification for load capability  - `nationalValuesBrakeModel[string]`: National Values used for the brake model  - `osmClass[uri]`: Open street map class  - `otherCantDeficiencyBasicSSP[uri]`: Other Cant Deficiency train categories for which the ETCS trackside is configured to provide SSP  - `otherPantographHead[uri]`: Accepted other pantograph heads  - `otherTrainProtection[uri]`: Other train protection, control and warning systems for degraded situation  - `owner[array]`: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)  - `passesThroughTunnel[uri]`: Passes through tunnel  - `permitUseReflectivePlates[boolean]`: Permit of use of reflective plates  - `permittedContactForce[string]`: Contact force permitted  - `phaseInfo[string]`: Information on phase separation  - `phaseSeparation[boolean]`: Phase separation  - `platform[uri]`: Platform  - `profileNumberSemiTrailers[uri]`: Standard combined transport profile number for semi-trailers  - `profileNumberSwapBodies[uri]`: Standard combined transport profile number for swap bodies  - `protectionLegacySystem[uri]`: Train protection legacy system  - `publicNetworkRoaming[boolean]`: GSM-R existence of roaming to public networks  - `publicNetworkRoamingDetails[string]`: GSM-R details on roaming to public networks  - `qNvdriverAdhes[uri]`: Q_NVDRIVER_ADHES  - `qNvemrrls[uri]`: Q_NVEMRRLS  - `qNvsbtsmperm[boolean]`: Q_NVSBTSMPERM  - `radioNetworkId[number]`: Radio Network ID  - `railInclination[uri]`: Rail inclination  - `railSystemType[string]`: Rail system type  - `raisedPantographsDistanceAndSpeed[string]`: Requirements for number of raised pantographs and spacing between them, at the given speed  - `reasonsEtcsRadioBlockCenterReject[uri]`: Reasons for which an ETCS Radio Block Center can reject a train  - `redLightsRequired[boolean]`: Steady red lights required  - `safeConsistLengthInformationNecessary[uri]`: Safe consist length information from on-board necessary for access the line and SIL  - `seeAlso[*]`: list of uri pointing to additional resources about the item  - `source[string]`: A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object  - `specificInformation[string]`: Specific information  - `standardCombinedTransporRollerUnits[uri]`: Standard combined transport profile number for roller units  - `standardCombinedTransportContainers[uri]`: Standard combined transport profile number for containers  - `structureCheckLocation[number]`: Railway location of structures requiring specific checks  - `subsetName[string]`: Name of a subset with common characteristics  - `switchProtectControlWarning[boolean]`: Existence of switch over between different protection, control and warning systems while running  - `switchRadioSystem[boolean]`: Existence of switch over between different radio systems  - `systemSeparationInfo[string]`: Information on system separation  - `tNvcontact[number]`: T_NVCONTACT  - `tNvovtrp[number]`: T_NVOVTRP  - `temperatureRange[uri]`: Temperature range  - `tenGISId[string]`: TEN GIS identity  - `tiltingSupported[boolean]`: Indication whether tilting functions are supported by ETCS  - `trackLoadCapability[uri]`: Track load capability  - `trackPhaseInfo[uri]`: Track phase info  - `trackRaisedPantographsDistanceAndSpeed[uri]`: Track raised pantograph distance and speed  - `trackSystemSeparationInfo[uri]`: Track system separation info  - `trainDetectionSystem[uri]`: Train detection system  - `trainIntegrityOnBoardRequired[boolean]`: Train integrity confirmation from on-board (not from driver) necessary for line access  - `tsiPantographHead[uri]`: Accepted TSI compliant pantograph heads  - `tsiSwitchCrossing[boolean]`: TSI compliance of in service values for switches and crossings  - `type[string]`: NGSI data type. It has to be SubsetWithCommonCharacteristics  - `usesGroup555[boolean]`: GSM-R use of group 555  - `vNvallowovtrp[number]`: V_NVALLOWOVTRP  - `vNvsupovtrp[number]`: V_NVSUPOVTRP  - `vehicleTypesCompatibleTrafficLoad[string]`: List of vehicle types already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems  - `vehiclesCompatibleTrafficLoad[string]`: List of vehicles already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems  - `verificationCCS[string]`: EC declaration of verification for track (CCS)  - `verificationENE[string]`: EC declaration of verification for track (ENE)  <!-- /30-PropertiesList -->    
+<!-- 35-RequiredProperties -->    
+Required properties    
+- `id`  - `type`  <!-- /35-RequiredProperties -->    
+<!-- 40-RequiredProperties -->    
+data model mapped from ERA ontology https://data-interop.era.europa.eu/era-vocabulary (European Union Agency for Railways)    
+<!-- /40-RequiredProperties -->    
+<!-- 50-DataModelHeader -->    
+## Data Model description of properties    
+Sorted alphabetically (click for details)    
+<!-- /50-DataModelHeader -->    
+<!-- 60-ModelYaml -->    
+<details><summary><strong>full yaml details</strong></summary>      
+```yaml    
+SubsetWithCommonCharacteristics:      
+  description: 'Subset of items shared by sections of lines and/or operational points of a member state. For the purposes of the register of infrastructure, each infrastructure manager shall describe its railway network at least by sections of line and operational points and optionally via common characteristic subsets.'      
+  properties:      
+    IdPhoneErtmsRadioBlockCenter:      
+      description: ID and phone number of ERTMS/ETCS Radio Block Center      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    TSIMagneticFields:      
+      description: Existence and TSI compliance of rules for magnetic fields emitted by a vehicle      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    TSITractionHarmonics:      
+      description: Existence and TSI compliance of limits in harmonics in the traction current of vehicles      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    accelerationLevelCrossing:      
+      description: Acceleration allowed at level crossing      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    additionalBrakingInformationDocument:      
+      description: Documents available by the IM relating to braking performance      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    address:      
+      description: The mailing address      
+      properties:      
+        addressCountry:      
+          description: 'The country. For example, Spain'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressCountry      
+            type: Property      
+        addressLocality:      
+          description: 'The locality in which the street address is, and which is in the region'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressLocality      
+            type: Property      
+        addressRegion:      
+          description: 'The region in which the locality is, and which is in the country'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressRegion      
+            type: Property      
+        district:      
+          description: 'A district is a type of administrative division that, in some countries, is managed by the local government'      
+          type: string      
+          x-ngsi:      
+            type: Property      
+        postOfficeBoxNumber:      
+          description: 'The post office box number for PO box addresses. For example, 03578'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/postOfficeBoxNumber      
+            type: Property      
+        postalCode:      
+          description: 'The postal code. For example, 24004'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/https://schema.org/postalCode      
+            type: Property      
+        streetAddress:      
+          description: The street address      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/streetAddress      
+            type: Property      
+        streetNr:      
+          description: Number identifying a specific property on a public street      
+          type: string      
+          x-ngsi:      
+            type: Property      
+      type: object      
+      x-ngsi:      
+        model: https://schema.org/address      
+        type: Property      
+    alternateName:      
+      description: An alternative name for this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    areaServed:      
+      description: The geographic area where a service or offered item is provided      
+      type: string      
+      x-ngsi:      
+        model: https://schema.org/Text      
+        type: Property      
+    atoCommunicationSystem:      
+      description: ATO communication system      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    atoErrorCorrectionsOnboard:      
+      description: ATO error corrections required for the on-board      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    atoGradeAutomation:      
+      description: ATO Grade of Automation      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    atoSystemVersion:      
+      description: ATO System version      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    automaticDroppingDeviceRequired:      
+      description: Automatic dropping device required      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    bigMetalMass:      
+      description: Big metal mass      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    cantDeficiency:      
+      description: Cant deficiency      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    cantDeficiencyBasicSSP:      
+      description: Cant Deficiency used for the basic SSP      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    compatibilityProcedureDocument:      
+      description: Document with the procedure(s) for static and dynamic route compatibility checks      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    conditionsSwitchClassBSystems:      
+      description: Special technical conditions required to switch over between ERTMS/ETCS and Class B systems      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    conditionsSwitchTrainProtectionSystems:      
+      description: 'Special conditions to switch over between different class B train protection, control and warning systems'      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    conditionsUseReflectivePlates:      
+      description: Conditions for use of reflective plates      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    contactLineSystem:      
+      description: Contact line system      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    contactStripMaterial:      
+      description: Permitted contact strip material      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    contactStripMaterialMetallicContent:      
+      description: Contact strip material metallic content      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    dNvovtrp:      
+      description: D_NVOVTRP      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    dNvpotrp:      
+      description: D_NVPOTRP      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    dNvroll:      
+      description: D_NVROLL      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    dataProvider:      
+      description: A sequence of characters identifying the provider of the harmonised data entity      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dataRadioCompatible:      
+      description: Radio system compatibility data      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    dateCreated:      
+      description: Entity creation timestamp. This will usually be allocated by the storage platform      
+      format: date-time      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dateModified:      
+      description: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform      
+      format: date-time      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    demonstrationENE:      
+      description: EI declaration of demonstration for track (ENE)      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    description:      
+      description: A description of this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    distSignToPhaseEnd:      
+      description: Distance between signboard and phase separation ending      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    documentRestrictionPositionContactLineSeparation:      
+      description: Document with restriction related to the position of Multiple Traction unit(s) to comply with contact line separation      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    documentRestrictionPowerConsumption:      
+      description: Document with restriction related to power consumption of specific electric traction unit(s)      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    eddyCurrentBraking:      
+      description: Use of eddy current brakes      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    eddyCurrentBrakingConditionsDocument:      
+      description: Document with the conditions for the use of eddy current brakes      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    etcsDegradedSituation:      
+      description: ETCS level for degraded situation      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    etcsErrorCorrectionsOnboard:      
+      description: ETCS error corrections required for the on-board      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    etcsImplementsLevelCrossingProcedure:      
+      description: ETCS trackside implements level crossing procedure or an equivalent solution      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    etcsInfill:      
+      description: ETCS infill installed lineside      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    etcsInfillLineAccess:      
+      description: ETCS infill necessary for line access      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    etcsLevel:      
+      description: Etcs level      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    etcsMVersion:      
+      description: ETCS M_version      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    etcsNationalPacket44:      
+      description: ETCS national packet 44 application implemented      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    etcsOptionalFunctions:      
+      description: ETCS optional functions      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    etcsSystemFunctionalitiesNextFiveYears:      
+      description: ETCS system version 2.2 or 3.0 functionalities to be required in the next 5 years      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    etcsTransmitsTrackConditions:      
+      description: Is the ETCS trackside engineered to transmit Track Conditions      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    etcsTransmittedTrackConditions:      
+      description: Track conditions which can be transmitted      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    flangeLubeForbidden:      
+      description: Use of flange lubrication forbidden      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    freightCorridor:      
+      description: Part of a Railway freight corridor      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    gaugingCheckLocation:      
+      description: Railway location of particular points requiring specific checks      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    gaugingProfile:      
+      description: Gauging      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    gaugingTransversalDocument:      
+      description: Document with the transversal section of the particular points requiring specific checks      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    gprsForETCS:      
+      description: GPRS for ETCS      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    gprsImplementationArea:      
+      description: Area of implementation of GPRS      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    gradientProfile:      
+      description: Gradient profile      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    gsmRActiveMobiles:      
+      description: Number of active GSM-R mobiles (EDOR) or simultaneous communication session on-board for ETCS Level 2 (or level 3) needed to perform radio block centre handovers without having an operational disruption      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    gsmRAdditionalInfo:      
+      description: Additional information on network characteristics      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    gsmRNoCoverage:      
+      description: No GSM-R coverage      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    gsmROptionalFunctions:      
+      description: Optional GSM-R functions      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    gsmRVersion:      
+      description: GSM-R version      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    gsmrConstraintsOperateOnlyInCircuitSwitch:      
+      description: Specific constraints imposed by the GSM-R network operator on ETCS on-board units only able to operate in circuit-switch      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    gsmrErrorCorrectionsOnboard:      
+      description: GSM-R error corrections required for the on-board      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    gsmrForcedDeregistrationFunctionalNumber:      
+      description: GSM-R network is configured to allow forced de-registration of a functional number by another driver      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    gsmrNetworkCoverage:      
+      description: GSM-R networks covered by a roaming agreement      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    hasAdditionalBrakingInformation:      
+      description: Availability by the IM of additional information      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasBallast:      
+      description: Existence of ballast      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasETCSRestrictionsConditions:      
+      description: Existence of operating restrictions or conditions      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasHotAxleBoxDetector:      
+      description: Existence of trackside hot axle box detector (HABD)      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasLevelCrossings:      
+      description: Existence of level crossings      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasOtherTrainProtection:      
+      description: 'Existence of other train protection, control and warning systems installed'      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasSevereWeatherConditions:      
+      description: Existence of severe climatic conditions      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasSystemSeparation:      
+      description: System separation      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasTSITrainDetection:      
+      description: Existence of train detection system fully compliant with the TSI      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    highSpeedLoadModelCompliance:      
+      description: Compliance of structures with the High Speed Load Model (HSLM) dynamic load model      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hotAxleBoxDetectorDirection:      
+      description: Hot axle box detector direction      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    hotAxleBoxDetectorGeneration:      
+      description: Generation of trackside HABD      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    hotAxleBoxDetectorIdentification:      
+      description: Identification of trackside HABD      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    hotAxleBoxDetectorLocation:      
+      description: Railway location of trackside HABD      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    hotAxleBoxDetectorTSICompliant:      
+      description: Trackside HABD TSI compliant      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    id:      
+      anyOf:      
+        - description: Identifier format of any NGSI entity      
+          maxLength: 256      
+          minLength: 1      
+          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$      
+          type: string      
+          x-ngsi:      
+            type: Property      
+        - description: Identifier format of any NGSI entity      
+          format: uri      
+          type: string      
+          x-ngsi:      
+            type: Property      
+      description: Unique identifier of the entity      
+      x-ngsi:      
+        type: Property      
+    instructionsSwitchRadioSystems:      
+      description: Special instructions to switch over between different radio systems      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    isQuietRoute:      
+      description: Belonging to a quieter route      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    legacyRadioSystem:      
+      description: Other radio systems installed (Radio Legacy Systems)      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    lineCategory:      
+      description: Category of line      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    linesideDistanceIndicationAppearance:      
+      description: Lineside distance indication appearance      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    linesideDistanceIndicationFrequency:      
+      description: Lineside distance indication frequency      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    linesideDistanceIndicationPositioning:      
+      description: Lineside distance indication positioning      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    loadCapability:      
+      description: Load Capability      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    location:      
+      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'      
+      oneOf:      
+        - description: Geojson reference to the item. Point      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                type: number      
+              minItems: 2      
+              type: array      
+            type:      
+              enum:      
+                - Point      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON Point      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. LineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  type: number      
+                minItems: 2      
+                type: array      
+              minItems: 2      
+              type: array      
+            type:      
+              enum:      
+                - LineString      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON LineString      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. Polygon      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    type: number      
+                  minItems: 2      
+                  type: array      
+                minItems: 4      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - Polygon      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON Polygon      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiPoint      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  type: number      
+                minItems: 2      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiPoint      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiPoint      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiLineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    type: number      
+                  minItems: 2      
+                  type: array      
+                minItems: 2      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiLineString      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiLineString      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiLineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    items:      
+                      type: number      
+                    minItems: 2      
+                    type: array      
+                  minItems: 4      
+                  type: array      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiPolygon      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiPolygon      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+      x-ngsi:      
+        type: GeoProperty      
+    mNvcontact:      
+      description: M_NVCONTACT      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    mNvderun:      
+      description: M_NVDERUN      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    magneticBraking:      
+      description: Use of magnetic brakes      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    magneticBrakingConditionsDocument:      
+      description: Document with the conditions for the use of magnetic brakes      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    maximumAltitude:      
+      description: Maximum altitude      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumBrakingDistance:      
+      description: Maximum braking distance requested      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumContactWireHeight:      
+      description: Maximum contact wire height      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumPermittedSpeed:      
+      description: Maximum permitted speed      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumTemperature:      
+      description: Temperature range (maximum)      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumTrainDeceleration:      
+      description: Maximum train deceleration      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minDistConsecutiveAxles:      
+      description: Minimum permitted distance between two consecutive axles      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minDistFirstLastAxle:      
+      description: Minimum permitted distance between first and last axle      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minFlangeHeight:      
+      description: Minimum permitted height of the flange      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minFlangeThickness:      
+      description: Minimum permitted thickness of the flange      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minRimWidth:      
+      description: Minimum permitted width of the rim      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minWheelDiameter:      
+      description: Minimum permitted wheel diameter      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumContactWireHeight:      
+      description: Minimum contact wire height      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumHorizontalRadius:      
+      description: Minimum radius of horizontal curve      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumTemperature:      
+      description: Temperature range (minimum)      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumWheelDiameter:      
+      description: Minimum wheel diameter for fixed obtuse crossings      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    multipleTrainProtectionRequired:      
+      description: 'Need for more than one train protection, control and warning system required on board'      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    name:      
+      description: The name of this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    nationalLoadCapability:      
+      description: National classification for load capability      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    nationalValuesBrakeModel:      
+      description: National Values used for the brake model      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    osmClass:      
+      description: Open street map class      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    otherCantDeficiencyBasicSSP:      
+      description: Other Cant Deficiency train categories for which the ETCS trackside is configured to provide SSP      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    otherPantographHead:      
+      description: Accepted other pantograph heads      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    otherTrainProtection:      
+      description: 'Other train protection, control and warning systems for degraded situation'      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    owner:      
+      description: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)      
+      items:      
+        anyOf:      
+          - description: Identifier format of any NGSI entity      
+            maxLength: 256      
+            minLength: 1      
+            pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$      
+            type: string      
+            x-ngsi:      
+              type: Property      
+          - description: Identifier format of any NGSI entity      
+            format: uri      
+            type: string      
+            x-ngsi:      
+              type: Property      
+        description: Unique identifier of the entity      
+        x-ngsi:      
+          type: Property      
+      type: array      
+      x-ngsi:      
+        type: Property      
+    passesThroughTunnel:      
+      description: Passes through tunnel      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    permitUseReflectivePlates:      
+      description: Permit of use of reflective plates      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    permittedContactForce:      
+      description: Contact force permitted      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    phaseInfo:      
+      description: Information on phase separation      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    phaseSeparation:      
+      description: Phase separation      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    platform:      
+      description: Platform      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    profileNumberSemiTrailers:      
+      description: Standard combined transport profile number for semi-trailers      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    profileNumberSwapBodies:      
+      description: Standard combined transport profile number for swap bodies      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    protectionLegacySystem:      
+      description: Train protection legacy system      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    publicNetworkRoaming:      
+      description: GSM-R existence of roaming to public networks      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    publicNetworkRoamingDetails:      
+      description: GSM-R details on roaming to public networks      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    qNvdriverAdhes:      
+      description: Q_NVDRIVER_ADHES      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    qNvemrrls:      
+      description: Q_NVEMRRLS      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    qNvsbtsmperm:      
+      description: Q_NVSBTSMPERM      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    radioNetworkId:      
+      description: Radio Network ID      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    railInclination:      
+      description: Rail inclination      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    railSystemType:      
+      description: Rail system type      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    raisedPantographsDistanceAndSpeed:      
+      description: 'Requirements for number of raised pantographs and spacing between them, at the given speed'      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    reasonsEtcsRadioBlockCenterReject:      
+      description: Reasons for which an ETCS Radio Block Center can reject a train      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    redLightsRequired:      
+      description: Steady red lights required      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    safeConsistLengthInformationNecessary:      
+      description: Safe consist length information from on-board necessary for access the line and SIL      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    seeAlso:      
+      description: list of uri pointing to additional resources about the item      
+      oneOf:      
+        - items:      
+            format: uri      
+            type: string      
+          minItems: 1      
+          type: array      
+        - format: uri      
+          type: string      
+      x-ngsi:      
+        type: Property      
+    source:      
+      description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object'      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    specificInformation:      
+      description: Specific information      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    standardCombinedTransporRollerUnits:      
+      description: Standard combined transport profile number for roller units      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    standardCombinedTransportContainers:      
+      description: Standard combined transport profile number for containers      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    structureCheckLocation:      
+      description: Railway location of structures requiring specific checks      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    subsetName:      
+      description: Name of a subset with common characteristics      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    switchProtectControlWarning:      
+      description: 'Existence of switch over between different protection, control and warning systems while running'      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    switchRadioSystem:      
+      description: Existence of switch over between different radio systems      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    systemSeparationInfo:      
+      description: Information on system separation      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    tNvcontact:      
+      description: T_NVCONTACT      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    tNvovtrp:      
+      description: T_NVOVTRP      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    temperatureRange:      
+      description: Temperature range      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tenGISId:      
+      description: TEN GIS identity      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    tiltingSupported:      
+      description: Indication whether tilting functions are supported by ETCS      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    trackLoadCapability:      
+      description: Track load capability      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    trackPhaseInfo:      
+      description: Track phase info      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    trackRaisedPantographsDistanceAndSpeed:      
+      description: Track raised pantograph distance and speed      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    trackSystemSeparationInfo:      
+      description: Track system separation info      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    trainDetectionSystem:      
+      description: Train detection system      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    trainIntegrityOnBoardRequired:      
+      description: Train integrity confirmation from on-board (not from driver) necessary for line access      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    tsiPantographHead:      
+      description: Accepted TSI compliant pantograph heads      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiSwitchCrossing:      
+      description: TSI compliance of in service values for switches and crossings      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    type:      
+      description: NGSI data type. It has to be SubsetWithCommonCharacteristics      
+      enum:      
+        - SubsetWithCommonCharacteristics      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    usesGroup555:      
+      description: GSM-R use of group 555      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    vNvallowovtrp:      
+      description: V_NVALLOWOVTRP      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    vNvsupovtrp:      
+      description: V_NVSUPOVTRP      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    vehicleTypesCompatibleTrafficLoad:      
+      description: List of vehicle types already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    vehiclesCompatibleTrafficLoad:      
+      description: List of vehicles already identified as compatible with Traffic load and load carrying capacity of infrastructure and train detection systems      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    verificationCCS:      
+      description: EC declaration of verification for track (CCS)      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    verificationENE:      
+      description: EC declaration of verification for track (ENE)      
+      type: string      
+      x-ngsi:      
+        type: Property      
+  required:      
+    - id      
+    - type      
+  type: object      
+  x-derived-from: http://data.europa.eu/949/SubsetWithCommonCharacteristics      
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'      
+  x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/SubsetWithCommonCharacteristics/LICENSE.md      
+  x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json      
+  x-model-tags: 'ERA vocabulary, railway, train'      
+  x-version: 0.0.1      
+```    
+</details>      
+<!-- /60-ModelYaml -->    
+<!-- 70-MiddleNotes -->    
+<!-- /70-MiddleNotes -->    
+<!-- 80-Examples -->    
+## Example payloads      
+#### SubsetWithCommonCharacteristics NGSI-v2 key-values Example      
+Here is an example of a SubsetWithCommonCharacteristics in JSON-LD format as key-values. This is compatible with NGSI-v2 when  using `options=keyValues` and returns the context data of an individual entity.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:SubsetWithCommonCharacteristics:id:YPHZ:97109776",  
@@ -1419,10 +1417,10 @@ SubsetWithCommonCharacteristics:
   "tsiPantographHead": "urn:ngsi-ld:SubsetWithCommonCharacteristics:tsiPantographHead:JRNX:29061126"  
 }  
 ```  
-</details>  
-#### SubsetWithCommonCharacteristics NGSI-v2 normalized Example    
-Here is an example of a SubsetWithCommonCharacteristics in JSON-LD format as normalized. This is compatible with NGSI-v2 when not using options and returns the context data of an individual entity.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### SubsetWithCommonCharacteristics NGSI-v2 normalized Example      
+Here is an example of a SubsetWithCommonCharacteristics in JSON-LD format as normalized. This is compatible with NGSI-v2 when not using options and returns the context data of an individual entity.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:SubsetWithCommonCharacteristics:id:YPHZ:97109776",  
@@ -1471,50 +1469,23 @@ SubsetWithCommonCharacteristics:
     "type": "geo:json",  
     "value": {  
       "type": "Point",  
-      "coordinates": {  
-        "type": "StructuredValue",  
-        "value": [  
-          19.420622,  
-          125.057551  
-        ]  
-      }  
+      "coordinates": [  
+        19.420622,  
+        125.057551  
+      ]  
     }  
   },  
   "address": {  
     "type": "StructuredValue",  
     "value": {  
-      "streetAddress": {  
-        "type": "Text",  
-        "value": "Until mind clear out series event each. Concern hand organization drug. Animal cup within energy. Save decisio"  
-      },  
-      "addressLocality": {  
-        "type": "Text",  
-        "value": "Turn medical majority white ready source. Middle dinner participant large TV. Increase summer yourself since though."  
-      },  
-      "addressRegion": {  
-        "type": "Text",  
-        "value": "Out now day. C"  
-      },  
-      "addressCountry": {  
-        "type": "Text",  
-        "value": "Relate PM look party possible. Science Mrs information newspaper. Local husband share Republican development book food Mr."  
-      },  
-      "postalCode": {  
-        "type": "Text",  
-        "value": "Morning car large their page. Home agen"  
-      },  
-      "postOfficeBoxNumber": {  
-        "type": "Text",  
-        "value": "Bar draw leg weste"  
-      },  
-      "streetNr": {  
-        "type": "Text",  
-        "value": "Idea "  
-      },  
-      "district": {  
-        "type": "Text",  
-        "value": "Establish bring just. Follow line run old. Win mean market coach enter begin physica"  
-      }  
+      "streetAddress": "Until mind clear out series event each. Concern hand organization drug. Animal cup within energy. Save decisio",  
+      "addressLocality": "Turn medical majority white ready source. Middle dinner participant large TV. Increase summer yourself since though.",  
+      "addressRegion": "Out now day. C",  
+      "addressCountry": "Relate PM look party possible. Science Mrs information newspaper. Local husband share Republican development book food Mr.",  
+      "postalCode": "Morning car large their page. Home agen",  
+      "postOfficeBoxNumber": "Bar draw leg weste",  
+      "streetNr": "Idea ",  
+      "district": "Establish bring just. Follow line run old. Win mean market coach enter begin physica"  
     }  
   },  
   "areaServed": {  
@@ -2156,10 +2127,10 @@ SubsetWithCommonCharacteristics:
   }  
 }  
 ```  
-</details>  
-#### SubsetWithCommonCharacteristics NGSI-LD key-values Example    
-Here is an example of a SubsetWithCommonCharacteristics in JSON-LD format as key-values. This is compatible with NGSI-LD when  using `options=keyValues` and returns the context data of an individual entity.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### SubsetWithCommonCharacteristics NGSI-LD key-values Example      
+Here is an example of a SubsetWithCommonCharacteristics in JSON-LD format as key-values. This is compatible with NGSI-LD when  using `options=keyValues` and returns the context data of an individual entity.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:SubsetWithCommonCharacteristics:id:YPHZ:97109776",  
@@ -2359,10 +2330,10 @@ SubsetWithCommonCharacteristics:
   ]  
 }  
 ```  
-</details>  
-#### SubsetWithCommonCharacteristics NGSI-LD normalized Example    
-Here is an example of a SubsetWithCommonCharacteristics in JSON-LD format as normalized. This is compatible with NGSI-LD when not using options and returns the context data of an individual entity.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### SubsetWithCommonCharacteristics NGSI-LD normalized Example      
+Here is an example of a SubsetWithCommonCharacteristics in JSON-LD format as normalized. This is compatible with NGSI-LD when not using options and returns the context data of an individual entity.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:SubsetWithCommonCharacteristics:id:EEHL:48448508",  
@@ -3078,12 +3049,12 @@ SubsetWithCommonCharacteristics:
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->  
-<!-- 90-FooterNotes -->  
-<!-- /90-FooterNotes -->  
-<!-- 95-Units -->  
-See [FAQ 10](https://smartdatamodels.org/index.php/faqs/) to get an answer on how to deal with magnitude units  
-<!-- /95-Units -->  
-<!-- 97-LastFooter -->  
----  
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->  
+</details><!-- /80-Examples -->    
+<!-- 90-FooterNotes -->    
+<!-- /90-FooterNotes -->    
+<!-- 95-Units -->    
+See [FAQ 10](https://smartdatamodels.org/index.php/faqs/) to get an answer on how to deal with magnitude units    
+<!-- /95-Units -->    
+<!-- 97-LastFooter -->    
+---    
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
