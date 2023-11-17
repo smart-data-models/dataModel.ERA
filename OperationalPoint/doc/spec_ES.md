@@ -1,462 +1,460 @@
-<!-- 10-Header -->  
-[![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)  
-Entidad: OperationalPoint  
-=========================<!-- /10-Header -->  
-<!-- 15-License -->  
-[Licencia abierta](https://github.com/smart-data-models//dataModel.ERA/blob/master/OperationalPoint/LICENSE.md)  
-[documento generado automáticamente](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)  
-<!-- /15-License -->  
-<!-- 20-Description -->  
-Descripción global: **Se entiende por punto de explotación (PO) cualquier ubicación para las operaciones de servicio ferroviario, donde los servicios ferroviarios pueden comenzar y terminar o cambiar de ruta, y donde pueden prestarse servicios de viajeros o de mercancías; también se entiende por punto de explotación cualquier ubicación en las fronteras entre Estados miembros o administradores de infraestructuras.  
-En https://eur-lex.europa.eu/eli/reg_impl/2019/773/oj 2.1.2 Ubicaciones principales (estaciones, patios, cruces, terminales de mercancías)**.  
-versión: 0.0.1  
-<!-- /20-Description -->  
-<!-- 30-PropertiesList -->  
-
-## Lista de propiedades  
-
-<sup><sub>[*] Si no hay un tipo en un atributo es porque puede tener varios tipos o diferentes formatos/patrones</sub></sup>.  
-- `address[object]`: La dirección postal  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: El país. Por ejemplo, España  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)  
-	- `addressLocality[string]`: La localidad en la que se encuentra la dirección postal, y que está en la región  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)  
-	- `addressRegion[string]`: La región en la que se encuentra la localidad, y que está en el país  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)  
-	- `district[string]`: Un distrito es un tipo de división administrativa que, en algunos países, gestiona el gobierno local    
-	- `postOfficeBoxNumber[string]`: El número del apartado de correos para las direcciones de apartados postales. Por ejemplo, 03578  . Model: [https://schema.org/postOfficeBoxNumber](https://schema.org/postOfficeBoxNumber)  
-	- `postalCode[string]`: El código postal. Por ejemplo, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)  
-	- `streetAddress[string]`: La dirección  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)  
-	- `streetNr[string]`: Número que identifica una propiedad específica en una vía pública    
-- `alternateName[string]`: Un nombre alternativo para este artículo  - `areaServed[string]`: La zona geográfica en la que se presta un servicio o se ofrece un artículo  . Model: [https://schema.org/Text](https://schema.org/Text)- `borderPointOf[uri]`: Punto fronterizo de  - `dataProvider[string]`: Una secuencia de caracteres que identifica al proveedor de la entidad de datos armonizada  - `dateCreated[date-time]`: Fecha de creación de la entidad. Normalmente será asignada por la plataforma de almacenamiento  - `dateModified[date-time]`: Marca de tiempo de la última modificación de la entidad. Suele ser asignada por la plataforma de almacenamiento  - `description[string]`: Descripción de este artículo  - `digitalSchematicOverview[string]`: Esquema general digital  - `hasSchematicOverviewOPDigitalForm[boolean]`: Resumen esquemático en formato digital  - `id[*]`: Identificador único de la entidad  - `localRulesOrRestrictions[boolean]`: Existencia de normas y restricciones de carácter estrictamente local.  - `localRulesOrRestrictionsDoc[string]`: Documentos relativos a las normas o restricciones de carácter estrictamente local disponibles por el MI  - `location[*]`: Referencia Geojson al elemento. Puede ser Point, LineString, Polygon, MultiPoint, MultiLineString o MultiPolygon.  - `name[string]`: El nombre de este artículo  - `opInfoPerCountry[uri]`: Información sobre puntos fronterizos por país  - `opName[string]`: Nombre del punto operativo  - `opType[uri]`: Tipo de punto operativo  - `opTypeGaugeChangeover[string]`: Tipo de instalación de cambio de ancho de vía  - `owner[array]`: Una lista que contiene una secuencia de caracteres codificada en JSON que hace referencia a los identificadores únicos de los propietarios.  - `schematicOverviewOP[string]`: Vista general esquemática del punto operativo  - `seeAlso[*]`: lista de uri que apuntan a recursos adicionales sobre el artículo  - `siding[uri]`: Revestimiento  - `source[string]`: Secuencia de caracteres que indica la fuente original de los datos de la entidad en forma de URL. Se recomienda que sea el nombre de dominio completo del proveedor de origen o la URL del objeto de origen.  - `tafTAPCode[string]`: Código primario de localización desarrollado para el intercambio de información de conformidad con las ETI relativas a las aplicaciones telemáticas.  - `track[uri]`: Pista  - `type[string]`: Tipo de datos NGSI. Tiene que ser OperationalPoint  - `uopid[string]`: ID único de la OP  <!-- /30-PropertiesList -->  
-<!-- 35-RequiredProperties -->  
-Propiedades requeridas  
-- `id`  - `type`  <!-- /35-RequiredProperties -->  
-<!-- 40-RequiredProperties -->  
-modelo de datos extraído de la ontología ERA https://data-interop.era.europa.eu/era-vocabulary (Agencia Ferroviaria de la Unión Europea)  
-<!-- /40-RequiredProperties -->  
-<!-- 50-DataModelHeader -->  
-## Descripción de las propiedades del modelo de datos  
-Ordenados alfabéticamente (pulse para más detalles)  
-<!-- /50-DataModelHeader -->  
-<!-- 60-ModelYaml -->  
-<details><summary><strong>full yaml details</strong></summary>    
-```yaml  
-OperationalPoint:    
-  description: |-    
-    An operational point (OP) means any location for train service operations, where train services may begin and end or change route, and where passenger or freight services may be provided; operational point also means any location at boundaries between Member States or infrastructure managers.    
-    In https://eur-lex.europa.eu/eli/reg_impl/2019/773/oj 2.1.2 Principal locations (stations, yards, junctions, freight terminals).    
-  properties:    
-    address:    
-      description: The mailing address    
-      properties:    
-        addressCountry:    
-          description: 'The country. For example, Spain'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressCountry    
-            type: Property    
-        addressLocality:    
-          description: 'The locality in which the street address is, and which is in the region'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressLocality    
-            type: Property    
-        addressRegion:    
-          description: 'The region in which the locality is, and which is in the country'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressRegion    
-            type: Property    
-        district:    
-          description: 'A district is a type of administrative division that, in some countries, is managed by the local government'    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        postOfficeBoxNumber:    
-          description: 'The post office box number for PO box addresses. For example, 03578'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/postOfficeBoxNumber    
-            type: Property    
-        postalCode:    
-          description: 'The postal code. For example, 24004'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/https://schema.org/postalCode    
-            type: Property    
-        streetAddress:    
-          description: The street address    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/streetAddress    
-            type: Property    
-        streetNr:    
-          description: Number identifying a specific property on a public street    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      type: object    
-      x-ngsi:    
-        model: https://schema.org/address    
-        type: Property    
-    alternateName:    
-      description: An alternative name for this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    areaServed:    
-      description: The geographic area where a service or offered item is provided    
-      type: string    
-      x-ngsi:    
-        model: https://schema.org/Text    
-        type: Property    
-    borderPointOf:    
-      description: Border point of    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    dataProvider:    
-      description: A sequence of characters identifying the provider of the harmonised data entity    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dateCreated:    
-      description: Entity creation timestamp. This will usually be allocated by the storage platform    
-      format: date-time    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dateModified:    
-      description: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform    
-      format: date-time    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    description:    
-      description: A description of this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    digitalSchematicOverview:    
-      description: Digital schematic overview    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    hasSchematicOverviewOPDigitalForm:    
-      description: Has schematic overview in digital form    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    id:    
-      anyOf:    
-        - description: Identifier format of any NGSI entity    
-          maxLength: 256    
-          minLength: 1    
-          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        - description: Identifier format of any NGSI entity    
-          format: uri    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      description: Unique identifier of the entity    
-      x-ngsi:    
-        type: Property    
-    localRulesOrRestrictions:    
-      description: Existence of rules and restrictions of a strictly local nature.    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    localRulesOrRestrictionsDoc:    
-      description: Documents regarding the rules or restrictions of a strictly local nature available by the IM    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    location:    
-      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'    
-      oneOf:    
-        - description: Geojson reference to the item. Point    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                type: number    
-              minItems: 2    
-              type: array    
-            type:    
-              enum:    
-                - Point    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON Point    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. LineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  type: number    
-                minItems: 2    
-                type: array    
-              minItems: 2    
-              type: array    
-            type:    
-              enum:    
-                - LineString    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON LineString    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. Polygon    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    type: number    
-                  minItems: 2    
-                  type: array    
-                minItems: 4    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - Polygon    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON Polygon    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiPoint    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  type: number    
-                minItems: 2    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiPoint    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiPoint    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiLineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    type: number    
-                  minItems: 2    
-                  type: array    
-                minItems: 2    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiLineString    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiLineString    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiLineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    items:    
-                      type: number    
-                    minItems: 2    
-                    type: array    
-                  minItems: 4    
-                  type: array    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiPolygon    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiPolygon    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-      x-ngsi:    
-        type: GeoProperty    
-    name:    
-      description: The name of this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    opInfoPerCountry:    
-      description: Border point information per country    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    opName:    
-      description: Name of Operational point    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    opType:    
-      description: Type of operational point    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    opTypeGaugeChangeover:    
-      description: Type of track gauge changeover facility    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    owner:    
-      description: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)    
-      items:    
-        anyOf:    
-          - description: Identifier format of any NGSI entity    
-            maxLength: 256    
-            minLength: 1    
-            pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-            type: string    
-            x-ngsi:    
-              type: Property    
-          - description: Identifier format of any NGSI entity    
-            format: uri    
-            type: string    
-            x-ngsi:    
-              type: Property    
-        description: Unique identifier of the entity    
-        x-ngsi:    
-          type: Property    
-      type: array    
-      x-ngsi:    
-        type: Property    
-    schematicOverviewOP:    
-      description: Schematic overview of the operational point    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    seeAlso:    
-      description: list of uri pointing to additional resources about the item    
-      oneOf:    
-        - items:    
-            format: uri    
-            type: string    
-          minItems: 1    
-          type: array    
-        - format: uri    
-          type: string    
-      x-ngsi:    
-        type: Property    
-    siding:    
-      description: Siding    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    source:    
-      description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object'    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    tafTAPCode:    
-      description: Primary location code developed for information exchange in accordance with the TSIs relating to telematics applications.    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    track:    
-      description: Track    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    type:    
-      description: NGSI data type. It has to be OperationalPoint    
-      enum:    
-        - OperationalPoint    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    uopid:    
-      description: Unique OP ID    
-      type: string    
-      x-ngsi:    
-        type: Property    
-  required:    
-    - id    
-    - type    
-  type: object    
-  x-derived-from: http://data.europa.eu/949/OperationalPoint    
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'    
-  x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/OperationalPoint/LICENSE.md    
-  x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json    
-  x-model-tags: 'ERA vocabulary, railway, train'    
-  x-version: 0.0.1    
-```  
-</details>    
-<!-- /60-ModelYaml -->  
-<!-- 70-MiddleNotes -->  
-<!-- /70-MiddleNotes -->  
-<!-- 80-Examples -->  
-## Ejemplo de carga útil  
-#### OperationalPoint NGSI-v2 key-values Ejemplo  
-He aquí un ejemplo de un OperationalPoint en formato JSON-LD como key-values. Esto es compatible con NGSI-v2 cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.  
-<details><summary><strong>show/hide example</strong></summary>    
+<!-- 10-Header -->    
+[![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
+Entidad: OperationalPoint    
+=========================<!-- /10-Header -->    
+<!-- 15-License -->    
+[Licencia abierta](https://github.com/smart-data-models//dataModel.ERA/blob/master/OperationalPoint/LICENSE.md)    
+[documento generado automáticamente](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->    
+<!-- 20-Description -->    
+Descripción global: **Se entiende por punto de explotación (PO) cualquier ubicación para las operaciones de servicio ferroviario, donde los servicios ferroviarios pueden comenzar y terminar o cambiar de ruta, y donde pueden prestarse servicios de viajeros o de mercancías; también se entiende por punto de explotación cualquier ubicación en las fronteras entre Estados miembros o administradores de infraestructuras.    
+En https://eur-lex.europa.eu/eli/reg_impl/2019/773/oj 2.1.2 Ubicaciones principales (estaciones, patios, cruces, terminales de mercancías)**.    
+versión: 0.0.1    
+<!-- /20-Description -->    
+<!-- 30-PropertiesList -->    
+## Lista de propiedades    
+<sup><sub>[*] Si no hay un tipo en un atributo es porque puede tener varios tipos o diferentes formatos/patrones</sub></sup>.    
+- `address[object]`: La dirección postal  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: El país. Por ejemplo, España  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+	- `addressLocality[string]`: La localidad en la que se encuentra la dirección postal, y que está en la región  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
+	- `addressRegion[string]`: La región en la que se encuentra la localidad, y que está en el país  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
+	- `district[string]`: Un distrito es un tipo de división administrativa que, en algunos países, gestiona el gobierno local      
+	- `postOfficeBoxNumber[string]`: El número del apartado de correos para las direcciones de apartados postales. Por ejemplo, 03578  . Model: [https://schema.org/postOfficeBoxNumber](https://schema.org/postOfficeBoxNumber)    
+	- `postalCode[string]`: El código postal. Por ejemplo, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
+	- `streetAddress[string]`: La dirección  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
+	- `streetNr[string]`: Número que identifica una propiedad específica en una vía pública      
+- `alternateName[string]`: Un nombre alternativo para este artículo  - `areaServed[string]`: La zona geográfica en la que se presta un servicio o se ofrece un artículo  . Model: [https://schema.org/Text](https://schema.org/Text)- `borderPointOf[uri]`: Punto fronterizo de  - `dataProvider[string]`: Una secuencia de caracteres que identifica al proveedor de la entidad de datos armonizada  - `dateCreated[date-time]`: Fecha de creación de la entidad. Normalmente será asignada por la plataforma de almacenamiento  - `dateModified[date-time]`: Marca de tiempo de la última modificación de la entidad. Suele ser asignada por la plataforma de almacenamiento  - `description[string]`: Descripción de este artículo  - `digitalSchematicOverview[string]`: Esquema general digital  - `hasSchematicOverviewOPDigitalForm[boolean]`: Resumen esquemático en formato digital  - `id[*]`: Identificador único de la entidad  - `localRulesOrRestrictions[boolean]`: Existencia de normas y restricciones de carácter estrictamente local.  - `localRulesOrRestrictionsDoc[string]`: Documentos relativos a las normas o restricciones de carácter estrictamente local disponibles por el MI  - `location[*]`: Referencia Geojson al elemento. Puede ser Point, LineString, Polygon, MultiPoint, MultiLineString o MultiPolygon.  - `name[string]`: El nombre de este artículo  - `opInfoPerCountry[uri]`: Información sobre puntos fronterizos por país  - `opName[string]`: Nombre del punto operativo  - `opType[uri]`: Tipo de punto operativo  - `opTypeGaugeChangeover[string]`: Tipo de instalación de cambio de ancho de vía  - `owner[array]`: Una lista que contiene una secuencia de caracteres codificada en JSON que hace referencia a los identificadores únicos de los propietarios.  - `schematicOverviewOP[string]`: Vista general esquemática del punto operativo  - `seeAlso[*]`: lista de uri que apuntan a recursos adicionales sobre el artículo  - `siding[uri]`: Revestimiento  - `source[string]`: Secuencia de caracteres que indica la fuente original de los datos de la entidad en forma de URL. Se recomienda que sea el nombre de dominio completo del proveedor de origen o la URL del objeto de origen.  - `tafTAPCode[string]`: Código primario de localización desarrollado para el intercambio de información de conformidad con las ETI relativas a las aplicaciones telemáticas.  - `track[uri]`: Pista  - `type[string]`: Tipo de datos NGSI. Tiene que ser OperationalPoint  - `uopid[string]`: ID único de la OP  <!-- /30-PropertiesList -->    
+<!-- 35-RequiredProperties -->    
+Propiedades requeridas    
+- `id`  - `type`  <!-- /35-RequiredProperties -->    
+<!-- 40-RequiredProperties -->    
+modelo de datos extraído de la ontología ERA https://data-interop.era.europa.eu/era-vocabulary (Agencia Ferroviaria de la Unión Europea)    
+<!-- /40-RequiredProperties -->    
+<!-- 50-DataModelHeader -->    
+## Descripción de las propiedades del modelo de datos    
+Ordenados alfabéticamente (pulse para más detalles)    
+<!-- /50-DataModelHeader -->    
+<!-- 60-ModelYaml -->    
+<details><summary><strong>full yaml details</strong></summary>      
+```yaml    
+OperationalPoint:      
+  description: |-      
+    An operational point (OP) means any location for train service operations, where train services may begin and end or change route, and where passenger or freight services may be provided; operational point also means any location at boundaries between Member States or infrastructure managers.      
+    In https://eur-lex.europa.eu/eli/reg_impl/2019/773/oj 2.1.2 Principal locations (stations, yards, junctions, freight terminals).      
+  properties:      
+    address:      
+      description: The mailing address      
+      properties:      
+        addressCountry:      
+          description: 'The country. For example, Spain'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressCountry      
+            type: Property      
+        addressLocality:      
+          description: 'The locality in which the street address is, and which is in the region'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressLocality      
+            type: Property      
+        addressRegion:      
+          description: 'The region in which the locality is, and which is in the country'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressRegion      
+            type: Property      
+        district:      
+          description: 'A district is a type of administrative division that, in some countries, is managed by the local government'      
+          type: string      
+          x-ngsi:      
+            type: Property      
+        postOfficeBoxNumber:      
+          description: 'The post office box number for PO box addresses. For example, 03578'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/postOfficeBoxNumber      
+            type: Property      
+        postalCode:      
+          description: 'The postal code. For example, 24004'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/https://schema.org/postalCode      
+            type: Property      
+        streetAddress:      
+          description: The street address      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/streetAddress      
+            type: Property      
+        streetNr:      
+          description: Number identifying a specific property on a public street      
+          type: string      
+          x-ngsi:      
+            type: Property      
+      type: object      
+      x-ngsi:      
+        model: https://schema.org/address      
+        type: Property      
+    alternateName:      
+      description: An alternative name for this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    areaServed:      
+      description: The geographic area where a service or offered item is provided      
+      type: string      
+      x-ngsi:      
+        model: https://schema.org/Text      
+        type: Property      
+    borderPointOf:      
+      description: Border point of      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    dataProvider:      
+      description: A sequence of characters identifying the provider of the harmonised data entity      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dateCreated:      
+      description: Entity creation timestamp. This will usually be allocated by the storage platform      
+      format: date-time      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dateModified:      
+      description: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform      
+      format: date-time      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    description:      
+      description: A description of this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    digitalSchematicOverview:      
+      description: Digital schematic overview      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    hasSchematicOverviewOPDigitalForm:      
+      description: Has schematic overview in digital form      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    id:      
+      anyOf:      
+        - description: Identifier format of any NGSI entity      
+          maxLength: 256      
+          minLength: 1      
+          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$      
+          type: string      
+          x-ngsi:      
+            type: Property      
+        - description: Identifier format of any NGSI entity      
+          format: uri      
+          type: string      
+          x-ngsi:      
+            type: Property      
+      description: Unique identifier of the entity      
+      x-ngsi:      
+        type: Property      
+    localRulesOrRestrictions:      
+      description: Existence of rules and restrictions of a strictly local nature.      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    localRulesOrRestrictionsDoc:      
+      description: Documents regarding the rules or restrictions of a strictly local nature available by the IM      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    location:      
+      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'      
+      oneOf:      
+        - description: Geojson reference to the item. Point      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                type: number      
+              minItems: 2      
+              type: array      
+            type:      
+              enum:      
+                - Point      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON Point      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. LineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  type: number      
+                minItems: 2      
+                type: array      
+              minItems: 2      
+              type: array      
+            type:      
+              enum:      
+                - LineString      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON LineString      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. Polygon      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    type: number      
+                  minItems: 2      
+                  type: array      
+                minItems: 4      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - Polygon      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON Polygon      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiPoint      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  type: number      
+                minItems: 2      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiPoint      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiPoint      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiLineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    type: number      
+                  minItems: 2      
+                  type: array      
+                minItems: 2      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiLineString      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiLineString      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiLineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    items:      
+                      type: number      
+                    minItems: 2      
+                    type: array      
+                  minItems: 4      
+                  type: array      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiPolygon      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiPolygon      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+      x-ngsi:      
+        type: GeoProperty      
+    name:      
+      description: The name of this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    opInfoPerCountry:      
+      description: Border point information per country      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    opName:      
+      description: Name of Operational point      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    opType:      
+      description: Type of operational point      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    opTypeGaugeChangeover:      
+      description: Type of track gauge changeover facility      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    owner:      
+      description: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)      
+      items:      
+        anyOf:      
+          - description: Identifier format of any NGSI entity      
+            maxLength: 256      
+            minLength: 1      
+            pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$      
+            type: string      
+            x-ngsi:      
+              type: Property      
+          - description: Identifier format of any NGSI entity      
+            format: uri      
+            type: string      
+            x-ngsi:      
+              type: Property      
+        description: Unique identifier of the entity      
+        x-ngsi:      
+          type: Property      
+      type: array      
+      x-ngsi:      
+        type: Property      
+    schematicOverviewOP:      
+      description: Schematic overview of the operational point      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    seeAlso:      
+      description: list of uri pointing to additional resources about the item      
+      oneOf:      
+        - items:      
+            format: uri      
+            type: string      
+          minItems: 1      
+          type: array      
+        - format: uri      
+          type: string      
+      x-ngsi:      
+        type: Property      
+    siding:      
+      description: Siding      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    source:      
+      description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object'      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    tafTAPCode:      
+      description: Primary location code developed for information exchange in accordance with the TSIs relating to telematics applications.      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    track:      
+      description: Track      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    type:      
+      description: NGSI data type. It has to be OperationalPoint      
+      enum:      
+        - OperationalPoint      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    uopid:      
+      description: Unique OP ID      
+      type: string      
+      x-ngsi:      
+        type: Property      
+  required:      
+    - id      
+    - type      
+  type: object      
+  x-derived-from: http://data.europa.eu/949/OperationalPoint      
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'      
+  x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/OperationalPoint/LICENSE.md      
+  x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json      
+  x-model-tags: 'ERA vocabulary, railway, train'      
+  x-version: 0.0.1      
+```    
+</details>      
+<!-- /60-ModelYaml -->    
+<!-- 70-MiddleNotes -->    
+<!-- /70-MiddleNotes -->    
+<!-- 80-Examples -->    
+## Ejemplo de carga útil    
+#### OperationalPoint NGSI-v2 key-values Ejemplo    
+He aquí un ejemplo de un OperationalPoint en formato JSON-LD como key-values. Esto es compatible con NGSI-v2 cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:OperationalPoint:id:IOTD:74551353",  
@@ -509,10 +507,10 @@ OperationalPoint:
   "track": "urn:ngsi-ld:OperationalPoint:track:NRVQ:66885969"  
 }  
 ```  
-</details>  
-#### OperationalPoint NGSI-v2 normalizado Ejemplo  
-He aquí un ejemplo de un OperationalPoint en formato JSON-LD normalizado. Esto es compatible con NGSI-v2 cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### OperationalPoint NGSI-v2 normalizado Ejemplo    
+He aquí un ejemplo de un OperationalPoint en formato JSON-LD normalizado. Esto es compatible con NGSI-v2 cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:OperationalPoint:id:IOTD:74551353",  
@@ -561,50 +559,23 @@ OperationalPoint:
     "type": "geo:json",  
     "value": {  
       "type": "Point",  
-      "coordinates": {  
-        "type": "StructuredValue",  
-        "value": [  
-          -87.0756655,  
-          -98.077607  
-        ]  
-      }  
+      "coordinates": [  
+        -87.0756655,  
+        -98.077607  
+      ]  
     }  
   },  
   "address": {  
     "type": "StructuredValue",  
     "value": {  
-      "streetAddress": {  
-        "type": "Text",  
-        "value": "Recently southern war measure. Behind collection relationship something. Join blue expert should happy according deal."  
-      },  
-      "addressLocality": {  
-        "type": "Text",  
-        "value": "Community sit about space need win man. Prevent place we whatever image stock."  
-      },  
-      "addressRegion": {  
-        "type": "Text",  
-        "value": "Into his give degree however."  
-      },  
-      "addressCountry": {  
-        "type": "Text",  
-        "value": "Identify couple five deep bar popular product not. Design sell security trip never adult heart course."  
-      },  
-      "postalCode": {  
-        "type": "Text",  
-        "value": "Product five yourself open. Purpose decade "  
-      },  
-      "postOfficeBoxNumber": {  
-        "type": "Text",  
-        "value": "Involve argue cup subject arm bab"  
-      },  
-      "streetNr": {  
-        "type": "Text",  
-        "value": "Fish share "  
-      },  
-      "district": {  
-        "type": "Text",  
-        "value": "Speech customer perhaps ball defense attorney. Pattern indeed bank result hear. Society different open health. Back reduce his know green next produce."  
-      }  
+      "streetAddress": "Recently southern war measure. Behind collection relationship something. Join blue expert should happy according deal.",  
+      "addressLocality": "Community sit about space need win man. Prevent place we whatever image stock.",  
+      "addressRegion": "Into his give degree however.",  
+      "addressCountry": "Identify couple five deep bar popular product not. Design sell security trip never adult heart course.",  
+      "postalCode": "Product five yourself open. Purpose decade ",  
+      "postOfficeBoxNumber": "Involve argue cup subject arm bab",  
+      "streetNr": "Fish share ",  
+      "district": "Speech customer perhaps ball defense attorney. Pattern indeed bank result hear. Society different open health. Back reduce his know green next produce."  
     }  
   },  
   "areaServed": {  
@@ -670,10 +641,10 @@ OperationalPoint:
   }  
 }  
 ```  
-</details>  
-#### OperationalPoint NGSI-LD key-values Ejemplo  
-He aquí un ejemplo de un OperationalPoint en formato JSON-LD como key-values. Esto es compatible con NGSI-LD cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### OperationalPoint NGSI-LD key-values Ejemplo    
+He aquí un ejemplo de un OperationalPoint en formato JSON-LD como key-values. Esto es compatible con NGSI-LD cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:OperationalPoint:id:IOTD:74551353",  
@@ -729,10 +700,10 @@ OperationalPoint:
   ]  
 }  
 ```  
-</details>  
-#### OperationalPoint NGSI-LD normalizado Ejemplo  
-He aquí un ejemplo de un OperationalPoint en formato JSON-LD normalizado. Esto es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### OperationalPoint NGSI-LD normalizado Ejemplo    
+He aquí un ejemplo de un OperationalPoint en formato JSON-LD normalizado. Esto es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:OperationalPoint:id:XZFT:49427654",  
@@ -872,12 +843,12 @@ OperationalPoint:
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->  
-<!-- 90-FooterNotes -->  
-<!-- /90-FooterNotes -->  
-<!-- 95-Units -->  
-Consulte [FAQ 10](https://smartdatamodels.org/index.php/faqs/) para obtener una respuesta sobre cómo tratar las unidades de magnitud.  
-<!-- /95-Units -->  
-<!-- 97-LastFooter -->  
----  
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->  
+</details><!-- /80-Examples -->    
+<!-- 90-FooterNotes -->    
+<!-- /90-FooterNotes -->    
+<!-- 95-Units -->    
+Consulte [FAQ 10](https://smartdatamodels.org/index.php/faqs/) para obtener una respuesta sobre cómo tratar las unidades de magnitud.    
+<!-- /95-Units -->    
+<!-- 97-LastFooter -->    
+---    
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
