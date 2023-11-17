@@ -1,1159 +1,1157 @@
-<!-- 10-Header -->  
-[![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)  
-엔티티: 차량 유형  
-==========<!-- /10-Header -->  
-<!-- 15-License -->  
-[오픈 라이선스](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)  
-[문서 자동 생성](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)  
-<!-- /15-License -->  
-<!-- 20-Description -->  
-글로벌 설명: **EU 철도 인프라에서 운행할 수 있도록 승인된 차량 유형입니다.**  
-버전: 0.0.1  
-<!-- /20-Description -->  
-<!-- 30-PropertiesList -->  
-
-## 속성 목록  
-
-<sup><sub>[*] 속성에 유형이 없는 것은 여러 유형 또는 다른 형식/패턴을 가질 수 있기 때문입니다</sub></sup>.  
-- `address[object]`: 우편 주소  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 국가. 예를 들어, 스페인  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)  
-	- `addressLocality[string]`: 도로명 주소가 있는 지역 및 해당 지역에 속한 지역  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)  
-	- `addressRegion[string]`: 해당 지역이 위치한 지역과 해당 국가의 지역  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)  
-	- `district[string]`: 지구는 일부 국가에서는 지방 정부에서 관리하는 행정 구역의 일종입니다.    
-	- `postOfficeBoxNumber[string]`: 사서함 주소의 우체국 사서함 번호입니다. 예: 03578  . Model: [https://schema.org/postOfficeBoxNumber](https://schema.org/postOfficeBoxNumber)  
-	- `postalCode[string]`: 우편 번호입니다. 예: 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)  
-	- `streetAddress[string]`: 거리 주소  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)  
-	- `streetNr[string]`: 공공 도로의 특정 건물을 식별하는 번호    
-- `alternateName[string]`: 이 항목의 대체 이름  - `alternativeName[string]`: 대체 이름  - `altitudeRange[string]`: 고도 범위  - `altitudeRangeDetail[number]`: 고도 범위 세부 정보  - `areaServed[string]`: 서비스 또는 제공 품목이 제공되는 지리적 영역  . Model: [https://schema.org/Text](https://schema.org/Text)- `authorizedCountry[uri]`: 승인된 국가  - `axleBearingConditionMonitoring[uri]`: 차축 베어링 상태 모니터링  - `axleSpacing[string]`: 차축 간격  - `boardingAids[string]`: 탑승 보조 도구  - `brakeWeightPercentage[string]`: 브레이크 무게 비율  - `cantDefficiency[number]`: 캔 효율  - `category[uri]`: 차량 카테고리  - `catenaryMaxRatedCurrent[number]`: 전차선 최대 정격 전류  - `certificate[uri]`: 인증서  - `conditionsTrainFormation[string]`: 조건 열차 편성  - `contactStripMaterial[uri]`: 허용된 접촉 스트립 재질  - `dangerousGoodsTankCode[string]`: 위험물 탱크 코드  - `dataGSMRNetwork[uri]`: 데이터 GSM-R 네트워크  - `dataProvider[string]`: 조화된 데이터 엔티티의 공급자를 식별하는 일련의 문자  - `dataRadioCompatible[uri]`: 무선 시스템 호환성 데이터  - `dateCreated[date-time]`: 엔티티 생성 타임스탬프. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  - `dateModified[date-time]`: 엔티티의 마지막 수정 타임스탬프입니다. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  - `description[string]`: 이 항목에 대한 설명  - `designMassExceptionalPayload[number]`: 탁월한 페이로드 하에서 설계 질량  - `designMassNormalPayload[number]`: 일반 페이로드 하에서의 설계 질량  - `designMassWorkingOrder[number]`: 작동 중인 디자인 매스  - `drivingCabs[number]`: 택시 운전  - `eddyCurrentBrakePrevention[boolean]`: 와전류 브레이크 방지  - `eddyCurrentBrakingFitted[boolean]`: 와전류 제동 장착  - `emergencyBrake[string]`: 긴급 제동  - `endCouplingType[uri]`: 엔드 커플링 유형  - `energyMeterInstalled[boolean]`: 에너지 계량기 설치  - `energySupplyMaxPower[number]`: 에너지 공급 최대 전력  - `energySupplySystem[uri]`: 에너지 공급 시스템  - `etcsBaseline[uri]`: ETCS 기준선  - `etcsDataCommApp[string]`: ETCS 데이터 통신 애플리케이션  - `etcsEquipmentOnBoardLevel[uri]`: ETCS 장비 수준  - `etcsInfill[uri]`: ETCS 인필 설치 라인사이드  - `etcsNationalApplications[string]`: ETCS 국가별 애플리케이션  - `etcsOnBoardImplementation[string]`: ETCS 온보드 구현  - `etcsSystemCompatibility[uri]`: ETCS 시스템 호환성  - `ferromagneticWheelMaterial[boolean]`: 강자성 휠 소재  - `fireSafetyCategory[uri]`: 화재 안전 카테고리  - `fixedSeats[string]`: 고정 좌석  - `flangeLubricationFitted[boolean]`: 플랜지 윤활 장착  - `gaugingProfile[uri]`: 측정  - `gsmRRadioDataCommunication[uri]`: GSM-R 무선 데이터 통신  - `gsmRSetsInDrivingCab[number]`: 운전석에 장착된 GSM-R 세트  - `gsmRVersion[uri]`: GSM-R 버전  - `hasAutomaticDroppingDevice[boolean]`: 자동 낙하 장치 있음  - `hasCantDefficiencyCompensation[boolean]`: 캔트 효율 보정 기능 제공  - `hasCurrentLimitation[boolean]`: 전류 제한이 있습니다.  - `hasLubricationDevicePrevention[boolean]`: 윤활 장치 방지 기능이 있습니다.  - `hasParkingBrake[boolean]`: 주차 브레이크 있음  - `hasRegenerativeBrake[boolean]`: 회생 제동 권한  - `hasSandingPrevention[boolean]`: 샌딩 방지 기능  - `hasShuntingRestrictions[boolean]`: 션트 제한이 있습니다.  - `hasTrainIntegrityConfirmation[boolean]`: 열차 무결성 확인 기능  - `hasWheelSlideProtectionSystem[boolean]`: 휠 슬라이드 보호 시스템 포함  - `id[*]`: 엔티티의 고유 식별자  - `legacyRadioSystem[uri]`: 설치된 기타 무선 시스템(무선 레거시 시스템)  - `letterMarking[string]`: 문자 표시  - `loadingPlatformHeight[number]`: 적재 플랫폼 높이  - `location[*]`: 항목에 대한 지오숀 참조입니다. 포인트, 라인 문자열, 다각형, 멀티포인트, 멀티라인 문자열 또는 멀티폴리곤일 수 있습니다.  - `magneticBrakePrevention[boolean]`: 자기 브레이크 방지  - `magneticBrakingFitted[boolean]`: 마그네틱 브레이크 장착  - `manufacturer[uri]`: 제조업체  - `manufacturingCountry[uri]`: 제조 국가  - `massPerWheel[number]`: 바퀴당 질량  - `maxCurrentStandstillPantograph[number]`: 팬터그래프당 정지 상태에서의 최대 전류  - `maxDistConsecutiveAxles[number]`: TSI 미준수 시 연속된 두 차축 간 최대 허용 거리  - `maxFlangeHeight[number]`: 플랜지의 최대 허용 높이  - `maxImpedanceWheelset[number]`: TSI를 준수하지 않는 경우 휠셋의 반대쪽 휠 사이에 허용되는 최대 임피던스  - `maxLengthVehicleNose[number]`: 최대 길이 차량 노즈  - `maximumAverageDeceleration[number]`: 최대 평균 감속  - `maximumBrakeThermalEnergyCapacity[number]`: 최대 브레이크 열 에너지 용량  - `maximumContactWireHeight[number]`: 최대 접점 와이어 높이  - `maximumDesignSpeed[number]`: 최대 설계 속도  - `maximumLocomotivesCoupled[number]`: 최대 기관차 결합  - `maximumServiceBrake[string]`: 최대 서비스 휴식 시간  - `maximumSpeedAndCantDeficiency[string]`: 최대 속도 및 캔트 결핍  - `maximumSpeedEmpty[number]`: 최대 속도 비어 있음  - `maximumTemperature[number]`: 온도 범위(최대)  - `meetsRequirementVehicleAuthorisation[string]`: 차량 승인 요건 충족  - `minAxleLoad[number]`: 최소 허용 차축 하중  - `minDistConsecutiveAxles[number]`: 연속된 두 축 사이의 최소 허용 거리  - `minDistFirstLastAxle[number]`: 첫 번째 차축과 마지막 차축 사이의 최소 허용 거리  - `minFlangeHeight[number]`: 플랜지의 최소 허용 높이  - `minFlangeThickness[number]`: 플랜지의 최소 허용 두께  - `minRimWidth[number]`: 림의 최소 허용 너비  - `minVehicleImpedance[string]`: 차량 임피던스  - `minWheelDiameter[number]`: 허용되는 최소 휠 직경  - `minimumConcaveVerticalRadius[number]`: 최소 오목한 수직 반경  - `minimumContactWireHeight[number]`: 최소 접점 와이어 높이  - `minimumConvexVerticalRadius[number]`: 최소 볼록 수직 반경  - `minimumHorizontalRadius[number]`: 수평 커브의 최소 반경  - `minimumTemperature[number]`: 온도 범위(최소)  - `minimumWheelDiameter[number]`: 고정식 둔각 교차로용 최소 휠 직경  - `name[string]`: 이 항목의 이름  - `nonCodedRestrictions[string]`: 비코드 제한  - `numberElementsRakeFreightWagons[number]`: 숫자 요소 레이크 화물 마차  - `numberOfPantographsInContactWithOCL[number]`: OCL과 접촉하는 팬터그래프 수  - `numberOfToilets[number]`: 화장실 수  - `oclType[string]`: Ocl 유형  - `owner[array]`: 소유자의 고유 ID를 참조하는 JSON 인코딩된 문자 시퀀스가 포함된 목록입니다.  - `parkingBrake[boolean]`: 주차 브레이크  - `parkingBrakeMandatory[boolean]`: 주차 브레이크 필수  - `parkingBrakeMaximumGradient[number]`: 주차 브레이크 최대 경사도  - `parkingBrakeType[uri]`: 주차 브레이크 유형  - `passByNoiseLevel[number]`: 지나가는 소음 수준  - `permissiblePayload[string]`: 허용되는 페이로드  - `portableBoardingAids[string]`: 휴대용 탑승 보조 기구  - `preventRegenerativeBrakeUse[boolean]`: 회생 브레이크 사용 방지  - `previousVehicleType[uri]`: 이전 차량 유형  - `prioritySeats[string]`: 우선 좌석  - `prmAccessibleToilets[number]`: 장애인용 화장실  - `protectionLegacySystem[uri]`: 열차 보호 레거시 시스템  - `quasiStaticGuidingForce[number]`: 준정적 유도력  - `radioSwitchOverSpecialConditions[string]`: 특수 조건에 대한 무선 전환  - `railInclination[uri]`: 레일 경사  - `referencePassByNoiseLevel[boolean]`: 기준 통과 노이즈 레벨  - `seeAlso[*]`: 항목에 대한 추가 리소스를 가리키는 URL 목록  - `shortestDistanceBetweenPantographsInContactWithOCL[string]`: OCL과 접촉하는 팬터그래프 사이의 최단 거리  - `sleepingPlaces[string]`: 수면 장소  - `snowIceHailConditions[uri]`: 눈 우박 조건  - `source[string]`: 엔티티 데이터의 원본 소스를 URL로 제공하는 문자 시퀀스입니다. 소스 공급자의 정규화된 도메인 이름 또는 소스 개체에 대한 URL을 사용하는 것이 좋습니다.  - `startingNoiseLevel[number]`: 시작 소음 수준  - `staticAxleLoadExceptionalPayload[number]`: 탁월한 하중 하에서의 정적 차축 하중  - `staticAxleLoadNormalPayload[number]`: 정상 하중 하에서의 정적 차축 하중  - `staticAxleLoadWorkingOrder[number]`: 작동 중인 정적 차축 하중  - `stationaryNoiseLevel[number]`: 고정 소음 수준  - `structuralCategory[string]`: 구조 카테고리  - `subCategory[uri]`: 차량 하위 카테고리  - `supportedPlatformHeight[uri]`: 지원되는 플랫폼 높이  - `thermalCapacityDistance[number]`: 열 용량 거리  - `thermalCapacityGradient[number]`: 열 용량 구배  - `thermalCapacitySpeed[number]`: 열 용량 속도  - `thermalCapacityTSIReference[uri]`: 열 용량 TSI 참조  - `thermalCapacityTime[number]`: 열 용량 시간  - `totalVehicleMass[number]`: 총 차량 질량  - `trainControlSwitchOverSpecialConditions[string]`: 특수 조건에서 열차 제어 스위치  - `trainDetectionSystemType[uri]`: 열차 감지 시스템 유형  - `transportableOnFerry[boolean]`: 페리로 운송 가능  - `type[string]`: NGSI 데이터 유형입니다. VehicleType이어야 합니다.  - `typeVersionId[uri]`: 버전 ID 입력  - `typeVersionNumber[string]`: 버전 번호 입력  - `usesGroup555[boolean]`: 그룹 555의 GSM-R 사용  - `vehicleContactForce[number]`: 차량 접촉력  - `vehicleKinematicGaugeOther[string]`: 차량 운동학 게이지 기타  - `vehicleMaxSandingOutput[string]`: 차량 최대 샌딩 출력  - `vehiclePantographHead[string]`: 차량 팬터그래프 헤드  - `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: 전차 유형 최대 속도 및 캔트 결핍  - `vehiclesComposingFixedFormation[number]`: 고정 대형을 구성하는 전차  - `voiceGSMRNetwork[uri]`: 음성 GSM-R 네트워크  - `voiceOperationalCommImpl[string]`: 음성 운영 커뮤니케이션 구현  - `voiceRadioCompatible[uri]`: 무선 시스템 호환 음성  - `wheelSetGauge[uri]`: 공칭 트랙 게이지  - `wheelSetGaugeChangeoverFacility[uri]`: 휠셋 게이지 교체 기능  - `wheelSetGaugeTransformationMethod[string]`: 휠 세트 게이지 변환 방법  - `wheelchairSleepingPlaces[string]`: 휠체어 수면 공간  - `wheelchairSpaces[number]`: 휠체어 공간  <!-- /30-PropertiesList -->  
-<!-- 35-RequiredProperties -->  
-필수 속성  
-- `id`  - `type`  <!-- /35-RequiredProperties -->  
-<!-- 40-RequiredProperties -->  
-ERA 온톨로지에서 매핑된 데이터 모델 https://data-interop.era.europa.eu/era-vocabulary(유럽 연합 철도청)  
-<!-- /40-RequiredProperties -->  
-<!-- 50-DataModelHeader -->  
-## 속성에 대한 데이터 모델 설명  
-알파벳순으로 정렬(자세한 내용을 보려면 클릭)  
-<!-- /50-DataModelHeader -->  
-<!-- 60-ModelYaml -->  
-<details><summary><strong>full yaml details</strong></summary>    
-```yaml  
-VehicleType:    
-  description: A vehicle type that has been authorized to operate on the EU railway infrastructure.    
-  properties:    
-    address:    
-      description: The mailing address    
-      properties:    
-        addressCountry:    
-          description: 'The country. For example, Spain'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressCountry    
-            type: Property    
-        addressLocality:    
-          description: 'The locality in which the street address is, and which is in the region'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressLocality    
-            type: Property    
-        addressRegion:    
-          description: 'The region in which the locality is, and which is in the country'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressRegion    
-            type: Property    
-        district:    
-          description: 'A district is a type of administrative division that, in some countries, is managed by the local government'    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        postOfficeBoxNumber:    
-          description: 'The post office box number for PO box addresses. For example, 03578'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/postOfficeBoxNumber    
-            type: Property    
-        postalCode:    
-          description: 'The postal code. For example, 24004'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/https://schema.org/postalCode    
-            type: Property    
-        streetAddress:    
-          description: The street address    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/streetAddress    
-            type: Property    
-        streetNr:    
-          description: Number identifying a specific property on a public street    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      type: object    
-      x-ngsi:    
-        model: https://schema.org/address    
-        type: Property    
-    alternateName:    
-      description: An alternative name for this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    alternativeName:    
-      description: Alternative name    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    altitudeRange:    
-      description: Altitude range    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    altitudeRangeDetail:    
-      description: Altitude range detail    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    areaServed:    
-      description: The geographic area where a service or offered item is provided    
-      type: string    
-      x-ngsi:    
-        model: https://schema.org/Text    
-        type: Property    
-    authorizedCountry:    
-      description: Authorized country    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    axleBearingConditionMonitoring:    
-      description: Axle bearing condition monitoring    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    axleSpacing:    
-      description: Axle spacing    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    boardingAids:    
-      description: Boarding aids    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    brakeWeightPercentage:    
-      description: Brake weight percentage    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    cantDefficiency:    
-      description: Cant defficiency    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    category:    
-      description: Vehicle category    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    catenaryMaxRatedCurrent:    
-      description: Catenary max rated current    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    certificate:    
-      description: Certificate    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    conditionsTrainFormation:    
-      description: Conditions train formation    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    contactStripMaterial:    
-      description: Permitted contact strip material    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    dangerousGoodsTankCode:    
-      description: Dangerous goods tank code    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dataGSMRNetwork:    
-      description: Data GSM-R network    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    dataProvider:    
-      description: A sequence of characters identifying the provider of the harmonised data entity    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dataRadioCompatible:    
-      description: Radio system compatibility data    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    dateCreated:    
-      description: Entity creation timestamp. This will usually be allocated by the storage platform    
-      format: date-time    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dateModified:    
-      description: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform    
-      format: date-time    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    description:    
-      description: A description of this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    designMassExceptionalPayload:    
-      description: Design mass under exceptional payload    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    designMassNormalPayload:    
-      description: Design mass under normal payload    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    designMassWorkingOrder:    
-      description: Design mass in working order    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    drivingCabs:    
-      description: Driving cabs    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    eddyCurrentBrakePrevention:    
-      description: Eddy current brake prevention    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    eddyCurrentBrakingFitted:    
-      description: Eddy current braking fitted    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    emergencyBrake:    
-      description: Emergency braking    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    endCouplingType:    
-      description: End coupling type    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    energyMeterInstalled:    
-      description: Energy meter installed    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    energySupplyMaxPower:    
-      description: Energy supply max power    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    energySupplySystem:    
-      description: Energy supply system    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    etcsBaseline:    
-      description: ETCS baseline    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    etcsDataCommApp:    
-      description: ETCS data communication application    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    etcsEquipmentOnBoardLevel:    
-      description: ETCS equipment level    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    etcsInfill:    
-      description: ETCS infill installed lineside    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    etcsNationalApplications:    
-      description: ETCS national applications    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    etcsOnBoardImplementation:    
-      description: ETCS on-board implementation    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    etcsSystemCompatibility:    
-      description: ETCS system compatibility    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    ferromagneticWheelMaterial:    
-      description: Ferromagnetic wheel material    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    fireSafetyCategory:    
-      description: Fire safety category    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    fixedSeats:    
-      description: Fixed seats    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    flangeLubricationFitted:    
-      description: Flange lubrication fitted    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    gaugingProfile:    
-      description: Gauging    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    gsmRRadioDataCommunication:    
-      description: GSM-R radio data communication    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    gsmRSetsInDrivingCab:    
-      description: GSM-R sets in driving cab    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    gsmRVersion:    
-      description: GSM-R version    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    hasAutomaticDroppingDevice:    
-      description: Has automatic dropping device    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasCantDefficiencyCompensation:    
-      description: Has cant defficiency compensation    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasCurrentLimitation:    
-      description: Has current limitation    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasLubricationDevicePrevention:    
-      description: Has lubrication device prevention    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasParkingBrake:    
-      description: Has parking brake    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasRegenerativeBrake:    
-      description: Permission for regenerative braking    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasSandingPrevention:    
-      description: Has sanding prevention    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasShuntingRestrictions:    
-      description: Has shunting restrictions    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasTrainIntegrityConfirmation:    
-      description: Has train integrity confirmation    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    hasWheelSlideProtectionSystem:    
-      description: Has wheel slide protection system    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    id:    
-      anyOf:    
-        - description: Identifier format of any NGSI entity    
-          maxLength: 256    
-          minLength: 1    
-          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        - description: Identifier format of any NGSI entity    
-          format: uri    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      description: Unique identifier of the entity    
-      x-ngsi:    
-        type: Property    
-    legacyRadioSystem:    
-      description: Other radio systems installed (Radio Legacy Systems)    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    letterMarking:    
-      description: Letter marking    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    loadingPlatformHeight:    
-      description: Loading platform height    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    location:    
-      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'    
-      oneOf:    
-        - description: Geojson reference to the item. Point    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                type: number    
-              minItems: 2    
-              type: array    
-            type:    
-              enum:    
-                - Point    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON Point    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. LineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  type: number    
-                minItems: 2    
-                type: array    
-              minItems: 2    
-              type: array    
-            type:    
-              enum:    
-                - LineString    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON LineString    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. Polygon    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    type: number    
-                  minItems: 2    
-                  type: array    
-                minItems: 4    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - Polygon    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON Polygon    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiPoint    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  type: number    
-                minItems: 2    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiPoint    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiPoint    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiLineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    type: number    
-                  minItems: 2    
-                  type: array    
-                minItems: 2    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiLineString    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiLineString    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiLineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    items:    
-                      type: number    
-                    minItems: 2    
-                    type: array    
-                  minItems: 4    
-                  type: array    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiPolygon    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiPolygon    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-      x-ngsi:    
-        type: GeoProperty    
-    magneticBrakePrevention:    
-      description: Magnetic brake prevention    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    magneticBrakingFitted:    
-      description: Magnetic braking fitted    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    manufacturer:    
-      description: Manufacturer    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    manufacturingCountry:    
-      description: Manufacturing country    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    massPerWheel:    
-      description: Mass per wheel    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxCurrentStandstillPantograph:    
-      description: Maximum current at standstill per pantograph    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxDistConsecutiveAxles:    
-      description: Maximum permitted distance between two consecutive axles in case of TSI non-compliance    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxFlangeHeight:    
-      description: Maximum permitted height of the flange    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxImpedanceWheelset:    
-      description: Maximum permitted impedance between opposite wheels of a wheelset when not TSI compliant    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxLengthVehicleNose:    
-      description: Maximum length vehicle nose    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumAverageDeceleration:    
-      description: Maximum average deceleration    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumBrakeThermalEnergyCapacity:    
-      description: Maximum brake thermal energy capacity    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumContactWireHeight:    
-      description: Maximum contact wire height    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumDesignSpeed:    
-      description: Maximum design speed    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumLocomotivesCoupled:    
-      description: Maximum locomotives coupled    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumServiceBrake:    
-      description: Maximum service break    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    maximumSpeedAndCantDeficiency:    
-      description: Maximum speed and cant deficiency    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    maximumSpeedEmpty:    
-      description: Maximum speed empty    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maximumTemperature:    
-      description: Temperature range (maximum)    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    meetsRequirementVehicleAuthorisation:    
-      description: Meets requirement vehicle authorization    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    minAxleLoad:    
-      description: Minimum permitted axle load    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minDistConsecutiveAxles:    
-      description: Minimum permitted distance between two consecutive axles    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minDistFirstLastAxle:    
-      description: Minimum permitted distance between first and last axle    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minFlangeHeight:    
-      description: Minimum permitted height of the flange    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minFlangeThickness:    
-      description: Minimum permitted thickness of the flange    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minRimWidth:    
-      description: Minimum permitted width of the rim    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minVehicleImpedance:    
-      description: Vehicle impedance    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    minWheelDiameter:    
-      description: Minimum permitted wheel diameter    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumConcaveVerticalRadius:    
-      description: Minimum concave vertical radius    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumContactWireHeight:    
-      description: Minimum contact wire height    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumConvexVerticalRadius:    
-      description: Minimum convex vertical radius    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumHorizontalRadius:    
-      description: Minimum radius of horizontal curve    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumTemperature:    
-      description: Temperature range (minimum)    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minimumWheelDiameter:    
-      description: Minimum wheel diameter for fixed obtuse crossings    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    name:    
-      description: The name of this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    nonCodedRestrictions:    
-      description: Non coded restrictions    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    numberElementsRakeFreightWagons:    
-      description: Number elements rake freight wagons    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    numberOfPantographsInContactWithOCL:    
-      description: Number of pantographs in contact with OCL    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    numberOfToilets:    
-      description: Number of toilets    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    oclType:    
-      description: Ocl type    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    owner:    
-      description: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)    
-      items:    
-        anyOf:    
-          - description: Identifier format of any NGSI entity    
-            maxLength: 256    
-            minLength: 1    
-            pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-            type: string    
-            x-ngsi:    
-              type: Property    
-          - description: Identifier format of any NGSI entity    
-            format: uri    
-            type: string    
-            x-ngsi:    
-              type: Property    
-        description: Unique identifier of the entity    
-        x-ngsi:    
-          type: Property    
-      type: array    
-      x-ngsi:    
-        type: Property    
-    parkingBrake:    
-      description: Parking brake    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    parkingBrakeMandatory:    
-      description: Parking brake mandatory    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    parkingBrakeMaximumGradient:    
-      description: Parking brake maximum gradient    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    parkingBrakeType:    
-      description: Parking brake type    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    passByNoiseLevel:    
-      description: Pass-by noise level    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    permissiblePayload:    
-      description: Permissible payload    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    portableBoardingAids:    
-      description: Portable boarding aids    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    preventRegenerativeBrakeUse:    
-      description: Prevent regenerative brake use    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    previousVehicleType:    
-      description: Previous vehicle type    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    prioritySeats:    
-      description: Priority seats    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    prmAccessibleToilets:    
-      description: Prm accessible toilets    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    protectionLegacySystem:    
-      description: Train protection legacy system    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    quasiStaticGuidingForce:    
-      description: Quasi static guiding force    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    radioSwitchOverSpecialConditions:    
-      description: Radio switch over special conditions    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    railInclination:    
-      description: Rail inclination    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    referencePassByNoiseLevel:    
-      description: Reference pass-by noise level    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    seeAlso:    
-      description: list of uri pointing to additional resources about the item    
-      oneOf:    
-        - items:    
-            format: uri    
-            type: string    
-          minItems: 1    
-          type: array    
-        - format: uri    
-          type: string    
-      x-ngsi:    
-        type: Property    
-    shortestDistanceBetweenPantographsInContactWithOCL:    
-      description: Shortest distance between pantographs in contact with OCL    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    sleepingPlaces:    
-      description: Sleeping places    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    snowIceHailConditions:    
-      description: Snow ice hail conditions    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    source:    
-      description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object'    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    startingNoiseLevel:    
-      description: Starting noise level    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    staticAxleLoadExceptionalPayload:    
-      description: Static axle load under exceptional payload    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    staticAxleLoadNormalPayload:    
-      description: Static axle load under normal payload    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    staticAxleLoadWorkingOrder:    
-      description: Static axle load in working order    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    stationaryNoiseLevel:    
-      description: Stationary noise level    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    structuralCategory:    
-      description: Structural category    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    subCategory:    
-      description: Vehicle subcategory    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    supportedPlatformHeight:    
-      description: Supported platform height    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    thermalCapacityDistance:    
-      description: Thermal capacity distance    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    thermalCapacityGradient:    
-      description: Thermal capacity gradient    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    thermalCapacitySpeed:    
-      description: Thermal capacity speed    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    thermalCapacityTSIReference:    
-      description: Thermal capacity TSI reference    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    thermalCapacityTime:    
-      description: Thermal capacity time    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    totalVehicleMass:    
-      description: Total vehicle mass    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    trainControlSwitchOverSpecialConditions:    
-      description: Train control switch over special conditions    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    trainDetectionSystemType:    
-      description: Type of train detection system    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    transportableOnFerry:    
-      description: Transportable on ferry    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    type:    
-      description: NGSI data type. It has to be VehicleType    
-      enum:    
-        - VehicleType    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    typeVersionId:    
-      description: Type version id    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    typeVersionNumber:    
-      description: Type version number    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    usesGroup555:    
-      description: GSM-R use of group 555    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    vehicleContactForce:    
-      description: Vehicle contact force    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    vehicleKinematicGaugeOther:    
-      description: Vehicle kinematic gauge other    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    vehicleMaxSandingOutput:    
-      description: Vehicle max sanding output    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    vehiclePantographHead:    
-      description: Vehicle pantograph head    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    vehicleTypeMaximumSpeedAndCantDeficiency:    
-      description: Vehicle type maximum speed and cant deficiency    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    vehiclesComposingFixedFormation:    
-      description: Vehicles composing fixed formation    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    voiceGSMRNetwork:    
-      description: Voice GSM-R network    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    voiceOperationalCommImpl:    
-      description: Voice operational communication implementation    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    voiceRadioCompatible:    
-      description: Radio system compatibility voice    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    wheelSetGauge:    
-      description: Nominal track gauge    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    wheelSetGaugeChangeoverFacility:    
-      description: Wheelset gauge changeover facility    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    wheelSetGaugeTransformationMethod:    
-      description: Wheel set gauge transformation method    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    wheelchairSleepingPlaces:    
-      description: Wheelchair sleeping spaces    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    wheelchairSpaces:    
-      description: Wheelchair spaces    
-      type: number    
-      x-ngsi:    
-        type: Property    
-  required:    
-    - id    
-    - type    
-  type: object    
-  x-derived-from: http://data.europa.eu/949/VehicleType    
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'    
-  x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/VehicleType/LICENSE.md    
-  x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json    
-  x-model-tags: 'ERA vocabulary, railway, train'    
-  x-version: 0.0.1    
-```  
-</details>    
-<!-- /60-ModelYaml -->  
-<!-- 70-MiddleNotes -->  
-<!-- /70-MiddleNotes -->  
-<!-- 80-Examples -->  
-## 페이로드 예시  
-#### 차량 유형 NGSI-v2 키 값 예시  
-다음은 키 값으로 JSON-LD 형식의 VehicleType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.  
-<details><summary><strong>show/hide example</strong></summary>    
+<!-- 10-Header -->    
+[![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
+엔티티: 차량 유형    
+==========<!-- /10-Header -->    
+<!-- 15-License -->    
+[오픈 라이선스](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
+[문서 자동 생성](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->    
+<!-- 20-Description -->    
+글로벌 설명: **EU 철도 인프라에서 운행할 수 있도록 승인된 차량 유형입니다.**    
+버전: 0.0.1    
+<!-- /20-Description -->    
+<!-- 30-PropertiesList -->    
+## 속성 목록    
+<sup><sub>[*] 속성에 유형이 없는 것은 여러 유형 또는 다른 형식/패턴을 가질 수 있기 때문입니다</sub></sup>.    
+- `address[object]`: 우편 주소  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 국가. 예를 들어, 스페인  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+	- `addressLocality[string]`: 도로명 주소가 있는 지역 및 해당 지역에 속한 지역  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
+	- `addressRegion[string]`: 해당 지역이 위치한 지역과 해당 국가의 지역  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
+	- `district[string]`: 지구는 일부 국가에서는 지방 정부에서 관리하는 행정 구역의 일종입니다.      
+	- `postOfficeBoxNumber[string]`: 사서함 주소의 우체국 사서함 번호입니다. 예: 03578  . Model: [https://schema.org/postOfficeBoxNumber](https://schema.org/postOfficeBoxNumber)    
+	- `postalCode[string]`: 우편 번호입니다. 예: 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
+	- `streetAddress[string]`: 거리 주소  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
+	- `streetNr[string]`: 공공 도로의 특정 건물을 식별하는 번호      
+- `alternateName[string]`: 이 항목의 대체 이름  - `alternativeName[string]`: 대체 이름  - `altitudeRange[string]`: 고도 범위  - `altitudeRangeDetail[number]`: 고도 범위 세부 정보  - `areaServed[string]`: 서비스 또는 제공 품목이 제공되는 지리적 영역  . Model: [https://schema.org/Text](https://schema.org/Text)- `authorizedCountry[uri]`: 승인된 국가  - `axleBearingConditionMonitoring[uri]`: 차축 베어링 상태 모니터링  - `axleSpacing[string]`: 차축 간격  - `boardingAids[string]`: 탑승 보조 도구  - `brakeWeightPercentage[string]`: 브레이크 무게 비율  - `cantDefficiency[number]`: 캔 효율  - `category[uri]`: 차량 카테고리  - `catenaryMaxRatedCurrent[number]`: 전차선 최대 정격 전류  - `certificate[uri]`: 인증서  - `conditionsTrainFormation[string]`: 조건 열차 편성  - `contactStripMaterial[uri]`: 허용된 접촉 스트립 재질  - `dangerousGoodsTankCode[string]`: 위험물 탱크 코드  - `dataGSMRNetwork[uri]`: 데이터 GSM-R 네트워크  - `dataProvider[string]`: 조화된 데이터 엔티티의 공급자를 식별하는 일련의 문자  - `dataRadioCompatible[uri]`: 무선 시스템 호환성 데이터  - `dateCreated[date-time]`: 엔티티 생성 타임스탬프. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  - `dateModified[date-time]`: 엔티티의 마지막 수정 타임스탬프입니다. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  - `description[string]`: 이 항목에 대한 설명  - `designMassExceptionalPayload[number]`: 탁월한 페이로드 하에서 설계 질량  - `designMassNormalPayload[number]`: 일반 페이로드 하에서의 설계 질량  - `designMassWorkingOrder[number]`: 작동 중인 디자인 매스  - `drivingCabs[number]`: 택시 운전  - `eddyCurrentBrakePrevention[boolean]`: 와전류 브레이크 방지  - `eddyCurrentBrakingFitted[boolean]`: 와전류 제동 장착  - `emergencyBrake[string]`: 긴급 제동  - `endCouplingType[uri]`: 엔드 커플링 유형  - `energyMeterInstalled[boolean]`: 에너지 계량기 설치  - `energySupplyMaxPower[number]`: 에너지 공급 최대 전력  - `energySupplySystem[uri]`: 에너지 공급 시스템  - `etcsBaseline[uri]`: ETCS 기준선  - `etcsDataCommApp[string]`: ETCS 데이터 통신 애플리케이션  - `etcsEquipmentOnBoardLevel[uri]`: ETCS 장비 수준  - `etcsInfill[uri]`: ETCS 인필 설치 라인사이드  - `etcsNationalApplications[string]`: ETCS 국가별 애플리케이션  - `etcsOnBoardImplementation[string]`: ETCS 온보드 구현  - `etcsSystemCompatibility[uri]`: ETCS 시스템 호환성  - `ferromagneticWheelMaterial[boolean]`: 강자성 휠 소재  - `fireSafetyCategory[uri]`: 화재 안전 카테고리  - `fixedSeats[string]`: 고정 좌석  - `flangeLubricationFitted[boolean]`: 플랜지 윤활 장착  - `gaugingProfile[uri]`: 측정  - `gsmRRadioDataCommunication[uri]`: GSM-R 무선 데이터 통신  - `gsmRSetsInDrivingCab[number]`: 운전석에 장착된 GSM-R 세트  - `gsmRVersion[uri]`: GSM-R 버전  - `hasAutomaticDroppingDevice[boolean]`: 자동 낙하 장치 있음  - `hasCantDefficiencyCompensation[boolean]`: 캔트 효율 보정 기능 제공  - `hasCurrentLimitation[boolean]`: 전류 제한이 있습니다.  - `hasLubricationDevicePrevention[boolean]`: 윤활 장치 방지 기능이 있습니다.  - `hasParkingBrake[boolean]`: 주차 브레이크 있음  - `hasRegenerativeBrake[boolean]`: 회생 제동 권한  - `hasSandingPrevention[boolean]`: 샌딩 방지 기능  - `hasShuntingRestrictions[boolean]`: 션트 제한이 있습니다.  - `hasTrainIntegrityConfirmation[boolean]`: 열차 무결성 확인 기능  - `hasWheelSlideProtectionSystem[boolean]`: 휠 슬라이드 보호 시스템 포함  - `id[*]`: 엔티티의 고유 식별자  - `legacyRadioSystem[uri]`: 설치된 기타 무선 시스템(무선 레거시 시스템)  - `letterMarking[string]`: 문자 표시  - `loadingPlatformHeight[number]`: 적재 플랫폼 높이  - `location[*]`: 항목에 대한 지오숀 참조입니다. 포인트, 라인 문자열, 다각형, 멀티포인트, 멀티라인 문자열 또는 멀티폴리곤일 수 있습니다.  - `magneticBrakePrevention[boolean]`: 자기 브레이크 방지  - `magneticBrakingFitted[boolean]`: 마그네틱 브레이크 장착  - `manufacturer[uri]`: 제조업체  - `manufacturingCountry[uri]`: 제조 국가  - `massPerWheel[number]`: 바퀴당 질량  - `maxCurrentStandstillPantograph[number]`: 팬터그래프당 정지 상태에서의 최대 전류  - `maxDistConsecutiveAxles[number]`: TSI 미준수 시 연속된 두 차축 간 최대 허용 거리  - `maxFlangeHeight[number]`: 플랜지의 최대 허용 높이  - `maxImpedanceWheelset[number]`: TSI를 준수하지 않는 경우 휠셋의 반대쪽 휠 사이에 허용되는 최대 임피던스  - `maxLengthVehicleNose[number]`: 최대 길이 차량 노즈  - `maximumAverageDeceleration[number]`: 최대 평균 감속  - `maximumBrakeThermalEnergyCapacity[number]`: 최대 브레이크 열 에너지 용량  - `maximumContactWireHeight[number]`: 최대 접점 와이어 높이  - `maximumDesignSpeed[number]`: 최대 설계 속도  - `maximumLocomotivesCoupled[number]`: 최대 기관차 결합  - `maximumServiceBrake[string]`: 최대 서비스 휴식 시간  - `maximumSpeedAndCantDeficiency[string]`: 최대 속도 및 캔트 결핍  - `maximumSpeedEmpty[number]`: 최대 속도 비어 있음  - `maximumTemperature[number]`: 온도 범위(최대)  - `meetsRequirementVehicleAuthorisation[string]`: 차량 승인 요건 충족  - `minAxleLoad[number]`: 최소 허용 차축 하중  - `minDistConsecutiveAxles[number]`: 연속된 두 축 사이의 최소 허용 거리  - `minDistFirstLastAxle[number]`: 첫 번째 차축과 마지막 차축 사이의 최소 허용 거리  - `minFlangeHeight[number]`: 플랜지의 최소 허용 높이  - `minFlangeThickness[number]`: 플랜지의 최소 허용 두께  - `minRimWidth[number]`: 림의 최소 허용 너비  - `minVehicleImpedance[string]`: 차량 임피던스  - `minWheelDiameter[number]`: 허용되는 최소 휠 직경  - `minimumConcaveVerticalRadius[number]`: 최소 오목한 수직 반경  - `minimumContactWireHeight[number]`: 최소 접점 와이어 높이  - `minimumConvexVerticalRadius[number]`: 최소 볼록 수직 반경  - `minimumHorizontalRadius[number]`: 수평 커브의 최소 반경  - `minimumTemperature[number]`: 온도 범위(최소)  - `minimumWheelDiameter[number]`: 고정식 둔각 교차로용 최소 휠 직경  - `name[string]`: 이 항목의 이름  - `nonCodedRestrictions[string]`: 비코드 제한  - `numberElementsRakeFreightWagons[number]`: 숫자 요소 레이크 화물 마차  - `numberOfPantographsInContactWithOCL[number]`: OCL과 접촉하는 팬터그래프 수  - `numberOfToilets[number]`: 화장실 수  - `oclType[string]`: Ocl 유형  - `owner[array]`: 소유자의 고유 ID를 참조하는 JSON 인코딩된 문자 시퀀스가 포함된 목록입니다.  - `parkingBrake[boolean]`: 주차 브레이크  - `parkingBrakeMandatory[boolean]`: 주차 브레이크 필수  - `parkingBrakeMaximumGradient[number]`: 주차 브레이크 최대 경사도  - `parkingBrakeType[uri]`: 주차 브레이크 유형  - `passByNoiseLevel[number]`: 지나가는 소음 수준  - `permissiblePayload[string]`: 허용되는 페이로드  - `portableBoardingAids[string]`: 휴대용 탑승 보조 기구  - `preventRegenerativeBrakeUse[boolean]`: 회생 브레이크 사용 방지  - `previousVehicleType[uri]`: 이전 차량 유형  - `prioritySeats[string]`: 우선 좌석  - `prmAccessibleToilets[number]`: 장애인용 화장실  - `protectionLegacySystem[uri]`: 열차 보호 레거시 시스템  - `quasiStaticGuidingForce[number]`: 준정적 유도력  - `radioSwitchOverSpecialConditions[string]`: 특수 조건에 대한 무선 전환  - `railInclination[uri]`: 레일 경사  - `referencePassByNoiseLevel[boolean]`: 기준 통과 노이즈 레벨  - `seeAlso[*]`: 항목에 대한 추가 리소스를 가리키는 URL 목록  - `shortestDistanceBetweenPantographsInContactWithOCL[string]`: OCL과 접촉하는 팬터그래프 사이의 최단 거리  - `sleepingPlaces[string]`: 수면 장소  - `snowIceHailConditions[uri]`: 눈 우박 조건  - `source[string]`: 엔티티 데이터의 원본 소스를 URL로 제공하는 문자 시퀀스입니다. 소스 공급자의 정규화된 도메인 이름 또는 소스 개체에 대한 URL을 사용하는 것이 좋습니다.  - `startingNoiseLevel[number]`: 시작 소음 수준  - `staticAxleLoadExceptionalPayload[number]`: 탁월한 하중 하에서의 정적 차축 하중  - `staticAxleLoadNormalPayload[number]`: 정상 하중 하에서의 정적 차축 하중  - `staticAxleLoadWorkingOrder[number]`: 작동 중인 정적 차축 하중  - `stationaryNoiseLevel[number]`: 고정 소음 수준  - `structuralCategory[string]`: 구조 카테고리  - `subCategory[uri]`: 차량 하위 카테고리  - `supportedPlatformHeight[uri]`: 지원되는 플랫폼 높이  - `thermalCapacityDistance[number]`: 열 용량 거리  - `thermalCapacityGradient[number]`: 열 용량 구배  - `thermalCapacitySpeed[number]`: 열 용량 속도  - `thermalCapacityTSIReference[uri]`: 열 용량 TSI 참조  - `thermalCapacityTime[number]`: 열 용량 시간  - `totalVehicleMass[number]`: 총 차량 질량  - `trainControlSwitchOverSpecialConditions[string]`: 특수 조건에서 열차 제어 스위치  - `trainDetectionSystemType[uri]`: 열차 감지 시스템 유형  - `transportableOnFerry[boolean]`: 페리로 운송 가능  - `type[string]`: NGSI 데이터 유형입니다. VehicleType이어야 합니다.  - `typeVersionId[uri]`: 버전 ID 입력  - `typeVersionNumber[string]`: 버전 번호 입력  - `usesGroup555[boolean]`: 그룹 555의 GSM-R 사용  - `vehicleContactForce[number]`: 차량 접촉력  - `vehicleKinematicGaugeOther[string]`: 차량 운동학 게이지 기타  - `vehicleMaxSandingOutput[string]`: 차량 최대 샌딩 출력  - `vehiclePantographHead[string]`: 차량 팬터그래프 헤드  - `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: 전차 유형 최대 속도 및 캔트 결핍  - `vehiclesComposingFixedFormation[number]`: 고정 대형을 구성하는 전차  - `voiceGSMRNetwork[uri]`: 음성 GSM-R 네트워크  - `voiceOperationalCommImpl[string]`: 음성 운영 커뮤니케이션 구현  - `voiceRadioCompatible[uri]`: 무선 시스템 호환 음성  - `wheelSetGauge[uri]`: 공칭 트랙 게이지  - `wheelSetGaugeChangeoverFacility[uri]`: 휠셋 게이지 교체 기능  - `wheelSetGaugeTransformationMethod[string]`: 휠 세트 게이지 변환 방법  - `wheelchairSleepingPlaces[string]`: 휠체어 수면 공간  - `wheelchairSpaces[number]`: 휠체어 공간  <!-- /30-PropertiesList -->    
+<!-- 35-RequiredProperties -->    
+필수 속성    
+- `id`  - `type`  <!-- /35-RequiredProperties -->    
+<!-- 40-RequiredProperties -->    
+ERA 온톨로지에서 매핑된 데이터 모델 https://data-interop.era.europa.eu/era-vocabulary(유럽 연합 철도청)    
+<!-- /40-RequiredProperties -->    
+<!-- 50-DataModelHeader -->    
+## 속성에 대한 데이터 모델 설명    
+알파벳순으로 정렬(자세한 내용을 보려면 클릭)    
+<!-- /50-DataModelHeader -->    
+<!-- 60-ModelYaml -->    
+<details><summary><strong>full yaml details</strong></summary>      
+```yaml    
+VehicleType:      
+  description: A vehicle type that has been authorized to operate on the EU railway infrastructure.      
+  properties:      
+    address:      
+      description: The mailing address      
+      properties:      
+        addressCountry:      
+          description: 'The country. For example, Spain'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressCountry      
+            type: Property      
+        addressLocality:      
+          description: 'The locality in which the street address is, and which is in the region'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressLocality      
+            type: Property      
+        addressRegion:      
+          description: 'The region in which the locality is, and which is in the country'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressRegion      
+            type: Property      
+        district:      
+          description: 'A district is a type of administrative division that, in some countries, is managed by the local government'      
+          type: string      
+          x-ngsi:      
+            type: Property      
+        postOfficeBoxNumber:      
+          description: 'The post office box number for PO box addresses. For example, 03578'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/postOfficeBoxNumber      
+            type: Property      
+        postalCode:      
+          description: 'The postal code. For example, 24004'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/https://schema.org/postalCode      
+            type: Property      
+        streetAddress:      
+          description: The street address      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/streetAddress      
+            type: Property      
+        streetNr:      
+          description: Number identifying a specific property on a public street      
+          type: string      
+          x-ngsi:      
+            type: Property      
+      type: object      
+      x-ngsi:      
+        model: https://schema.org/address      
+        type: Property      
+    alternateName:      
+      description: An alternative name for this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    alternativeName:      
+      description: Alternative name      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    altitudeRange:      
+      description: Altitude range      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    altitudeRangeDetail:      
+      description: Altitude range detail      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    areaServed:      
+      description: The geographic area where a service or offered item is provided      
+      type: string      
+      x-ngsi:      
+        model: https://schema.org/Text      
+        type: Property      
+    authorizedCountry:      
+      description: Authorized country      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    axleBearingConditionMonitoring:      
+      description: Axle bearing condition monitoring      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    axleSpacing:      
+      description: Axle spacing      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    boardingAids:      
+      description: Boarding aids      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    brakeWeightPercentage:      
+      description: Brake weight percentage      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    cantDefficiency:      
+      description: Cant defficiency      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    category:      
+      description: Vehicle category      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    catenaryMaxRatedCurrent:      
+      description: Catenary max rated current      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    certificate:      
+      description: Certificate      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    conditionsTrainFormation:      
+      description: Conditions train formation      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    contactStripMaterial:      
+      description: Permitted contact strip material      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    dangerousGoodsTankCode:      
+      description: Dangerous goods tank code      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dataGSMRNetwork:      
+      description: Data GSM-R network      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    dataProvider:      
+      description: A sequence of characters identifying the provider of the harmonised data entity      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dataRadioCompatible:      
+      description: Radio system compatibility data      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    dateCreated:      
+      description: Entity creation timestamp. This will usually be allocated by the storage platform      
+      format: date-time      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dateModified:      
+      description: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform      
+      format: date-time      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    description:      
+      description: A description of this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    designMassExceptionalPayload:      
+      description: Design mass under exceptional payload      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    designMassNormalPayload:      
+      description: Design mass under normal payload      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    designMassWorkingOrder:      
+      description: Design mass in working order      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    drivingCabs:      
+      description: Driving cabs      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    eddyCurrentBrakePrevention:      
+      description: Eddy current brake prevention      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    eddyCurrentBrakingFitted:      
+      description: Eddy current braking fitted      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    emergencyBrake:      
+      description: Emergency braking      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    endCouplingType:      
+      description: End coupling type      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    energyMeterInstalled:      
+      description: Energy meter installed      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    energySupplyMaxPower:      
+      description: Energy supply max power      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    energySupplySystem:      
+      description: Energy supply system      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    etcsBaseline:      
+      description: ETCS baseline      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    etcsDataCommApp:      
+      description: ETCS data communication application      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    etcsEquipmentOnBoardLevel:      
+      description: ETCS equipment level      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    etcsInfill:      
+      description: ETCS infill installed lineside      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    etcsNationalApplications:      
+      description: ETCS national applications      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    etcsOnBoardImplementation:      
+      description: ETCS on-board implementation      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    etcsSystemCompatibility:      
+      description: ETCS system compatibility      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    ferromagneticWheelMaterial:      
+      description: Ferromagnetic wheel material      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    fireSafetyCategory:      
+      description: Fire safety category      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    fixedSeats:      
+      description: Fixed seats      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    flangeLubricationFitted:      
+      description: Flange lubrication fitted      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    gaugingProfile:      
+      description: Gauging      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    gsmRRadioDataCommunication:      
+      description: GSM-R radio data communication      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    gsmRSetsInDrivingCab:      
+      description: GSM-R sets in driving cab      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    gsmRVersion:      
+      description: GSM-R version      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    hasAutomaticDroppingDevice:      
+      description: Has automatic dropping device      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasCantDefficiencyCompensation:      
+      description: Has cant defficiency compensation      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasCurrentLimitation:      
+      description: Has current limitation      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasLubricationDevicePrevention:      
+      description: Has lubrication device prevention      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasParkingBrake:      
+      description: Has parking brake      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasRegenerativeBrake:      
+      description: Permission for regenerative braking      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasSandingPrevention:      
+      description: Has sanding prevention      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasShuntingRestrictions:      
+      description: Has shunting restrictions      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasTrainIntegrityConfirmation:      
+      description: Has train integrity confirmation      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    hasWheelSlideProtectionSystem:      
+      description: Has wheel slide protection system      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    id:      
+      anyOf:      
+        - description: Identifier format of any NGSI entity      
+          maxLength: 256      
+          minLength: 1      
+          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$      
+          type: string      
+          x-ngsi:      
+            type: Property      
+        - description: Identifier format of any NGSI entity      
+          format: uri      
+          type: string      
+          x-ngsi:      
+            type: Property      
+      description: Unique identifier of the entity      
+      x-ngsi:      
+        type: Property      
+    legacyRadioSystem:      
+      description: Other radio systems installed (Radio Legacy Systems)      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    letterMarking:      
+      description: Letter marking      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    loadingPlatformHeight:      
+      description: Loading platform height      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    location:      
+      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'      
+      oneOf:      
+        - description: Geojson reference to the item. Point      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                type: number      
+              minItems: 2      
+              type: array      
+            type:      
+              enum:      
+                - Point      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON Point      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. LineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  type: number      
+                minItems: 2      
+                type: array      
+              minItems: 2      
+              type: array      
+            type:      
+              enum:      
+                - LineString      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON LineString      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. Polygon      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    type: number      
+                  minItems: 2      
+                  type: array      
+                minItems: 4      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - Polygon      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON Polygon      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiPoint      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  type: number      
+                minItems: 2      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiPoint      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiPoint      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiLineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    type: number      
+                  minItems: 2      
+                  type: array      
+                minItems: 2      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiLineString      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiLineString      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiLineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    items:      
+                      type: number      
+                    minItems: 2      
+                    type: array      
+                  minItems: 4      
+                  type: array      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiPolygon      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiPolygon      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+      x-ngsi:      
+        type: GeoProperty      
+    magneticBrakePrevention:      
+      description: Magnetic brake prevention      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    magneticBrakingFitted:      
+      description: Magnetic braking fitted      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    manufacturer:      
+      description: Manufacturer      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    manufacturingCountry:      
+      description: Manufacturing country      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    massPerWheel:      
+      description: Mass per wheel      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxCurrentStandstillPantograph:      
+      description: Maximum current at standstill per pantograph      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxDistConsecutiveAxles:      
+      description: Maximum permitted distance between two consecutive axles in case of TSI non-compliance      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxFlangeHeight:      
+      description: Maximum permitted height of the flange      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxImpedanceWheelset:      
+      description: Maximum permitted impedance between opposite wheels of a wheelset when not TSI compliant      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxLengthVehicleNose:      
+      description: Maximum length vehicle nose      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumAverageDeceleration:      
+      description: Maximum average deceleration      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumBrakeThermalEnergyCapacity:      
+      description: Maximum brake thermal energy capacity      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumContactWireHeight:      
+      description: Maximum contact wire height      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumDesignSpeed:      
+      description: Maximum design speed      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumLocomotivesCoupled:      
+      description: Maximum locomotives coupled      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumServiceBrake:      
+      description: Maximum service break      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    maximumSpeedAndCantDeficiency:      
+      description: Maximum speed and cant deficiency      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    maximumSpeedEmpty:      
+      description: Maximum speed empty      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maximumTemperature:      
+      description: Temperature range (maximum)      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    meetsRequirementVehicleAuthorisation:      
+      description: Meets requirement vehicle authorization      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    minAxleLoad:      
+      description: Minimum permitted axle load      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minDistConsecutiveAxles:      
+      description: Minimum permitted distance between two consecutive axles      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minDistFirstLastAxle:      
+      description: Minimum permitted distance between first and last axle      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minFlangeHeight:      
+      description: Minimum permitted height of the flange      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minFlangeThickness:      
+      description: Minimum permitted thickness of the flange      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minRimWidth:      
+      description: Minimum permitted width of the rim      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minVehicleImpedance:      
+      description: Vehicle impedance      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    minWheelDiameter:      
+      description: Minimum permitted wheel diameter      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumConcaveVerticalRadius:      
+      description: Minimum concave vertical radius      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumContactWireHeight:      
+      description: Minimum contact wire height      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumConvexVerticalRadius:      
+      description: Minimum convex vertical radius      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumHorizontalRadius:      
+      description: Minimum radius of horizontal curve      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumTemperature:      
+      description: Temperature range (minimum)      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minimumWheelDiameter:      
+      description: Minimum wheel diameter for fixed obtuse crossings      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    name:      
+      description: The name of this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    nonCodedRestrictions:      
+      description: Non coded restrictions      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    numberElementsRakeFreightWagons:      
+      description: Number elements rake freight wagons      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    numberOfPantographsInContactWithOCL:      
+      description: Number of pantographs in contact with OCL      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    numberOfToilets:      
+      description: Number of toilets      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    oclType:      
+      description: Ocl type      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    owner:      
+      description: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)      
+      items:      
+        anyOf:      
+          - description: Identifier format of any NGSI entity      
+            maxLength: 256      
+            minLength: 1      
+            pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$      
+            type: string      
+            x-ngsi:      
+              type: Property      
+          - description: Identifier format of any NGSI entity      
+            format: uri      
+            type: string      
+            x-ngsi:      
+              type: Property      
+        description: Unique identifier of the entity      
+        x-ngsi:      
+          type: Property      
+      type: array      
+      x-ngsi:      
+        type: Property      
+    parkingBrake:      
+      description: Parking brake      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    parkingBrakeMandatory:      
+      description: Parking brake mandatory      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    parkingBrakeMaximumGradient:      
+      description: Parking brake maximum gradient      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    parkingBrakeType:      
+      description: Parking brake type      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    passByNoiseLevel:      
+      description: Pass-by noise level      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    permissiblePayload:      
+      description: Permissible payload      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    portableBoardingAids:      
+      description: Portable boarding aids      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    preventRegenerativeBrakeUse:      
+      description: Prevent regenerative brake use      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    previousVehicleType:      
+      description: Previous vehicle type      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    prioritySeats:      
+      description: Priority seats      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    prmAccessibleToilets:      
+      description: Prm accessible toilets      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    protectionLegacySystem:      
+      description: Train protection legacy system      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    quasiStaticGuidingForce:      
+      description: Quasi static guiding force      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    radioSwitchOverSpecialConditions:      
+      description: Radio switch over special conditions      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    railInclination:      
+      description: Rail inclination      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    referencePassByNoiseLevel:      
+      description: Reference pass-by noise level      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    seeAlso:      
+      description: list of uri pointing to additional resources about the item      
+      oneOf:      
+        - items:      
+            format: uri      
+            type: string      
+          minItems: 1      
+          type: array      
+        - format: uri      
+          type: string      
+      x-ngsi:      
+        type: Property      
+    shortestDistanceBetweenPantographsInContactWithOCL:      
+      description: Shortest distance between pantographs in contact with OCL      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    sleepingPlaces:      
+      description: Sleeping places      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    snowIceHailConditions:      
+      description: Snow ice hail conditions      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    source:      
+      description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object'      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    startingNoiseLevel:      
+      description: Starting noise level      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    staticAxleLoadExceptionalPayload:      
+      description: Static axle load under exceptional payload      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    staticAxleLoadNormalPayload:      
+      description: Static axle load under normal payload      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    staticAxleLoadWorkingOrder:      
+      description: Static axle load in working order      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    stationaryNoiseLevel:      
+      description: Stationary noise level      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    structuralCategory:      
+      description: Structural category      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    subCategory:      
+      description: Vehicle subcategory      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    supportedPlatformHeight:      
+      description: Supported platform height      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    thermalCapacityDistance:      
+      description: Thermal capacity distance      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    thermalCapacityGradient:      
+      description: Thermal capacity gradient      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    thermalCapacitySpeed:      
+      description: Thermal capacity speed      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    thermalCapacityTSIReference:      
+      description: Thermal capacity TSI reference      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    thermalCapacityTime:      
+      description: Thermal capacity time      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    totalVehicleMass:      
+      description: Total vehicle mass      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    trainControlSwitchOverSpecialConditions:      
+      description: Train control switch over special conditions      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    trainDetectionSystemType:      
+      description: Type of train detection system      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    transportableOnFerry:      
+      description: Transportable on ferry      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    type:      
+      description: NGSI data type. It has to be VehicleType      
+      enum:      
+        - VehicleType      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    typeVersionId:      
+      description: Type version id      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    typeVersionNumber:      
+      description: Type version number      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    usesGroup555:      
+      description: GSM-R use of group 555      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    vehicleContactForce:      
+      description: Vehicle contact force      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    vehicleKinematicGaugeOther:      
+      description: Vehicle kinematic gauge other      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    vehicleMaxSandingOutput:      
+      description: Vehicle max sanding output      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    vehiclePantographHead:      
+      description: Vehicle pantograph head      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    vehicleTypeMaximumSpeedAndCantDeficiency:      
+      description: Vehicle type maximum speed and cant deficiency      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    vehiclesComposingFixedFormation:      
+      description: Vehicles composing fixed formation      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    voiceGSMRNetwork:      
+      description: Voice GSM-R network      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    voiceOperationalCommImpl:      
+      description: Voice operational communication implementation      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    voiceRadioCompatible:      
+      description: Radio system compatibility voice      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    wheelSetGauge:      
+      description: Nominal track gauge      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    wheelSetGaugeChangeoverFacility:      
+      description: Wheelset gauge changeover facility      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    wheelSetGaugeTransformationMethod:      
+      description: Wheel set gauge transformation method      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    wheelchairSleepingPlaces:      
+      description: Wheelchair sleeping spaces      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    wheelchairSpaces:      
+      description: Wheelchair spaces      
+      type: number      
+      x-ngsi:      
+        type: Property      
+  required:      
+    - id      
+    - type      
+  type: object      
+  x-derived-from: http://data.europa.eu/949/VehicleType      
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'      
+  x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/VehicleType/LICENSE.md      
+  x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json      
+  x-model-tags: 'ERA vocabulary, railway, train'      
+  x-version: 0.0.1      
+```    
+</details>      
+<!-- /60-ModelYaml -->    
+<!-- 70-MiddleNotes -->    
+<!-- /70-MiddleNotes -->    
+<!-- 80-Examples -->    
+## 페이로드 예시    
+#### 차량 유형 NGSI-v2 키 값 예시    
+다음은 키 값으로 JSON-LD 형식의 VehicleType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
@@ -1343,10 +1341,10 @@ VehicleType:
   ]  
 }  
 ```  
-</details>  
-#### 차량 유형 NGSI-v2 정규화 예제  
-다음은 정규화된 JSON-LD 형식의 VehicleType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### 차량 유형 NGSI-v2 정규화 예제    
+다음은 정규화된 JSON-LD 형식의 VehicleType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
@@ -1395,50 +1393,23 @@ VehicleType:
     "type": "geo:json",  
     "value": {  
       "type": "Point",  
-      "coordinates": {  
-        "type": "StructuredValue",  
-        "value": [  
-          -74.8296485,  
-          108.332861  
-        ]  
-      }  
+      "coordinates": [  
+        -74.8296485,  
+        108.332861  
+      ]  
     }  
   },  
   "address": {  
     "type": "StructuredValue",  
     "value": {  
-      "streetAddress": {  
-        "type": "Text",  
-        "value": "Community single me pass anything during. My form world image partner over."  
-      },  
-      "addressLocality": {  
-        "type": "Text",  
-        "value": "Put little like analysis phone traditional morning."  
-      },  
-      "addressRegion": {  
-        "type": "Text",  
-        "value": "Center agent do."  
-      },  
-      "addressCountry": {  
-        "type": "Text",  
-        "value": "Perhaps reason least blood group. Station purpose clearly decision lay per assume. "  
-      },  
-      "postalCode": {  
-        "type": "Text",  
-        "value": "Sport meeting answer arm. Be lawyer front painting go particular much. Clearly"  
-      },  
-      "postOfficeBoxNumber": {  
-        "type": "Text",  
-        "value": "Hard together trouble guess without herself six. Night"  
-      },  
-      "streetNr": {  
-        "type": "Text",  
-        "value": "Myself network just business bill too chance. Body small accept radio similar. By nice understand upon"  
-      },  
-      "district": {  
-        "type": "Text",  
-        "value": "Feel peace dinner catch. Ten federal make home where already line. Whose turn player."  
-      }  
+      "streetAddress": "Community single me pass anything during. My form world image partner over.",  
+      "addressLocality": "Put little like analysis phone traditional morning.",  
+      "addressRegion": "Center agent do.",  
+      "addressCountry": "Perhaps reason least blood group. Station purpose clearly decision lay per assume. ",  
+      "postalCode": "Sport meeting answer arm. Be lawyer front painting go particular much. Clearly",  
+      "postOfficeBoxNumber": "Hard together trouble guess without herself six. Night",  
+      "streetNr": "Myself network just business bill too chance. Body small accept radio similar. By nice understand upon",  
+      "district": "Feel peace dinner catch. Ten federal make home where already line. Whose turn player."  
     }  
   },  
   "areaServed": {  
@@ -2046,10 +2017,10 @@ VehicleType:
   }  
 }  
 ```  
-</details>  
-#### 차량 유형 NGSI-LD 키 값 예시  
-다음은 키 값으로 JSON-LD 형식의 VehicleType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### 차량 유형 NGSI-LD 키 값 예시    
+다음은 키 값으로 JSON-LD 형식의 VehicleType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
@@ -2242,10 +2213,10 @@ VehicleType:
   ]  
 }  
 ```  
-</details>  
-#### 차량 유형 NGSI-LD 정규화 예제  
-다음은 정규화된 JSON-LD 형식의 VehicleType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### 차량 유형 NGSI-LD 정규화 예제    
+다음은 정규화된 JSON-LD 형식의 VehicleType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:VehicleType:id:RTWI:29731639",  
@@ -2924,12 +2895,12 @@ VehicleType:
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->  
-<!-- 90-FooterNotes -->  
-<!-- /90-FooterNotes -->  
-<!-- 95-Units -->  
-10](https://smartdatamodels.org/index.php/faqs/)를 참조하여 규모 단위를 다루는 방법에 대한 답변을 확인하세요.  
-<!-- /95-Units -->  
-<!-- 97-LastFooter -->  
----  
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->  
+</details><!-- /80-Examples -->    
+<!-- 90-FooterNotes -->    
+<!-- /90-FooterNotes -->    
+<!-- 95-Units -->    
+10](https://smartdatamodels.org/index.php/faqs/)를 참조하여 규모 단위를 다루는 방법에 대한 답변을 확인하세요.    
+<!-- /95-Units -->    
+<!-- 97-LastFooter -->    
+---    
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
