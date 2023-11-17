@@ -1,537 +1,535 @@
-<!-- 10-Header -->  
-[![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)  
-Entity: TrainDetectionSystem  
-============================<!-- /10-Header -->  
-<!-- 15-License -->  
-[Open License](https://github.com/smart-data-models//dataModel.ERA/blob/master/TrainDetectionSystem/LICENSE.md)  
-[document generated automatically](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)  
-<!-- /15-License -->  
-<!-- 20-Description -->  
-Global description: **System used to detect the position of vehicles in the railway track.**  
-version: 0.0.1  
-<!-- /20-Description -->  
-<!-- 30-PropertiesList -->  
-
-## List of properties  
-
-<sup><sub>[*] If there is not a type in an attribute is because it could have several types or different formats/patterns</sub></sup>  
-- `address[object]`: The mailing address  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: The country. For example, Spain  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)  
-	- `addressLocality[string]`: The locality in which the street address is, and which is in the region  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)  
-	- `addressRegion[string]`: The region in which the locality is, and which is in the country  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)  
-	- `district[string]`: A district is a type of administrative division that, in some countries, is managed by the local government    
-	- `postOfficeBoxNumber[string]`: The post office box number for PO box addresses. For example, 03578  . Model: [https://schema.org/postOfficeBoxNumber](https://schema.org/postOfficeBoxNumber)  
-	- `postalCode[string]`: The postal code. For example, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)  
-	- `streetAddress[string]`: The street address  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)  
-	- `streetNr[string]`: Number identifying a specific property on a public street    
-- `alternateName[string]`: An alternative name for this item  - `areaServed[string]`: The geographic area where a service or offered item is provided  . Model: [https://schema.org/Text](https://schema.org/Text)- `dataProvider[string]`: A sequence of characters identifying the provider of the harmonised data entity  - `dateCreated[date-time]`: Entity creation timestamp. This will usually be allocated by the storage platform  - `dateModified[date-time]`: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform  - `description[string]`: A description of this item  - `flangeLubeRules[boolean]`: Existence of rules on on-board flange lubrication  - `frenchTrainDetectionSystemLimitation[uri]`: Section with train detection limitation, only for the French network  - `frequencyBandsForDetection[uri]`: Frequency bands for detection  - `id[*]`: Unique identifier of the entity  - `location[*]`: Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon  - `maxDistConsecutiveAxles[number]`: Maximum permitted distance between two consecutive axles in case of TSI non-compliance  - `maxDistEndTrainFirstAxle[number]`: Maximum distance between end of train and first axle  - `maxFlangeHeight[number]`: Maximum permitted height of the flange  - `maxImpedanceWheelset[number]`: Maximum permitted impedance between opposite wheels of a wheelset when not TSI compliant  - `maxSandingOutput[uri]`: Maximum amount of sand  - `maximumInterferenceCurrent[number]`: Maximum interference current  - `minVehicleImpedance[string]`: Vehicle impedance  - `name[string]`: The name of this item  - `owner[array]`: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)  - `requiredSandingOverride[boolean]`: Sanding override by driver required  - `seeAlso[*]`: list of uri pointing to additional resources about the item  - `source[string]`: A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object  - `tdsFrenchTrainDetectionSystemLimitation[uri]`: Section with train detection limitation, only for the French network  - `tdsMaximumMagneticField[uri]`: Train detection system maximum magnetic field  - `tdsMinAxleLoadVehicleCategory[uri]`: Train detection system min axle load vehicle category  - `trainDetectionSystemSpecificCheck[uri]`: Type of track circuits to which specific checks are needed  - `trainDetectionSystemSpecificCheckDocument[string]`: Document with the procedure(s) related to the type of train detection systems declared in 1.2.1.1.6.1  - `trainDetectionSystemType[uri]`: Type of train detection system  - `tsiCompliantCompositeBrakeBlocks[uri]`: TSI compliance of rules on the use of composite brake blocks  - `tsiCompliantFerromagneticWheel[uri]`: TSI compliance of Ferromagnetic characteristics of wheel material required  - `tsiCompliantMaxDistConsecutiveAxles[uri]`: TSI compliance of maximum permitted distance between two consecutive axles  - `tsiCompliantMaxImpedanceWheelset[uri]`: TSI compliance of maximum permitted impedance between opposite wheels of a wheelset  - `tsiCompliantMetalConstruction[uri]`: TSI compliance of rules for vehicle metal construction  - `tsiCompliantMetalFreeSpace[uri]`: TSI compliance of rules for metal-free space around wheels  - `tsiCompliantRSTShuntImpedance[uri]`: TSI compliance of rules on combination of RST characteristics influencing shunting impedance  - `tsiCompliantSandCharacteristics[uri]`: TSI Compliance of rules on sand characteristics  - `tsiCompliantSanding[uri]`: TSI compliance of sanding  - `tsiCompliantShuntDevices[uri]`: TSI compliance of rules on shunt assisting devices  - `type[string]`: NGSI data type. It has to be TrainDetectionSystem  <!-- /30-PropertiesList -->  
-<!-- 35-RequiredProperties -->  
-Required properties  
-- `id`  - `type`  <!-- /35-RequiredProperties -->  
-<!-- 40-RequiredProperties -->  
-data model mapped from ERA ontology https://data-interop.era.europa.eu/era-vocabulary (European Union Agency for Railways)  
-<!-- /40-RequiredProperties -->  
-<!-- 50-DataModelHeader -->  
-## Data Model description of properties  
-Sorted alphabetically (click for details)  
-<!-- /50-DataModelHeader -->  
-<!-- 60-ModelYaml -->  
-<details><summary><strong>full yaml details</strong></summary>    
-```yaml  
-TrainDetectionSystem:    
-  description: System used to detect the position of vehicles in the railway track.    
-  properties:    
-    address:    
-      description: The mailing address    
-      properties:    
-        addressCountry:    
-          description: 'The country. For example, Spain'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressCountry    
-            type: Property    
-        addressLocality:    
-          description: 'The locality in which the street address is, and which is in the region'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressLocality    
-            type: Property    
-        addressRegion:    
-          description: 'The region in which the locality is, and which is in the country'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/addressRegion    
-            type: Property    
-        district:    
-          description: 'A district is a type of administrative division that, in some countries, is managed by the local government'    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        postOfficeBoxNumber:    
-          description: 'The post office box number for PO box addresses. For example, 03578'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/postOfficeBoxNumber    
-            type: Property    
-        postalCode:    
-          description: 'The postal code. For example, 24004'    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/https://schema.org/postalCode    
-            type: Property    
-        streetAddress:    
-          description: The street address    
-          type: string    
-          x-ngsi:    
-            model: https://schema.org/streetAddress    
-            type: Property    
-        streetNr:    
-          description: Number identifying a specific property on a public street    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      type: object    
-      x-ngsi:    
-        model: https://schema.org/address    
-        type: Property    
-    alternateName:    
-      description: An alternative name for this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    areaServed:    
-      description: The geographic area where a service or offered item is provided    
-      type: string    
-      x-ngsi:    
-        model: https://schema.org/Text    
-        type: Property    
-    dataProvider:    
-      description: A sequence of characters identifying the provider of the harmonised data entity    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dateCreated:    
-      description: Entity creation timestamp. This will usually be allocated by the storage platform    
-      format: date-time    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    dateModified:    
-      description: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform    
-      format: date-time    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    description:    
-      description: A description of this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    flangeLubeRules:    
-      description: Existence of rules on on-board flange lubrication    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    frenchTrainDetectionSystemLimitation:    
-      description: 'Section with train detection limitation, only for the French network'    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    frequencyBandsForDetection:    
-      description: Frequency bands for detection    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    id:    
-      anyOf:    
-        - description: Identifier format of any NGSI entity    
-          maxLength: 256    
-          minLength: 1    
-          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-          type: string    
-          x-ngsi:    
-            type: Property    
-        - description: Identifier format of any NGSI entity    
-          format: uri    
-          type: string    
-          x-ngsi:    
-            type: Property    
-      description: Unique identifier of the entity    
-      x-ngsi:    
-        type: Property    
-    location:    
-      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'    
-      oneOf:    
-        - description: Geojson reference to the item. Point    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                type: number    
-              minItems: 2    
-              type: array    
-            type:    
-              enum:    
-                - Point    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON Point    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. LineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  type: number    
-                minItems: 2    
-                type: array    
-              minItems: 2    
-              type: array    
-            type:    
-              enum:    
-                - LineString    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON LineString    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. Polygon    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    type: number    
-                  minItems: 2    
-                  type: array    
-                minItems: 4    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - Polygon    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON Polygon    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiPoint    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  type: number    
-                minItems: 2    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiPoint    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiPoint    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiLineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    type: number    
-                  minItems: 2    
-                  type: array    
-                minItems: 2    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiLineString    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiLineString    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-        - description: Geojson reference to the item. MultiLineString    
-          properties:    
-            bbox:    
-              items:    
-                type: number    
-              minItems: 4    
-              type: array    
-            coordinates:    
-              items:    
-                items:    
-                  items:    
-                    items:    
-                      type: number    
-                    minItems: 2    
-                    type: array    
-                  minItems: 4    
-                  type: array    
-                type: array    
-              type: array    
-            type:    
-              enum:    
-                - MultiPolygon    
-              type: string    
-          required:    
-            - type    
-            - coordinates    
-          title: GeoJSON MultiPolygon    
-          type: object    
-          x-ngsi:    
-            type: GeoProperty    
-      x-ngsi:    
-        type: GeoProperty    
-    maxDistConsecutiveAxles:    
-      description: Maximum permitted distance between two consecutive axles in case of TSI non-compliance    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxDistEndTrainFirstAxle:    
-      description: Maximum distance between end of train and first axle    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxFlangeHeight:    
-      description: Maximum permitted height of the flange    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxImpedanceWheelset:    
-      description: Maximum permitted impedance between opposite wheels of a wheelset when not TSI compliant    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    maxSandingOutput:    
-      description: Maximum amount of sand    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    maximumInterferenceCurrent:    
-      description: Maximum interference current    
-      type: number    
-      x-ngsi:    
-        type: Property    
-    minVehicleImpedance:    
-      description: Vehicle impedance    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    name:    
-      description: The name of this item    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    owner:    
-      description: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)    
-      items:    
-        anyOf:    
-          - description: Identifier format of any NGSI entity    
-            maxLength: 256    
-            minLength: 1    
-            pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$    
-            type: string    
-            x-ngsi:    
-              type: Property    
-          - description: Identifier format of any NGSI entity    
-            format: uri    
-            type: string    
-            x-ngsi:    
-              type: Property    
-        description: Unique identifier of the entity    
-        x-ngsi:    
-          type: Property    
-      type: array    
-      x-ngsi:    
-        type: Property    
-    requiredSandingOverride:    
-      description: Sanding override by driver required    
-      type: boolean    
-      x-ngsi:    
-        type: Property    
-    seeAlso:    
-      description: list of uri pointing to additional resources about the item    
-      oneOf:    
-        - items:    
-            format: uri    
-            type: string    
-          minItems: 1    
-          type: array    
-        - format: uri    
-          type: string    
-      x-ngsi:    
-        type: Property    
-    source:    
-      description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object'    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    tdsFrenchTrainDetectionSystemLimitation:    
-      description: 'Section with train detection limitation, only for the French network'    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tdsMaximumMagneticField:    
-      description: Train detection system maximum magnetic field    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tdsMinAxleLoadVehicleCategory:    
-      description: Train detection system min axle load vehicle category    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    trainDetectionSystemSpecificCheck:    
-      description: Type of track circuits to which specific checks are needed    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    trainDetectionSystemSpecificCheckDocument:    
-      description: Document with the procedure(s) related to the type of train detection systems declared in 1.2.1.1.6.1    
-      type: string    
-      x-ngsi:    
-        type: Property    
-    trainDetectionSystemType:    
-      description: Type of train detection system    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantCompositeBrakeBlocks:    
-      description: TSI compliance of rules on the use of composite brake blocks    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantFerromagneticWheel:    
-      description: TSI compliance of Ferromagnetic characteristics of wheel material required    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantMaxDistConsecutiveAxles:    
-      description: TSI compliance of maximum permitted distance between two consecutive axles    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantMaxImpedanceWheelset:    
-      description: TSI compliance of maximum permitted impedance between opposite wheels of a wheelset    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantMetalConstruction:    
-      description: TSI compliance of rules for vehicle metal construction    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantMetalFreeSpace:    
-      description: TSI compliance of rules for metal-free space around wheels    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantRSTShuntImpedance:    
-      description: TSI compliance of rules on combination of RST characteristics influencing shunting impedance    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantSandCharacteristics:    
-      description: TSI Compliance of rules on sand characteristics    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantSanding:    
-      description: TSI compliance of sanding    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    tsiCompliantShuntDevices:    
-      description: TSI compliance of rules on shunt assisting devices    
-      format: uri    
-      type: string    
-      x-ngsi:    
-        type: Relationship    
-    type:    
-      description: NGSI data type. It has to be TrainDetectionSystem    
-      enum:    
-        - TrainDetectionSystem    
-      type: string    
-      x-ngsi:    
-        type: Property    
-  required:    
-    - id    
-    - type    
-  type: object    
-  x-derived-from: http://data.europa.eu/949/TrainDetectionSystem    
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'    
-  x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/TrainDetectionSystem/LICENSE.md    
-  x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json    
-  x-model-tags: 'ERA vocabulary, railway, train'    
-  x-version: 0.0.1    
-```  
-</details>    
-<!-- /60-ModelYaml -->  
-<!-- 70-MiddleNotes -->  
-<!-- /70-MiddleNotes -->  
-<!-- 80-Examples -->  
-## Example payloads    
-#### TrainDetectionSystem NGSI-v2 key-values Example    
-Here is an example of a TrainDetectionSystem in JSON-LD format as key-values. This is compatible with NGSI-v2 when  using `options=keyValues` and returns the context data of an individual entity.  
-<details><summary><strong>show/hide example</strong></summary>    
+<!-- 10-Header -->    
+[![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
+Entity: TrainDetectionSystem    
+============================<!-- /10-Header -->    
+<!-- 15-License -->    
+[Open License](https://github.com/smart-data-models//dataModel.ERA/blob/master/TrainDetectionSystem/LICENSE.md)    
+[document generated automatically](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->    
+<!-- 20-Description -->    
+Global description: **System used to detect the position of vehicles in the railway track.**    
+version: 0.0.1    
+<!-- /20-Description -->    
+<!-- 30-PropertiesList -->    
+## List of properties    
+<sup><sub>[*] If there is not a type in an attribute is because it could have several types or different formats/patterns</sub></sup>    
+- `address[object]`: The mailing address  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: The country. For example, Spain  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+	- `addressLocality[string]`: The locality in which the street address is, and which is in the region  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
+	- `addressRegion[string]`: The region in which the locality is, and which is in the country  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
+	- `district[string]`: A district is a type of administrative division that, in some countries, is managed by the local government      
+	- `postOfficeBoxNumber[string]`: The post office box number for PO box addresses. For example, 03578  . Model: [https://schema.org/postOfficeBoxNumber](https://schema.org/postOfficeBoxNumber)    
+	- `postalCode[string]`: The postal code. For example, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
+	- `streetAddress[string]`: The street address  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
+	- `streetNr[string]`: Number identifying a specific property on a public street      
+- `alternateName[string]`: An alternative name for this item  - `areaServed[string]`: The geographic area where a service or offered item is provided  . Model: [https://schema.org/Text](https://schema.org/Text)- `dataProvider[string]`: A sequence of characters identifying the provider of the harmonised data entity  - `dateCreated[date-time]`: Entity creation timestamp. This will usually be allocated by the storage platform  - `dateModified[date-time]`: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform  - `description[string]`: A description of this item  - `flangeLubeRules[boolean]`: Existence of rules on on-board flange lubrication  - `frenchTrainDetectionSystemLimitation[uri]`: Section with train detection limitation, only for the French network  - `frequencyBandsForDetection[uri]`: Frequency bands for detection  - `id[*]`: Unique identifier of the entity  - `location[*]`: Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon  - `maxDistConsecutiveAxles[number]`: Maximum permitted distance between two consecutive axles in case of TSI non-compliance  - `maxDistEndTrainFirstAxle[number]`: Maximum distance between end of train and first axle  - `maxFlangeHeight[number]`: Maximum permitted height of the flange  - `maxImpedanceWheelset[number]`: Maximum permitted impedance between opposite wheels of a wheelset when not TSI compliant  - `maxSandingOutput[uri]`: Maximum amount of sand  - `maximumInterferenceCurrent[number]`: Maximum interference current  - `minVehicleImpedance[string]`: Vehicle impedance  - `name[string]`: The name of this item  - `owner[array]`: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)  - `requiredSandingOverride[boolean]`: Sanding override by driver required  - `seeAlso[*]`: list of uri pointing to additional resources about the item  - `source[string]`: A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object  - `tdsFrenchTrainDetectionSystemLimitation[uri]`: Section with train detection limitation, only for the French network  - `tdsMaximumMagneticField[uri]`: Train detection system maximum magnetic field  - `tdsMinAxleLoadVehicleCategory[uri]`: Train detection system min axle load vehicle category  - `trainDetectionSystemSpecificCheck[uri]`: Type of track circuits to which specific checks are needed  - `trainDetectionSystemSpecificCheckDocument[string]`: Document with the procedure(s) related to the type of train detection systems declared in 1.2.1.1.6.1  - `trainDetectionSystemType[uri]`: Type of train detection system  - `tsiCompliantCompositeBrakeBlocks[uri]`: TSI compliance of rules on the use of composite brake blocks  - `tsiCompliantFerromagneticWheel[uri]`: TSI compliance of Ferromagnetic characteristics of wheel material required  - `tsiCompliantMaxDistConsecutiveAxles[uri]`: TSI compliance of maximum permitted distance between two consecutive axles  - `tsiCompliantMaxImpedanceWheelset[uri]`: TSI compliance of maximum permitted impedance between opposite wheels of a wheelset  - `tsiCompliantMetalConstruction[uri]`: TSI compliance of rules for vehicle metal construction  - `tsiCompliantMetalFreeSpace[uri]`: TSI compliance of rules for metal-free space around wheels  - `tsiCompliantRSTShuntImpedance[uri]`: TSI compliance of rules on combination of RST characteristics influencing shunting impedance  - `tsiCompliantSandCharacteristics[uri]`: TSI Compliance of rules on sand characteristics  - `tsiCompliantSanding[uri]`: TSI compliance of sanding  - `tsiCompliantShuntDevices[uri]`: TSI compliance of rules on shunt assisting devices  - `type[string]`: NGSI data type. It has to be TrainDetectionSystem  <!-- /30-PropertiesList -->    
+<!-- 35-RequiredProperties -->    
+Required properties    
+- `id`  - `type`  <!-- /35-RequiredProperties -->    
+<!-- 40-RequiredProperties -->    
+data model mapped from ERA ontology https://data-interop.era.europa.eu/era-vocabulary (European Union Agency for Railways)    
+<!-- /40-RequiredProperties -->    
+<!-- 50-DataModelHeader -->    
+## Data Model description of properties    
+Sorted alphabetically (click for details)    
+<!-- /50-DataModelHeader -->    
+<!-- 60-ModelYaml -->    
+<details><summary><strong>full yaml details</strong></summary>      
+```yaml    
+TrainDetectionSystem:      
+  description: System used to detect the position of vehicles in the railway track.      
+  properties:      
+    address:      
+      description: The mailing address      
+      properties:      
+        addressCountry:      
+          description: 'The country. For example, Spain'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressCountry      
+            type: Property      
+        addressLocality:      
+          description: 'The locality in which the street address is, and which is in the region'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressLocality      
+            type: Property      
+        addressRegion:      
+          description: 'The region in which the locality is, and which is in the country'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/addressRegion      
+            type: Property      
+        district:      
+          description: 'A district is a type of administrative division that, in some countries, is managed by the local government'      
+          type: string      
+          x-ngsi:      
+            type: Property      
+        postOfficeBoxNumber:      
+          description: 'The post office box number for PO box addresses. For example, 03578'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/postOfficeBoxNumber      
+            type: Property      
+        postalCode:      
+          description: 'The postal code. For example, 24004'      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/https://schema.org/postalCode      
+            type: Property      
+        streetAddress:      
+          description: The street address      
+          type: string      
+          x-ngsi:      
+            model: https://schema.org/streetAddress      
+            type: Property      
+        streetNr:      
+          description: Number identifying a specific property on a public street      
+          type: string      
+          x-ngsi:      
+            type: Property      
+      type: object      
+      x-ngsi:      
+        model: https://schema.org/address      
+        type: Property      
+    alternateName:      
+      description: An alternative name for this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    areaServed:      
+      description: The geographic area where a service or offered item is provided      
+      type: string      
+      x-ngsi:      
+        model: https://schema.org/Text      
+        type: Property      
+    dataProvider:      
+      description: A sequence of characters identifying the provider of the harmonised data entity      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dateCreated:      
+      description: Entity creation timestamp. This will usually be allocated by the storage platform      
+      format: date-time      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    dateModified:      
+      description: Timestamp of the last modification of the entity. This will usually be allocated by the storage platform      
+      format: date-time      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    description:      
+      description: A description of this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    flangeLubeRules:      
+      description: Existence of rules on on-board flange lubrication      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    frenchTrainDetectionSystemLimitation:      
+      description: 'Section with train detection limitation, only for the French network'      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    frequencyBandsForDetection:      
+      description: Frequency bands for detection      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    id:      
+      anyOf:      
+        - description: Identifier format of any NGSI entity      
+          maxLength: 256      
+          minLength: 1      
+          pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$      
+          type: string      
+          x-ngsi:      
+            type: Property      
+        - description: Identifier format of any NGSI entity      
+          format: uri      
+          type: string      
+          x-ngsi:      
+            type: Property      
+      description: Unique identifier of the entity      
+      x-ngsi:      
+        type: Property      
+    location:      
+      description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'      
+      oneOf:      
+        - description: Geojson reference to the item. Point      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                type: number      
+              minItems: 2      
+              type: array      
+            type:      
+              enum:      
+                - Point      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON Point      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. LineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  type: number      
+                minItems: 2      
+                type: array      
+              minItems: 2      
+              type: array      
+            type:      
+              enum:      
+                - LineString      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON LineString      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. Polygon      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    type: number      
+                  minItems: 2      
+                  type: array      
+                minItems: 4      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - Polygon      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON Polygon      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiPoint      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  type: number      
+                minItems: 2      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiPoint      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiPoint      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiLineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    type: number      
+                  minItems: 2      
+                  type: array      
+                minItems: 2      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiLineString      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiLineString      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+        - description: Geojson reference to the item. MultiLineString      
+          properties:      
+            bbox:      
+              items:      
+                type: number      
+              minItems: 4      
+              type: array      
+            coordinates:      
+              items:      
+                items:      
+                  items:      
+                    items:      
+                      type: number      
+                    minItems: 2      
+                    type: array      
+                  minItems: 4      
+                  type: array      
+                type: array      
+              type: array      
+            type:      
+              enum:      
+                - MultiPolygon      
+              type: string      
+          required:      
+            - type      
+            - coordinates      
+          title: GeoJSON MultiPolygon      
+          type: object      
+          x-ngsi:      
+            type: GeoProperty      
+      x-ngsi:      
+        type: GeoProperty      
+    maxDistConsecutiveAxles:      
+      description: Maximum permitted distance between two consecutive axles in case of TSI non-compliance      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxDistEndTrainFirstAxle:      
+      description: Maximum distance between end of train and first axle      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxFlangeHeight:      
+      description: Maximum permitted height of the flange      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxImpedanceWheelset:      
+      description: Maximum permitted impedance between opposite wheels of a wheelset when not TSI compliant      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    maxSandingOutput:      
+      description: Maximum amount of sand      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    maximumInterferenceCurrent:      
+      description: Maximum interference current      
+      type: number      
+      x-ngsi:      
+        type: Property      
+    minVehicleImpedance:      
+      description: Vehicle impedance      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    name:      
+      description: The name of this item      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    owner:      
+      description: A List containing a JSON encoded sequence of characters referencing the unique Ids of the owner(s)      
+      items:      
+        anyOf:      
+          - description: Identifier format of any NGSI entity      
+            maxLength: 256      
+            minLength: 1      
+            pattern: ^[\w\-\.\{\}\$\+\*\[\]`|~^@!,:\\]+$      
+            type: string      
+            x-ngsi:      
+              type: Property      
+          - description: Identifier format of any NGSI entity      
+            format: uri      
+            type: string      
+            x-ngsi:      
+              type: Property      
+        description: Unique identifier of the entity      
+        x-ngsi:      
+          type: Property      
+      type: array      
+      x-ngsi:      
+        type: Property      
+    requiredSandingOverride:      
+      description: Sanding override by driver required      
+      type: boolean      
+      x-ngsi:      
+        type: Property      
+    seeAlso:      
+      description: list of uri pointing to additional resources about the item      
+      oneOf:      
+        - items:      
+            format: uri      
+            type: string      
+          minItems: 1      
+          type: array      
+        - format: uri      
+          type: string      
+      x-ngsi:      
+        type: Property      
+    source:      
+      description: 'A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object'      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    tdsFrenchTrainDetectionSystemLimitation:      
+      description: 'Section with train detection limitation, only for the French network'      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tdsMaximumMagneticField:      
+      description: Train detection system maximum magnetic field      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tdsMinAxleLoadVehicleCategory:      
+      description: Train detection system min axle load vehicle category      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    trainDetectionSystemSpecificCheck:      
+      description: Type of track circuits to which specific checks are needed      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    trainDetectionSystemSpecificCheckDocument:      
+      description: Document with the procedure(s) related to the type of train detection systems declared in 1.2.1.1.6.1      
+      type: string      
+      x-ngsi:      
+        type: Property      
+    trainDetectionSystemType:      
+      description: Type of train detection system      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantCompositeBrakeBlocks:      
+      description: TSI compliance of rules on the use of composite brake blocks      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantFerromagneticWheel:      
+      description: TSI compliance of Ferromagnetic characteristics of wheel material required      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantMaxDistConsecutiveAxles:      
+      description: TSI compliance of maximum permitted distance between two consecutive axles      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantMaxImpedanceWheelset:      
+      description: TSI compliance of maximum permitted impedance between opposite wheels of a wheelset      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantMetalConstruction:      
+      description: TSI compliance of rules for vehicle metal construction      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantMetalFreeSpace:      
+      description: TSI compliance of rules for metal-free space around wheels      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantRSTShuntImpedance:      
+      description: TSI compliance of rules on combination of RST characteristics influencing shunting impedance      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantSandCharacteristics:      
+      description: TSI Compliance of rules on sand characteristics      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantSanding:      
+      description: TSI compliance of sanding      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    tsiCompliantShuntDevices:      
+      description: TSI compliance of rules on shunt assisting devices      
+      format: uri      
+      type: string      
+      x-ngsi:      
+        type: Relationship      
+    type:      
+      description: NGSI data type. It has to be TrainDetectionSystem      
+      enum:      
+        - TrainDetectionSystem      
+      type: string      
+      x-ngsi:      
+        type: Property      
+  required:      
+    - id      
+    - type      
+  type: object      
+  x-derived-from: http://data.europa.eu/949/TrainDetectionSystem      
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'      
+  x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/TrainDetectionSystem/LICENSE.md      
+  x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json      
+  x-model-tags: 'ERA vocabulary, railway, train'      
+  x-version: 0.0.1      
+```    
+</details>      
+<!-- /60-ModelYaml -->    
+<!-- 70-MiddleNotes -->    
+<!-- /70-MiddleNotes -->    
+<!-- 80-Examples -->    
+## Example payloads      
+#### TrainDetectionSystem NGSI-v2 key-values Example      
+Here is an example of a TrainDetectionSystem in JSON-LD format as key-values. This is compatible with NGSI-v2 when  using `options=keyValues` and returns the context data of an individual entity.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:TrainDetectionSystem:id:HFKE:55991286",  
@@ -597,10 +595,10 @@ TrainDetectionSystem:
   "tsiCompliantShuntDevices": "urn:ngsi-ld:TrainDetectionSystem:tsiCompliantShuntDevices:WSNY:33769606"  
 }  
 ```  
-</details>  
-#### TrainDetectionSystem NGSI-v2 normalized Example    
-Here is an example of a TrainDetectionSystem in JSON-LD format as normalized. This is compatible with NGSI-v2 when not using options and returns the context data of an individual entity.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### TrainDetectionSystem NGSI-v2 normalized Example      
+Here is an example of a TrainDetectionSystem in JSON-LD format as normalized. This is compatible with NGSI-v2 when not using options and returns the context data of an individual entity.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:TrainDetectionSystem:id:HFKE:55991286",  
@@ -649,50 +647,23 @@ TrainDetectionSystem:
     "type": "geo:json",  
     "value": {  
       "type": "Point",  
-      "coordinates": {  
-        "type": "StructuredValue",  
-        "value": [  
-          -14.40594,  
-          -126.652052  
-        ]  
-      }  
+      "coordinates": [  
+        -14.40594,  
+        -126.652052  
+      ]  
     }  
   },  
   "address": {  
     "type": "StructuredValue",  
     "value": {  
-      "streetAddress": {  
-        "type": "Text",  
-        "value": "Camera western fall think like."  
-      },  
-      "addressLocality": {  
-        "type": "Text",  
-        "value": "Unit someone everything sing effort. Upon indeed cover give none everything war. He attack true tree. L"  
-      },  
-      "addressRegion": {  
-        "type": "Text",  
-        "value": "Mind material process every pay long. Million later technology. Local speech kind determine."  
-      },  
-      "addressCountry": {  
-        "type": "Text",  
-        "value": "Forget new detail. Ask sometimes next might. Shoulder forget city doctor our agency."  
-      },  
-      "postalCode": {  
-        "type": "Text",  
-        "value": "Shoulder policy former brother national early why."  
-      },  
-      "postOfficeBoxNumber": {  
-        "type": "Text",  
-        "value": "Economic long eight human break way. Issue store third available. Major nor media teach whatever."  
-      },  
-      "streetNr": {  
-        "type": "Text",  
-        "value": "Continue bring full about maybe. Economy who population though product"  
-      },  
-      "district": {  
-        "type": "Text",  
-        "value": "Science prepare answer fish fire. Various administration guy. Technology think lot necessary foot."  
-      }  
+      "streetAddress": "Camera western fall think like.",  
+      "addressLocality": "Unit someone everything sing effort. Upon indeed cover give none everything war. He attack true tree. L",  
+      "addressRegion": "Mind material process every pay long. Million later technology. Local speech kind determine.",  
+      "addressCountry": "Forget new detail. Ask sometimes next might. Shoulder forget city doctor our agency.",  
+      "postalCode": "Shoulder policy former brother national early why.",  
+      "postOfficeBoxNumber": "Economic long eight human break way. Issue store third available. Major nor media teach whatever.",  
+      "streetNr": "Continue bring full about maybe. Economy who population though product",  
+      "district": "Science prepare answer fish fire. Various administration guy. Technology think lot necessary foot."  
     }  
   },  
   "areaServed": {  
@@ -810,10 +781,10 @@ TrainDetectionSystem:
   }  
 }  
 ```  
-</details>  
-#### TrainDetectionSystem NGSI-LD key-values Example    
-Here is an example of a TrainDetectionSystem in JSON-LD format as key-values. This is compatible with NGSI-LD when  using `options=keyValues` and returns the context data of an individual entity.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### TrainDetectionSystem NGSI-LD key-values Example      
+Here is an example of a TrainDetectionSystem in JSON-LD format as key-values. This is compatible with NGSI-LD when  using `options=keyValues` and returns the context data of an individual entity.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:TrainDetectionSystem:id:HFKE:55991286",  
@@ -882,10 +853,10 @@ TrainDetectionSystem:
   ]  
 }  
 ```  
-</details>  
-#### TrainDetectionSystem NGSI-LD normalized Example    
-Here is an example of a TrainDetectionSystem in JSON-LD format as normalized. This is compatible with NGSI-LD when not using options and returns the context data of an individual entity.  
-<details><summary><strong>show/hide example</strong></summary>    
+</details>    
+#### TrainDetectionSystem NGSI-LD normalized Example      
+Here is an example of a TrainDetectionSystem in JSON-LD format as normalized. This is compatible with NGSI-LD when not using options and returns the context data of an individual entity.    
+<details><summary><strong>show/hide example</strong></summary>      
 ```json  
 {  
   "id": "urn:ngsi-ld:TrainDetectionSystem:id:XRJX:98868894",  
@@ -1077,12 +1048,12 @@ TrainDetectionSystem:
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->  
-<!-- 90-FooterNotes -->  
-<!-- /90-FooterNotes -->  
-<!-- 95-Units -->  
-See [FAQ 10](https://smartdatamodels.org/index.php/faqs/) to get an answer on how to deal with magnitude units  
-<!-- /95-Units -->  
-<!-- 97-LastFooter -->  
----  
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->  
+</details><!-- /80-Examples -->    
+<!-- 90-FooterNotes -->    
+<!-- /90-FooterNotes -->    
+<!-- 95-Units -->    
+See [FAQ 10](https://smartdatamodels.org/index.php/faqs/) to get an answer on how to deal with magnitude units    
+<!-- /95-Units -->    
+<!-- 97-LastFooter -->    
+---    
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
