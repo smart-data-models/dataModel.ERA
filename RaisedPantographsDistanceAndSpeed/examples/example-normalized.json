@@ -80,11 +80,5 @@
   "raisedPantographsSpeed": {
     "type": "Number",
     "value": 864
-  },
-  "context": {
-    "type": "StructuredValue",
-    "value": [
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-    ]
   }
 }
