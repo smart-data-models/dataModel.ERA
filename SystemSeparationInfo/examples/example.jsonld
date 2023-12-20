@@ -39,8 +39,5 @@
   "systemSeparationInfoSwitchOffBreaker": false,
   "@context": [
     "https://smartdatamodels.org/context.jsonld"
-  ],
-  "context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
 }
