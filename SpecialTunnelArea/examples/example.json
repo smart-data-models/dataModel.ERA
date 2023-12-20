@@ -32,8 +32,5 @@
     "district": "Pattern over scientist important"
   },
   "areaServed": "Current upon put current. His find imagine high course why sea.",
-  "type": "SpecialTunnelArea",
-  "context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-  ]
+  "type": "SpecialTunnelArea"
 }
