@@ -35,8 +35,5 @@
   "type": "RaisedPantographsDistanceAndSpeed",
   "raisedPantographsDistance": 864,
   "raisedPantographsNumber": 864,
-  "raisedPantographsSpeed": 864,
-  "context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-  ]
+  "raisedPantographsSpeed": 864
 }
