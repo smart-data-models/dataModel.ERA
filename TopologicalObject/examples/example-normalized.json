@@ -68,11 +68,5 @@
     "type": "Text",
     "value": "Partner a improve about. Because four challenge. Hot north personal benefit."
   },
-  "type": "TopologicalObject",
-  "context": {
-    "type": "StructuredValue",
-    "value": [
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-    ]
-  }
+  "type": "TopologicalObject"
 }
