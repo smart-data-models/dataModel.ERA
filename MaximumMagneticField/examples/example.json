@@ -35,8 +35,5 @@
   "type": "MaximumMagneticField",
   "maximumMagneticFieldDirectionX": 864,
   "maximumMagneticFieldDirectionY": 864,
-  "maximumMagneticFieldDirectionZ": 864,
-  "context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-  ]
+  "maximumMagneticFieldDirectionZ": 864
 }
