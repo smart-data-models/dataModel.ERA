@@ -68,11 +68,5 @@
     "type": "Text",
     "value": "Current upon put current. His find imagine high course why sea."
   },
-  "type": "SpecialTunnelArea",
-  "context": {
-    "type": "StructuredValue",
-    "value": [
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-    ]
-  }
+  "type": "SpecialTunnelArea"
 }
