@@ -68,11 +68,5 @@
     "type": "Text",
     "value": "Candidate house speak sort computer move reduce break. Right safe make eve"
   },
-  "type": "NationalRailwayLine",
-  "context": {
-    "type": "StructuredValue",
-    "value": [
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-    ]
-  }
+  "type": "NationalRailwayLine"
 }
