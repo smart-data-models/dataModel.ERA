@@ -35,9 +35,6 @@
   "type": "ETCSLevel",
   "etcsBaseline": "urn:ngsi-ld:ETCSLevel:etcsBaseline:HAGI:99857296",
   "etcsLevelType": "urn:ngsi-ld:ETCSLevel:etcsLevelType:VOLD:97362219",
-  "@context": [
-    "https://smartdatamodels.org/context.jsonld"
-  ],
   "context": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]

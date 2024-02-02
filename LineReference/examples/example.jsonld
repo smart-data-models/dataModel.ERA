@@ -35,9 +35,6 @@
   "type": "LineReference",
   "kilometer": 239.9,
   "lineNationalId": "urn:ngsi-ld:LineReference:lineNationalId:IIBS:67837023",
-  "@context": [
-    "https://smartdatamodels.org/context.jsonld"
-  ],
   "context": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]

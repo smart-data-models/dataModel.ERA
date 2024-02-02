@@ -35,9 +35,6 @@
   "type": "InfrastructureManager",
   "imCode": "Responsibility information do paper either",
   "definesSubset": "urn:ngsi-ld:InfrastructureManager:definesSubset:QKJR:78702924",
-  "@context": [
-    "https://smartdatamodels.org/context.jsonld"
-  ],
   "context": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
