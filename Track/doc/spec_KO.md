@@ -1,19 +1,40 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-엔티티: 트랙    
-=======<!-- /10-Header -->    
-<!-- 15-License -->    
-[오픈 라이선스](https://github.com/smart-data-models//dataModel.ERA/blob/master/Track/LICENSE.md)    
-[문서 자동 생성](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-글로벌 설명: **기차 서비스 이동에 사용되는 선로입니다.**    
-버전: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## 속성 목록    
-<sup><sub>[*] 속성에 유형이 없는 것은 여러 유형 또는 다른 형식/패턴을 가질 수 있기 때문입니다</sub></sup>.    
-- `IdPhoneErtmsRadioBlockCenter[string]`: ERTMS/ETCS 전파 차단 센터의 ID 및 전화번호  - `TSIMagneticFields[uri]`: 차량에서 방출되는 자기장에 대한 규정의 존재 및 TSI 준수 여부  - `TSITractionHarmonics[uri]`: 차량의 트랙션 전류에서 고조파 제한의 존재 및 TSI 준수 여부  - `accelerationLevelCrossing[string]`: 레벨 크로싱에서 허용되는 가속도  - `additionalBrakingInformationDocument[string]`: 제동 성능과 관련하여 IM에서 제공하는 문서  - `address[object]`: 우편 주소  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 국가. 예를 들어, 스페인  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+엔티티: 트랙    
+=======
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[오픈 라이선스](https://github.com/smart-data-models//dataModel.ERA/blob/master/Track/LICENSE.md)    
+
+[문서 자동 생성](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+글로벌 설명: **기차 서비스 이동에 사용되는 선로입니다.**    
+
+버전: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## 속성 목록    
+
+<sup><sub>[*] 속성에 유형이 없는 것은 여러 유형 또는 다른 형식/패턴을 가질 수 있기 때문입니다</sub></sup>.    
+- `IdPhoneErtmsRadioBlockCenter[string]`: ERTMS/ETCS 전파 차단 센터의 ID 및 전화번호  
+- `TSIMagneticFields[uri]`: 차량에서 방출되는 자기장에 대한 규정의 존재 및 TSI 준수 여부  
+- `TSITractionHarmonics[uri]`: 차량의 트랙션 전류에서 고조파 제한의 존재 및 TSI 준수 여부  
+- `accelerationLevelCrossing[string]`: 레벨 크로싱에서 허용되는 가속도  
+- `additionalBrakingInformationDocument[string]`: 제동 성능과 관련하여 IM에서 제공하는 문서  
+- `address[object]`: 우편 주소  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: 국가. 예를 들어, 스페인  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: 도로명 주소가 있는 지역 및 해당 지역에 속한 지역  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: 해당 지역이 위치한 지역과 해당 국가의 지역  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: 지구는 일부 국가에서는 지방 정부에서 관리하는 행정 구역의 일종입니다.      
@@ -21,20 +42,210 @@
 	- `postalCode[string]`: 우편 번호입니다. 예: 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: 거리 주소  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: 공공 도로의 특정 건물을 식별하는 번호      
-- `alternateName[string]`: 이 항목의 대체 이름  - `areaServed[string]`: 서비스 또는 제공 품목이 제공되는 지리적 영역  . Model: [https://schema.org/Text](https://schema.org/Text)- `atoCommunicationSystem[uri]`: ATO 통신 시스템  - `atoErrorCorrectionsOnboard[string]`: 온보드에 필요한 ATO 오류 수정  - `atoGradeAutomation[uri]`: ATO 자동화 등급  - `atoSystemVersion[uri]`: ATO 시스템 버전  - `automaticDroppingDeviceRequired[boolean]`: 자동 낙하 장치 필요  - `bigMetalMass[boolean]`: 큰 금속 덩어리  - `bridge[boolean]`: 다리  - `cantDeficiency[number]`: 캔트 결핍  - `cantDeficiencyBasicSSP[uri]`: 기본 SSP에 사용되는 캔트 결핍  - `compatibilityProcedureDocument[string]`: 정적 및 동적 경로 호환성 검사 절차를 문서화하세요.  - `conditionsSwitchClassBSystems[string]`: ERTMS/ETCS와 클래스 B 시스템 간 전환에 필요한 특수 기술 조건  - `conditionsSwitchTrainProtectionSystems[string]`: 서로 다른 B급 열차 보호, 제어 및 경고 시스템 간 전환을 위한 특수 조건  - `conditionsUseReflectivePlates[uri]`: 반사판 사용 조건  - `contactLineSystem[uri]`: 컨택 라인 시스템  - `contactStripMaterial[uri]`: 허용된 접촉 스트립 재질  - `contactStripMaterialMetallicContent[number]`: 접촉 스트립 재질 금속 함량  - `dNvovtrp[number]`: D_NVOVTRP  - `dNvpotrp[number]`: D_NVPOTRP  - `dNvroll[number]`: D_NVROLL  - `dataProvider[string]`: 조화된 데이터 엔티티의 공급자를 식별하는 일련의 문자  - `dataRadioCompatible[uri]`: 무선 시스템 호환성 데이터  - `dateCreated[date-time]`: 엔티티 생성 타임스탬프. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  - `dateModified[date-time]`: 엔티티의 마지막 수정 타임스탬프입니다. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  - `demonstrationENE[string]`: 트랙용 EI 실증 선언(ENE)  - `demonstrationINF[string]`: 트랙/사이딩에 대한 EI 데모 선언 [INF]  - `description[string]`: 이 항목에 대한 설명  - `distSignToPhaseEnd[number]`: 간판과 위상 분리 종료 사이의 거리  - `documentRestrictionPositionContactLineSeparation[string]`: 접촉선 분리를 준수하기 위해 다중 견인 장치의 위치와 관련된 제한 사항이 있는 문서  - `documentRestrictionPowerConsumption[string]`: 특정 전기 견인 장치의 전력 소비와 관련된 제한 사항이 있는 문서  - `eddyCurrentBraking[uri]`: 와전류 브레이크 사용  - `eddyCurrentBrakingConditionsDocument[string]`: 와전류 브레이크 사용 조건이 포함된 문서  - `etcsDegradedSituation[uri]`: 저하된 상황에 대한 ETCS 수준  - `etcsErrorCorrectionsOnboard[string]`: 온보드에 필요한 ETCS 오류 수정  - `etcsImplementsLevelCrossingProcedure[boolean]`: ETCS 트랙사이드는 레벨 크로싱 절차 또는 이에 상응하는 솔루션을 구현합니다.  - `etcsInfill[uri]`: ETCS 인필 설치 라인사이드  - `etcsInfillLineAccess[boolean]`: 회선 액세스에 필요한 ETCS 인필  - `etcsLevel[uri]`: 기타 레벨  - `etcsMVersion[uri]`: ETCS M_버전  - `etcsNationalPacket44[boolean]`: ETCS 전국 패킷 44 적용 구현  - `etcsOptionalFunctions[string]`: ETCS 옵션 기능  - `etcsSystemCompatibility[uri]`: ETCS 시스템 호환성  - `etcsSystemFunctionalitiesNextFiveYears[string]`: 향후 5년 내에 요구되는 ETCS 시스템 버전 2.2 또는 3.0 기능  - `etcsTransmitsTrackConditions[boolean]`: ETCS 트랙사이드가 트랙 상태를 전송하도록 설계되어 있습니까?  - `etcsTransmittedTrackConditions[uri]`: 전송할 수 있는 조건 추적  - `flangeLubeForbidden[boolean]`: 플랜지 윤활유 사용 금지  - `freightCorridor[uri]`: 철도 화물 통로의 일부  - `gaugingCheckLocation[string]`: 특정 검사가 필요한 특정 지점의 철도 위치  - `gaugingProfile[uri]`: 측정  - `gaugingTransversalDocument[string]`: 특정 점검이 필요한 특정 지점의 횡단 구간을 문서화합니다.  - `gprsForETCS[boolean]`: ETCS용 GPRS  - `gprsImplementationArea[string]`: GPRS 구현 영역  - `gradientProfile[string]`: 그라데이션 프로파일  - `gsmRActiveMobiles[uri]`: 운영 중단 없이 무선 블록 센터 핸드오버를 수행하는 데 필요한 ETCS 레벨 2(또는 레벨 3)에 대한 온보드 활성 GSM-R 모바일(EDOR) 또는 동시 통신 세션 수  - `gsmRAdditionalInfo[string]`: 네트워크 특성에 대한 추가 정보  - `gsmRNoCoverage[boolean]`: GSM-R 커버리지 없음  - `gsmROptionalFunctions[uri]`: GSM-R 기능 옵션  - `gsmRVersion[uri]`: GSM-R 버전  - `gsmrConstraintsOperateOnlyInCircuitSwitch[uri]`: 회로 스위치에서만 작동할 수 있는 ETCS 온보드 장치에 대해 GSM-R 네트워크 사업자가 부과한 특정 제약 조건  - `gsmrErrorCorrectionsOnboard[string]`: 온보드에 필요한 GSM-R 오류 수정  - `gsmrForcedDeregistrationFunctionalNumber[boolean]`: GSM-R 네트워크는 다른 드라이버에 의해 기능 번호의 강제 등록 취소를 허용하도록 구성됩니다.  - `gsmrNetworkCoverage[uri]`: 로밍 계약이 적용되는 GSM-R 네트워크  - `hasAdditionalBrakingInformation[boolean]`: 메신저로 추가 정보 제공 가능  - `hasBallast[boolean]`: 밸러스트의 존재 여부  - `hasETCSRestrictionsConditions[boolean]`: 운영 제한 또는 조건의 존재  - `hasHotAxleBoxDetector[boolean]`: 트랙사이드 핫 액슬 박스 감지기(HABD)의 존재 여부  - `hasLevelCrossings[boolean]`: 건널목 존재 여부  - `hasOtherTrainProtection[boolean]`: 다른 열차 보호, 제어 및 경고 시스템이 설치되어 있는지 여부  - `hasSevereWeatherConditions[boolean]`: 혹독한 기후 조건의 존재  - `hasSystemSeparation[boolean]`: 시스템 분리  - `hasTSITrainDetection[boolean]`: TSI를 완벽하게 준수하는 열차 감지 시스템의 존재 여부  - `highSpeedLoadModelCompliance[boolean]`: 고속 하중 모델(HSLM) 동적 하중 모델에 대한 구조물의 적합성 준수  - `hotAxleBoxDetectorDirection[uri]`: 핫 액슬 박스 감지기 방향  - `hotAxleBoxDetectorGeneration[string]`: 트랙사이드 HABD 생성  - `hotAxleBoxDetectorIdentification[string]`: 트랙사이드 HABD 식별  - `hotAxleBoxDetectorLocation[number]`: 선로변 HABD의 철도 위치  - `hotAxleBoxDetectorTSICompliant[boolean]`: 트랙사이드 HABD TSI 준수  - `id[*]`: 엔티티의 고유 식별자  - `instructionsSwitchRadioSystems[string]`: 서로 다른 무선 시스템 간 전환을 위한 특별 지침  - `isQuietRoute[boolean]`: 더 조용한 경로에 속함  - `legacyRadioSystem[uri]`: 설치된 기타 무선 시스템(무선 레거시 시스템)  - `lineCategory[uri]`: 라인 카테고리  - `linesideDistanceIndicationAppearance[uri]`: 라인사이드 거리 표시 모양  - `linesideDistanceIndicationFrequency[number]`: 라인사이드 거리 표시 빈도  - `linesideDistanceIndicationPositioning[uri]`: 라인사이드 거리 표시 위치 지정  - `loadCapability[uri]`: 로드 기능  - `localRulesOrRestrictions[boolean]`: 엄격하게 지역적인 성격의 규칙 및 제한이 존재합니다.  - `localRulesOrRestrictionsDoc[string]`: IM에서 제공하는 엄격한 로컬 성격의 규칙 또는 제한에 관한 문서  - `location[*]`: 항목에 대한 지오숀 참조입니다. 포인트, 라인 문자열, 다각형, 멀티포인트, 멀티라인 문자열 또는 멀티폴리곤일 수 있습니다.  - `mNvcontact[uri]`: M_NVCONTACT  - `mNvderun[boolean]`: M_NVDERUN  - `magneticBraking[uri]`: 마그네틱 브레이크 사용  - `magneticBrakingConditionsDocument[string]`: 마그네틱 브레이크 사용 조건이 포함된 문서  - `maximumAltitude[number]`: 최대 고도  - `maximumBrakingDistance[number]`: 요청된 최대 제동 거리  - `maximumContactWireHeight[number]`: 최대 접점 와이어 높이  - `maximumPermittedSpeed[number]`: 최대 허용 속도  - `maximumTemperature[number]`: 온도 범위(최대)  - `maximumTrainDeceleration[number]`: 최대 열차 감속  - `minDistConsecutiveAxles[number]`: 연속된 두 축 사이의 최소 허용 거리  - `minDistFirstLastAxle[number]`: 첫 번째 차축과 마지막 차축 사이의 최소 허용 거리  - `minFlangeHeight[number]`: 플랜지의 최소 허용 높이  - `minFlangeThickness[number]`: 플랜지의 최소 허용 두께  - `minRimWidth[number]`: 림의 최소 허용 너비  - `minWheelDiameter[number]`: 허용되는 최소 휠 직경  - `minimumContactWireHeight[number]`: 최소 접점 와이어 높이  - `minimumHorizontalRadius[number]`: 수평 커브의 최소 반경  - `minimumTemperature[number]`: 온도 범위(최소)  - `minimumWheelDiameter[number]`: 고정식 둔각 교차로용 최소 휠 직경  - `multipleTrainProtectionRequired[boolean]`: 열차에 하나 이상의 열차 보호, 제어 및 경고 시스템이 필요합니다.  - `name[string]`: 이 항목의 이름  - `nationalLoadCapability[string]`: 부하 용량에 대한 국가 분류  - `nationalValuesBrakeModel[string]`: 브레이크 모델에 사용되는 국가별 값  - `osmClass[uri]`: 스트리트 맵 클래스 열기  - `otherCantDeficiencyBasicSSP[uri]`: 기타 캔트 결핍 열차 범주 중 ETCS 선로 측이 SSP를 제공하도록 구성된 열차 범주  - `otherPantographHead[uri]`: 다른 팬터그래프 헤드 사용 가능  - `otherTrainProtection[uri]`: 열악한 상황을 위한 기타 열차 보호, 제어 및 경고 시스템  - `owner[array]`: 소유자의 고유 ID를 참조하는 JSON 인코딩된 문자 시퀀스가 포함된 목록입니다.  - `passesThroughTunnel[uri]`: 터널 통과  - `permitUseReflectivePlates[boolean]`: 반사판 사용 허가  - `permittedContactForce[string]`: 허용되는 접촉력  - `phaseInfo[string]`: 상 분리에 대한 정보  - `phaseSeparation[boolean]`: 상 분리  - `platform[uri]`: 플랫폼  - `profileNumberSemiTrailers[uri]`: 세미 트레일러용 표준 결합 운송 프로필 번호  - `profileNumberSwapBodies[uri]`: 스왑 바디의 표준 결합 운송 프로필 번호  - `protectionLegacySystem[uri]`: 열차 보호 레거시 시스템  - `publicNetworkRoaming[boolean]`: 공용 네트워크에 대한 로밍의 GSM-R 존재 여부  - `publicNetworkRoamingDetails[string]`: 공용 네트워크 로밍에 대한 GSM-R 세부 정보  - `qNvdriverAdhes[uri]`: Q_NVDRIVER_ADHES  - `qNvemrrls[uri]`: Q_NVEMRRLS  - `qNvsbtsmperm[boolean]`: Q_NVSBTSMPERM  - `radioNetworkId[number]`: 무선 네트워크 ID  - `railInclination[uri]`: 레일 경사  - `raisedPantographsDistanceAndSpeed[string]`: 주어진 속도에서 제기된 팬터그래프의 수와 팬터그래프 사이의 간격에 대한 요구 사항  - `reasonsEtcsRadioBlockCenterReject[uri]`: ETCS 무선 블록 센터가 열차를 거부할 수 있는 이유  - `redLightsRequired[boolean]`: 지속적인 적색 표시등 필요  - `safeConsistLengthInformationNecessary[uri]`: 라인 및 SIL 액세스에 필요한 온보드 길이 정보를 안전하게 구성합니다.  - `seeAlso[*]`: 항목에 대한 추가 리소스를 가리키는 URL 목록  - `source[string]`: 엔티티 데이터의 원본 소스를 URL로 제공하는 문자 시퀀스입니다. 소스 공급자의 정규화된 도메인 이름 또는 소스 개체에 대한 URL을 사용하는 것이 좋습니다.  - `specificInformation[string]`: 특정 정보  - `standardCombinedTransporRollerUnits[uri]`: 롤러 유닛의 표준 결합 운송 프로파일 번호  - `standardCombinedTransportContainers[uri]`: 컨테이너의 표준 결합 운송 프로필 번호  - `structureCheckLocation[number]`: 특정 점검이 필요한 구조물의 철도 위치  - `switchProtectControlWarning[boolean]`: 실행 중 서로 다른 보호, 제어 및 경고 시스템 간의 전환 존재 여부  - `switchRadioSystem[boolean]`: 서로 다른 무선 시스템 간의 전환 존재 여부  - `systemSeparationInfo[string]`: 시스템 분리에 대한 정보  - `tNvcontact[number]`: T_NVCONTACT  - `tNvovtrp[number]`: T_NVOVTRP  - `temperatureRange[uri]`: 온도 범위  - `tenClassification[uri]`: TEN 분류(선로, 플랫폼, 사이딩)  - `tenGISId[string]`: TEN GIS 아이덴티티  - `tiltingSupported[boolean]`: 틸팅 기능 지원 여부 표시 ETCS에서 지원 여부 표시  - `trackDirection[uri]`: 정상 주행 방향  - `trackId[string]`: 트랙 식별  - `trackLoadCapability[uri]`: 트랙 로드 기능  - `trackPhaseInfo[uri]`: 단계 정보 추적  - `trackRaisedPantographsDistanceAndSpeed[uri]`: 제기된 팬터그래프 거리 및 속도 추적  - `trackSystemSeparationInfo[uri]`: 시스템 분리 정보 추적  - `trainDetectionSystem[uri]`: 열차 감지 시스템  - `trainIntegrityOnBoardRequired[boolean]`: 선로 접근에 필요한 열차 무결성 확인(기관사가 아닌 기내에서)  - `tsiPantographHead[uri]`: 허용된 TSI 호환 팬터그래프 헤드  - `tsiSwitchCrossing[boolean]`: 스위치 및 교차로에 대한 서비스 중 값의 TSI 규정 준수  - `type[string]`: NGSI 데이터 유형이어야 합니다. 트랙이어야 합니다.  - `usesGroup555[boolean]`: 그룹 555의 GSM-R 사용  - `vNvallowovtrp[number]`: V_NVALLOWOVTRP  - `vNvsupovtrp[number]`: V_NVSUPOVTRP  - `vehicleTypesCompatibleTrafficLoad[string]`: 인프라 및 열차 감지 시스템의 교통량 및 적재 능력과 호환되는 것으로 이미 확인된 차량 유형 목록  - `vehiclesCompatibleTrafficLoad[string]`: 인프라 및 열차 감지 시스템의 교통량 및 적재 능력과 호환되는 것으로 이미 확인된 차량 목록  - `verificationCCS[string]`: 트랙에 대한 EC 검증 선언(CCS)  - `verificationENE[string]`: 트랙에 대한 EC 검증 선언(ENE)  - `verificationINF[string]`: 선로/사이딩에 대한 EC 검증 선언 [INF]  - `voiceRadioCompatible[uri]`: 무선 시스템 호환 음성  - `wheelSetGauge[uri]`: 공칭 트랙 게이지  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-필수 속성    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-ERA 온톨로지에서 매핑된 데이터 모델 https://data-interop.era.europa.eu/era-vocabulary(유럽 연합 철도청)    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## 속성에 대한 데이터 모델 설명    
-알파벳순으로 정렬(자세한 내용을 보려면 클릭)    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: 이 항목의 대체 이름  
+- `areaServed[string]`: 서비스 또는 제공 품목이 제공되는 지리적 영역  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `atoCommunicationSystem[uri]`: ATO 통신 시스템  
+- `atoErrorCorrectionsOnboard[string]`: 온보드에 필요한 ATO 오류 수정  
+- `atoGradeAutomation[uri]`: ATO 자동화 등급  
+- `atoSystemVersion[uri]`: ATO 시스템 버전  
+- `automaticDroppingDeviceRequired[boolean]`: 자동 낙하 장치 필요  
+- `bigMetalMass[boolean]`: 큰 금속 덩어리  
+- `bridge[boolean]`: 다리  
+- `cantDeficiency[number]`: 캔트 결핍  
+- `cantDeficiencyBasicSSP[uri]`: 기본 SSP에 사용되는 캔트 결핍  
+- `compatibilityProcedureDocument[string]`: 정적 및 동적 경로 호환성 검사 절차를 문서화하세요.  
+- `conditionsSwitchClassBSystems[string]`: ERTMS/ETCS와 클래스 B 시스템 간 전환에 필요한 특수 기술 조건  
+- `conditionsSwitchTrainProtectionSystems[string]`: 서로 다른 B급 열차 보호, 제어 및 경고 시스템 간 전환을 위한 특수 조건  
+- `conditionsUseReflectivePlates[uri]`: 반사판 사용 조건  
+- `contactLineSystem[uri]`: 컨택 라인 시스템  
+- `contactStripMaterial[uri]`: 허용된 접촉 스트립 재질  
+- `contactStripMaterialMetallicContent[number]`: 접촉 스트립 재질 금속 함량  
+- `dNvovtrp[number]`: D_NVOVTRP  
+- `dNvpotrp[number]`: D_NVPOTRP  
+- `dNvroll[number]`: D_NVROLL  
+- `dataProvider[string]`: 조화된 데이터 엔티티의 공급자를 식별하는 일련의 문자  
+- `dataRadioCompatible[uri]`: 무선 시스템 호환성 데이터  
+- `dateCreated[date-time]`: 엔티티 생성 타임스탬프. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  
+- `dateModified[date-time]`: 엔티티의 마지막 수정 타임스탬프입니다. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  
+- `demonstrationENE[string]`: 트랙용 EI 실증 선언(ENE)  
+- `demonstrationINF[string]`: 트랙/사이딩에 대한 EI 데모 선언 [INF]  
+- `description[string]`: 이 항목에 대한 설명  
+- `distSignToPhaseEnd[number]`: 간판과 위상 분리 종료 사이의 거리  
+- `documentRestrictionPositionContactLineSeparation[string]`: 접촉선 분리를 준수하기 위해 다중 견인 장치의 위치와 관련된 제한 사항이 있는 문서  
+- `documentRestrictionPowerConsumption[string]`: 특정 전기 견인 장치의 전력 소비와 관련된 제한 사항이 있는 문서  
+- `eddyCurrentBraking[uri]`: 와전류 브레이크 사용  
+- `eddyCurrentBrakingConditionsDocument[string]`: 와전류 브레이크 사용 조건이 포함된 문서  
+- `etcsDegradedSituation[uri]`: 저하된 상황에 대한 ETCS 수준  
+- `etcsErrorCorrectionsOnboard[string]`: 온보드에 필요한 ETCS 오류 수정  
+- `etcsImplementsLevelCrossingProcedure[boolean]`: ETCS 트랙사이드는 레벨 크로싱 절차 또는 이에 상응하는 솔루션을 구현합니다.  
+- `etcsInfill[uri]`: ETCS 인필 설치 라인사이드  
+- `etcsInfillLineAccess[boolean]`: 회선 액세스에 필요한 ETCS 인필  
+- `etcsLevel[uri]`: 기타 레벨  
+- `etcsMVersion[uri]`: ETCS M_버전  
+- `etcsNationalPacket44[boolean]`: ETCS 전국 패킷 44 적용 구현  
+- `etcsOptionalFunctions[string]`: ETCS 옵션 기능  
+- `etcsSystemCompatibility[uri]`: ETCS 시스템 호환성  
+- `etcsSystemFunctionalitiesNextFiveYears[string]`: 향후 5년 내에 요구되는 ETCS 시스템 버전 2.2 또는 3.0 기능  
+- `etcsTransmitsTrackConditions[boolean]`: ETCS 트랙사이드가 트랙 상태를 전송하도록 설계되어 있습니까?  
+- `etcsTransmittedTrackConditions[uri]`: 전송할 수 있는 조건 추적  
+- `flangeLubeForbidden[boolean]`: 플랜지 윤활유 사용 금지  
+- `freightCorridor[uri]`: 철도 화물 통로의 일부  
+- `gaugingCheckLocation[string]`: 특정 검사가 필요한 특정 지점의 철도 위치  
+- `gaugingProfile[uri]`: 측정  
+- `gaugingTransversalDocument[string]`: 특정 점검이 필요한 특정 지점의 횡단 구간을 문서화합니다.  
+- `gprsForETCS[boolean]`: ETCS용 GPRS  
+- `gprsImplementationArea[string]`: GPRS 구현 영역  
+- `gradientProfile[string]`: 그라데이션 프로파일  
+- `gsmRActiveMobiles[uri]`: 운영 중단 없이 무선 블록 센터 핸드오버를 수행하는 데 필요한 ETCS 레벨 2(또는 레벨 3)에 대한 온보드 활성 GSM-R 모바일(EDOR) 또는 동시 통신 세션 수  
+- `gsmRAdditionalInfo[string]`: 네트워크 특성에 대한 추가 정보  
+- `gsmRNoCoverage[boolean]`: GSM-R 커버리지 없음  
+- `gsmROptionalFunctions[uri]`: GSM-R 기능 옵션  
+- `gsmRVersion[uri]`: GSM-R 버전  
+- `gsmrConstraintsOperateOnlyInCircuitSwitch[uri]`: 회로 스위치에서만 작동할 수 있는 ETCS 온보드 장치에 대해 GSM-R 네트워크 사업자가 부과한 특정 제약 조건  
+- `gsmrErrorCorrectionsOnboard[string]`: 온보드에 필요한 GSM-R 오류 수정  
+- `gsmrForcedDeregistrationFunctionalNumber[boolean]`: GSM-R 네트워크는 다른 드라이버에 의해 기능 번호의 강제 등록 취소를 허용하도록 구성됩니다.  
+- `gsmrNetworkCoverage[uri]`: 로밍 계약이 적용되는 GSM-R 네트워크  
+- `hasAdditionalBrakingInformation[boolean]`: 메신저로 추가 정보 제공 가능  
+- `hasBallast[boolean]`: 밸러스트의 존재 여부  
+- `hasETCSRestrictionsConditions[boolean]`: 운영 제한 또는 조건의 존재  
+- `hasHotAxleBoxDetector[boolean]`: 트랙사이드 핫 액슬 박스 감지기(HABD)의 존재 여부  
+- `hasLevelCrossings[boolean]`: 건널목 존재 여부  
+- `hasOtherTrainProtection[boolean]`: 다른 열차 보호, 제어 및 경고 시스템이 설치되어 있는지 여부  
+- `hasSevereWeatherConditions[boolean]`: 혹독한 기후 조건의 존재  
+- `hasSystemSeparation[boolean]`: 시스템 분리  
+- `hasTSITrainDetection[boolean]`: TSI를 완벽하게 준수하는 열차 감지 시스템의 존재 여부  
+- `highSpeedLoadModelCompliance[boolean]`: 고속 하중 모델(HSLM) 동적 하중 모델에 대한 구조물의 적합성 준수  
+- `hotAxleBoxDetectorDirection[uri]`: 핫 액슬 박스 감지기 방향  
+- `hotAxleBoxDetectorGeneration[string]`: 트랙사이드 HABD 생성  
+- `hotAxleBoxDetectorIdentification[string]`: 트랙사이드 HABD 식별  
+- `hotAxleBoxDetectorLocation[number]`: 선로변 HABD의 철도 위치  
+- `hotAxleBoxDetectorTSICompliant[boolean]`: 트랙사이드 HABD TSI 준수  
+- `id[*]`: 엔티티의 고유 식별자  
+- `instructionsSwitchRadioSystems[string]`: 서로 다른 무선 시스템 간 전환을 위한 특별 지침  
+- `isQuietRoute[boolean]`: 더 조용한 경로에 속함  
+- `legacyRadioSystem[uri]`: 설치된 기타 무선 시스템(무선 레거시 시스템)  
+- `lineCategory[uri]`: 라인 카테고리  
+- `linesideDistanceIndicationAppearance[uri]`: 라인사이드 거리 표시 모양  
+- `linesideDistanceIndicationFrequency[number]`: 라인사이드 거리 표시 빈도  
+- `linesideDistanceIndicationPositioning[uri]`: 라인사이드 거리 표시 위치 지정  
+- `loadCapability[uri]`: 로드 기능  
+- `localRulesOrRestrictions[boolean]`: 엄격하게 지역적인 성격의 규칙 및 제한이 존재합니다.  
+- `localRulesOrRestrictionsDoc[string]`: IM에서 제공하는 엄격한 로컬 성격의 규칙 또는 제한에 관한 문서  
+- `location[*]`: 항목에 대한 지오숀 참조입니다. 포인트, 라인 문자열, 다각형, 멀티포인트, 멀티라인 문자열 또는 멀티폴리곤일 수 있습니다.  
+- `mNvcontact[uri]`: M_NVCONTACT  
+- `mNvderun[boolean]`: M_NVDERUN  
+- `magneticBraking[uri]`: 마그네틱 브레이크 사용  
+- `magneticBrakingConditionsDocument[string]`: 마그네틱 브레이크 사용 조건이 포함된 문서  
+- `maximumAltitude[number]`: 최대 고도  
+- `maximumBrakingDistance[number]`: 요청된 최대 제동 거리  
+- `maximumContactWireHeight[number]`: 최대 접점 와이어 높이  
+- `maximumPermittedSpeed[number]`: 최대 허용 속도  
+- `maximumTemperature[number]`: 온도 범위(최대)  
+- `maximumTrainDeceleration[number]`: 최대 열차 감속  
+- `minDistConsecutiveAxles[number]`: 연속된 두 축 사이의 최소 허용 거리  
+- `minDistFirstLastAxle[number]`: 첫 번째 차축과 마지막 차축 사이의 최소 허용 거리  
+- `minFlangeHeight[number]`: 플랜지의 최소 허용 높이  
+- `minFlangeThickness[number]`: 플랜지의 최소 허용 두께  
+- `minRimWidth[number]`: 림의 최소 허용 너비  
+- `minWheelDiameter[number]`: 허용되는 최소 휠 직경  
+- `minimumContactWireHeight[number]`: 최소 접점 와이어 높이  
+- `minimumHorizontalRadius[number]`: 수평 커브의 최소 반경  
+- `minimumTemperature[number]`: 온도 범위(최소)  
+- `minimumWheelDiameter[number]`: 고정식 둔각 교차로용 최소 휠 직경  
+- `multipleTrainProtectionRequired[boolean]`: 열차에 하나 이상의 열차 보호, 제어 및 경고 시스템이 필요합니다.  
+- `name[string]`: 이 항목의 이름  
+- `nationalLoadCapability[string]`: 부하 용량에 대한 국가 분류  
+- `nationalValuesBrakeModel[string]`: 브레이크 모델에 사용되는 국가별 값  
+- `osmClass[uri]`: 스트리트 맵 클래스 열기  
+- `otherCantDeficiencyBasicSSP[uri]`: 기타 캔트 결핍 열차 범주 중 ETCS 선로 측이 SSP를 제공하도록 구성된 열차 범주  
+- `otherPantographHead[uri]`: 다른 팬터그래프 헤드 사용 가능  
+- `otherTrainProtection[uri]`: 열악한 상황을 위한 기타 열차 보호, 제어 및 경고 시스템  
+- `owner[array]`: 소유자의 고유 ID를 참조하는 JSON 인코딩된 문자 시퀀스가 포함된 목록입니다.  
+- `passesThroughTunnel[uri]`: 터널 통과  
+- `permitUseReflectivePlates[boolean]`: 반사판 사용 허가  
+- `permittedContactForce[string]`: 허용되는 접촉력  
+- `phaseInfo[string]`: 상 분리에 대한 정보  
+- `phaseSeparation[boolean]`: 상 분리  
+- `platform[uri]`: 플랫폼  
+- `profileNumberSemiTrailers[uri]`: 세미 트레일러용 표준 결합 운송 프로필 번호  
+- `profileNumberSwapBodies[uri]`: 스왑 바디의 표준 결합 운송 프로필 번호  
+- `protectionLegacySystem[uri]`: 열차 보호 레거시 시스템  
+- `publicNetworkRoaming[boolean]`: 공용 네트워크에 대한 로밍의 GSM-R 존재 여부  
+- `publicNetworkRoamingDetails[string]`: 공용 네트워크 로밍에 대한 GSM-R 세부 정보  
+- `qNvdriverAdhes[uri]`: Q_NVDRIVER_ADHES  
+- `qNvemrrls[uri]`: Q_NVEMRRLS  
+- `qNvsbtsmperm[boolean]`: Q_NVSBTSMPERM  
+- `radioNetworkId[number]`: 무선 네트워크 ID  
+- `railInclination[uri]`: 레일 경사  
+- `raisedPantographsDistanceAndSpeed[string]`: 주어진 속도에서 제기된 팬터그래프의 수와 팬터그래프 사이의 간격에 대한 요구 사항  
+- `reasonsEtcsRadioBlockCenterReject[uri]`: ETCS 무선 블록 센터가 열차를 거부할 수 있는 이유  
+- `redLightsRequired[boolean]`: 지속적인 적색 표시등 필요  
+- `safeConsistLengthInformationNecessary[uri]`: 라인 및 SIL 액세스에 필요한 온보드 길이 정보를 안전하게 구성합니다.  
+- `seeAlso[*]`: 항목에 대한 추가 리소스를 가리키는 URL 목록  
+- `source[string]`: 엔티티 데이터의 원본 소스를 URL로 제공하는 문자 시퀀스입니다. 소스 공급자의 정규화된 도메인 이름 또는 소스 개체에 대한 URL을 사용하는 것이 좋습니다.  
+- `specificInformation[string]`: 특정 정보  
+- `standardCombinedTransporRollerUnits[uri]`: 롤러 유닛의 표준 결합 운송 프로파일 번호  
+- `standardCombinedTransportContainers[uri]`: 컨테이너의 표준 결합 운송 프로필 번호  
+- `structureCheckLocation[number]`: 특정 점검이 필요한 구조물의 철도 위치  
+- `switchProtectControlWarning[boolean]`: 실행 중 서로 다른 보호, 제어 및 경고 시스템 간의 전환 존재 여부  
+- `switchRadioSystem[boolean]`: 서로 다른 무선 시스템 간의 전환 존재 여부  
+- `systemSeparationInfo[string]`: 시스템 분리에 대한 정보  
+- `tNvcontact[number]`: T_NVCONTACT  
+- `tNvovtrp[number]`: T_NVOVTRP  
+- `temperatureRange[uri]`: 온도 범위  
+- `tenClassification[uri]`: TEN 분류(선로, 플랫폼, 사이딩)  
+- `tenGISId[string]`: TEN GIS 아이덴티티  
+- `tiltingSupported[boolean]`: 틸팅 기능 지원 여부 표시 ETCS에서 지원 여부 표시  
+- `trackDirection[uri]`: 정상 주행 방향  
+- `trackId[string]`: 트랙 식별  
+- `trackLoadCapability[uri]`: 트랙 로드 기능  
+- `trackPhaseInfo[uri]`: 단계 정보 추적  
+- `trackRaisedPantographsDistanceAndSpeed[uri]`: 제기된 팬터그래프 거리 및 속도 추적  
+- `trackSystemSeparationInfo[uri]`: 시스템 분리 정보 추적  
+- `trainDetectionSystem[uri]`: 열차 감지 시스템  
+- `trainIntegrityOnBoardRequired[boolean]`: 선로 접근에 필요한 열차 무결성 확인(기관사가 아닌 기내에서)  
+- `tsiPantographHead[uri]`: 허용된 TSI 호환 팬터그래프 헤드  
+- `tsiSwitchCrossing[boolean]`: 스위치 및 교차로에 대한 서비스 중 값의 TSI 규정 준수  
+- `type[string]`: NGSI 데이터 유형이어야 합니다. 트랙이어야 합니다.  
+- `usesGroup555[boolean]`: 그룹 555의 GSM-R 사용  
+- `vNvallowovtrp[number]`: V_NVALLOWOVTRP  
+- `vNvsupovtrp[number]`: V_NVSUPOVTRP  
+- `vehicleTypesCompatibleTrafficLoad[string]`: 인프라 및 열차 감지 시스템의 교통량 및 적재 능력과 호환되는 것으로 이미 확인된 차량 유형 목록  
+- `vehiclesCompatibleTrafficLoad[string]`: 인프라 및 열차 감지 시스템의 교통량 및 적재 능력과 호환되는 것으로 이미 확인된 차량 목록  
+- `verificationCCS[string]`: 트랙에 대한 EC 검증 선언(CCS)  
+- `verificationENE[string]`: 트랙에 대한 EC 검증 선언(ENE)  
+- `verificationINF[string]`: 선로/사이딩에 대한 EC 검증 선언 [INF]  
+- `voiceRadioCompatible[uri]`: 무선 시스템 호환 음성  
+- `wheelSetGauge[uri]`: 공칭 트랙 게이지  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+필수 속성    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+ERA 온톨로지에서 매핑된 데이터 모델 https://data-interop.era.europa.eu/era-vocabulary(유럽 연합 철도청)    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## 속성에 대한 데이터 모델 설명    
+
+알파벳순으로 정렬(자세한 내용을 보려면 클릭)    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 Track:      
   description: A running track that is used for train service movements.      
   properties:      
@@ -1263,16 +1474,25 @@ Track:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## 페이로드 예시    
-#### NGSI-v2 키 값 추적 예시    
-다음은 키-값으로 JSON-LD 형식의 트랙의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## 페이로드 예시    
+
+#### NGSI-v2 키 값 추적 예시    
+
+다음은 키-값으로 JSON-LD 형식의 트랙의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": "1999-12-30T09:02:54Z",  
   "dateModified": "2011-07-03T23:49:28Z",  
@@ -1474,17 +1694,21 @@ Track:
   "tsiPantographHead": "urn:ngsi-ld:Track:tsiPantographHead:YHRY:48926717",  
   "voiceRadioCompatible": "urn:ngsi-ld:Track:voiceRadioCompatible:MQSW:64014004",  
   "wheelSetGauge": "urn:ngsi-ld:Track:wheelSetGauge:CBCZ:67145439",  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### NGSI-v2 정규화 예제 추적하기    
-다음은 정규화된 JSON-LD 형식의 트랙 예시입니다. 이는 옵션을 사용하지 않을 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+
+#### NGSI-v2 정규화 예제 추적하기    
+
+다음은 정규화된 JSON-LD 형식의 트랙 예시입니다. 이는 옵션을 사용하지 않을 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -2222,21 +2446,19 @@ Track:
   "wheelSetGauge": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:Track:wheelSetGauge:CBCZ:67145439"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### NGSI-LD 키 값 추적 예시    
-다음은 키-값으로 JSON-LD 형식의 트랙의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+
+#### NGSI-LD 키 값 추적 예시    
+
+다음은 키-값으로 JSON-LD 형식의 트랙의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": "1999-12-30T09:02:54Z",  
   "dateModified": "2011-07-03T23:49:28Z",  
@@ -2441,17 +2663,21 @@ Track:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### NGSI-LD 정규화 예제 추적하기    
-다음은 정규화된 JSON-LD 형식의 트랙 예시입니다. 이는 옵션을 사용하지 않을 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+
+#### NGSI-LD 정규화 예제 추적하기    
+
+다음은 정규화된 JSON-LD 형식의 트랙 예시입니다. 이는 옵션을 사용하지 않을 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:YMIK:19710861",  
   "dateCreated": {  
     "type": "Property",  
@@ -3199,17 +3425,26 @@ Track:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-10](https://smartdatamodels.org/index.php/faqs/)를 참조하여 규모 단위를 다루는 방법에 대한 답변을 확인하세요.    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+10](https://smartdatamodels.org/index.php/faqs/)를 참조하여 규모 단위를 다루는 방법에 대한 답변을 확인하세요.    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

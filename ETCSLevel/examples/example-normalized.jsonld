@@ -83,7 +83,7 @@
     "type": "Relationship",
     "object": "urn:ngsi-ld:ETCSLevel:etcsLevelType:DFOI:51546732"
   },
-  "context": [
+  "@context": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
 }

@@ -50,7 +50,7 @@
   "rollingStockFireCategory": "urn:ngsi-ld:Tunnel:rollingStockFireCategory:HWDR:37365505",
   "specialTunnelArea": "urn:ngsi-ld:Tunnel:specialTunnelArea:MEMD:08918829",
   "startLocation": "urn:ngsi-ld:Tunnel:startLocation:ZKRP:09411129",
-  "context": [
+  "@contex": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
 }

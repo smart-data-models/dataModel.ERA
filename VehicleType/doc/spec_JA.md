@@ -1,19 +1,35 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-エンティティ車両タイプ    
-===========<!-- /10-Header -->    
-<!-- 15-License -->    
-[オープン・ライセンス](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
-[文書は自動的に生成される](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-グローバルな説明**EUの鉄道インフラでの運行が認可された車両タイプ。    
-バージョン: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## プロパティのリスト    
-<sup><sub>[*] 属性に型がない場合は、複数の型があるか、異なるフォーマット/パターンがある可能性があるためです</sub></sup>。    
-- `address[object]`: 郵送先住所  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 国。例えば、スペイン  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+エンティティ車両タイプ    
+===========
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[オープン・ライセンス](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
+
+[文書は自動的に生成される](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+グローバルな説明**EUの鉄道インフラでの運行が認可された車両タイプ。    
+
+バージョン: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## プロパティのリスト    
+
+<sup><sub>[*] 属性に型がない場合は、複数の型があるか、異なるフォーマット/パターンがある可能性があるためです</sub></sup>。    
+- `address[object]`: 郵送先住所  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: 国。例えば、スペイン  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: 番地がある地域と、その地域に含まれる地域  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: その地域がある地域、またその国がある地域  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: 地区とは行政区画の一種で、国によっては地方自治体によって管理されている。      
@@ -21,20 +37,196 @@
 	- `postalCode[string]`: 郵便番号。例：24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: 番地  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: 公道上の特定の物件を特定する番号      
-- `alternateName[string]`: この項目の別名  - `alternativeName[string]`: 別名  - `altitudeRange[string]`: 高度範囲  - `altitudeRangeDetail[number]`: 高度範囲詳細  - `areaServed[string]`: サービスまたは提供品が提供される地理的地域  . Model: [https://schema.org/Text](https://schema.org/Text)- `authorizedCountry[uri]`: 認定国  - `axleBearingConditionMonitoring[uri]`: アクスルベアリングの状態監視  - `axleSpacing[string]`: 車軸間隔  - `boardingAids[string]`: ボーディングエイド  - `brakeWeightPercentage[string]`: ブレーキ重量パーセンテージ  - `cantDefficiency[number]`: カント不足  - `category[uri]`: 車両カテゴリー  - `catenaryMaxRatedCurrent[number]`: カテナリー最大定格電流  - `certificate[uri]`: 証明書  - `conditionsTrainFormation[string]`: 列車編成の条件  - `contactStripMaterial[uri]`: 許可されたコンタクトストリップ材料  - `dangerousGoodsTankCode[string]`: 危険物タンクコード  - `dataGSMRNetwork[uri]`: データGSM-Rネットワーク  - `dataProvider[string]`: ハーモナイズされたデータ・エンティティの提供者を識別する一連の文字。  - `dataRadioCompatible[uri]`: 無線システム互換性データ  - `dateCreated[date-time]`: エンティティの作成タイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられます。  - `dateModified[date-time]`: エンティティの最終変更のタイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられる。  - `description[string]`: この商品の説明  - `designMassExceptionalPayload[number]`: 例外的な積載量における設計質量  - `designMassNormalPayload[number]`: 通常積載時の設計質量  - `designMassWorkingOrder[number]`: 稼働中のデザインマス  - `drivingCabs[number]`: タクシー運転手  - `eddyCurrentBrakePrevention[boolean]`: 渦電流ブレーキ防止  - `eddyCurrentBrakingFitted[boolean]`: 渦電流ブレーキ搭載  - `emergencyBrake[string]`: 緊急ブレーキ  - `endCouplingType[uri]`: エンドカップリングタイプ  - `energyMeterInstalled[boolean]`: エネルギーメーター設置  - `energySupplyMaxPower[number]`: エネルギー供給最大電力  - `energySupplySystem[uri]`: エネルギー供給システム  - `etcsBaseline[uri]`: ETCSベースライン  - `etcsDataCommApp[string]`: ETCSデータ通信アプリケーション  - `etcsEquipmentOnBoardLevel[uri]`: ETCS機器レベル  - `etcsInfill[uri]`: ラインサイドに設置されたETCSインフィル  - `etcsNationalApplications[string]`: ETCS国家アプリケーション  - `etcsOnBoardImplementation[string]`: ETCS車載化  - `etcsSystemCompatibility[uri]`: ETCSシステムの互換性  - `ferromagneticWheelMaterial[boolean]`: 強磁性ホイール素材  - `fireSafetyCategory[uri]`: 火災安全カテゴリー  - `fixedSeats[string]`: 固定席  - `flangeLubricationFitted[boolean]`: フランジ潤滑装置  - `gaugingProfile[uri]`: ゲージング  - `gsmRRadioDataCommunication[uri]`: GSM-R無線データ通信  - `gsmRSetsInDrivingCab[number]`: 運転台に設置されたGSM-Rセット  - `gsmRVersion[uri]`: GSM-Rバージョン  - `hasAutomaticDroppingDevice[boolean]`: 自動落下装置付き  - `hasCantDefficiencyCompensation[boolean]`: カント欠乏補償あり  - `hasCurrentLimitation[boolean]`: 電流制限あり  - `hasLubricationDevicePrevention[boolean]`: 潤滑防止装置付き  - `hasParkingBrake[boolean]`: パーキングブレーキ  - `hasRegenerativeBrake[boolean]`: 回生ブレーキの許可  - `hasSandingPrevention[boolean]`: サンディング防止機能付き  - `hasShuntingRestrictions[boolean]`: シャント規制あり  - `hasTrainIntegrityConfirmation[boolean]`: 列車の完全性を確認  - `hasWheelSlideProtectionSystem[boolean]`: ホイールスライド・プロテクション・システム  - `id[*]`: エンティティの一意識別子  - `legacyRadioSystem[uri]`: その他の無線システムの設置（無線レガシーシステム）  - `letterMarking[string]`: 文字マーキング  - `loadingPlatformHeight[number]`: 荷台の高さ  - `location[*]`: アイテムへの Geojson 参照。Point、LineString、Polygon、MultiPoint、MultiLineString、MultiPolygon のいずれか。  - `magneticBrakePrevention[boolean]`: 磁気ブレーキ防止  - `magneticBrakingFitted[boolean]`: 磁気ブレーキ搭載  - `manufacturer[uri]`: メーカー  - `manufacturingCountry[uri]`: 製造国  - `massPerWheel[number]`: ホイールあたりの質量  - `maxCurrentStandstillPantograph[number]`: パンタグラフごとの静止時最大電流  - `maxDistConsecutiveAxles[number]`: TSI非準拠の場合の連続する2車軸間の最大許容距離  - `maxFlangeHeight[number]`: フランジの最大許容高さ  - `maxImpedanceWheelset[number]`: TSI非対応のホイールセットの対向ホイール間の最大許容インピーダンス。  - `maxLengthVehicleNose[number]`: 最大車長  - `maximumAverageDeceleration[number]`: 最大平均減速度  - `maximumBrakeThermalEnergyCapacity[number]`: 最大ブレーキ熱エネルギー容量  - `maximumContactWireHeight[number]`: コンタクトワイヤーの最大高さ  - `maximumDesignSpeed[number]`: 設計最高速度  - `maximumLocomotivesCoupled[number]`: 最大連結機関車数  - `maximumServiceBrake[string]`: 最大サービスブレーク  - `maximumSpeedAndCantDeficiency[string]`: 最高速度とカント不足  - `maximumSpeedEmpty[number]`: 最高速度 空  - `maximumTemperature[number]`: 温度範囲（最大）  - `meetsRequirementVehicleAuthorisation[string]`: 要求車両認可に適合  - `minAxleLoad[number]`: 最低許容軸重  - `minDistConsecutiveAxles[number]`: 連続する2つの車軸間の最小許容距離  - `minDistFirstLastAxle[number]`: 最初の車軸と最後の車軸の間の最小許容距離  - `minFlangeHeight[number]`: フランジの最低許容高さ  - `minFlangeThickness[number]`: フランジの最小許容厚さ  - `minRimWidth[number]`: リムの最小許容幅  - `minVehicleImpedance[string]`: 車両インピーダンス  - `minWheelDiameter[number]`: 許容最小ホイール径  - `minimumConcaveVerticalRadius[number]`: 最小凹面垂直半径  - `minimumContactWireHeight[number]`: コンタクトワイヤーの最小高さ  - `minimumConvexVerticalRadius[number]`: 最小凸垂直半径  - `minimumHorizontalRadius[number]`: 水平カーブの最小半径  - `minimumTemperature[number]`: 温度範囲（最小）  - `minimumWheelDiameter[number]`: 固定鈍角交差の最小車輪直径  - `name[string]`: このアイテムの名前  - `nonCodedRestrictions[string]`: コード化されていない制限  - `numberElementsRakeFreightWagons[number]`: レーキ貨車の要素数  - `numberOfPantographsInContactWithOCL[number]`: OCLと接触しているパンタグラフの数  - `numberOfToilets[number]`: トイレの数  - `oclType[string]`: Oclタイプ  - `owner[array]`: 所有者の固有IDを参照するJSONエンコードされた文字列を含むリスト。  - `parkingBrake[boolean]`: 駐車ブレーキ  - `parkingBrakeMandatory[boolean]`: パーキングブレーキ必須  - `parkingBrakeMaximumGradient[number]`: パーキングブレーキの最大勾配  - `parkingBrakeType[uri]`: パーキングブレーキ  - `passByNoiseLevel[number]`: 通過騒音レベル  - `permissiblePayload[string]`: 許容積載量  - `portableBoardingAids[string]`: ポータブル搭乗補助具  - `preventRegenerativeBrakeUse[boolean]`: 回生ブレーキの使用を防ぐ  - `previousVehicleType[uri]`: 以前の車種  - `prioritySeats[string]`: 優先席  - `prmAccessibleToilets[number]`: バリアフリー・トイレ  - `protectionLegacySystem[uri]`: 列車保護レガシーシステム  - `quasiStaticGuidingForce[number]`: 準静的ガイド力  - `radioSwitchOverSpecialConditions[string]`: 無線切り替えの特殊条件  - `railInclination[uri]`: レール傾斜  - `referencePassByNoiseLevel[boolean]`: 基準通過騒音レベル  - `seeAlso[*]`: アイテムに関する追加リソースを指すURIのリスト  - `shortestDistanceBetweenPantographsInContactWithOCL[string]`: OCLに接するパンタグラフ間の最短距離  - `sleepingPlaces[string]`: 就寝場所  - `snowIceHailConditions[uri]`: 雪氷ひょうの状況  - `source[string]`: エンティティ・データの元のソースを URL として示す一連の文字。ソース・プロバイダの完全修飾ドメイン名、またはソース・オブジェクトの URL を推奨する。  - `startingNoiseLevel[number]`: 始動時の騒音レベル  - `staticAxleLoadExceptionalPayload[number]`: 例外的な積載量における静的車軸荷重  - `staticAxleLoadNormalPayload[number]`: 通常積載時の静的車軸荷重  - `staticAxleLoadWorkingOrder[number]`: 作動中の静的軸負荷  - `stationaryNoiseLevel[number]`: 定常騒音レベル  - `structuralCategory[string]`: 構造カテゴリー  - `subCategory[uri]`: 車両サブカテゴリー  - `supportedPlatformHeight[uri]`: 対応プラットフォームの高さ  - `thermalCapacityDistance[number]`: 熱容量距離  - `thermalCapacityGradient[number]`: 熱容量勾配  - `thermalCapacitySpeed[number]`: 熱容量速度  - `thermalCapacityTSIReference[uri]`: 熱容量 TSI 基準  - `thermalCapacityTime[number]`: 熱容量時間  - `totalVehicleMass[number]`: 車両総質量  - `trainControlSwitchOverSpecialConditions[string]`: 特殊条件下での列車制御スイッチ  - `trainDetectionSystemType[uri]`: 列車検知システムの種類  - `transportableOnFerry[boolean]`: フェリーで輸送可能  - `type[string]`: NGSIデータ型。VehicleTypeでなければならない。  - `typeVersionId[uri]`: タイプ バージョンID  - `typeVersionNumber[string]`: タイプバージョン番号  - `usesGroup555[boolean]`: GSM-Rによるグループ555の使用  - `vehicleContactForce[number]`: 車両接触力  - `vehicleKinematicGaugeOther[string]`: 車両運動計 その他  - `vehicleMaxSandingOutput[string]`: 車両最大サンディング出力  - `vehiclePantographHead[string]`: 車両用パンタグラフヘッド  - `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: 車種別最高速度とカント不足  - `vehiclesComposingFixedFormation[number]`: 固定隊形を構成する車両  - `voiceGSMRNetwork[uri]`: 音声GSM-Rネットワーク  - `voiceOperationalCommImpl[string]`: 音声オペレーショナル・コミュニケーションの導入  - `voiceRadioCompatible[uri]`: 無線システム互換ボイス  - `wheelSetGauge[uri]`: 公称軌道軌間  - `wheelSetGaugeChangeoverFacility[uri]`: ホイールセット・ゲージ交換機能  - `wheelSetGaugeTransformationMethod[string]`: ホイールセットゲージの変換方法  - `wheelchairSleepingPlaces[string]`: 車椅子用寝台スペース  - `wheelchairSpaces[number]`: 車椅子スペース  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-必須プロパティ    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-ERAオントロジー https://data-interop.era.europa.eu/era-vocabulary （欧州鉄道庁）からマッピングされたデータモデル。    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## プロパティのデータモデル記述    
-アルファベット順（クリックで詳細表示）    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: この項目の別名  
+- `alternativeName[string]`: 別名  
+- `altitudeRange[string]`: 高度範囲  
+- `altitudeRangeDetail[number]`: 高度範囲詳細  
+- `areaServed[string]`: サービスまたは提供品が提供される地理的地域  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `authorizedCountry[uri]`: 認定国  
+- `axleBearingConditionMonitoring[uri]`: アクスルベアリングの状態監視  
+- `axleSpacing[string]`: 車軸間隔  
+- `boardingAids[string]`: ボーディングエイド  
+- `brakeWeightPercentage[string]`: ブレーキ重量パーセンテージ  
+- `cantDefficiency[number]`: カント不足  
+- `category[uri]`: 車両カテゴリー  
+- `catenaryMaxRatedCurrent[number]`: カテナリー最大定格電流  
+- `certificate[uri]`: 証明書  
+- `conditionsTrainFormation[string]`: 列車編成の条件  
+- `contactStripMaterial[uri]`: 許可されたコンタクトストリップ材料  
+- `dangerousGoodsTankCode[string]`: 危険物タンクコード  
+- `dataGSMRNetwork[uri]`: データGSM-Rネットワーク  
+- `dataProvider[string]`: ハーモナイズされたデータ・エンティティの提供者を識別する一連の文字。  
+- `dataRadioCompatible[uri]`: 無線システム互換性データ  
+- `dateCreated[date-time]`: エンティティの作成タイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられます。  
+- `dateModified[date-time]`: エンティティの最終変更のタイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられる。  
+- `description[string]`: この商品の説明  
+- `designMassExceptionalPayload[number]`: 例外的な積載量における設計質量  
+- `designMassNormalPayload[number]`: 通常積載時の設計質量  
+- `designMassWorkingOrder[number]`: 稼働中のデザインマス  
+- `drivingCabs[number]`: タクシー運転手  
+- `eddyCurrentBrakePrevention[boolean]`: 渦電流ブレーキ防止  
+- `eddyCurrentBrakingFitted[boolean]`: 渦電流ブレーキ搭載  
+- `emergencyBrake[string]`: 緊急ブレーキ  
+- `endCouplingType[uri]`: エンドカップリングタイプ  
+- `energyMeterInstalled[boolean]`: エネルギーメーター設置  
+- `energySupplyMaxPower[number]`: エネルギー供給最大電力  
+- `energySupplySystem[uri]`: エネルギー供給システム  
+- `etcsBaseline[uri]`: ETCSベースライン  
+- `etcsDataCommApp[string]`: ETCSデータ通信アプリケーション  
+- `etcsEquipmentOnBoardLevel[uri]`: ETCS機器レベル  
+- `etcsInfill[uri]`: ラインサイドに設置されたETCSインフィル  
+- `etcsNationalApplications[string]`: ETCS国家アプリケーション  
+- `etcsOnBoardImplementation[string]`: ETCS車載化  
+- `etcsSystemCompatibility[uri]`: ETCSシステムの互換性  
+- `ferromagneticWheelMaterial[boolean]`: 強磁性ホイール素材  
+- `fireSafetyCategory[uri]`: 火災安全カテゴリー  
+- `fixedSeats[string]`: 固定席  
+- `flangeLubricationFitted[boolean]`: フランジ潤滑装置  
+- `gaugingProfile[uri]`: ゲージング  
+- `gsmRRadioDataCommunication[uri]`: GSM-R無線データ通信  
+- `gsmRSetsInDrivingCab[number]`: 運転台に設置されたGSM-Rセット  
+- `gsmRVersion[uri]`: GSM-Rバージョン  
+- `hasAutomaticDroppingDevice[boolean]`: 自動落下装置付き  
+- `hasCantDefficiencyCompensation[boolean]`: カント欠乏補償あり  
+- `hasCurrentLimitation[boolean]`: 電流制限あり  
+- `hasLubricationDevicePrevention[boolean]`: 潤滑防止装置付き  
+- `hasParkingBrake[boolean]`: パーキングブレーキ  
+- `hasRegenerativeBrake[boolean]`: 回生ブレーキの許可  
+- `hasSandingPrevention[boolean]`: サンディング防止機能付き  
+- `hasShuntingRestrictions[boolean]`: シャント規制あり  
+- `hasTrainIntegrityConfirmation[boolean]`: 列車の完全性を確認  
+- `hasWheelSlideProtectionSystem[boolean]`: ホイールスライド・プロテクション・システム  
+- `id[*]`: エンティティの一意識別子  
+- `legacyRadioSystem[uri]`: その他の無線システムの設置（無線レガシーシステム）  
+- `letterMarking[string]`: 文字マーキング  
+- `loadingPlatformHeight[number]`: 荷台の高さ  
+- `location[*]`: アイテムへの Geojson 参照。Point、LineString、Polygon、MultiPoint、MultiLineString、MultiPolygon のいずれか。  
+- `magneticBrakePrevention[boolean]`: 磁気ブレーキ防止  
+- `magneticBrakingFitted[boolean]`: 磁気ブレーキ搭載  
+- `manufacturer[uri]`: メーカー  
+- `manufacturingCountry[uri]`: 製造国  
+- `massPerWheel[number]`: ホイールあたりの質量  
+- `maxCurrentStandstillPantograph[number]`: パンタグラフごとの静止時最大電流  
+- `maxDistConsecutiveAxles[number]`: TSI非準拠の場合の連続する2車軸間の最大許容距離  
+- `maxFlangeHeight[number]`: フランジの最大許容高さ  
+- `maxImpedanceWheelset[number]`: TSI非対応のホイールセットの対向ホイール間の最大許容インピーダンス。  
+- `maxLengthVehicleNose[number]`: 最大車長  
+- `maximumAverageDeceleration[number]`: 最大平均減速度  
+- `maximumBrakeThermalEnergyCapacity[number]`: 最大ブレーキ熱エネルギー容量  
+- `maximumContactWireHeight[number]`: コンタクトワイヤーの最大高さ  
+- `maximumDesignSpeed[number]`: 設計最高速度  
+- `maximumLocomotivesCoupled[number]`: 最大連結機関車数  
+- `maximumServiceBrake[string]`: 最大サービスブレーク  
+- `maximumSpeedAndCantDeficiency[string]`: 最高速度とカント不足  
+- `maximumSpeedEmpty[number]`: 最高速度 空  
+- `maximumTemperature[number]`: 温度範囲（最大）  
+- `meetsRequirementVehicleAuthorisation[string]`: 要求車両認可に適合  
+- `minAxleLoad[number]`: 最低許容軸重  
+- `minDistConsecutiveAxles[number]`: 連続する2つの車軸間の最小許容距離  
+- `minDistFirstLastAxle[number]`: 最初の車軸と最後の車軸の間の最小許容距離  
+- `minFlangeHeight[number]`: フランジの最低許容高さ  
+- `minFlangeThickness[number]`: フランジの最小許容厚さ  
+- `minRimWidth[number]`: リムの最小許容幅  
+- `minVehicleImpedance[string]`: 車両インピーダンス  
+- `minWheelDiameter[number]`: 許容最小ホイール径  
+- `minimumConcaveVerticalRadius[number]`: 最小凹面垂直半径  
+- `minimumContactWireHeight[number]`: コンタクトワイヤーの最小高さ  
+- `minimumConvexVerticalRadius[number]`: 最小凸垂直半径  
+- `minimumHorizontalRadius[number]`: 水平カーブの最小半径  
+- `minimumTemperature[number]`: 温度範囲（最小）  
+- `minimumWheelDiameter[number]`: 固定鈍角交差の最小車輪直径  
+- `name[string]`: このアイテムの名前  
+- `nonCodedRestrictions[string]`: コード化されていない制限  
+- `numberElementsRakeFreightWagons[number]`: レーキ貨車の要素数  
+- `numberOfPantographsInContactWithOCL[number]`: OCLと接触しているパンタグラフの数  
+- `numberOfToilets[number]`: トイレの数  
+- `oclType[string]`: Oclタイプ  
+- `owner[array]`: 所有者の固有IDを参照するJSONエンコードされた文字列を含むリスト。  
+- `parkingBrake[boolean]`: 駐車ブレーキ  
+- `parkingBrakeMandatory[boolean]`: パーキングブレーキ必須  
+- `parkingBrakeMaximumGradient[number]`: パーキングブレーキの最大勾配  
+- `parkingBrakeType[uri]`: パーキングブレーキ  
+- `passByNoiseLevel[number]`: 通過騒音レベル  
+- `permissiblePayload[string]`: 許容積載量  
+- `portableBoardingAids[string]`: ポータブル搭乗補助具  
+- `preventRegenerativeBrakeUse[boolean]`: 回生ブレーキの使用を防ぐ  
+- `previousVehicleType[uri]`: 以前の車種  
+- `prioritySeats[string]`: 優先席  
+- `prmAccessibleToilets[number]`: バリアフリー・トイレ  
+- `protectionLegacySystem[uri]`: 列車保護レガシーシステム  
+- `quasiStaticGuidingForce[number]`: 準静的ガイド力  
+- `radioSwitchOverSpecialConditions[string]`: 無線切り替えの特殊条件  
+- `railInclination[uri]`: レール傾斜  
+- `referencePassByNoiseLevel[boolean]`: 基準通過騒音レベル  
+- `seeAlso[*]`: アイテムに関する追加リソースを指すURIのリスト  
+- `shortestDistanceBetweenPantographsInContactWithOCL[string]`: OCLに接するパンタグラフ間の最短距離  
+- `sleepingPlaces[string]`: 就寝場所  
+- `snowIceHailConditions[uri]`: 雪氷ひょうの状況  
+- `source[string]`: エンティティ・データの元のソースを URL として示す一連の文字。ソース・プロバイダの完全修飾ドメイン名、またはソース・オブジェクトの URL を推奨する。  
+- `startingNoiseLevel[number]`: 始動時の騒音レベル  
+- `staticAxleLoadExceptionalPayload[number]`: 例外的な積載量における静的車軸荷重  
+- `staticAxleLoadNormalPayload[number]`: 通常積載時の静的車軸荷重  
+- `staticAxleLoadWorkingOrder[number]`: 作動中の静的軸負荷  
+- `stationaryNoiseLevel[number]`: 定常騒音レベル  
+- `structuralCategory[string]`: 構造カテゴリー  
+- `subCategory[uri]`: 車両サブカテゴリー  
+- `supportedPlatformHeight[uri]`: 対応プラットフォームの高さ  
+- `thermalCapacityDistance[number]`: 熱容量距離  
+- `thermalCapacityGradient[number]`: 熱容量勾配  
+- `thermalCapacitySpeed[number]`: 熱容量速度  
+- `thermalCapacityTSIReference[uri]`: 熱容量 TSI 基準  
+- `thermalCapacityTime[number]`: 熱容量時間  
+- `totalVehicleMass[number]`: 車両総質量  
+- `trainControlSwitchOverSpecialConditions[string]`: 特殊条件下での列車制御スイッチ  
+- `trainDetectionSystemType[uri]`: 列車検知システムの種類  
+- `transportableOnFerry[boolean]`: フェリーで輸送可能  
+- `type[string]`: NGSIデータ型。VehicleTypeでなければならない。  
+- `typeVersionId[uri]`: タイプ バージョンID  
+- `typeVersionNumber[string]`: タイプバージョン番号  
+- `usesGroup555[boolean]`: GSM-Rによるグループ555の使用  
+- `vehicleContactForce[number]`: 車両接触力  
+- `vehicleKinematicGaugeOther[string]`: 車両運動計 その他  
+- `vehicleMaxSandingOutput[string]`: 車両最大サンディング出力  
+- `vehiclePantographHead[string]`: 車両用パンタグラフヘッド  
+- `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: 車種別最高速度とカント不足  
+- `vehiclesComposingFixedFormation[number]`: 固定隊形を構成する車両  
+- `voiceGSMRNetwork[uri]`: 音声GSM-Rネットワーク  
+- `voiceOperationalCommImpl[string]`: 音声オペレーショナル・コミュニケーションの導入  
+- `voiceRadioCompatible[uri]`: 無線システム互換ボイス  
+- `wheelSetGauge[uri]`: 公称軌道軌間  
+- `wheelSetGaugeChangeoverFacility[uri]`: ホイールセット・ゲージ交換機能  
+- `wheelSetGaugeTransformationMethod[string]`: ホイールセットゲージの変換方法  
+- `wheelchairSleepingPlaces[string]`: 車椅子用寝台スペース  
+- `wheelchairSpaces[number]`: 車椅子スペース  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+必須プロパティ    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+ERAオントロジー https://data-interop.era.europa.eu/era-vocabulary （欧州鉄道庁）からマッピングされたデータモデル。    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## プロパティのデータモデル記述    
+
+アルファベット順（クリックで詳細表示）    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 VehicleType:      
   description: A vehicle type that has been authorized to operate on the EU railway infrastructure.      
   properties:      
@@ -1144,16 +1336,25 @@ VehicleType:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## ペイロードの例    
-#### VehicleType NGSI-v2 キー値の例    
-以下はVehicleTypeをJSON-LD形式でkey-valuesとした例である。これはNGSI-v2と互換性があり、`options=keyValues`を使用すると、個々のエンティティのコンテキストデータを返す。    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## ペイロードの例    
+
+#### VehicleType NGSI-v2 キー値の例    
+
+以下はVehicleTypeをJSON-LD形式でkey-valuesとした例である。これはNGSI-v2と互換性があり、`options=keyValues`を使用すると、個々のエンティティのコンテキストデータを返す。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": "1980-12-10T17:21:19Z",  
   "dateModified": "2012-03-07T09:15:20Z",  
@@ -1335,18 +1536,19 @@ VehicleType:
   "voiceGSMRNetwork": "urn:ngsi-ld:VehicleType:voiceGSMRNetwork:QXCJ:24173042",  
   "voiceRadioCompatible": "urn:ngsi-ld:VehicleType:voiceRadioCompatible:PKZZ:65461187",  
   "wheelSetGauge": "urn:ngsi-ld:VehicleType:wheelSetGauge:KXVE:51717604",  
-  "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133",  
-  "context": [  
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-  ]  
+  "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133"
 }  
 ```  
 </details>    
-#### 車両タイプ NGSI-v2 正規化例    
-以下は、正規化された JSON-LD フォーマットの VehicleType の例である。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。    
+
+#### 車両タイプ NGSI-v2 正規化例    
+
+以下は、正規化された JSON-LD フォーマットの VehicleType の例である。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -2008,21 +2210,19 @@ VehicleType:
   "wheelSetGaugeChangeoverFacility": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### 車両タイプ NGSI-LD キー値の例    
-以下は、VehicleTypeをJSON-LD形式でkey-valuesとした例である。これは NGSI-LD と互換性があり、`options=keyValues` を使用すると、個々のエンティティのコンテキストデータを返します。    
+
+#### 車両タイプ NGSI-LD キー値の例    
+
+以下は、VehicleTypeをJSON-LD形式でkey-valuesとした例である。これは NGSI-LD と互換性があり、`options=keyValues` を使用すると、個々のエンティティのコンテキストデータを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": "1980-12-10T17:21:19Z",  
   "dateModified": "2012-03-07T09:15:20Z",  
@@ -2206,19 +2406,20 @@ VehicleType:
   "wheelSetGauge": "urn:ngsi-ld:VehicleType:wheelSetGauge:KXVE:51717604",  
   "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### 車両タイプ NGSI-LD 正規化例    
-以下は、正規化された JSON-LD フォーマットの VehicleType の例である。これは、オプションを使用しない場合、NGSI-LDと互換性があり、個々のエンティティのコンテキストデータを返します。    
+
+#### 車両タイプ NGSI-LD 正規化例    
+
+以下は、正規化された JSON-LD フォーマットの VehicleType の例である。これは、オプションを使用しない場合、NGSI-LDと互換性があり、個々のエンティティのコンテキストデータを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:RTWI:29731639",  
   "dateCreated": {  
     "type": "Property",  
@@ -2888,19 +3089,25 @@ VehicleType:
     "object": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:NFUQ:89252235"  
   },  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-マグニチュード単位の扱い方については、[FAQ 10](https://smartdatamodels.org/index.php/faqs/)を参照のこと。    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+マグニチュード単位の扱い方については、[FAQ 10](https://smartdatamodels.org/index.php/faqs/)を参照のこと。    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

@@ -1,20 +1,36 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-エンティティセクションライン    
-==============<!-- /10-Header -->    
-<!-- 15-License -->    
-[オープン・ライセンス](https://github.com/smart-data-models//dataModel.ERA/blob/master/SectionOfLine/LICENSE.md)    
-[文書は自動的に生成される](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-グローバルな記述：**線路の区間とは、隣接する操作点間の線路の部分を意味し、複数の線路で構成されることもある。    
+
+エンティティセクションライン    
+==============
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[オープン・ライセンス](https://github.com/smart-data-models//dataModel.ERA/blob/master/SectionOfLine/LICENSE.md)    
+
+[文書は自動的に生成される](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+グローバルな記述：**線路の区間とは、隣接する操作点間の線路の部分を意味し、複数の線路で構成されることもある。    
 https://eur-lex.europa.eu/eli/reg_impl/2019/773/oj 2.1.1 Line sections.** では、次のように記述されている。    
-バージョン: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## プロパティのリスト    
-<sup><sub>[*] 属性に型がない場合は、複数の型があるか、異なるフォーマット/パターンがある可能性があるためです</sub></sup>。    
-- `address[object]`: 郵送先住所  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 国。例えば、スペイン  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+バージョン: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## プロパティのリスト    
+
+<sup><sub>[*] 属性に型がない場合は、複数の型があるか、異なるフォーマット/パターンがある可能性があるためです</sub></sup>。    
+- `address[object]`: 郵送先住所  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: 国。例えば、スペイン  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: 番地がある地域と、その地域に含まれる地域  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: その地域がある地域、またその国がある地域  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: 地区とは行政区画の一種で、国によっては地方自治体によって管理されている。      
@@ -22,20 +38,53 @@ https://eur-lex.europa.eu/eli/reg_impl/2019/773/oj 2.1.1 Line sections.** では
 	- `postalCode[string]`: 郵便番号。例：24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: 番地  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: 公道上の特定の物件を特定する番号      
-- `alternateName[string]`: この項目の別名  - `areaServed[string]`: サービスまたは提供品が提供される地理的地域  . Model: [https://schema.org/Text](https://schema.org/Text)- `dataProvider[string]`: ハーモナイズされたデータ・エンティティの提供者を識別する一連の文字。  - `dateCreated[date-time]`: エンティティの作成タイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられます。  - `dateModified[date-time]`: エンティティの最終変更のタイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられる。  - `description[string]`: この商品の説明  - `id[*]`: エンティティの一意識別子  - `lineNationalId[uri]`: 国内線の識別  - `location[*]`: アイテムへの Geojson 参照。Point、LineString、Polygon、MultiPoint、MultiLineString、MultiPolygon のいずれか。  - `name[string]`: このアイテムの名前  - `opEnd[uri]`: 線区末端の運用ポイント  - `opStart[uri]`: 線区の始点における運用ポイント  - `owner[array]`: 所有者の固有IDを参照するJSONエンコードされた文字列を含むリスト。  - `seeAlso[*]`: アイテムに関する追加リソースを指すURIのリスト  - `solNature[uri]`: 線区の性質  - `source[string]`: エンティティ・データの元のソースを URL として示す一連の文字。ソース・プロバイダの完全修飾ドメイン名、またはソース・オブジェクトの URL を推奨する。  - `track[uri]`: トラック  - `type[string]`: NGSIデータ型。SectionOfLineでなければならない。  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-必須プロパティ    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-ERAオントロジー https://data-interop.era.europa.eu/era-vocabulary （欧州鉄道庁）からマッピングされたデータモデル。    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## プロパティのデータモデル記述    
-アルファベット順（クリックで詳細表示）    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: この項目の別名  
+- `areaServed[string]`: サービスまたは提供品が提供される地理的地域  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `dataProvider[string]`: ハーモナイズされたデータ・エンティティの提供者を識別する一連の文字。  
+- `dateCreated[date-time]`: エンティティの作成タイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられます。  
+- `dateModified[date-time]`: エンティティの最終変更のタイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられる。  
+- `description[string]`: この商品の説明  
+- `id[*]`: エンティティの一意識別子  
+- `lineNationalId[uri]`: 国内線の識別  
+- `location[*]`: アイテムへの Geojson 参照。Point、LineString、Polygon、MultiPoint、MultiLineString、MultiPolygon のいずれか。  
+- `name[string]`: このアイテムの名前  
+- `opEnd[uri]`: 線区末端の運用ポイント  
+- `opStart[uri]`: 線区の始点における運用ポイント  
+- `owner[array]`: 所有者の固有IDを参照するJSONエンコードされた文字列を含むリスト。  
+- `seeAlso[*]`: アイテムに関する追加リソースを指すURIのリスト  
+- `solNature[uri]`: 線区の性質  
+- `source[string]`: エンティティ・データの元のソースを URL として示す一連の文字。ソース・プロバイダの完全修飾ドメイン名、またはソース・オブジェクトの URL を推奨する。  
+- `track[uri]`: トラック  
+- `type[string]`: NGSIデータ型。SectionOfLineでなければならない。  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+必須プロパティ    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+ERAオントロジー https://data-interop.era.europa.eu/era-vocabulary （欧州鉄道庁）からマッピングされたデータモデル。    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## プロパティのデータモデル記述    
+
+アルファベット順（クリックで詳細表示）    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 SectionOfLine:      
   description: |-      
     A section of line means the part of line between adjacent operational points and may consist of several tracks.      
@@ -402,16 +451,25 @@ SectionOfLine:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## ペイロードの例    
-#### SectionOfLine NGSI-v2 キー値の例    
-JSON-LD形式のSectionOfLineのkey-valuesの例である。これはNGSI-v2と互換性があり、`options=keyValues`を使用すると、個々のエンティティのコンテキストデータを返す。    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## ペイロードの例    
+
+#### SectionOfLine NGSI-v2 キー値の例    
+
+JSON-LD形式のSectionOfLineのkey-valuesの例である。これはNGSI-v2と互換性があり、`options=keyValues`を使用すると、個々のエンティティのコンテキストデータを返す。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:SectionOfLine:id:NVYV:48459502",  
   "dateCreated": "2019-05-29T20:37:27Z",  
   "dateModified": "1990-02-07T09:13:17Z",  
@@ -450,18 +508,19 @@ SectionOfLine:
   "opEnd": "urn:ngsi-ld:SectionOfLine:opEnd:MIJK:54736457",  
   "opStart": "urn:ngsi-ld:SectionOfLine:opStart:QOPP:74078654",  
   "solNature": "urn:ngsi-ld:SectionOfLine:solNature:UWFX:27604875",  
-  "track": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248",  
-  "context": [  
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-  ]  
+  "track": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248"
 }  
 ```  
 </details>    
-#### SectionOfLine NGSI-v2 正規化例    
-以下は、正規化された JSON-LD 形式の SectionOfLine の例である。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。    
+
+#### SectionOfLine NGSI-v2 正規化例    
+
+以下は、正規化された JSON-LD 形式の SectionOfLine の例である。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:SectionOfLine:id:NVYV:48459502",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -551,21 +610,19 @@ SectionOfLine:
   "track": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### SectionOfLine NGSI-LD キー値の例    
-JSON-LD形式のSectionOfLineのkey-valuesの例である。これは NGSI-LD と互換性があり、`options=keyValues` を使うと個々のエンティティのコンテキストデータを返す。    
+
+#### SectionOfLine NGSI-LD キー値の例    
+
+JSON-LD形式のSectionOfLineのkey-valuesの例である。これは NGSI-LD と互換性があり、`options=keyValues` を使うと個々のエンティティのコンテキストデータを返す。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:SectionOfLine:id:NVYV:48459502",  
   "dateCreated": "2019-05-29T20:37:27Z",  
   "dateModified": "1990-02-07T09:13:17Z",  
@@ -606,19 +663,20 @@ SectionOfLine:
   "solNature": "urn:ngsi-ld:SectionOfLine:solNature:UWFX:27604875",  
   "track": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### SectionOfLine NGSI-LD 正規化例    
-以下は、正規化された JSON-LD フォーマットの SectionOfLine の例である。これは、オプションを使用しない場合の NGSI-LD と互換性があり、個々のエンティティのコンテキスト・データを返します。    
+
+#### SectionOfLine NGSI-LD 正規化例    
+
+以下は、正規化された JSON-LD フォーマットの SectionOfLine の例である。これは、オプションを使用しない場合の NGSI-LD と互換性があり、個々のエンティティのコンテキスト・データを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:SectionOfLine:id:BHSJ:12081625",  
   "dateCreated": {  
     "type": "Property",  
@@ -716,19 +774,25 @@ SectionOfLine:
     "object": "urn:ngsi-ld:SectionOfLine:track:ZVJB:17662025"  
   },  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-マグニチュード単位の扱い方については、[FAQ 10](https://smartdatamodels.org/index.php/faqs/)を参照のこと。    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+マグニチュード単位の扱い方については、[FAQ 10](https://smartdatamodels.org/index.php/faqs/)を参照のこと。    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

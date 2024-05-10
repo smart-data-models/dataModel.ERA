@@ -1,19 +1,35 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-实体：车辆类型    
-=======<!-- /10-Header -->    
-<!-- 15-License -->    
-[开放许可](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
-[文件自动生成](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-全球描述：**获准在欧盟铁路基础设施上运行的车辆类型。    
-版本： 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## 属性列表    
-<sup><sub>[*] 如果属性中没有类型，是因为它可能有多个类型或不同的格式/模式</sub></sup>。    
-- `address[object]`: 邮寄地址  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 国家。例如，西班牙  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+实体：车辆类型    
+=======
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[开放许可](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
+
+[文件自动生成](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+全球描述：**获准在欧盟铁路基础设施上运行的车辆类型。    
+
+版本： 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## 属性列表    
+
+<sup><sub>[*] 如果属性中没有类型，是因为它可能有多个类型或不同的格式/模式</sub></sup>。    
+- `address[object]`: 邮寄地址  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: 国家。例如，西班牙  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: 街道地址所在的地点，以及该地点所在的区域  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: 地点所在的地区，以及该地区位于哪个国家  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: 地区是一种行政区划，在一些国家由地方政府管理      
@@ -21,20 +37,196 @@
 	- `postalCode[string]`: 邮政编码。例如：24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: 街道地址  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: 标识公共街道上特定房产的编号      
-- `alternateName[string]`: 该项目的替代名称  - `alternativeName[string]`: 替代名称  - `altitudeRange[string]`: 高度范围  - `altitudeRangeDetail[number]`: 高度范围详情  - `areaServed[string]`: 提供服务或提供物品的地理区域  . Model: [https://schema.org/Text](https://schema.org/Text)- `authorizedCountry[uri]`: 授权国家  - `axleBearingConditionMonitoring[uri]`: 车轴轴承状态监测  - `axleSpacing[string]`: 车轴间距  - `boardingAids[string]`: 登机辅助工具  - `brakeWeightPercentage[string]`: 制动重量百分比  - `cantDefficiency[number]`: Cant defficiency  - `category[uri]`: 车辆类别  - `catenaryMaxRatedCurrent[number]`: 导管最大额定电流  - `certificate[uri]`: 证书  - `conditionsTrainFormation[string]`: 列车编组条件  - `contactStripMaterial[uri]`: 允许使用的接触带材料  - `dangerousGoodsTankCode[string]`: 危险品罐编码  - `dataGSMRNetwork[uri]`: 数据 GSM-R 网络  - `dataProvider[string]`: 标识统一数据实体提供者的字符序列  - `dataRadioCompatible[uri]`: 无线电系统兼容性数据  - `dateCreated[date-time]`: 实体创建时间戳。通常由存储平台分配  - `dateModified[date-time]`: 实体最后一次修改的时间戳。通常由存储平台分配  - `description[string]`: 项目描述  - `designMassExceptionalPayload[number]`: 特殊有效载荷下的设计质量  - `designMassNormalPayload[number]`: 正常有效载荷下的设计质量  - `designMassWorkingOrder[number]`: 设计质量正常  - `drivingCabs[number]`: 驾驶出租车  - `eddyCurrentBrakePrevention[boolean]`: 防止涡流制动  - `eddyCurrentBrakingFitted[boolean]`: 已安装涡流制动装置  - `emergencyBrake[string]`: 紧急制动  - `endCouplingType[uri]`: 端部联轴器类型  - `energyMeterInstalled[boolean]`: 安装能源计量表  - `energySupplyMaxPower[number]`: 能源供应最大功率  - `energySupplySystem[uri]`: 能源供应系统  - `etcsBaseline[uri]`: ETCS 基线  - `etcsDataCommApp[string]`: ETCS 数据通信应用  - `etcsEquipmentOnBoardLevel[uri]`: ETCS 设备级别  - `etcsInfill[uri]`: 线路侧安装的 ETCS 填充物  - `etcsNationalApplications[string]`: ETCS 国家应用  - `etcsOnBoardImplementation[string]`: ETCS 车载实施  - `etcsSystemCompatibility[uri]`: ETCS 系统兼容性  - `ferromagneticWheelMaterial[boolean]`: 铁磁轮材料  - `fireSafetyCategory[uri]`: 消防安全类别  - `fixedSeats[string]`: 固定座位  - `flangeLubricationFitted[boolean]`: 安装了法兰润滑装置  - `gaugingProfile[uri]`: 测量  - `gsmRRadioDataCommunication[uri]`: GSM-R 无线电数据通信  - `gsmRSetsInDrivingCab[number]`: 驾驶室内的 GSM-R 套件  - `gsmRVersion[uri]`: GSM-R 版本  - `hasAutomaticDroppingDevice[boolean]`: 具有自动投放装置  - `hasCantDefficiencyCompensation[boolean]`: 有食堂效率补偿  - `hasCurrentLimitation[boolean]`: 有电流限制  - `hasLubricationDevicePrevention[boolean]`: 具有防止润滑装置  - `hasParkingBrake[boolean]`: 有驻车制动器  - `hasRegenerativeBrake[boolean]`: 再生制动许可  - `hasSandingPrevention[boolean]`: 具有防打磨功能  - `hasShuntingRestrictions[boolean]`: 有分流限制  - `hasTrainIntegrityConfirmation[boolean]`: 具有列车完整性确认功能  - `hasWheelSlideProtectionSystem[boolean]`: 具有车轮滑动保护系统  - `id[*]`: 实体的唯一标识符  - `legacyRadioSystem[uri]`: 已安装的其他无线电系统（无线电遗留系统）  - `letterMarking[string]`: 字母标识  - `loadingPlatformHeight[number]`: 装载平台高度  - `location[*]`: 项目的 Geojson 引用。它可以是点、线条字符串、多边形、多点、多线条字符串或多多边形  - `magneticBrakePrevention[boolean]`: 磁制动预防  - `magneticBrakingFitted[boolean]`: 已安装磁性制动器  - `manufacturer[uri]`: 制造商  - `manufacturingCountry[uri]`: 制造业国家  - `massPerWheel[number]`: 每个轮子的质量  - `maxCurrentStandstillPantograph[number]`: 每个受电弓静止时的最大电流  - `maxDistConsecutiveAxles[number]`: 在不符合 TSI 标准的情况下，两个连续车轴之间的最大允许距离  - `maxFlangeHeight[number]`: 法兰允许的最大高度  - `maxImpedanceWheelset[number]`: 不符合 TSI 标准时，轮对之间的最大允许阻抗  - `maxLengthVehicleNose[number]`: 车头最大长度  - `maximumAverageDeceleration[number]`: 最大平均减速度  - `maximumBrakeThermalEnergyCapacity[number]`: 最大制动热能容量  - `maximumContactWireHeight[number]`: 最大接触线高度  - `maximumDesignSpeed[number]`: 最大设计速度  - `maximumLocomotivesCoupled[number]`: 最大连接机车数  - `maximumServiceBrake[string]`: 最大服务中断时间  - `maximumSpeedAndCantDeficiency[string]`: 最大速度和转弯半径不足  - `maximumSpeedEmpty[number]`: 最大空载速度  - `maximumTemperature[number]`: 温度范围（最大值）  - `meetsRequirementVehicleAuthorisation[string]`: 符合要求的车辆授权  - `minAxleLoad[number]`: 最小允许轴载  - `minDistConsecutiveAxles[number]`: 两个连续车轴之间的最小允许距离  - `minDistFirstLastAxle[number]`: 第一轴和最后轴之间的最小允许距离  - `minFlangeHeight[number]`: 法兰允许的最小高度  - `minFlangeThickness[number]`: 法兰允许的最小厚度  - `minRimWidth[number]`: 轮辋最小允许宽度  - `minVehicleImpedance[string]`: 车辆阻抗  - `minWheelDiameter[number]`: 允许的最小车轮直径  - `minimumConcaveVerticalRadius[number]`: 最小垂直凹面半径  - `minimumContactWireHeight[number]`: 最小接触线高度  - `minimumConvexVerticalRadius[number]`: 最小凸面垂直半径  - `minimumHorizontalRadius[number]`: 水平曲线最小半径  - `minimumTemperature[number]`: 温度范围（最小值）  - `minimumWheelDiameter[number]`: 固定钝角交叉路口的最小车轮直径  - `name[string]`: 该项目的名称  - `nonCodedRestrictions[string]`: 无编码限制  - `numberElementsRakeFreightWagons[number]`: 耙式货车数量  - `numberOfPantographsInContactWithOCL[number]`: 与 OCL 接触的受电弓数量  - `numberOfToilets[number]`: 厕所数量  - `oclType[string]`: Ocl 类型  - `owner[array]`: 包含一个 JSON 编码字符序列的列表，其中引用了所有者的唯一 Ids  - `parkingBrake[boolean]`: 驻车制动器  - `parkingBrakeMandatory[boolean]`: 必须安装驻车制动器  - `parkingBrakeMaximumGradient[number]`: 驻车制动器最大坡度  - `parkingBrakeType[uri]`: 驻车制动器类型  - `passByNoiseLevel[number]`: 通过噪声级  - `permissiblePayload[string]`: 允许有效载荷  - `portableBoardingAids[string]`: 便携式登船辅助设备  - `preventRegenerativeBrakeUse[boolean]`: 防止使用再生制动  - `previousVehicleType[uri]`: 以前的车辆类型  - `prioritySeats[string]`: 优先席位  - `prmAccessibleToilets[number]`: 无障碍厕所  - `protectionLegacySystem[uri]`: 列车保护传统系统  - `quasiStaticGuidingForce[number]`: 准静态引导力  - `radioSwitchOverSpecialConditions[string]`: 无线电切换特殊条件  - `railInclination[uri]`: 轨道倾斜度  - `referencePassByNoiseLevel[boolean]`: 参考通过噪声级  - `seeAlso[*]`: 指向有关该项目的其他资源的 uri 列表  - `shortestDistanceBetweenPantographsInContactWithOCL[string]`: 与 OCL 接触的受电弓之间的最短距离  - `sleepingPlaces[string]`: 睡眠场所  - `snowIceHailConditions[uri]`: 冰雪冰雹条件  - `source[string]`: 以 URL 形式给出实体数据原始来源的字符串。建议使用源提供者的完全合格域名或源对象的 URL  - `startingNoiseLevel[number]`: 启动噪音水平  - `staticAxleLoadExceptionalPayload[number]`: 特殊有效载荷下的静态轴载荷  - `staticAxleLoadNormalPayload[number]`: 正常有效载荷下的静态轴载荷  - `staticAxleLoadWorkingOrder[number]`: 工作状态下的静态轴荷  - `stationaryNoiseLevel[number]`: 静态噪音水平  - `structuralCategory[string]`: 结构类别  - `subCategory[uri]`: 车辆子类别  - `supportedPlatformHeight[uri]`: 支撑平台高度  - `thermalCapacityDistance[number]`: 热容量距离  - `thermalCapacityGradient[number]`: 热容量梯度  - `thermalCapacitySpeed[number]`: 热容量 速度  - `thermalCapacityTSIReference[uri]`: 热容量 TSI 参考  - `thermalCapacityTime[number]`: 热容量时间  - `totalVehicleMass[number]`: 车辆总质量  - `trainControlSwitchOverSpecialConditions[string]`: 特殊条件下的列车控制开关  - `trainDetectionSystemType[uri]`: 列车探测系统类型  - `transportableOnFerry[boolean]`: 可通过渡轮运输  - `type[string]`: NGSI 数据类型。必须是 VehicleType  - `typeVersionId[uri]`: 类型版本 ID  - `typeVersionNumber[string]`: 类型版本号  - `usesGroup555[boolean]`: GSM-R 使用 555 组  - `vehicleContactForce[number]`: 车辆接触力  - `vehicleKinematicGaugeOther[string]`: 车辆运动测量仪 其他  - `vehicleMaxSandingOutput[string]`: 车辆最大打磨输出功率  - `vehiclePantographHead[string]`: 车辆受电弓头  - `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: 车辆类型 最大速度和转弯半径  - `vehiclesComposingFixedFormation[number]`: 组成固定编队的车辆  - `voiceGSMRNetwork[uri]`: 语音 GSM-R 网络  - `voiceOperationalCommImpl[string]`: 实施语音业务通信  - `voiceRadioCompatible[uri]`: 无线电系统兼容语音  - `wheelSetGauge[uri]`: 标称轨距  - `wheelSetGaugeChangeoverFacility[uri]`: 轮对测量仪更换装置  - `wheelSetGaugeTransformationMethod[string]`: 轮组轨距变换法  - `wheelchairSleepingPlaces[string]`: 轮椅睡眠空间  - `wheelchairSpaces[number]`: 轮椅空间  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-所需属性    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-从 ERA 本体映射的数据模型 https://data-interop.era.europa.eu/era-vocabulary（欧盟铁路局）    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## 属性的数据模型描述    
-按字母顺序排列（点击查看详情）    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: 该项目的替代名称  
+- `alternativeName[string]`: 替代名称  
+- `altitudeRange[string]`: 高度范围  
+- `altitudeRangeDetail[number]`: 高度范围详情  
+- `areaServed[string]`: 提供服务或提供物品的地理区域  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `authorizedCountry[uri]`: 授权国家  
+- `axleBearingConditionMonitoring[uri]`: 车轴轴承状态监测  
+- `axleSpacing[string]`: 车轴间距  
+- `boardingAids[string]`: 登机辅助工具  
+- `brakeWeightPercentage[string]`: 制动重量百分比  
+- `cantDefficiency[number]`: Cant defficiency  
+- `category[uri]`: 车辆类别  
+- `catenaryMaxRatedCurrent[number]`: 导管最大额定电流  
+- `certificate[uri]`: 证书  
+- `conditionsTrainFormation[string]`: 列车编组条件  
+- `contactStripMaterial[uri]`: 允许使用的接触带材料  
+- `dangerousGoodsTankCode[string]`: 危险品罐编码  
+- `dataGSMRNetwork[uri]`: 数据 GSM-R 网络  
+- `dataProvider[string]`: 标识统一数据实体提供者的字符序列  
+- `dataRadioCompatible[uri]`: 无线电系统兼容性数据  
+- `dateCreated[date-time]`: 实体创建时间戳。通常由存储平台分配  
+- `dateModified[date-time]`: 实体最后一次修改的时间戳。通常由存储平台分配  
+- `description[string]`: 项目描述  
+- `designMassExceptionalPayload[number]`: 特殊有效载荷下的设计质量  
+- `designMassNormalPayload[number]`: 正常有效载荷下的设计质量  
+- `designMassWorkingOrder[number]`: 设计质量正常  
+- `drivingCabs[number]`: 驾驶出租车  
+- `eddyCurrentBrakePrevention[boolean]`: 防止涡流制动  
+- `eddyCurrentBrakingFitted[boolean]`: 已安装涡流制动装置  
+- `emergencyBrake[string]`: 紧急制动  
+- `endCouplingType[uri]`: 端部联轴器类型  
+- `energyMeterInstalled[boolean]`: 安装能源计量表  
+- `energySupplyMaxPower[number]`: 能源供应最大功率  
+- `energySupplySystem[uri]`: 能源供应系统  
+- `etcsBaseline[uri]`: ETCS 基线  
+- `etcsDataCommApp[string]`: ETCS 数据通信应用  
+- `etcsEquipmentOnBoardLevel[uri]`: ETCS 设备级别  
+- `etcsInfill[uri]`: 线路侧安装的 ETCS 填充物  
+- `etcsNationalApplications[string]`: ETCS 国家应用  
+- `etcsOnBoardImplementation[string]`: ETCS 车载实施  
+- `etcsSystemCompatibility[uri]`: ETCS 系统兼容性  
+- `ferromagneticWheelMaterial[boolean]`: 铁磁轮材料  
+- `fireSafetyCategory[uri]`: 消防安全类别  
+- `fixedSeats[string]`: 固定座位  
+- `flangeLubricationFitted[boolean]`: 安装了法兰润滑装置  
+- `gaugingProfile[uri]`: 测量  
+- `gsmRRadioDataCommunication[uri]`: GSM-R 无线电数据通信  
+- `gsmRSetsInDrivingCab[number]`: 驾驶室内的 GSM-R 套件  
+- `gsmRVersion[uri]`: GSM-R 版本  
+- `hasAutomaticDroppingDevice[boolean]`: 具有自动投放装置  
+- `hasCantDefficiencyCompensation[boolean]`: 有食堂效率补偿  
+- `hasCurrentLimitation[boolean]`: 有电流限制  
+- `hasLubricationDevicePrevention[boolean]`: 具有防止润滑装置  
+- `hasParkingBrake[boolean]`: 有驻车制动器  
+- `hasRegenerativeBrake[boolean]`: 再生制动许可  
+- `hasSandingPrevention[boolean]`: 具有防打磨功能  
+- `hasShuntingRestrictions[boolean]`: 有分流限制  
+- `hasTrainIntegrityConfirmation[boolean]`: 具有列车完整性确认功能  
+- `hasWheelSlideProtectionSystem[boolean]`: 具有车轮滑动保护系统  
+- `id[*]`: 实体的唯一标识符  
+- `legacyRadioSystem[uri]`: 已安装的其他无线电系统（无线电遗留系统）  
+- `letterMarking[string]`: 字母标识  
+- `loadingPlatformHeight[number]`: 装载平台高度  
+- `location[*]`: 项目的 Geojson 引用。它可以是点、线条字符串、多边形、多点、多线条字符串或多多边形  
+- `magneticBrakePrevention[boolean]`: 磁制动预防  
+- `magneticBrakingFitted[boolean]`: 已安装磁性制动器  
+- `manufacturer[uri]`: 制造商  
+- `manufacturingCountry[uri]`: 制造业国家  
+- `massPerWheel[number]`: 每个轮子的质量  
+- `maxCurrentStandstillPantograph[number]`: 每个受电弓静止时的最大电流  
+- `maxDistConsecutiveAxles[number]`: 在不符合 TSI 标准的情况下，两个连续车轴之间的最大允许距离  
+- `maxFlangeHeight[number]`: 法兰允许的最大高度  
+- `maxImpedanceWheelset[number]`: 不符合 TSI 标准时，轮对之间的最大允许阻抗  
+- `maxLengthVehicleNose[number]`: 车头最大长度  
+- `maximumAverageDeceleration[number]`: 最大平均减速度  
+- `maximumBrakeThermalEnergyCapacity[number]`: 最大制动热能容量  
+- `maximumContactWireHeight[number]`: 最大接触线高度  
+- `maximumDesignSpeed[number]`: 最大设计速度  
+- `maximumLocomotivesCoupled[number]`: 最大连接机车数  
+- `maximumServiceBrake[string]`: 最大服务中断时间  
+- `maximumSpeedAndCantDeficiency[string]`: 最大速度和转弯半径不足  
+- `maximumSpeedEmpty[number]`: 最大空载速度  
+- `maximumTemperature[number]`: 温度范围（最大值）  
+- `meetsRequirementVehicleAuthorisation[string]`: 符合要求的车辆授权  
+- `minAxleLoad[number]`: 最小允许轴载  
+- `minDistConsecutiveAxles[number]`: 两个连续车轴之间的最小允许距离  
+- `minDistFirstLastAxle[number]`: 第一轴和最后轴之间的最小允许距离  
+- `minFlangeHeight[number]`: 法兰允许的最小高度  
+- `minFlangeThickness[number]`: 法兰允许的最小厚度  
+- `minRimWidth[number]`: 轮辋最小允许宽度  
+- `minVehicleImpedance[string]`: 车辆阻抗  
+- `minWheelDiameter[number]`: 允许的最小车轮直径  
+- `minimumConcaveVerticalRadius[number]`: 最小垂直凹面半径  
+- `minimumContactWireHeight[number]`: 最小接触线高度  
+- `minimumConvexVerticalRadius[number]`: 最小凸面垂直半径  
+- `minimumHorizontalRadius[number]`: 水平曲线最小半径  
+- `minimumTemperature[number]`: 温度范围（最小值）  
+- `minimumWheelDiameter[number]`: 固定钝角交叉路口的最小车轮直径  
+- `name[string]`: 该项目的名称  
+- `nonCodedRestrictions[string]`: 无编码限制  
+- `numberElementsRakeFreightWagons[number]`: 耙式货车数量  
+- `numberOfPantographsInContactWithOCL[number]`: 与 OCL 接触的受电弓数量  
+- `numberOfToilets[number]`: 厕所数量  
+- `oclType[string]`: Ocl 类型  
+- `owner[array]`: 包含一个 JSON 编码字符序列的列表，其中引用了所有者的唯一 Ids  
+- `parkingBrake[boolean]`: 驻车制动器  
+- `parkingBrakeMandatory[boolean]`: 必须安装驻车制动器  
+- `parkingBrakeMaximumGradient[number]`: 驻车制动器最大坡度  
+- `parkingBrakeType[uri]`: 驻车制动器类型  
+- `passByNoiseLevel[number]`: 通过噪声级  
+- `permissiblePayload[string]`: 允许有效载荷  
+- `portableBoardingAids[string]`: 便携式登船辅助设备  
+- `preventRegenerativeBrakeUse[boolean]`: 防止使用再生制动  
+- `previousVehicleType[uri]`: 以前的车辆类型  
+- `prioritySeats[string]`: 优先席位  
+- `prmAccessibleToilets[number]`: 无障碍厕所  
+- `protectionLegacySystem[uri]`: 列车保护传统系统  
+- `quasiStaticGuidingForce[number]`: 准静态引导力  
+- `radioSwitchOverSpecialConditions[string]`: 无线电切换特殊条件  
+- `railInclination[uri]`: 轨道倾斜度  
+- `referencePassByNoiseLevel[boolean]`: 参考通过噪声级  
+- `seeAlso[*]`: 指向有关该项目的其他资源的 uri 列表  
+- `shortestDistanceBetweenPantographsInContactWithOCL[string]`: 与 OCL 接触的受电弓之间的最短距离  
+- `sleepingPlaces[string]`: 睡眠场所  
+- `snowIceHailConditions[uri]`: 冰雪冰雹条件  
+- `source[string]`: 以 URL 形式给出实体数据原始来源的字符串。建议使用源提供者的完全合格域名或源对象的 URL  
+- `startingNoiseLevel[number]`: 启动噪音水平  
+- `staticAxleLoadExceptionalPayload[number]`: 特殊有效载荷下的静态轴载荷  
+- `staticAxleLoadNormalPayload[number]`: 正常有效载荷下的静态轴载荷  
+- `staticAxleLoadWorkingOrder[number]`: 工作状态下的静态轴荷  
+- `stationaryNoiseLevel[number]`: 静态噪音水平  
+- `structuralCategory[string]`: 结构类别  
+- `subCategory[uri]`: 车辆子类别  
+- `supportedPlatformHeight[uri]`: 支撑平台高度  
+- `thermalCapacityDistance[number]`: 热容量距离  
+- `thermalCapacityGradient[number]`: 热容量梯度  
+- `thermalCapacitySpeed[number]`: 热容量 速度  
+- `thermalCapacityTSIReference[uri]`: 热容量 TSI 参考  
+- `thermalCapacityTime[number]`: 热容量时间  
+- `totalVehicleMass[number]`: 车辆总质量  
+- `trainControlSwitchOverSpecialConditions[string]`: 特殊条件下的列车控制开关  
+- `trainDetectionSystemType[uri]`: 列车探测系统类型  
+- `transportableOnFerry[boolean]`: 可通过渡轮运输  
+- `type[string]`: NGSI 数据类型。必须是 VehicleType  
+- `typeVersionId[uri]`: 类型版本 ID  
+- `typeVersionNumber[string]`: 类型版本号  
+- `usesGroup555[boolean]`: GSM-R 使用 555 组  
+- `vehicleContactForce[number]`: 车辆接触力  
+- `vehicleKinematicGaugeOther[string]`: 车辆运动测量仪 其他  
+- `vehicleMaxSandingOutput[string]`: 车辆最大打磨输出功率  
+- `vehiclePantographHead[string]`: 车辆受电弓头  
+- `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: 车辆类型 最大速度和转弯半径  
+- `vehiclesComposingFixedFormation[number]`: 组成固定编队的车辆  
+- `voiceGSMRNetwork[uri]`: 语音 GSM-R 网络  
+- `voiceOperationalCommImpl[string]`: 实施语音业务通信  
+- `voiceRadioCompatible[uri]`: 无线电系统兼容语音  
+- `wheelSetGauge[uri]`: 标称轨距  
+- `wheelSetGaugeChangeoverFacility[uri]`: 轮对测量仪更换装置  
+- `wheelSetGaugeTransformationMethod[string]`: 轮组轨距变换法  
+- `wheelchairSleepingPlaces[string]`: 轮椅睡眠空间  
+- `wheelchairSpaces[number]`: 轮椅空间  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+所需属性    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+从 ERA 本体映射的数据模型 https://data-interop.era.europa.eu/era-vocabulary（欧盟铁路局）    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## 属性的数据模型描述    
+
+按字母顺序排列（点击查看详情）    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 VehicleType:      
   description: A vehicle type that has been authorized to operate on the EU railway infrastructure.      
   properties:      
@@ -1144,16 +1336,25 @@ VehicleType:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## 有效载荷示例    
-#### VehicleType NGSI-v2 关键值 示例    
-下面是一个以 JSON-LD 格式作为键值的 VehicleType 示例。当使用 `options=keyValues` 时，这与 NGSI-v2 兼容，并返回单个实体的上下文数据。    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## 有效载荷示例    
+
+#### VehicleType NGSI-v2 关键值 示例    
+
+下面是一个以 JSON-LD 格式作为键值的 VehicleType 示例。当使用 `options=keyValues` 时，这与 NGSI-v2 兼容，并返回单个实体的上下文数据。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": "1980-12-10T17:21:19Z",  
   "dateModified": "2012-03-07T09:15:20Z",  
@@ -1335,18 +1536,19 @@ VehicleType:
   "voiceGSMRNetwork": "urn:ngsi-ld:VehicleType:voiceGSMRNetwork:QXCJ:24173042",  
   "voiceRadioCompatible": "urn:ngsi-ld:VehicleType:voiceRadioCompatible:PKZZ:65461187",  
   "wheelSetGauge": "urn:ngsi-ld:VehicleType:wheelSetGauge:KXVE:51717604",  
-  "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133",  
-  "context": [  
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-  ]  
+  "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133"
 }  
 ```  
 </details>    
-#### VehicleType NGSI-v2 标准化示例    
-下面是一个规范化 JSON-LD 格式的 VehicleType 示例。在不使用选项的情况下，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。    
+
+#### VehicleType NGSI-v2 标准化示例    
+
+下面是一个规范化 JSON-LD 格式的 VehicleType 示例。在不使用选项的情况下，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -2008,21 +2210,19 @@ VehicleType:
   "wheelSetGaugeChangeoverFacility": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### VehicleType NGSI-LD 关键值 示例    
-下面是一个以 JSON-LD 格式作为键值的 VehicleType 示例。当使用 `options=keyValues` 时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。    
+
+#### VehicleType NGSI-LD 关键值 示例    
+
+下面是一个以 JSON-LD 格式作为键值的 VehicleType 示例。当使用 `options=keyValues` 时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": "1980-12-10T17:21:19Z",  
   "dateModified": "2012-03-07T09:15:20Z",  
@@ -2206,19 +2406,20 @@ VehicleType:
   "wheelSetGauge": "urn:ngsi-ld:VehicleType:wheelSetGauge:KXVE:51717604",  
   "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### 车辆类型 NGSI-LD 标准化示例    
-下面是一个规范化 JSON-LD 格式的 VehicleType 示例。在不使用选项时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。    
+
+#### 车辆类型 NGSI-LD 标准化示例    
+
+下面是一个规范化 JSON-LD 格式的 VehicleType 示例。在不使用选项时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:RTWI:29731639",  
   "dateCreated": {  
     "type": "Property",  
@@ -2888,19 +3089,25 @@ VehicleType:
     "object": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:NFUQ:89252235"  
   },  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-请参阅 [FAQ 10](https://smartdatamodels.org/index.php/faqs/)，获取如何处理幅度单位的答案。    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+请参阅 [FAQ 10](https://smartdatamodels.org/index.php/faqs/)，获取如何处理幅度单位的答案。    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

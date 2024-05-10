@@ -83,7 +83,7 @@
     "type": "Relationship",
     "object": "urn:ngsi-ld:InfrastructureManager:definesSubset:OSEY:46076384"
   },
-  "context": [
+  "@context": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
 }

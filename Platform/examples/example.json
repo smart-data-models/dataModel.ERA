@@ -39,7 +39,7 @@
   "platformId": "Whole magazine truth st",
   "platformHeight": "urn:ngsi-ld:Platform:platformHeight:TZIR:59382421",
   "tenClassification": "urn:ngsi-ld:Platform:tenClassification:DLNK:92411578",
-  "context": [
+  "@contex": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
 }

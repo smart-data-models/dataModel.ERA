@@ -1,19 +1,40 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-エンティティトラック    
-==========<!-- /10-Header -->    
-<!-- 15-License -->    
-[オープン・ライセンス](https://github.com/smart-data-models//dataModel.ERA/blob/master/Track/LICENSE.md)    
-[文書は自動的に生成される](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-グローバルな説明：**列車の運行に使用される線路。    
-バージョン: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## プロパティのリスト    
-<sup><sub>[*] 属性に型がない場合は、複数の型があるか、異なるフォーマット/パターンがある可能性があるためです</sub></sup>。    
-- `IdPhoneErtmsRadioBlockCenter[string]`: ERTMS/ETCS無線ブロックセンターのIDと電話番号  - `TSIMagneticFields[uri]`: 自動車から放出される磁場に関する規則の存在とTSIへの適合性  - `TSITractionHarmonics[uri]`: 自動車のトラクション電流における高調波規制の存在とTSIへの適合性  - `accelerationLevelCrossing[string]`: 踏切での加速  - `additionalBrakingInformationDocument[string]`: ブレーキ性能に関するIMが入手可能な文書  - `address[object]`: 郵送先住所  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 国。例えば、スペイン  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+エンティティトラック    
+==========
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[オープン・ライセンス](https://github.com/smart-data-models//dataModel.ERA/blob/master/Track/LICENSE.md)    
+
+[文書は自動的に生成される](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+グローバルな説明：**列車の運行に使用される線路。    
+
+バージョン: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## プロパティのリスト    
+
+<sup><sub>[*] 属性に型がない場合は、複数の型があるか、異なるフォーマット/パターンがある可能性があるためです</sub></sup>。    
+- `IdPhoneErtmsRadioBlockCenter[string]`: ERTMS/ETCS無線ブロックセンターのIDと電話番号  
+- `TSIMagneticFields[uri]`: 自動車から放出される磁場に関する規則の存在とTSIへの適合性  
+- `TSITractionHarmonics[uri]`: 自動車のトラクション電流における高調波規制の存在とTSIへの適合性  
+- `accelerationLevelCrossing[string]`: 踏切での加速  
+- `additionalBrakingInformationDocument[string]`: ブレーキ性能に関するIMが入手可能な文書  
+- `address[object]`: 郵送先住所  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: 国。例えば、スペイン  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: 番地がある地域と、その地域に含まれる地域  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: その地域がある地域、またその国がある地域  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: 地区とは行政区画の一種で、国によっては地方自治体によって管理されている。      
@@ -21,20 +42,210 @@
 	- `postalCode[string]`: 郵便番号。例：24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: 番地  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: 公道上の特定の物件を特定する番号      
-- `alternateName[string]`: この項目の別名  - `areaServed[string]`: サービスまたは提供品が提供される地理的地域  . Model: [https://schema.org/Text](https://schema.org/Text)- `atoCommunicationSystem[uri]`: ATO通信システム  - `atoErrorCorrectionsOnboard[string]`: オンボードに必要なATOエラー修正  - `atoGradeAutomation[uri]`: ATOグレード・オブ・オートメーション  - `atoSystemVersion[uri]`: ATOシステムバージョン  - `automaticDroppingDeviceRequired[boolean]`: 自動落下装置が必要  - `bigMetalMass[boolean]`: 大きな金属の塊  - `bridge[boolean]`: ブリッジ  - `cantDeficiency[number]`: カント不足  - `cantDeficiencyBasicSSP[uri]`: 基本的なSSPに使用されるカント欠乏症  - `compatibilityProcedureDocument[string]`: スタティックルートとダイナミックルートの互換性チェックの手順を記載した文書  - `conditionsSwitchClassBSystems[string]`: ERTMS/ETCSとクラスBシステム間の切り替えに必要な特別な技術的条件  - `conditionsSwitchTrainProtectionSystems[string]`: 異なるクラスBの列車保護、制御、警報システムを切り替えるための特別な条件  - `conditionsUseReflectivePlates[uri]`: 反射板の使用条件  - `contactLineSystem[uri]`: コンタクトライン方式  - `contactStripMaterial[uri]`: 許可されたコンタクトストリップ材料  - `contactStripMaterialMetallicContent[number]`: コンタクトストリップ材 金属含有量  - `dNvovtrp[number]`: D_NVOVTRP  - `dNvpotrp[number]`: D_NVPOTRP  - `dNvroll[number]`: D_NVROLL  - `dataProvider[string]`: ハーモナイズされたデータ・エンティティの提供者を識別する一連の文字。  - `dataRadioCompatible[uri]`: 無線システム互換性データ  - `dateCreated[date-time]`: エンティティの作成タイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられます。  - `dateModified[date-time]`: エンティティの最終変更のタイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられる。  - `demonstrationENE[string]`: EIトラック実証宣言（ENE）  - `demonstrationINF[string]`: EIトラック／サイディング実証宣言 [INF］  - `description[string]`: この商品の説明  - `distSignToPhaseEnd[number]`: 看板と相分離終点までの距離  - `documentRestrictionPositionContactLineSeparation[string]`: 接触線分離を遵守するために、マルチプル・トラクション・ユニットの位置に関する制限を文書化する。  - `documentRestrictionPowerConsumption[string]`: 特定の電気牽引装置の消費電力に関する制限を記載した文書  - `eddyCurrentBraking[uri]`: 渦電流ブレーキの使用  - `eddyCurrentBrakingConditionsDocument[string]`: 渦電流ブレーキの使用条件を記載した文書  - `etcsDegradedSituation[uri]`: デグレード時のETCSレベル  - `etcsErrorCorrectionsOnboard[string]`: 車載に必要なETCSエラー修正  - `etcsImplementsLevelCrossingProcedure[boolean]`: ETCSトラックサイドが踏切手順または同等のソリューションを実施する。  - `etcsInfill[uri]`: ラインサイドに設置されたETCSインフィル  - `etcsInfillLineAccess[boolean]`: ラインアクセスに必要なETCSインフィル  - `etcsLevel[uri]`: その他レベル  - `etcsMVersion[uri]`: ETCS M_バージョン  - `etcsNationalPacket44[boolean]`: ETCS全国パケット44アプリケーションの実装  - `etcsOptionalFunctions[string]`: ETCSオプション機能  - `etcsSystemCompatibility[uri]`: ETCSシステムの互換性  - `etcsSystemFunctionalitiesNextFiveYears[string]`: 今後5年間に必要とされるETCSシステムのバージョン2.2または3.0の機能  - `etcsTransmitsTrackConditions[boolean]`: ETCSはトラックサイドでトラックコンディションを送信するように設計されているか？  - `etcsTransmittedTrackConditions[uri]`: 送信可能なトラック状況  - `flangeLubeForbidden[boolean]`: フランジ潤滑の使用禁止  - `freightCorridor[uri]`: 鉄道貨物コリドーの一部  - `gaugingCheckLocation[string]`: 特定のチェックが必要な鉄道地点  - `gaugingProfile[uri]`: ゲージング  - `gaugingTransversalDocument[string]`: 特定のチェックが必要な箇所の横断面を文書化する。  - `gprsForETCS[boolean]`: ETCS用GPRS  - `gprsImplementationArea[string]`: GPRSの導入地域  - `gradientProfile[string]`: 勾配プロファイル  - `gsmRActiveMobiles[uri]`: ETCSレベル2（またはレベル3）において、運用を中断することなく無線ブロックセンターのハンドオーバーを行うために必要な、アクティブなGSM-R移動機（EDOR）の数、または同時通信セッションの数。  - `gsmRAdditionalInfo[string]`: ネットワーク特性に関する追加情報  - `gsmRNoCoverage[boolean]`: GSM-Rカバレッジなし  - `gsmROptionalFunctions[uri]`: オプションのGSM-R機能  - `gsmRVersion[uri]`: GSM-Rバージョン  - `gsmrConstraintsOperateOnlyInCircuitSwitch[uri]`: GSM-Rネットワーク事業者がETCS車載器に課した、回線交換でのみ動作可能な特定の制約  - `gsmrErrorCorrectionsOnboard[string]`: オンボードに必要なGSM-Rエラー訂正  - `gsmrForcedDeregistrationFunctionalNumber[boolean]`: GSM-Rネットワークは、他のドライバによる機能番号の強制登録解除を許可するように構成されている。  - `gsmrNetworkCoverage[uri]`: ローミング契約の対象となるGSM-Rネットワーク  - `hasAdditionalBrakingInformation[boolean]`: IMによる追加情報の提供  - `hasBallast[boolean]`: バラストの存在  - `hasETCSRestrictionsConditions[boolean]`: 営業上の制限または条件の存在  - `hasHotAxleBoxDetector[boolean]`: トラックサイドのホットアクスルボックス検出器（HABD）の存在  - `hasLevelCrossings[boolean]`: 踏切の存在  - `hasOtherTrainProtection[boolean]`: その他の列車保護、制御、警報システムの設置の有無  - `hasSevereWeatherConditions[boolean]`: 厳しい気候条件の存在  - `hasSystemSeparation[boolean]`: システム分離  - `hasTSITrainDetection[boolean]`: TSIに完全に準拠した列車検知システムの存在  - `highSpeedLoadModelCompliance[boolean]`: 高速荷重モデル（HSLM）動的荷重モデルに対する構造物の適合性  - `hotAxleBoxDetectorDirection[uri]`: ホットアクスルボックスの検知方向  - `hotAxleBoxDetectorGeneration[string]`: トラックサイドHABDの生成  - `hotAxleBoxDetectorIdentification[string]`: トラックサイドHABDの特定  - `hotAxleBoxDetectorLocation[number]`: 沿線HABDの鉄道位置  - `hotAxleBoxDetectorTSICompliant[boolean]`: トラックサイドHABD TSI準拠  - `id[*]`: エンティティの一意識別子  - `instructionsSwitchRadioSystems[string]`: 異なる無線システムを切り替えるための特別な指示  - `isQuietRoute[boolean]`: より静かな路線に所属  - `legacyRadioSystem[uri]`: その他の無線システムの設置（無線レガシーシステム）  - `lineCategory[uri]`: ラインのカテゴリー  - `linesideDistanceIndicationAppearance[uri]`: ラインサイド距離表示外観  - `linesideDistanceIndicationFrequency[number]`: ラインサイド距離表示周波数  - `linesideDistanceIndicationPositioning[uri]`: ラインサイド距離表示位置決め  - `loadCapability[uri]`: 負荷能力  - `localRulesOrRestrictions[boolean]`: 厳密に地域的な性質の規則や制限の存在。  - `localRulesOrRestrictionsDoc[string]`: IMが入手できる、厳密にローカルな性質の規則または制限に関する文書  - `location[*]`: アイテムへの Geojson 参照。Point、LineString、Polygon、MultiPoint、MultiLineString、MultiPolygon のいずれか。  - `mNvcontact[uri]`: M_NVCONTACT  - `mNvderun[boolean]`: M_NVDERUN  - `magneticBraking[uri]`: 磁気ブレーキの使用  - `magneticBrakingConditionsDocument[string]`: 磁気ブレーキの使用条件を記載した文書  - `maximumAltitude[number]`: 最高高度  - `maximumBrakingDistance[number]`: 最大制動距離  - `maximumContactWireHeight[number]`: コンタクトワイヤーの最大高さ  - `maximumPermittedSpeed[number]`: 最大許容速度  - `maximumTemperature[number]`: 温度範囲（最大）  - `maximumTrainDeceleration[number]`: 列車の最大減速  - `minDistConsecutiveAxles[number]`: 連続する2つの車軸間の最小許容距離  - `minDistFirstLastAxle[number]`: 最初の車軸と最後の車軸の間の最小許容距離  - `minFlangeHeight[number]`: フランジの最低許容高さ  - `minFlangeThickness[number]`: フランジの最小許容厚さ  - `minRimWidth[number]`: リムの最小許容幅  - `minWheelDiameter[number]`: 許容最小ホイール径  - `minimumContactWireHeight[number]`: コンタクトワイヤーの最小高さ  - `minimumHorizontalRadius[number]`: 水平カーブの最小半径  - `minimumTemperature[number]`: 温度範囲（最小）  - `minimumWheelDiameter[number]`: 固定鈍角交差の最小車輪直径  - `multipleTrainProtectionRequired[boolean]`: 車内に複数の列車保護、制御、警告システムが必要  - `name[string]`: このアイテムの名前  - `nationalLoadCapability[string]`: 負荷能力に関する国家分類  - `nationalValuesBrakeModel[string]`: ブレーキモデルに使用される国の値  - `osmClass[uri]`: オープンストリートマップクラス  - `otherCantDeficiencyBasicSSP[uri]`: ETCSがSSPを提供するようトラックサイドに設定されているその他のCant Deficiency列車カテゴリー  - `otherPantographHead[uri]`: その他のパンタグラフ・ヘッドを受け入れる  - `otherTrainProtection[uri]`: その他の列車保護、制御、劣化状況警告システム  - `owner[array]`: 所有者の固有IDを参照するJSONエンコードされた文字列を含むリスト。  - `passesThroughTunnel[uri]`: トンネルを通過  - `permitUseReflectivePlates[boolean]`: 反射板の使用許可  - `permittedContactForce[string]`: 許容接触力  - `phaseInfo[string]`: 相分離に関する情報  - `phaseSeparation[boolean]`: 相分離  - `platform[uri]`: プラットフォーム  - `profileNumberSemiTrailers[uri]`: セミトレーラ用標準複合輸送プロファイル番号  - `profileNumberSwapBodies[uri]`: スワップボディ用標準複合輸送プロファイル番号  - `protectionLegacySystem[uri]`: 列車保護レガシーシステム  - `publicNetworkRoaming[boolean]`: GSM-R 公共ネットワークへのローミングの存在  - `publicNetworkRoamingDetails[string]`: 公共ネットワークへのローミングに関するGSM-Rの詳細  - `qNvdriverAdhes[uri]`: q_nvdriver_adhes  - `qNvemrrls[uri]`: Q_NVEMRRLS  - `qNvsbtsmperm[boolean]`: Q_NVSBTSMPERM  - `radioNetworkId[number]`: 無線ネットワークID  - `railInclination[uri]`: レール傾斜  - `raisedPantographsDistanceAndSpeed[string]`: 所定速度でのパンタグラフの上昇数と間隔に関する要件  - `reasonsEtcsRadioBlockCenterReject[uri]`: ETCS無線ブロックセンターが列車を拒否できる理由  - `redLightsRequired[boolean]`: 赤色定常点灯が必要  - `safeConsistLengthInformationNecessary[uri]`: ラインとSILにアクセスするために必要な船上からの安全な構成長情報  - `seeAlso[*]`: アイテムに関する追加リソースを指すURIのリスト  - `source[string]`: エンティティ・データの元のソースを URL として示す一連の文字。ソース・プロバイダの完全修飾ドメイン名、またはソース・オブジェクトの URL を推奨する。  - `specificInformation[string]`: 具体的な情報  - `standardCombinedTransporRollerUnits[uri]`: ローラーユニットの標準複合輸送プロファイル番号  - `standardCombinedTransportContainers[uri]`: コンテナの標準複合輸送プロファイル番号  - `structureCheckLocation[number]`: 特定のチェックが必要な構造物の鉄道での位置  - `switchProtectControlWarning[boolean]`: 走行中の異なる保護、制御、警告システム間の切り替えの存在  - `switchRadioSystem[boolean]`: 異なる無線システム間のスイッチ・オーバーの存在  - `systemSeparationInfo[string]`: システム分離に関する情報  - `tNvcontact[number]`: T_NVCONTACT  - `tNvovtrp[number]`: T_NVOVTRP  - `temperatureRange[uri]`: 温度範囲  - `tenClassification[uri]`: TEN分類（線路、ホーム、サイディング）  - `tenGISId[string]`: TEN GISアイデンティティ  - `tiltingSupported[boolean]`: ETCSでチルト機能がサポートされているかどうかの表示  - `trackDirection[uri]`: 通常の走行方向  - `trackId[string]`: トラックの識別  - `trackLoadCapability[uri]`: トラック積載能力  - `trackPhaseInfo[uri]`: トラック位相情報  - `trackRaisedPantographsDistanceAndSpeed[uri]`: 上昇したパンタグラフの距離と速度を追跡  - `trackSystemSeparationInfo[uri]`: トラックシステム分離情報  - `trainDetectionSystem[uri]`: 列車検知システム  - `trainIntegrityOnBoardRequired[boolean]`: 線路へのアクセスに必要な（運転手ではなく）車内からの列車完全性の確認  - `tsiPantographHead[uri]`: TSI準拠のパンタグラフ・ヘッドに対応  - `tsiSwitchCrossing[boolean]`: スイッチおよびクロッシングのインサービス値のTSI適合性  - `type[string]`: NGSIデータ型。トラック  - `usesGroup555[boolean]`: GSM-Rによるグループ555の使用  - `vNvallowovtrp[number]`: V_NVALLOWTRP  - `vNvsupovtrp[number]`: V_NVSUPOVTRP  - `vehicleTypesCompatibleTrafficLoad[string]`: インフラおよび列車検知システムの交通負荷および耐荷重に適合することが確認されている車種のリスト。  - `vehiclesCompatibleTrafficLoad[string]`: インフラおよび列車検知システムの交通負荷および耐荷重に適合することが確認されている車両のリスト。  - `verificationCCS[string]`: ECトラック検証宣言（CCS）  - `verificationENE[string]`: ECトラック検証宣言（ENE）  - `verificationINF[string]`: トラック／サイディングのEC検証宣言 [INF］  - `voiceRadioCompatible[uri]`: 無線システム互換ボイス  - `wheelSetGauge[uri]`: 公称軌道軌間  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-必須プロパティ    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-ERAオントロジー https://data-interop.era.europa.eu/era-vocabulary （欧州鉄道庁）からマッピングされたデータモデル。    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## プロパティのデータモデル記述    
-アルファベット順（クリックで詳細表示）    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: この項目の別名  
+- `areaServed[string]`: サービスまたは提供品が提供される地理的地域  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `atoCommunicationSystem[uri]`: ATO通信システム  
+- `atoErrorCorrectionsOnboard[string]`: オンボードに必要なATOエラー修正  
+- `atoGradeAutomation[uri]`: ATOグレード・オブ・オートメーション  
+- `atoSystemVersion[uri]`: ATOシステムバージョン  
+- `automaticDroppingDeviceRequired[boolean]`: 自動落下装置が必要  
+- `bigMetalMass[boolean]`: 大きな金属の塊  
+- `bridge[boolean]`: ブリッジ  
+- `cantDeficiency[number]`: カント不足  
+- `cantDeficiencyBasicSSP[uri]`: 基本的なSSPに使用されるカント欠乏症  
+- `compatibilityProcedureDocument[string]`: スタティックルートとダイナミックルートの互換性チェックの手順を記載した文書  
+- `conditionsSwitchClassBSystems[string]`: ERTMS/ETCSとクラスBシステム間の切り替えに必要な特別な技術的条件  
+- `conditionsSwitchTrainProtectionSystems[string]`: 異なるクラスBの列車保護、制御、警報システムを切り替えるための特別な条件  
+- `conditionsUseReflectivePlates[uri]`: 反射板の使用条件  
+- `contactLineSystem[uri]`: コンタクトライン方式  
+- `contactStripMaterial[uri]`: 許可されたコンタクトストリップ材料  
+- `contactStripMaterialMetallicContent[number]`: コンタクトストリップ材 金属含有量  
+- `dNvovtrp[number]`: D_NVOVTRP  
+- `dNvpotrp[number]`: D_NVPOTRP  
+- `dNvroll[number]`: D_NVROLL  
+- `dataProvider[string]`: ハーモナイズされたデータ・エンティティの提供者を識別する一連の文字。  
+- `dataRadioCompatible[uri]`: 無線システム互換性データ  
+- `dateCreated[date-time]`: エンティティの作成タイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられます。  
+- `dateModified[date-time]`: エンティティの最終変更のタイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられる。  
+- `demonstrationENE[string]`: EIトラック実証宣言（ENE）  
+- `demonstrationINF[string]`: EIトラック／サイディング実証宣言 [INF］  
+- `description[string]`: この商品の説明  
+- `distSignToPhaseEnd[number]`: 看板と相分離終点までの距離  
+- `documentRestrictionPositionContactLineSeparation[string]`: 接触線分離を遵守するために、マルチプル・トラクション・ユニットの位置に関する制限を文書化する。  
+- `documentRestrictionPowerConsumption[string]`: 特定の電気牽引装置の消費電力に関する制限を記載した文書  
+- `eddyCurrentBraking[uri]`: 渦電流ブレーキの使用  
+- `eddyCurrentBrakingConditionsDocument[string]`: 渦電流ブレーキの使用条件を記載した文書  
+- `etcsDegradedSituation[uri]`: デグレード時のETCSレベル  
+- `etcsErrorCorrectionsOnboard[string]`: 車載に必要なETCSエラー修正  
+- `etcsImplementsLevelCrossingProcedure[boolean]`: ETCSトラックサイドが踏切手順または同等のソリューションを実施する。  
+- `etcsInfill[uri]`: ラインサイドに設置されたETCSインフィル  
+- `etcsInfillLineAccess[boolean]`: ラインアクセスに必要なETCSインフィル  
+- `etcsLevel[uri]`: その他レベル  
+- `etcsMVersion[uri]`: ETCS M_バージョン  
+- `etcsNationalPacket44[boolean]`: ETCS全国パケット44アプリケーションの実装  
+- `etcsOptionalFunctions[string]`: ETCSオプション機能  
+- `etcsSystemCompatibility[uri]`: ETCSシステムの互換性  
+- `etcsSystemFunctionalitiesNextFiveYears[string]`: 今後5年間に必要とされるETCSシステムのバージョン2.2または3.0の機能  
+- `etcsTransmitsTrackConditions[boolean]`: ETCSはトラックサイドでトラックコンディションを送信するように設計されているか？  
+- `etcsTransmittedTrackConditions[uri]`: 送信可能なトラック状況  
+- `flangeLubeForbidden[boolean]`: フランジ潤滑の使用禁止  
+- `freightCorridor[uri]`: 鉄道貨物コリドーの一部  
+- `gaugingCheckLocation[string]`: 特定のチェックが必要な鉄道地点  
+- `gaugingProfile[uri]`: ゲージング  
+- `gaugingTransversalDocument[string]`: 特定のチェックが必要な箇所の横断面を文書化する。  
+- `gprsForETCS[boolean]`: ETCS用GPRS  
+- `gprsImplementationArea[string]`: GPRSの導入地域  
+- `gradientProfile[string]`: 勾配プロファイル  
+- `gsmRActiveMobiles[uri]`: ETCSレベル2（またはレベル3）において、運用を中断することなく無線ブロックセンターのハンドオーバーを行うために必要な、アクティブなGSM-R移動機（EDOR）の数、または同時通信セッションの数。  
+- `gsmRAdditionalInfo[string]`: ネットワーク特性に関する追加情報  
+- `gsmRNoCoverage[boolean]`: GSM-Rカバレッジなし  
+- `gsmROptionalFunctions[uri]`: オプションのGSM-R機能  
+- `gsmRVersion[uri]`: GSM-Rバージョン  
+- `gsmrConstraintsOperateOnlyInCircuitSwitch[uri]`: GSM-Rネットワーク事業者がETCS車載器に課した、回線交換でのみ動作可能な特定の制約  
+- `gsmrErrorCorrectionsOnboard[string]`: オンボードに必要なGSM-Rエラー訂正  
+- `gsmrForcedDeregistrationFunctionalNumber[boolean]`: GSM-Rネットワークは、他のドライバによる機能番号の強制登録解除を許可するように構成されている。  
+- `gsmrNetworkCoverage[uri]`: ローミング契約の対象となるGSM-Rネットワーク  
+- `hasAdditionalBrakingInformation[boolean]`: IMによる追加情報の提供  
+- `hasBallast[boolean]`: バラストの存在  
+- `hasETCSRestrictionsConditions[boolean]`: 営業上の制限または条件の存在  
+- `hasHotAxleBoxDetector[boolean]`: トラックサイドのホットアクスルボックス検出器（HABD）の存在  
+- `hasLevelCrossings[boolean]`: 踏切の存在  
+- `hasOtherTrainProtection[boolean]`: その他の列車保護、制御、警報システムの設置の有無  
+- `hasSevereWeatherConditions[boolean]`: 厳しい気候条件の存在  
+- `hasSystemSeparation[boolean]`: システム分離  
+- `hasTSITrainDetection[boolean]`: TSIに完全に準拠した列車検知システムの存在  
+- `highSpeedLoadModelCompliance[boolean]`: 高速荷重モデル（HSLM）動的荷重モデルに対する構造物の適合性  
+- `hotAxleBoxDetectorDirection[uri]`: ホットアクスルボックスの検知方向  
+- `hotAxleBoxDetectorGeneration[string]`: トラックサイドHABDの生成  
+- `hotAxleBoxDetectorIdentification[string]`: トラックサイドHABDの特定  
+- `hotAxleBoxDetectorLocation[number]`: 沿線HABDの鉄道位置  
+- `hotAxleBoxDetectorTSICompliant[boolean]`: トラックサイドHABD TSI準拠  
+- `id[*]`: エンティティの一意識別子  
+- `instructionsSwitchRadioSystems[string]`: 異なる無線システムを切り替えるための特別な指示  
+- `isQuietRoute[boolean]`: より静かな路線に所属  
+- `legacyRadioSystem[uri]`: その他の無線システムの設置（無線レガシーシステム）  
+- `lineCategory[uri]`: ラインのカテゴリー  
+- `linesideDistanceIndicationAppearance[uri]`: ラインサイド距離表示外観  
+- `linesideDistanceIndicationFrequency[number]`: ラインサイド距離表示周波数  
+- `linesideDistanceIndicationPositioning[uri]`: ラインサイド距離表示位置決め  
+- `loadCapability[uri]`: 負荷能力  
+- `localRulesOrRestrictions[boolean]`: 厳密に地域的な性質の規則や制限の存在。  
+- `localRulesOrRestrictionsDoc[string]`: IMが入手できる、厳密にローカルな性質の規則または制限に関する文書  
+- `location[*]`: アイテムへの Geojson 参照。Point、LineString、Polygon、MultiPoint、MultiLineString、MultiPolygon のいずれか。  
+- `mNvcontact[uri]`: M_NVCONTACT  
+- `mNvderun[boolean]`: M_NVDERUN  
+- `magneticBraking[uri]`: 磁気ブレーキの使用  
+- `magneticBrakingConditionsDocument[string]`: 磁気ブレーキの使用条件を記載した文書  
+- `maximumAltitude[number]`: 最高高度  
+- `maximumBrakingDistance[number]`: 最大制動距離  
+- `maximumContactWireHeight[number]`: コンタクトワイヤーの最大高さ  
+- `maximumPermittedSpeed[number]`: 最大許容速度  
+- `maximumTemperature[number]`: 温度範囲（最大）  
+- `maximumTrainDeceleration[number]`: 列車の最大減速  
+- `minDistConsecutiveAxles[number]`: 連続する2つの車軸間の最小許容距離  
+- `minDistFirstLastAxle[number]`: 最初の車軸と最後の車軸の間の最小許容距離  
+- `minFlangeHeight[number]`: フランジの最低許容高さ  
+- `minFlangeThickness[number]`: フランジの最小許容厚さ  
+- `minRimWidth[number]`: リムの最小許容幅  
+- `minWheelDiameter[number]`: 許容最小ホイール径  
+- `minimumContactWireHeight[number]`: コンタクトワイヤーの最小高さ  
+- `minimumHorizontalRadius[number]`: 水平カーブの最小半径  
+- `minimumTemperature[number]`: 温度範囲（最小）  
+- `minimumWheelDiameter[number]`: 固定鈍角交差の最小車輪直径  
+- `multipleTrainProtectionRequired[boolean]`: 車内に複数の列車保護、制御、警告システムが必要  
+- `name[string]`: このアイテムの名前  
+- `nationalLoadCapability[string]`: 負荷能力に関する国家分類  
+- `nationalValuesBrakeModel[string]`: ブレーキモデルに使用される国の値  
+- `osmClass[uri]`: オープンストリートマップクラス  
+- `otherCantDeficiencyBasicSSP[uri]`: ETCSがSSPを提供するようトラックサイドに設定されているその他のCant Deficiency列車カテゴリー  
+- `otherPantographHead[uri]`: その他のパンタグラフ・ヘッドを受け入れる  
+- `otherTrainProtection[uri]`: その他の列車保護、制御、劣化状況警告システム  
+- `owner[array]`: 所有者の固有IDを参照するJSONエンコードされた文字列を含むリスト。  
+- `passesThroughTunnel[uri]`: トンネルを通過  
+- `permitUseReflectivePlates[boolean]`: 反射板の使用許可  
+- `permittedContactForce[string]`: 許容接触力  
+- `phaseInfo[string]`: 相分離に関する情報  
+- `phaseSeparation[boolean]`: 相分離  
+- `platform[uri]`: プラットフォーム  
+- `profileNumberSemiTrailers[uri]`: セミトレーラ用標準複合輸送プロファイル番号  
+- `profileNumberSwapBodies[uri]`: スワップボディ用標準複合輸送プロファイル番号  
+- `protectionLegacySystem[uri]`: 列車保護レガシーシステム  
+- `publicNetworkRoaming[boolean]`: GSM-R 公共ネットワークへのローミングの存在  
+- `publicNetworkRoamingDetails[string]`: 公共ネットワークへのローミングに関するGSM-Rの詳細  
+- `qNvdriverAdhes[uri]`: q_nvdriver_adhes  
+- `qNvemrrls[uri]`: Q_NVEMRRLS  
+- `qNvsbtsmperm[boolean]`: Q_NVSBTSMPERM  
+- `radioNetworkId[number]`: 無線ネットワークID  
+- `railInclination[uri]`: レール傾斜  
+- `raisedPantographsDistanceAndSpeed[string]`: 所定速度でのパンタグラフの上昇数と間隔に関する要件  
+- `reasonsEtcsRadioBlockCenterReject[uri]`: ETCS無線ブロックセンターが列車を拒否できる理由  
+- `redLightsRequired[boolean]`: 赤色定常点灯が必要  
+- `safeConsistLengthInformationNecessary[uri]`: ラインとSILにアクセスするために必要な船上からの安全な構成長情報  
+- `seeAlso[*]`: アイテムに関する追加リソースを指すURIのリスト  
+- `source[string]`: エンティティ・データの元のソースを URL として示す一連の文字。ソース・プロバイダの完全修飾ドメイン名、またはソース・オブジェクトの URL を推奨する。  
+- `specificInformation[string]`: 具体的な情報  
+- `standardCombinedTransporRollerUnits[uri]`: ローラーユニットの標準複合輸送プロファイル番号  
+- `standardCombinedTransportContainers[uri]`: コンテナの標準複合輸送プロファイル番号  
+- `structureCheckLocation[number]`: 特定のチェックが必要な構造物の鉄道での位置  
+- `switchProtectControlWarning[boolean]`: 走行中の異なる保護、制御、警告システム間の切り替えの存在  
+- `switchRadioSystem[boolean]`: 異なる無線システム間のスイッチ・オーバーの存在  
+- `systemSeparationInfo[string]`: システム分離に関する情報  
+- `tNvcontact[number]`: T_NVCONTACT  
+- `tNvovtrp[number]`: T_NVOVTRP  
+- `temperatureRange[uri]`: 温度範囲  
+- `tenClassification[uri]`: TEN分類（線路、ホーム、サイディング）  
+- `tenGISId[string]`: TEN GISアイデンティティ  
+- `tiltingSupported[boolean]`: ETCSでチルト機能がサポートされているかどうかの表示  
+- `trackDirection[uri]`: 通常の走行方向  
+- `trackId[string]`: トラックの識別  
+- `trackLoadCapability[uri]`: トラック積載能力  
+- `trackPhaseInfo[uri]`: トラック位相情報  
+- `trackRaisedPantographsDistanceAndSpeed[uri]`: 上昇したパンタグラフの距離と速度を追跡  
+- `trackSystemSeparationInfo[uri]`: トラックシステム分離情報  
+- `trainDetectionSystem[uri]`: 列車検知システム  
+- `trainIntegrityOnBoardRequired[boolean]`: 線路へのアクセスに必要な（運転手ではなく）車内からの列車完全性の確認  
+- `tsiPantographHead[uri]`: TSI準拠のパンタグラフ・ヘッドに対応  
+- `tsiSwitchCrossing[boolean]`: スイッチおよびクロッシングのインサービス値のTSI適合性  
+- `type[string]`: NGSIデータ型。トラック  
+- `usesGroup555[boolean]`: GSM-Rによるグループ555の使用  
+- `vNvallowovtrp[number]`: V_NVALLOWTRP  
+- `vNvsupovtrp[number]`: V_NVSUPOVTRP  
+- `vehicleTypesCompatibleTrafficLoad[string]`: インフラおよび列車検知システムの交通負荷および耐荷重に適合することが確認されている車種のリスト。  
+- `vehiclesCompatibleTrafficLoad[string]`: インフラおよび列車検知システムの交通負荷および耐荷重に適合することが確認されている車両のリスト。  
+- `verificationCCS[string]`: ECトラック検証宣言（CCS）  
+- `verificationENE[string]`: ECトラック検証宣言（ENE）  
+- `verificationINF[string]`: トラック／サイディングのEC検証宣言 [INF］  
+- `voiceRadioCompatible[uri]`: 無線システム互換ボイス  
+- `wheelSetGauge[uri]`: 公称軌道軌間  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+必須プロパティ    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+ERAオントロジー https://data-interop.era.europa.eu/era-vocabulary （欧州鉄道庁）からマッピングされたデータモデル。    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## プロパティのデータモデル記述    
+
+アルファベット順（クリックで詳細表示）    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 Track:      
   description: A running track that is used for train service movements.      
   properties:      
@@ -1263,16 +1474,25 @@ Track:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## ペイロードの例    
-#### NGSI-v2 キー値の追跡 例    
-以下は、JSON-LD形式のTrackをkey-valuesとして返す例である。これはNGSI-v2と互換性があり、`options=keyValues`を使用すると、個々のエンティティのコンテキストデータを返す。    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## ペイロードの例    
+
+#### NGSI-v2 キー値の追跡 例    
+
+以下は、JSON-LD形式のTrackをkey-valuesとして返す例である。これはNGSI-v2と互換性があり、`options=keyValues`を使用すると、個々のエンティティのコンテキストデータを返す。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": "1999-12-30T09:02:54Z",  
   "dateModified": "2011-07-03T23:49:28Z",  
@@ -1474,17 +1694,21 @@ Track:
   "tsiPantographHead": "urn:ngsi-ld:Track:tsiPantographHead:YHRY:48926717",  
   "voiceRadioCompatible": "urn:ngsi-ld:Track:voiceRadioCompatible:MQSW:64014004",  
   "wheelSetGauge": "urn:ngsi-ld:Track:wheelSetGauge:CBCZ:67145439",  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### トラック NGSI-v2 正規化例    
-以下は、正規化されたJSON-LD形式のTrackの例である。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。    
+
+#### トラック NGSI-v2 正規化例    
+
+以下は、正規化されたJSON-LD形式のTrackの例である。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -2222,21 +2446,19 @@ Track:
   "wheelSetGauge": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:Track:wheelSetGauge:CBCZ:67145439"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### NGSI-LD キー値の追跡 例    
-以下はJSON-LD形式のTrackをkey-valuesとして返す例である。options=keyValues`を使うとNGSI-LDと互換性があり、個々のエンティティのコンテキストデータを返す。    
+
+#### NGSI-LD キー値の追跡 例    
+
+以下はJSON-LD形式のTrackをkey-valuesとして返す例である。options=keyValues`を使うとNGSI-LDと互換性があり、個々のエンティティのコンテキストデータを返す。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": "1999-12-30T09:02:54Z",  
   "dateModified": "2011-07-03T23:49:28Z",  
@@ -2441,17 +2663,21 @@ Track:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### トラック NGSI-LD 正規化例    
-以下は、正規化されたJSON-LD形式のTrackの例である。これは、オプションを使用しない場合、NGSI-LDと互換性があり、個々のエンティティのコンテキストデータを返します。    
+
+#### トラック NGSI-LD 正規化例    
+
+以下は、正規化されたJSON-LD形式のTrackの例である。これは、オプションを使用しない場合、NGSI-LDと互換性があり、個々のエンティティのコンテキストデータを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:YMIK:19710861",  
   "dateCreated": {  
     "type": "Property",  
@@ -3199,17 +3425,26 @@ Track:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-マグニチュード単位の扱い方については、[FAQ 10](https://smartdatamodels.org/index.php/faqs/)を参照のこと。    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+マグニチュード単位の扱い方については、[FAQ 10](https://smartdatamodels.org/index.php/faqs/)を参照のこと。    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

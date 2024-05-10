@@ -1,19 +1,35 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-エンティティTopologicalObject    
-=======================<!-- /10-Header -->    
-<!-- 15-License -->    
-[オープン・ライセンス](https://github.com/smart-data-models//dataModel.ERA/blob/master/TopologicalObject/LICENSE.md)    
-[文書は自動的に生成される](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-グローバルな記述：**トポロジカルノードエッジモデルとして記述されるトラックネットワークのトップレベルクラス**。    
-バージョン: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## プロパティのリスト    
-<sup><sub>[*] 属性に型がない場合は、複数の型があるか、異なるフォーマット/パターンがある可能性があるためです</sub></sup>。    
-- `address[object]`: 郵送先住所  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 国。例えば、スペイン  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+エンティティTopologicalObject    
+=======================
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[オープン・ライセンス](https://github.com/smart-data-models//dataModel.ERA/blob/master/TopologicalObject/LICENSE.md)    
+
+[文書は自動的に生成される](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+グローバルな記述：**トポロジカルノードエッジモデルとして記述されるトラックネットワークのトップレベルクラス**。    
+
+バージョン: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## プロパティのリスト    
+
+<sup><sub>[*] 属性に型がない場合は、複数の型があるか、異なるフォーマット/パターンがある可能性があるためです</sub></sup>。    
+- `address[object]`: 郵送先住所  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: 国。例えば、スペイン  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: 番地がある地域と、その地域に含まれる地域  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: その地域がある地域、またその国がある地域  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: 地区とは行政区画の一種で、国によっては地方自治体によって管理されている。      
@@ -21,20 +37,48 @@
 	- `postalCode[string]`: 郵便番号。例：24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: 番地  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: 公道上の特定の物件を特定する番号      
-- `alternateName[string]`: この項目の別名  - `areaServed[string]`: サービスまたは提供品が提供される地理的地域  . Model: [https://schema.org/Text](https://schema.org/Text)- `dataProvider[string]`: ハーモナイズされたデータ・エンティティの提供者を識別する一連の文字。  - `dateCreated[date-time]`: エンティティの作成タイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられます。  - `dateModified[date-time]`: エンティティの最終変更のタイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられる。  - `description[string]`: この商品の説明  - `id[*]`: エンティティの一意識別子  - `location[*]`: アイテムへの Geojson 参照。Point、LineString、Polygon、MultiPoint、MultiLineString、MultiPolygon のいずれか。  - `name[string]`: このアイテムの名前  - `owner[array]`: 所有者の固有IDを参照するJSONエンコードされた文字列を含むリスト。  - `seeAlso[*]`: アイテムに関する追加リソースを指すURIのリスト  - `source[string]`: エンティティ・データの元のソースを URL として示す一連の文字。ソース・プロバイダの完全修飾ドメイン名、またはソース・オブジェクトの URL を推奨する。  - `type[string]`: NGSI データ型。TopologicalObjectでなければならない。  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-必須プロパティ    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-ERAオントロジー https://data-interop.era.europa.eu/era-vocabulary （欧州鉄道庁）からマッピングされたデータモデル。    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## プロパティのデータモデル記述    
-アルファベット順（クリックで詳細表示）    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: この項目の別名  
+- `areaServed[string]`: サービスまたは提供品が提供される地理的地域  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `dataProvider[string]`: ハーモナイズされたデータ・エンティティの提供者を識別する一連の文字。  
+- `dateCreated[date-time]`: エンティティの作成タイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられます。  
+- `dateModified[date-time]`: エンティティの最終変更のタイムスタンプ。これは通常、ストレージプラットフォームによって割り当てられる。  
+- `description[string]`: この商品の説明  
+- `id[*]`: エンティティの一意識別子  
+- `location[*]`: アイテムへの Geojson 参照。Point、LineString、Polygon、MultiPoint、MultiLineString、MultiPolygon のいずれか。  
+- `name[string]`: このアイテムの名前  
+- `owner[array]`: 所有者の固有IDを参照するJSONエンコードされた文字列を含むリスト。  
+- `seeAlso[*]`: アイテムに関する追加リソースを指すURIのリスト  
+- `source[string]`: エンティティ・データの元のソースを URL として示す一連の文字。ソース・プロバイダの完全修飾ドメイン名、またはソース・オブジェクトの URL を推奨する。  
+- `type[string]`: NGSI データ型。TopologicalObjectでなければならない。  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+必須プロパティ    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+ERAオントロジー https://data-interop.era.europa.eu/era-vocabulary （欧州鉄道庁）からマッピングされたデータモデル。    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## プロパティのデータモデル記述    
+
+アルファベット順（クリックで詳細表示）    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 TopologicalObject:      
   description: Top level class for the the track network described as a topological node edge model      
   properties:      
@@ -369,16 +413,25 @@ TopologicalObject:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## ペイロードの例    
-#### TopologicalObject NGSI-v2 キー値の例    
-JSON-LD形式のTopologicalObjectのkey-valuesの例である。options=keyValues`を使うとNGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返す。    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## ペイロードの例    
+
+#### TopologicalObject NGSI-v2 キー値の例    
+
+JSON-LD形式のTopologicalObjectのkey-valuesの例である。options=keyValues`を使うとNGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返す。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:TopologicalObject:id:MDTE:29122911",  
   "dateCreated": "1997-12-28T14:44:16Z",  
   "dateModified": "1986-06-03T02:06:03Z",  
@@ -412,18 +465,19 @@ TopologicalObject:
     "district": "Cover whole pay customer management approach theory."  
   },  
   "areaServed": "Partner a improve about. Because four challenge. Hot north personal benefit.",  
-  "type": "TopologicalObject",  
-  "context": [  
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-  ]  
+  "type": "TopologicalObject"
 }  
 ```  
 </details>    
-#### トポロジカルオブジェクト NGSI-v2 正規化例    
-以下は、正規化された JSON-LD 形式の TopologicalObject の例である。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。    
+
+#### トポロジカルオブジェクト NGSI-v2 正規化例    
+
+以下は、正規化された JSON-LD 形式の TopologicalObject の例である。これは、オプションを使用しない場合、NGSI-v2と互換性があり、個々のエンティティのコンテキストデータを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:TopologicalObject:id:MDTE:29122911",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -493,21 +547,19 @@ TopologicalObject:
     "type": "Text",  
     "value": "Partner a improve about. Because four challenge. Hot north personal benefit."  
   },  
-  "type": "TopologicalObject",  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
-  }  
+  "type": "TopologicalObject"  
 }  
 ```  
 </details>    
-#### TopologicalObject NGSI-LD キー値の例    
-TopologicalObjectをJSON-LD形式でkey-valuesとした例である。これは NGSI-LD と互換性があり、`options=keyValues` を使うと個々のエンティティのコンテキストデータを返す。    
+
+#### TopologicalObject NGSI-LD キー値の例    
+
+TopologicalObjectをJSON-LD形式でkey-valuesとした例である。これは NGSI-LD と互換性があり、`options=keyValues` を使うと個々のエンティティのコンテキストデータを返す。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:TopologicalObject:id:MDTE:29122911",  
   "dateCreated": "1997-12-28T14:44:16Z",  
   "dateModified": "1986-06-03T02:06:03Z",  
@@ -543,19 +595,20 @@ TopologicalObject:
   "areaServed": "Partner a improve about. Because four challenge. Hot north personal benefit.",  
   "type": "TopologicalObject",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### トポロジカルオブジェクト NGSI-LD 正規化例    
-以下は、正規化された JSON-LD 形式の TopologicalObject の例である。これは、オプションを使用しない場合はNGSI-LDと互換性があり、個々のエンティティのコンテキストデータを返します。    
+
+#### トポロジカルオブジェクト NGSI-LD 正規化例    
+
+以下は、正規化された JSON-LD 形式の TopologicalObject の例である。これは、オプションを使用しない場合はNGSI-LDと互換性があり、個々のエンティティのコンテキストデータを返します。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:TopologicalObject:id:ANPE:97919193",  
   "dateCreated": {  
     "type": "Property",  
@@ -633,19 +686,25 @@ TopologicalObject:
   },  
   "type": "TopologicalObject",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-マグニチュード単位の扱い方については、[FAQ 10](https://smartdatamodels.org/index.php/faqs/)を参照のこと。    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+マグニチュード単位の扱い方については、[FAQ 10](https://smartdatamodels.org/index.php/faqs/)を参照のこと。    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

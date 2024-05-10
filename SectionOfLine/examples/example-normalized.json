@@ -88,11 +88,5 @@
   "track": {
     "type": "Text",
     "value": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248"
-  },
-  "context": {
-    "type": "StructuredValue",
-    "value": [
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-    ]
   }
 }

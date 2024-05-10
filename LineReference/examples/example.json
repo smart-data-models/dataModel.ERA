@@ -34,8 +34,5 @@
   "areaServed": "Red animal wall front. Left buy see always.",
   "type": "LineReference",
   "kilometer": 239.9,
-  "lineNationalId": "urn:ngsi-ld:LineReference:lineNationalId:IIBS:67837023",
-  "context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-  ]
+  "lineNationalId": "urn:ngsi-ld:LineReference:lineNationalId:IIBS:67837023"
 }

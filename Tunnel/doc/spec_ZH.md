@@ -1,19 +1,35 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-实体隧道    
-====<!-- /10-Header -->    
-<!-- 15-License -->    
-[开放许可](https://github.com/smart-data-models//dataModel.ERA/blob/master/Tunnel/LICENSE.md)    
-[文件自动生成](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-全球描述：**铁路隧道是在轨道周围进行的挖掘或建设，目的是让铁路通过较高的土地、建筑物或水域。    
-版本： 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## 属性列表    
-<sup><sub>[*] 如果属性中没有类型，是因为它可能有多个类型或不同的格式/模式</sub></sup>。    
-- `address[object]`: 邮寄地址  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 国家。例如，西班牙  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+实体隧道    
+====
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[开放许可](https://github.com/smart-data-models//dataModel.ERA/blob/master/Tunnel/LICENSE.md)    
+
+[文件自动生成](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+全球描述：**铁路隧道是在轨道周围进行的挖掘或建设，目的是让铁路通过较高的土地、建筑物或水域。    
+
+版本： 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## 属性列表    
+
+<sup><sub>[*] 如果属性中没有类型，是因为它可能有多个类型或不同的格式/模式</sub></sup>。    
+- `address[object]`: 邮寄地址  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: 国家。例如，西班牙  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: 街道地址所在的地点，以及该地点所在的区域  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: 地点所在的地区，以及该地区位于哪个国家  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: 地区是一种行政区划，在一些国家由地方政府管理      
@@ -21,20 +37,65 @@
 	- `postalCode[string]`: 邮政编码。例如：24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: 街道地址  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: 标识公共街道上特定房产的编号      
-- `alternateName[string]`: 该项目的替代名称  - `areaServed[string]`: 提供服务或提供物品的地理区域  . Model: [https://schema.org/Text](https://schema.org/Text)- `complianceInfTsi[boolean]`: 隧道符合 INF TSI 标准  - `crossSectionArea[number]`: 横截面积  - `dataProvider[string]`: 标识统一数据实体提供者的字符序列  - `dateCreated[date-time]`: 实体创建时间戳。通常由存储平台分配  - `dateModified[date-time]`: 实体最后一次修改的时间戳。通常由存储平台分配  - `demonstrationSRT[string]`: EI 隧道示范申报（SRT）  - `description[string]`: 项目描述  - `dieselThermalAllowed[boolean]`: 允许使用柴油或其他热能牵引  - `endLocation[['geosparql#Geometry', 'wgs84_pos#Point']]`: 隧道尽头  - `hasEmergencyPlan[boolean]`: 是否有应急计划  - `hasEvacuationAndRescuePoints[boolean]`: 疏散和救援点的存在  - `hasWalkway[boolean]`: 人行道的存在  - `id[*]`: 实体的唯一标识符  - `location[*]`: 项目的 Geojson 引用。它可以是点、线条字符串、多边形、多点、多线条字符串或多多边形  - `name[string]`: 该项目的名称  - `nationalRollingStockFireCategory[string]`: 所需机车车辆的国家防火类别  - `owner[array]`: 包含一个 JSON 编码字符序列的列表，其中引用了所有者的唯一 Ids  - `rollingStockFireCategory[uri]`: 所需机车车辆的消防类别  - `seeAlso[*]`: 指向有关该项目的其他资源的 uri 列表  - `source[string]`: 以 URL 形式给出实体数据原始来源的字符串。建议使用源提供者的完全合格域名或源对象的 URL  - `specialTunnelArea[uri]`: 特殊隧道区  - `startLocation[['geosparql#Geometry', 'wgs84_pos#Point']]`: 隧道起点  - `tunnelDocRef[string]`: 参考 IM 提供的文件，其中对隧道进行了精确描述  - `tunnelIdentification[string]`: 隧道识别  - `tunnelKilometerEnd[number]`: 隧道公里终点  - `tunnelKilometerStart[number]`: 隧道公里起点  - `type[string]`: NGSI 数据类型。必须是隧道  - `verificationSRT[string]`: 欧共体隧道验证声明（SRT）  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-所需属性    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-从 ERA 本体映射的数据模型 https://data-interop.era.europa.eu/era-vocabulary（欧盟铁路局）    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## 属性的数据模型描述    
-按字母顺序排列（点击查看详情）    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: 该项目的替代名称  
+- `areaServed[string]`: 提供服务或提供物品的地理区域  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `complianceInfTsi[boolean]`: 隧道符合 INF TSI 标准  
+- `crossSectionArea[number]`: 横截面积  
+- `dataProvider[string]`: 标识统一数据实体提供者的字符序列  
+- `dateCreated[date-time]`: 实体创建时间戳。通常由存储平台分配  
+- `dateModified[date-time]`: 实体最后一次修改的时间戳。通常由存储平台分配  
+- `demonstrationSRT[string]`: EI 隧道示范申报（SRT）  
+- `description[string]`: 项目描述  
+- `dieselThermalAllowed[boolean]`: 允许使用柴油或其他热能牵引  
+- `endLocation[['geosparql#Geometry', 'wgs84_pos#Point']]`: 隧道尽头  
+- `hasEmergencyPlan[boolean]`: 是否有应急计划  
+- `hasEvacuationAndRescuePoints[boolean]`: 疏散和救援点的存在  
+- `hasWalkway[boolean]`: 人行道的存在  
+- `id[*]`: 实体的唯一标识符  
+- `location[*]`: 项目的 Geojson 引用。它可以是点、线条字符串、多边形、多点、多线条字符串或多多边形  
+- `name[string]`: 该项目的名称  
+- `nationalRollingStockFireCategory[string]`: 所需机车车辆的国家防火类别  
+- `owner[array]`: 包含一个 JSON 编码字符序列的列表，其中引用了所有者的唯一 Ids  
+- `rollingStockFireCategory[uri]`: 所需机车车辆的消防类别  
+- `seeAlso[*]`: 指向有关该项目的其他资源的 uri 列表  
+- `source[string]`: 以 URL 形式给出实体数据原始来源的字符串。建议使用源提供者的完全合格域名或源对象的 URL  
+- `specialTunnelArea[uri]`: 特殊隧道区  
+- `startLocation[['geosparql#Geometry', 'wgs84_pos#Point']]`: 隧道起点  
+- `tunnelDocRef[string]`: 参考 IM 提供的文件，其中对隧道进行了精确描述  
+- `tunnelIdentification[string]`: 隧道识别  
+- `tunnelKilometerEnd[number]`: 隧道公里终点  
+- `tunnelKilometerStart[number]`: 隧道公里起点  
+- `type[string]`: NGSI 数据类型。必须是隧道  
+- `verificationSRT[string]`: 欧共体隧道验证声明（SRT）  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+所需属性    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+从 ERA 本体映射的数据模型 https://data-interop.era.europa.eu/era-vocabulary（欧盟铁路局）    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## 属性的数据模型描述    
+
+按字母顺序排列（点击查看详情）    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 Tunnel:      
   description: 'A railway tunnel is an excavation or a construction around the track provided to allow the railway to pass for example higher land, buildings or water.'      
   properties:      
@@ -460,16 +521,25 @@ Tunnel:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## 有效载荷示例    
-#### 隧道 NGSI-v2 密钥值示例    
-下面是一个以 JSON-LD 格式作为键值的隧道示例。当使用 `options=keyValues` 时，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## 有效载荷示例    
+
+#### 隧道 NGSI-v2 密钥值示例    
+
+下面是一个以 JSON-LD 格式作为键值的隧道示例。当使用 `options=keyValues` 时，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Tunnel:id:LHUX:38737711",  
   "dateCreated": "1993-07-30T17:21:52Z",  
   "dateModified": "1993-08-21T03:30:26Z",  
@@ -521,17 +591,21 @@ Tunnel:
   "rollingStockFireCategory": "urn:ngsi-ld:Tunnel:rollingStockFireCategory:HWDR:37365505",  
   "specialTunnelArea": "urn:ngsi-ld:Tunnel:specialTunnelArea:MEMD:08918829",  
   "startLocation": "urn:ngsi-ld:Tunnel:startLocation:ZKRP:09411129",  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### 隧道 NGSI-v2 标准化示例    
-下面是一个规范化 JSON-LD 格式的隧道示例。在不使用选项的情况下，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。    
+
+#### 隧道 NGSI-v2 标准化示例    
+
+下面是一个规范化 JSON-LD 格式的隧道示例。在不使用选项的情况下，它与 NGSI-v2 兼容，并返回单个实体的上下文数据。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Tunnel:id:LHUX:38737711",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -696,21 +770,19 @@ Tunnel:
   "startLocation": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:Tunnel:startLocation:ZKRP:09411129"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### 隧道 NGSI-LD 密钥值示例    
-下面是一个以 JSON-LD 格式作为键值的隧道示例。当使用 `options=keyValues` 时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。    
+
+#### 隧道 NGSI-LD 密钥值示例    
+
+下面是一个以 JSON-LD 格式作为键值的隧道示例。当使用 `options=keyValues` 时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Tunnel:id:LHUX:38737711",  
   "dateCreated": "1993-07-30T17:21:52Z",  
   "dateModified": "1993-08-21T03:30:26Z",  
@@ -765,17 +837,21 @@ Tunnel:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### 隧道 NGSI-LD 标准化示例    
-下面是一个规范化 JSON-LD 格式的隧道示例。在不使用选项时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。    
+
+#### 隧道 NGSI-LD 标准化示例    
+
+下面是一个规范化 JSON-LD 格式的隧道示例。在不使用选项时，它与 NGSI-LD 兼容，并返回单个实体的上下文数据。    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Tunnel:id:YMRP:29425393",  
   "dateCreated": {  
     "type": "Property",  
@@ -923,17 +999,26 @@ Tunnel:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-请参阅 [FAQ 10](https://smartdatamodels.org/index.php/faqs/)，获取如何处理幅度单位的答案。    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+请参阅 [FAQ 10](https://smartdatamodels.org/index.php/faqs/)，获取如何处理幅度单位的答案。    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

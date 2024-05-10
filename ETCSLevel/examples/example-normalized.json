@@ -76,11 +76,5 @@
   "etcsLevelType": {
     "type": "Text",
     "value": "urn:ngsi-ld:ETCSLevel:etcsLevelType:VOLD:97362219"
-  },
-  "context": {
-    "type": "StructuredValue",
-    "value": [
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-    ]
   }
 }

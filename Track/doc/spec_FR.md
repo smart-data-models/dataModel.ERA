@@ -1,19 +1,40 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-Entité : Voie    
-=============<!-- /10-Header -->    
-<!-- 15-License -->    
-[Licence ouverte] (https://github.com/smart-data-models//dataModel.ERA/blob/master/Track/LICENSE.md)    
-[document généré automatiquement] (https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-Description globale : **Une voie de roulement utilisée pour la circulation des trains**.    
-version : 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## Liste des propriétés    
-<sup><sub>[*] S'il n'y a pas de type dans un attribut, c'est parce qu'il peut avoir plusieurs types ou différents formats/modèles</sub></sup>.    
-- `IdPhoneErtmsRadioBlockCenter[string]`: ID et numéro de téléphone du centre de bloc radio ERTMS/ETCS  - `TSIMagneticFields[uri]`: Existence et conformité aux STI des règles relatives aux champs magnétiques émis par un véhicule  - `TSITractionHarmonics[uri]`: Existence et conformité aux STI des limites des harmoniques dans le courant de traction des véhicules  - `accelerationLevelCrossing[string]`: Accélération autorisée au passage à niveau  - `additionalBrakingInformationDocument[string]`: Documents disponibles auprès de l'IM concernant les performances de freinage  - `address[object]`: L'adresse postale  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: Le pays. Par exemple, l'Espagne  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+Entité : Voie    
+=============
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[Licence ouverte] (https://github.com/smart-data-models//dataModel.ERA/blob/master/Track/LICENSE.md)    
+
+[document généré automatiquement] (https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+Description globale : **Une voie de roulement utilisée pour la circulation des trains**.    
+
+version : 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## Liste des propriétés    
+
+<sup><sub>[*] S'il n'y a pas de type dans un attribut, c'est parce qu'il peut avoir plusieurs types ou différents formats/modèles</sub></sup>.    
+- `IdPhoneErtmsRadioBlockCenter[string]`: ID et numéro de téléphone du centre de bloc radio ERTMS/ETCS  
+- `TSIMagneticFields[uri]`: Existence et conformité aux STI des règles relatives aux champs magnétiques émis par un véhicule  
+- `TSITractionHarmonics[uri]`: Existence et conformité aux STI des limites des harmoniques dans le courant de traction des véhicules  
+- `accelerationLevelCrossing[string]`: Accélération autorisée au passage à niveau  
+- `additionalBrakingInformationDocument[string]`: Documents disponibles auprès de l'IM concernant les performances de freinage  
+- `address[object]`: L'adresse postale  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: Le pays. Par exemple, l'Espagne  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: La localité dans laquelle se trouve l'adresse postale et qui se trouve dans la région  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: La région dans laquelle se trouve la localité et qui se trouve dans le pays  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: Un district est un type de division administrative qui, dans certains pays, est géré par le gouvernement local.      
@@ -21,20 +42,208 @@
 	- `postalCode[string]`: Le code postal. Par exemple, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: L'adresse de la rue  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: Numéro identifiant une propriété spécifique sur une voie publique      
-- `alternateName[string]`: Un nom alternatif pour ce poste  - `areaServed[string]`: La zone géographique où un service ou un article est offert  . Model: [https://schema.org/Text](https://schema.org/Text)- `atoCommunicationSystem[uri]`: Système de communication ATO  - `atoErrorCorrectionsOnboard[string]`: Corrections d'erreurs ATO requises pour le système de bord  - `atoGradeAutomation[uri]`: ATO Grade d'automatisation  - `atoSystemVersion[uri]`: Version du système ATO  - `automaticDroppingDeviceRequired[boolean]`: Dispositif de chute automatique requis  - `bigMetalMass[boolean]`: Grande masse métallique  - `bridge[boolean]`: Est un pont  - `cantDeficiency[number]`: Défaut de cant  - `cantDeficiencyBasicSSP[uri]`: Défaut de cantonnement utilisé pour le PAS de base  - `compatibilityProcedureDocument[string]`: Document contenant la ou les procédures de vérification de la compatibilité des routes statiques et dynamiques  - `conditionsSwitchClassBSystems[string]`: Conditions techniques particulières requises pour passer d'un système ERTMS/ETCS à un système de classe B  - `conditionsSwitchTrainProtectionSystems[string]`: Conditions particulières pour passer d'un système de protection, de contrôle et d'avertissement des trains de classe B à un autre  - `conditionsUseReflectivePlates[uri]`: Conditions d'utilisation des plaques réfléchissantes  - `contactLineSystem[uri]`: Système de ligne de contact  - `contactStripMaterial[uri]`: Matériau autorisé pour les bandes de contact  - `contactStripMaterialMetallicContent[number]`: Matériau de la bande de contact Contenu métallique  - `dNvovtrp[number]`: D_NVOVTRP  - `dNvpotrp[number]`: D_NVPOTRP  - `dNvroll[number]`: D_NVROLL  - `dataProvider[string]`: Une séquence de caractères identifiant le fournisseur de l'entité de données harmonisées  - `dataRadioCompatible[uri]`: Données sur la compatibilité des systèmes radio  - `dateCreated[date-time]`: Horodatage de la création de l'entité. Celle-ci est généralement attribuée par la plate-forme de stockage  - `dateModified[date-time]`: Date de la dernière modification de l'entité. Cette date est généralement attribuée par la plate-forme de stockage  - `demonstrationENE[string]`: Déclaration de démonstration de l'IE pour la voie ferrée (ENE)  - `demonstrationINF[string]`: Déclaration de démonstration de l'IE pour les voies et les bardages [INF].  - `description[string]`: Une description de l'article  - `distSignToPhaseEnd[number]`: Distance entre le panneau de signalisation et la fin de la séparation de phase  - `documentRestrictionPositionContactLineSeparation[string]`: Document avec restriction relative à la position de l'unité (des unités) de traction multiple(s) pour respecter la séparation des lignes de contact  - `documentRestrictionPowerConsumption[string]`: Document avec restriction relative à la consommation d'énergie d'un ou de plusieurs engins de traction électrique spécifiques  - `eddyCurrentBraking[uri]`: Utilisation de freins à courants de Foucault  - `eddyCurrentBrakingConditionsDocument[string]`: Document sur les conditions d'utilisation des freins à courants de Foucault  - `etcsDegradedSituation[uri]`: Niveau ETCS pour une situation dégradée  - `etcsErrorCorrectionsOnboard[string]`: Corrections d'erreurs ETCS requises pour le système de bord  - `etcsImplementsLevelCrossingProcedure[boolean]`: ETCS trackside met en œuvre la procédure de passage à niveau ou une solution équivalente  - `etcsInfill[uri]`: Remplissage ETCS installé côté ligne  - `etcsInfillLineAccess[boolean]`: Remplissage ETCS nécessaire pour l'accès à la ligne  - `etcsLevel[uri]`: Niveau Etcs  - `etcsMVersion[uri]`: ETCS M_version  - `etcsOptionalFunctions[string]`: Fonctions optionnelles de l'ETCS  - `etcsSystemCompatibility[uri]`: Compatibilité du système ETCS  - `etcsSystemFunctionalitiesNextFiveYears[string]`: Fonctionnalités du système ETCS version 2.2 ou 3.0 requises dans les 5 prochaines années  - `etcsTransmitsTrackConditions[boolean]`: Le système ETCS est-il conçu pour transmettre l'état de la voie ?  - `etcsTransmittedTrackConditions[uri]`: Conditions de suivi pouvant être transmises  - `flangeLubeForbidden[boolean]`: Utilisation de la lubrification de la bride interdite  - `freightCorridor[uri]`: Partie d'un corridor de fret ferroviaire  - `gaugingCheckLocation[string]`: Localisation ferroviaire de points particuliers nécessitant des vérifications spécifiques  - `gaugingProfile[uri]`: Jaugeage  - `gaugingTransversalDocument[string]`: Document avec la section transversale des points particuliers nécessitant des contrôles spécifiques  - `gprsForETCS[boolean]`: GPRS pour ETCS  - `gradientProfile[string]`: Profil de gradient  - `gsmRActiveMobiles[uri]`: Nombre de mobiles GSM-R actifs (EDOR) ou de sessions de communication simultanées à bord pour le niveau 2 (ou 3) de l'ETCS, nécessaires pour effectuer des transferts de centre de bloc radio sans interruption de l'exploitation.  - `gsmRAdditionalInfo[string]`: Informations complémentaires sur les caractéristiques du réseau  - `gsmRNoCoverage[boolean]`: Pas de couverture GSM-R  - `gsmROptionalFunctions[uri]`: Fonctions GSM-R en option  - `gsmRVersion[uri]`: Version GSM-R  - `gsmrConstraintsOperateOnlyInCircuitSwitch[uri]`: Contraintes spécifiques imposées par l'opérateur du réseau GSM-R aux unités embarquées de l'ETCS ne pouvant fonctionner qu'en commutation de circuits  - `gsmrErrorCorrectionsOnboard[string]`: Corrections d'erreurs GSM-R requises pour le système embarqué  - `gsmrForcedDeregistrationFunctionalNumber[boolean]`: Le réseau GSM-R est configuré pour permettre le désenregistrement forcé d'un numéro fonctionnel par un autre conducteur.  - `gsmrNetworkCoverage[uri]`: Réseaux GSM-R couverts par un accord d'itinérance  - `hasAdditionalBrakingInformation[boolean]`: Disponibilité d'informations supplémentaires par l'IM  - `hasBallast[boolean]`: Existence d'un lest  - `hasETCSRestrictionsConditions[boolean]`: Existence de restrictions ou de conditions d'exploitation  - `hasHotAxleBoxDetector[boolean]`: Existence d'un détecteur de boîtes d'essieu chaudes en bordure de voie (HABD)  - `hasLevelCrossings[boolean]`: Existence de passages à niveau  - `hasOtherTrainProtection[boolean]`: Existence d'autres systèmes de protection, de contrôle et d'avertissement des trains installés  - `hasSevereWeatherConditions[boolean]`: Existence de conditions climatiques sévères  - `hasSystemSeparation[boolean]`: Séparation des systèmes  - `hasTSITrainDetection[boolean]`: Existence d'un système de détection des trains entièrement conforme à la STI  - `highSpeedLoadModelCompliance[boolean]`: Conformité des structures au modèle de charge dynamique High Speed Load Model (HSLM)  - `hotAxleBoxDetectorDirection[uri]`: Direction du détecteur de boîtes d'essieu chaudes  - `hotAxleBoxDetectorGeneration[string]`: Génération de DBC en bord de voie  - `hotAxleBoxDetectorIdentification[string]`: Identification des DBC en bord de voie  - `hotAxleBoxDetectorLocation[number]`: Emplacement des DBC en bord de voie  - `hotAxleBoxDetectorTSICompliant[boolean]`: Conformité de la STI HABD du côté de la voie ferrée  - `id[*]`: Identifiant unique de l'entité  - `instructionsSwitchRadioSystems[string]`: Instructions spéciales pour passer d'un système radio à l'autre  - `isQuietRoute[boolean]`: Appartenir à un itinéraire plus calme  - `legacyRadioSystem[uri]`: Autres systèmes radio installés (systèmes radio hérités)  - `lineCategory[uri]`: Catégorie de ligne  - `linesideDistanceIndicationAppearance[uri]`: Apparition de l'indication de la distance sur le côté de la ligne  - `linesideDistanceIndicationFrequency[number]`: Fréquence d'indication de la distance en bord de ligne  - `linesideDistanceIndicationPositioning[uri]`: Positionnement de l'indication de la distance en bord de ligne  - `loadCapability[uri]`: Capacité de charge  - `localRulesOrRestrictions[boolean]`: Existence de règles et de restrictions de nature strictement locale.  - `localRulesOrRestrictionsDoc[string]`: Documents relatifs aux règles ou restrictions de nature strictement locale disponibles auprès de l'IM  - `location[*]`: Référence Geojson à l'élément. Il peut s'agir d'un point, d'une chaîne de ligne, d'un polygone, d'un point multiple, d'une chaîne de ligne multiple ou d'un polygone multiple.  - `mNvcontact[uri]`: M_NVCONTACT  - `mNvderun[boolean]`: M_NVDERUN  - `magneticBraking[uri]`: Utilisation de freins magnétiques  - `magneticBrakingConditionsDocument[string]`: Document relatif aux conditions d'utilisation des freins magnétiques  - `maximumAltitude[number]`: Altitude maximale  - `maximumBrakingDistance[number]`: Distance de freinage maximale demandée  - `maximumContactWireHeight[number]`: Hauteur maximale du fil de contact  - `maximumPermittedSpeed[number]`: Vitesse maximale autorisée  - `maximumTemperature[number]`: Plage de température (maximale)  - `maximumTrainDeceleration[number]`: Décélération maximale du train  - `minDistConsecutiveAxles[number]`: Distance minimale autorisée entre deux essieux consécutifs  - `minDistFirstLastAxle[number]`: Distance minimale autorisée entre le premier et le dernier essieu  - `minFlangeHeight[number]`: Hauteur minimale autorisée de la bride  - `minFlangeThickness[number]`: Épaisseur minimale autorisée de la bride  - `minRimWidth[number]`: Largeur minimale autorisée de la jante  - `minWheelDiameter[number]`: Diamètre minimal autorisé des roues  - `minimumContactWireHeight[number]`: Hauteur minimale du fil de contact  - `minimumHorizontalRadius[number]`: Rayon minimal de la courbe horizontale  - `minimumTemperature[number]`: Plage de température (minimum)  - `minimumWheelDiameter[number]`: Diamètre minimal des roues pour les croisements obtus fixes  - `multipleTrainProtectionRequired[boolean]`: Nécessité de disposer de plusieurs systèmes de protection, de contrôle et d'alerte à bord des trains  - `name[string]`: Le nom de cet élément  - `nationalLoadCapability[string]`: Classification nationale pour la capacité de charge  - `nationalValuesBrakeModel[string]`: Valeurs nationales utilisées pour le modèle de freinage  - `osmClass[uri]`: Classe de cartes de rues ouvertes  - `otherCantDeficiencyBasicSSP[uri]`: Autres catégories de trains déficients pour lesquelles l'ETCS est configuré pour fournir un SSP  - `otherPantographHead[uri]`: Autres têtes de pantographe acceptées  - `otherTrainProtection[uri]`: Autres systèmes de protection, de contrôle et d'avertissement des trains en cas de situation dégradée  - `owner[array]`: Une liste contenant une séquence de caractères encodés JSON référençant les identifiants uniques du ou des propriétaires.  - `passesThroughTunnel[uri]`: Traverse le tunnel  - `permitUseReflectivePlates[boolean]`: Autorisation d'utiliser des plaques réfléchissantes  - `permittedContactForce[string]`: Force de contact autorisée  - `phaseInfo[string]`: Informations sur la séparation des phases  - `phaseSeparation[boolean]`: Séparation de phases  - `platform[uri]`: Plate-forme  - `profileNumberSemiTrailers[uri]`: Numéro de profil de transport combiné standard pour les semi-remorques  - `profileNumberSwapBodies[uri]`: Numéro de profil de transport combiné standard pour les caisses mobiles  - `protectionLegacySystem[uri]`: Système de protection des trains  - `publicNetworkRoaming[boolean]`: GSM-R existence de l'itinérance vers les réseaux publics  - `publicNetworkRoamingDetails[string]`: Détails du GSM-R sur l'itinérance vers les réseaux publics  - `qNvdriverAdhes[uri]`: Q_NVDRIVER_ADHES  - `qNvemrrls[uri]`: Q_NVEMRRLS  - `qNvsbtsmperm[boolean]`: Q_NVSBTSMPERM  - `radioNetworkId[number]`: ID du réseau radio  - `railInclination[uri]`: Inclinaison du rail  - `raisedPantographsDistanceAndSpeed[string]`: Exigences relatives au nombre de pantographes relevés et à l'espacement entre eux, à la vitesse donnée  - `reasonsEtcsRadioBlockCenterReject[uri]`: Raisons pour lesquelles un centre de bloc radio ETCS peut refuser un train  - `redLightsRequired[boolean]`: Feux rouges fixes requis  - `safeConsistLengthInformationNecessary[uri]`: Informations sur la longueur de la bande de sécurité à bord nécessaires pour l'accès à la ligne et au SIL  - `seeAlso[*]`: liste d'uri pointant vers des ressources supplémentaires concernant l'élément  - `source[string]`: Séquence de caractères indiquant la source originale des données de l'entité sous forme d'URL. Il est recommandé d'utiliser le nom de domaine complet du fournisseur de la source ou l'URL de l'objet source.  - `specificInformation[string]`: Informations spécifiques  - `standardCombinedTransporRollerUnits[uri]`: Numéro du profil de transport combiné standard pour les unités à rouleaux  - `standardCombinedTransportContainers[uri]`: Numéro de profil de transport combiné standard pour les conteneurs  - `structureCheckLocation[number]`: Localisation ferroviaire des structures nécessitant des contrôles spécifiques  - `switchProtectControlWarning[boolean]`: Existence d'une commutation entre les différents systèmes de protection, de contrôle et d'alerte en cours de fonctionnement  - `switchRadioSystem[boolean]`: Existence d'une commutation entre différents systèmes radio  - `systemSeparationInfo[string]`: Informations sur la séparation des systèmes  - `tNvcontact[number]`: T_NVCONTACT  - `tNvovtrp[number]`: T_NVOVTRP  - `temperatureRange[uri]`: Plage de température  - `tenClassification[uri]`: Classification TEN (de la voie, du quai, de la voie d'évitement)  - `tenGISId[string]`: Identité du SIG TEN  - `tiltingSupported[boolean]`: Indication si les fonctions de basculement sont prises en charge par l'ETCS  - `trackDirection[uri]`: Sens de marche normal  - `trackId[string]`: Identification de la voie  - `trackLoadCapability[uri]`: Capacité de charge des chenilles  - `trackPhaseInfo[uri]`: Informations sur les phases de la voie  - `trackRaisedPantographsDistanceAndSpeed[uri]`: Poursuivre la distance et la vitesse du pantographe relevé  - `trackSystemSeparationInfo[uri]`: Informations sur la séparation des voies  - `trainDetectionSystem[uri]`: Système de détection des trains  - `trainIntegrityOnBoardRequired[boolean]`: Confirmation de l'intégrité du train à bord (et non par le conducteur) nécessaire pour l'accès à la ligne  - `tsiPantographHead[uri]`: Têtes de pantographe acceptées et conformes à la STI  - `tsiSwitchCrossing[boolean]`: Conformité aux STI des valeurs en service pour les appareils de voie  - `type[string]`: Type de données NGSI. Il doit s'agir de Track  - `usesGroup555[boolean]`: Utilisation du groupe 555 par le GSM-R  - `vNvallowovtrp[number]`: V_NVALLOWOVTRP  - `vNvsupovtrp[number]`: V_NVSUPOVTRP  - `vehicleTypesCompatibleTrafficLoad[string]`: Liste des types de véhicules déjà identifiés comme compatibles avec la charge de trafic et la capacité de charge de l'infrastructure et des systèmes de détection des trains  - `vehiclesCompatibleTrafficLoad[string]`: Liste des véhicules déjà identifiés comme compatibles avec la charge de trafic et la capacité de charge de l'infrastructure et des systèmes de détection des trains  - `verificationCCS[string]`: Déclaration de vérification de la CE pour la voie ferrée (CCS)  - `verificationENE[string]`: Déclaration CE de vérification pour la voie ferrée (ENE)  - `verificationINF[string]`: Déclaration de vérification de la CE pour la voie et la glissière [INF].  - `voiceRadioCompatible[uri]`: Compatibilité radio voix  - `wheelSetGauge[uri]`: Ecartement nominal des voies  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-Propriétés requises    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-modèle de données mappé à partir de l'ontologie de l'ERA https://data-interop.era.europa.eu/era-vocabulary (Agence de l'Union européenne pour les chemins de fer)    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## Modèle de données description des propriétés    
-Classés par ordre alphabétique (cliquez pour plus de détails)    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: Un nom alternatif pour ce poste  
+- `areaServed[string]`: La zone géographique où un service ou un article est offert  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `atoCommunicationSystem[uri]`: Système de communication ATO  
+- `atoErrorCorrectionsOnboard[string]`: Corrections d'erreurs ATO requises pour le système de bord  
+- `atoGradeAutomation[uri]`: ATO Grade d'automatisation  
+- `atoSystemVersion[uri]`: Version du système ATO  
+- `automaticDroppingDeviceRequired[boolean]`: Dispositif de chute automatique requis  
+- `bigMetalMass[boolean]`: Grande masse métallique  
+- `bridge[boolean]`: Est un pont  
+- `cantDeficiency[number]`: Défaut de cant  
+- `cantDeficiencyBasicSSP[uri]`: Défaut de cantonnement utilisé pour le PAS de base  
+- `compatibilityProcedureDocument[string]`: Document contenant la ou les procédures de vérification de la compatibilité des routes statiques et dynamiques  
+- `conditionsSwitchClassBSystems[string]`: Conditions techniques particulières requises pour passer d'un système ERTMS/ETCS à un système de classe B  
+- `conditionsSwitchTrainProtectionSystems[string]`: Conditions particulières pour passer d'un système de protection, de contrôle et d'avertissement des trains de classe B à un autre  
+- `conditionsUseReflectivePlates[uri]`: Conditions d'utilisation des plaques réfléchissantes  
+- `contactLineSystem[uri]`: Système de ligne de contact  
+- `contactStripMaterial[uri]`: Matériau autorisé pour les bandes de contact  
+- `contactStripMaterialMetallicContent[number]`: Matériau de la bande de contact Contenu métallique  
+- `dNvovtrp[number]`: D_NVOVTRP  
+- `dNvpotrp[number]`: D_NVPOTRP  
+- `dNvroll[number]`: D_NVROLL  
+- `dataProvider[string]`: Une séquence de caractères identifiant le fournisseur de l'entité de données harmonisées  
+- `dataRadioCompatible[uri]`: Données sur la compatibilité des systèmes radio  
+- `dateCreated[date-time]`: Horodatage de la création de l'entité. Celle-ci est généralement attribuée par la plate-forme de stockage  
+- `dateModified[date-time]`: Date de la dernière modification de l'entité. Cette date est généralement attribuée par la plate-forme de stockage  
+- `demonstrationENE[string]`: Déclaration de démonstration de l'IE pour la voie ferrée (ENE)  
+- `demonstrationINF[string]`: Déclaration de démonstration de l'IE pour les voies et les bardages [INF].  
+- `description[string]`: Une description de l'article  
+- `distSignToPhaseEnd[number]`: Distance entre le panneau de signalisation et la fin de la séparation de phase  
+- `documentRestrictionPositionContactLineSeparation[string]`: Document avec restriction relative à la position de l'unité (des unités) de traction multiple(s) pour respecter la séparation des lignes de contact  
+- `documentRestrictionPowerConsumption[string]`: Document avec restriction relative à la consommation d'énergie d'un ou de plusieurs engins de traction électrique spécifiques  
+- `eddyCurrentBraking[uri]`: Utilisation de freins à courants de Foucault  
+- `eddyCurrentBrakingConditionsDocument[string]`: Document sur les conditions d'utilisation des freins à courants de Foucault  
+- `etcsDegradedSituation[uri]`: Niveau ETCS pour une situation dégradée  
+- `etcsErrorCorrectionsOnboard[string]`: Corrections d'erreurs ETCS requises pour le système de bord  
+- `etcsImplementsLevelCrossingProcedure[boolean]`: ETCS trackside met en œuvre la procédure de passage à niveau ou une solution équivalente  
+- `etcsInfill[uri]`: Remplissage ETCS installé côté ligne  
+- `etcsInfillLineAccess[boolean]`: Remplissage ETCS nécessaire pour l'accès à la ligne  
+- `etcsLevel[uri]`: Niveau Etcs  
+- `etcsMVersion[uri]`: ETCS M_version  
+- `etcsOptionalFunctions[string]`: Fonctions optionnelles de l'ETCS  
+- `etcsSystemCompatibility[uri]`: Compatibilité du système ETCS  
+- `etcsSystemFunctionalitiesNextFiveYears[string]`: Fonctionnalités du système ETCS version 2.2 ou 3.0 requises dans les 5 prochaines années  
+- `etcsTransmitsTrackConditions[boolean]`: Le système ETCS est-il conçu pour transmettre l'état de la voie ?  
+- `etcsTransmittedTrackConditions[uri]`: Conditions de suivi pouvant être transmises  
+- `flangeLubeForbidden[boolean]`: Utilisation de la lubrification de la bride interdite  
+- `freightCorridor[uri]`: Partie d'un corridor de fret ferroviaire  
+- `gaugingCheckLocation[string]`: Localisation ferroviaire de points particuliers nécessitant des vérifications spécifiques  
+- `gaugingProfile[uri]`: Jaugeage  
+- `gaugingTransversalDocument[string]`: Document avec la section transversale des points particuliers nécessitant des contrôles spécifiques  
+- `gprsForETCS[boolean]`: GPRS pour ETCS  
+- `gradientProfile[string]`: Profil de gradient  
+- `gsmRActiveMobiles[uri]`: Nombre de mobiles GSM-R actifs (EDOR) ou de sessions de communication simultanées à bord pour le niveau 2 (ou 3) de l'ETCS, nécessaires pour effectuer des transferts de centre de bloc radio sans interruption de l'exploitation.  
+- `gsmRAdditionalInfo[string]`: Informations complémentaires sur les caractéristiques du réseau  
+- `gsmRNoCoverage[boolean]`: Pas de couverture GSM-R  
+- `gsmROptionalFunctions[uri]`: Fonctions GSM-R en option  
+- `gsmRVersion[uri]`: Version GSM-R  
+- `gsmrConstraintsOperateOnlyInCircuitSwitch[uri]`: Contraintes spécifiques imposées par l'opérateur du réseau GSM-R aux unités embarquées de l'ETCS ne pouvant fonctionner qu'en commutation de circuits  
+- `gsmrErrorCorrectionsOnboard[string]`: Corrections d'erreurs GSM-R requises pour le système embarqué  
+- `gsmrForcedDeregistrationFunctionalNumber[boolean]`: Le réseau GSM-R est configuré pour permettre le désenregistrement forcé d'un numéro fonctionnel par un autre conducteur.  
+- `gsmrNetworkCoverage[uri]`: Réseaux GSM-R couverts par un accord d'itinérance  
+- `hasAdditionalBrakingInformation[boolean]`: Disponibilité d'informations supplémentaires par l'IM  
+- `hasBallast[boolean]`: Existence d'un lest  
+- `hasETCSRestrictionsConditions[boolean]`: Existence de restrictions ou de conditions d'exploitation  
+- `hasHotAxleBoxDetector[boolean]`: Existence d'un détecteur de boîtes d'essieu chaudes en bordure de voie (HABD)  
+- `hasLevelCrossings[boolean]`: Existence de passages à niveau  
+- `hasOtherTrainProtection[boolean]`: Existence d'autres systèmes de protection, de contrôle et d'avertissement des trains installés  
+- `hasSevereWeatherConditions[boolean]`: Existence de conditions climatiques sévères  
+- `hasSystemSeparation[boolean]`: Séparation des systèmes  
+- `hasTSITrainDetection[boolean]`: Existence d'un système de détection des trains entièrement conforme à la STI  
+- `highSpeedLoadModelCompliance[boolean]`: Conformité des structures au modèle de charge dynamique High Speed Load Model (HSLM)  
+- `hotAxleBoxDetectorDirection[uri]`: Direction du détecteur de boîtes d'essieu chaudes  
+- `hotAxleBoxDetectorGeneration[string]`: Génération de DBC en bord de voie  
+- `hotAxleBoxDetectorIdentification[string]`: Identification des DBC en bord de voie  
+- `hotAxleBoxDetectorLocation[number]`: Emplacement des DBC en bord de voie  
+- `hotAxleBoxDetectorTSICompliant[boolean]`: Conformité de la STI HABD du côté de la voie ferrée  
+- `id[*]`: Identifiant unique de l'entité  
+- `instructionsSwitchRadioSystems[string]`: Instructions spéciales pour passer d'un système radio à l'autre  
+- `isQuietRoute[boolean]`: Appartenir à un itinéraire plus calme  
+- `legacyRadioSystem[uri]`: Autres systèmes radio installés (systèmes radio hérités)  
+- `lineCategory[uri]`: Catégorie de ligne  
+- `linesideDistanceIndicationAppearance[uri]`: Apparition de l'indication de la distance sur le côté de la ligne  
+- `linesideDistanceIndicationFrequency[number]`: Fréquence d'indication de la distance en bord de ligne  
+- `linesideDistanceIndicationPositioning[uri]`: Positionnement de l'indication de la distance en bord de ligne  
+- `loadCapability[uri]`: Capacité de charge  
+- `localRulesOrRestrictions[boolean]`: Existence de règles et de restrictions de nature strictement locale.  
+- `localRulesOrRestrictionsDoc[string]`: Documents relatifs aux règles ou restrictions de nature strictement locale disponibles auprès de l'IM  
+- `location[*]`: Référence Geojson à l'élément. Il peut s'agir d'un point, d'une chaîne de ligne, d'un polygone, d'un point multiple, d'une chaîne de ligne multiple ou d'un polygone multiple.  
+- `mNvcontact[uri]`: M_NVCONTACT  
+- `mNvderun[boolean]`: M_NVDERUN  
+- `magneticBraking[uri]`: Utilisation de freins magnétiques  
+- `magneticBrakingConditionsDocument[string]`: Document relatif aux conditions d'utilisation des freins magnétiques  
+- `maximumAltitude[number]`: Altitude maximale  
+- `maximumBrakingDistance[number]`: Distance de freinage maximale demandée  
+- `maximumContactWireHeight[number]`: Hauteur maximale du fil de contact  
+- `maximumPermittedSpeed[number]`: Vitesse maximale autorisée  
+- `maximumTemperature[number]`: Plage de température (maximale)  
+- `maximumTrainDeceleration[number]`: Décélération maximale du train  
+- `minDistConsecutiveAxles[number]`: Distance minimale autorisée entre deux essieux consécutifs  
+- `minDistFirstLastAxle[number]`: Distance minimale autorisée entre le premier et le dernier essieu  
+- `minFlangeHeight[number]`: Hauteur minimale autorisée de la bride  
+- `minFlangeThickness[number]`: Épaisseur minimale autorisée de la bride  
+- `minRimWidth[number]`: Largeur minimale autorisée de la jante  
+- `minWheelDiameter[number]`: Diamètre minimal autorisé des roues  
+- `minimumContactWireHeight[number]`: Hauteur minimale du fil de contact  
+- `minimumHorizontalRadius[number]`: Rayon minimal de la courbe horizontale  
+- `minimumTemperature[number]`: Plage de température (minimum)  
+- `minimumWheelDiameter[number]`: Diamètre minimal des roues pour les croisements obtus fixes  
+- `multipleTrainProtectionRequired[boolean]`: Nécessité de disposer de plusieurs systèmes de protection, de contrôle et d'alerte à bord des trains  
+- `name[string]`: Le nom de cet élément  
+- `nationalLoadCapability[string]`: Classification nationale pour la capacité de charge  
+- `nationalValuesBrakeModel[string]`: Valeurs nationales utilisées pour le modèle de freinage  
+- `osmClass[uri]`: Classe de cartes de rues ouvertes  
+- `otherCantDeficiencyBasicSSP[uri]`: Autres catégories de trains déficients pour lesquelles l'ETCS est configuré pour fournir un SSP  
+- `otherPantographHead[uri]`: Autres têtes de pantographe acceptées  
+- `otherTrainProtection[uri]`: Autres systèmes de protection, de contrôle et d'avertissement des trains en cas de situation dégradée  
+- `owner[array]`: Une liste contenant une séquence de caractères encodés JSON référençant les identifiants uniques du ou des propriétaires.  
+- `passesThroughTunnel[uri]`: Traverse le tunnel  
+- `permitUseReflectivePlates[boolean]`: Autorisation d'utiliser des plaques réfléchissantes  
+- `permittedContactForce[string]`: Force de contact autorisée  
+- `phaseInfo[string]`: Informations sur la séparation des phases  
+- `phaseSeparation[boolean]`: Séparation de phases  
+- `platform[uri]`: Plate-forme  
+- `profileNumberSemiTrailers[uri]`: Numéro de profil de transport combiné standard pour les semi-remorques  
+- `profileNumberSwapBodies[uri]`: Numéro de profil de transport combiné standard pour les caisses mobiles  
+- `protectionLegacySystem[uri]`: Système de protection des trains  
+- `publicNetworkRoaming[boolean]`: GSM-R existence de l'itinérance vers les réseaux publics  
+- `publicNetworkRoamingDetails[string]`: Détails du GSM-R sur l'itinérance vers les réseaux publics  
+- `qNvdriverAdhes[uri]`: Q_NVDRIVER_ADHES  
+- `qNvemrrls[uri]`: Q_NVEMRRLS  
+- `qNvsbtsmperm[boolean]`: Q_NVSBTSMPERM  
+- `radioNetworkId[number]`: ID du réseau radio  
+- `railInclination[uri]`: Inclinaison du rail  
+- `raisedPantographsDistanceAndSpeed[string]`: Exigences relatives au nombre de pantographes relevés et à l'espacement entre eux, à la vitesse donnée  
+- `reasonsEtcsRadioBlockCenterReject[uri]`: Raisons pour lesquelles un centre de bloc radio ETCS peut refuser un train  
+- `redLightsRequired[boolean]`: Feux rouges fixes requis  
+- `safeConsistLengthInformationNecessary[uri]`: Informations sur la longueur de la bande de sécurité à bord nécessaires pour l'accès à la ligne et au SIL  
+- `seeAlso[*]`: liste d'uri pointant vers des ressources supplémentaires concernant l'élément  
+- `source[string]`: Séquence de caractères indiquant la source originale des données de l'entité sous forme d'URL. Il est recommandé d'utiliser le nom de domaine complet du fournisseur de la source ou l'URL de l'objet source.  
+- `specificInformation[string]`: Informations spécifiques  
+- `standardCombinedTransporRollerUnits[uri]`: Numéro du profil de transport combiné standard pour les unités à rouleaux  
+- `standardCombinedTransportContainers[uri]`: Numéro de profil de transport combiné standard pour les conteneurs  
+- `structureCheckLocation[number]`: Localisation ferroviaire des structures nécessitant des contrôles spécifiques  
+- `switchProtectControlWarning[boolean]`: Existence d'une commutation entre les différents systèmes de protection, de contrôle et d'alerte en cours de fonctionnement  
+- `switchRadioSystem[boolean]`: Existence d'une commutation entre différents systèmes radio  
+- `systemSeparationInfo[string]`: Informations sur la séparation des systèmes  
+- `tNvcontact[number]`: T_NVCONTACT  
+- `tNvovtrp[number]`: T_NVOVTRP  
+- `temperatureRange[uri]`: Plage de température  
+- `tenClassification[uri]`: Classification TEN (de la voie, du quai, de la voie d'évitement)  
+- `tenGISId[string]`: Identité du SIG TEN  
+- `tiltingSupported[boolean]`: Indication si les fonctions de basculement sont prises en charge par l'ETCS  
+- `trackDirection[uri]`: Sens de marche normal  
+- `trackId[string]`: Identification de la voie  
+- `trackLoadCapability[uri]`: Capacité de charge des chenilles  
+- `trackPhaseInfo[uri]`: Informations sur les phases de la voie  
+- `trackRaisedPantographsDistanceAndSpeed[uri]`: Poursuivre la distance et la vitesse du pantographe relevé  
+- `trackSystemSeparationInfo[uri]`: Informations sur la séparation des voies  
+- `trainDetectionSystem[uri]`: Système de détection des trains  
+- `trainIntegrityOnBoardRequired[boolean]`: Confirmation de l'intégrité du train à bord (et non par le conducteur) nécessaire pour l'accès à la ligne  
+- `tsiPantographHead[uri]`: Têtes de pantographe acceptées et conformes à la STI  
+- `tsiSwitchCrossing[boolean]`: Conformité aux STI des valeurs en service pour les appareils de voie  
+- `type[string]`: Type de données NGSI. Il doit s'agir de Track  
+- `usesGroup555[boolean]`: Utilisation du groupe 555 par le GSM-R  
+- `vNvallowovtrp[number]`: V_NVALLOWOVTRP  
+- `vNvsupovtrp[number]`: V_NVSUPOVTRP  
+- `vehicleTypesCompatibleTrafficLoad[string]`: Liste des types de véhicules déjà identifiés comme compatibles avec la charge de trafic et la capacité de charge de l'infrastructure et des systèmes de détection des trains  
+- `vehiclesCompatibleTrafficLoad[string]`: Liste des véhicules déjà identifiés comme compatibles avec la charge de trafic et la capacité de charge de l'infrastructure et des systèmes de détection des trains  
+- `verificationCCS[string]`: Déclaration de vérification de la CE pour la voie ferrée (CCS)  
+- `verificationENE[string]`: Déclaration CE de vérification pour la voie ferrée (ENE)  
+- `verificationINF[string]`: Déclaration de vérification de la CE pour la voie et la glissière [INF].  
+- `voiceRadioCompatible[uri]`: Compatibilité radio voix  
+- `wheelSetGauge[uri]`: Ecartement nominal des voies  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+Propriétés requises    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+modèle de données mappé à partir de l'ontologie de l'ERA https://data-interop.era.europa.eu/era-vocabulary (Agence de l'Union européenne pour les chemins de fer)    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## Modèle de données description des propriétés    
+
+Classés par ordre alphabétique (cliquez pour plus de détails)    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 Track:      
   description: A running track that is used for train service movements.      
   properties:      
@@ -1263,16 +1472,25 @@ Track:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## Exemples de charges utiles    
-#### Track NGSI-v2 key-values Exemple    
-Voici un exemple de piste au format JSON-LD en tant que valeurs clés. Ceci est compatible avec NGSI-v2 lorsque l'on utilise `options=keyValues` et renvoie les données de contexte d'une entité individuelle.    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## Exemples de charges utiles    
+
+#### Track NGSI-v2 key-values Exemple    
+
+Voici un exemple de piste au format JSON-LD en tant que valeurs clés. Ceci est compatible avec NGSI-v2 lorsque l'on utilise `options=keyValues` et renvoie les données de contexte d'une entité individuelle.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": "1999-12-30T09:02:54Z",  
   "dateModified": "2011-07-03T23:49:28Z",  
@@ -1474,17 +1692,21 @@ Track:
   "tsiPantographHead": "urn:ngsi-ld:Track:tsiPantographHead:YHRY:48926717",  
   "voiceRadioCompatible": "urn:ngsi-ld:Track:voiceRadioCompatible:MQSW:64014004",  
   "wheelSetGauge": "urn:ngsi-ld:Track:wheelSetGauge:CBCZ:67145439",  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### Track NGSI-v2 normalisé Exemple    
-Voici un exemple de piste au format JSON-LD normalisé. Ce format est compatible avec les NGSI-v2 lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.    
+
+#### Track NGSI-v2 normalisé Exemple    
+
+Voici un exemple de piste au format JSON-LD normalisé. Ce format est compatible avec les NGSI-v2 lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -2222,21 +2444,19 @@ Track:
   "wheelSetGauge": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:Track:wheelSetGauge:CBCZ:67145439"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### Track NGSI-LD key-values Exemple    
-Voici un exemple de piste au format JSON-LD sous forme de valeurs-clés. Ceci est compatible avec NGSI-LD lorsque l'on utilise `options=keyValues` et renvoie les données contextuelles d'une entité individuelle.    
+
+#### Track NGSI-LD key-values Exemple    
+
+Voici un exemple de piste au format JSON-LD sous forme de valeurs-clés. Ceci est compatible avec NGSI-LD lorsque l'on utilise `options=keyValues` et renvoie les données contextuelles d'une entité individuelle.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:OOXM:87352290",  
   "dateCreated": "1999-12-30T09:02:54Z",  
   "dateModified": "2011-07-03T23:49:28Z",  
@@ -2441,17 +2661,21 @@ Track:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### Track NGSI-LD normalisé Exemple    
-Voici un exemple de piste au format JSON-LD normalisé. Ce format est compatible avec NGSI-LD lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.    
+
+#### Track NGSI-LD normalisé Exemple    
+
+Voici un exemple de piste au format JSON-LD normalisé. Ce format est compatible avec NGSI-LD lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Track:id:YMIK:19710861",  
   "dateCreated": {  
     "type": "Property",  
@@ -3199,17 +3423,26 @@ Track:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-Voir [FAQ 10] (https://smartdatamodels.org/index.php/faqs/) pour obtenir une réponse à la question de savoir comment traiter les unités de magnitude.    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+Voir [FAQ 10] (https://smartdatamodels.org/index.php/faqs/) pour obtenir une réponse à la question de savoir comment traiter les unités de magnitude.    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

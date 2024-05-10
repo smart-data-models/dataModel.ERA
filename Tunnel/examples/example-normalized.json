@@ -163,11 +163,5 @@
   "startLocation": {
     "type": "Text",
     "value": "urn:ngsi-ld:Tunnel:startLocation:ZKRP:09411129"
-  },
-  "context": {
-    "type": "StructuredValue",
-    "value": [
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-    ]
   }
 }

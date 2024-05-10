@@ -37,8 +37,5 @@
   "opEnd": "urn:ngsi-ld:SectionOfLine:opEnd:MIJK:54736457",
   "opStart": "urn:ngsi-ld:SectionOfLine:opStart:QOPP:74078654",
   "solNature": "urn:ngsi-ld:SectionOfLine:solNature:UWFX:27604875",
-  "track": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248",
-  "context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-  ]
+  "track": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248"
 }

@@ -146,7 +146,7 @@
   "@context": [
     "https://smartdatamodels.org/context.jsonld"
   ],
-  "context": [
+  "@contex": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
 }

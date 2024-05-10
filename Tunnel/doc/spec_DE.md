@@ -1,19 +1,35 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-Entität: Tunnel    
-===============<!-- /10-Header -->    
-<!-- 15-License -->    
-[Offene Lizenz](https://github.com/smart-data-models//dataModel.ERA/blob/master/Tunnel/LICENSE.md)    
-[Dokument automatisch generiert](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-Allgemeine Beschreibung: **Ein Eisenbahntunnel ist eine Ausgrabung oder ein Bauwerk rund um das Gleis, das vorgesehen ist, damit die Eisenbahn z. B. höher gelegene Grundstücke, Gebäude oder Gewässer passieren kann.**    
-Version: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## Liste der Eigenschaften    
-<sup><sub>[*] Wenn es für ein Attribut keinen Typ gibt, kann es mehrere Typen oder verschiedene Formate/Muster haben</sub></sup>.    
-- `address[object]`: Die Postanschrift  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: Das Land. Zum Beispiel, Spanien  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+Entität: Tunnel    
+===============
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[Offene Lizenz](https://github.com/smart-data-models//dataModel.ERA/blob/master/Tunnel/LICENSE.md)    
+
+[Dokument automatisch generiert](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+Allgemeine Beschreibung: **Ein Eisenbahntunnel ist eine Ausgrabung oder ein Bauwerk rund um das Gleis, das vorgesehen ist, damit die Eisenbahn z. B. höher gelegene Grundstücke, Gebäude oder Gewässer passieren kann.**    
+
+Version: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## Liste der Eigenschaften    
+
+<sup><sub>[*] Wenn es für ein Attribut keinen Typ gibt, kann es mehrere Typen oder verschiedene Formate/Muster haben</sub></sup>.    
+- `address[object]`: Die Postanschrift  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: Das Land. Zum Beispiel, Spanien  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: Die Ortschaft, in der sich die Adresse befindet, und die in der Region liegt  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: Die Region, in der sich der Ort befindet, und die auf dem Land liegt  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: Ein Bezirk ist eine Art von Verwaltungseinheit, die in einigen Ländern von der lokalen Regierung verwaltet wird.      
@@ -21,20 +37,65 @@
 	- `postalCode[string]`: Die Postleitzahl. Zum Beispiel, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: Die Straßenanschrift  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: Nummer zur Identifizierung eines bestimmten Grundstücks an einer öffentlichen Straße      
-- `alternateName[string]`: Ein alternativer Name für diesen Artikel  - `areaServed[string]`: Das geografische Gebiet, in dem eine Dienstleistung oder ein angebotener Artikel erbracht wird  . Model: [https://schema.org/Text](https://schema.org/Text)- `complianceInfTsi[boolean]`: Übereinstimmung des Tunnels mit der TSI INF  - `crossSectionArea[number]`: Querschnittsfläche  - `dataProvider[string]`: Eine Folge von Zeichen zur Identifizierung des Anbieters der harmonisierten Dateneinheit  - `dateCreated[date-time]`: Zeitstempel der Entitätserstellung. Dieser wird normalerweise von der Speicherplattform zugewiesen  - `dateModified[date-time]`: Zeitstempel der letzten Änderung der Entität. Dieser wird in der Regel von der Speicherplattform vergeben  - `demonstrationSRT[string]`: EI-Demonstrationserklärung für Tunnel (SRT)  - `description[string]`: Eine Beschreibung dieses Artikels  - `dieselThermalAllowed[boolean]`: Diesel oder andere thermische Antriebe erlaubt  - `endLocation[['geosparql#Geometry', 'wgs84_pos#Point']]`: Das Ende des Tunnels  - `hasEmergencyPlan[boolean]`: Vorhandensein eines Notfallplans  - `hasEvacuationAndRescuePoints[boolean]`: Vorhandensein von Evakuierungs- und Rettungspunkten  - `hasWalkway[boolean]`: Vorhandensein von Gehwegen  - `id[*]`: Eindeutiger Bezeichner der Entität  - `location[*]`: Geojson-Referenz auf das Element. Es kann Punkt, LineString, Polygon, MultiPoint, MultiLineString oder MultiPolygon sein  - `name[string]`: Der Name dieses Artikels  - `nationalRollingStockFireCategory[string]`: Nationale Brandklasse der erforderlichen Fahrzeuge  - `owner[array]`: Eine Liste mit einer JSON-kodierten Zeichenfolge, die auf die eindeutigen Kennungen der Eigentümer verweist  - `rollingStockFireCategory[uri]`: Erforderliche Brandklasse der Fahrzeuge  - `seeAlso[*]`: Liste von URLs, die auf zusätzliche Ressourcen zu dem Artikel verweisen  - `source[string]`: Eine Folge von Zeichen, die die ursprüngliche Quelle der Entitätsdaten als URL angibt. Empfohlen wird der voll qualifizierte Domänenname des Quellanbieters oder die URL des Quellobjekts.  - `specialTunnelArea[uri]`: Besonderer Tunnelbereich  - `startLocation[['geosparql#Geometry', 'wgs84_pos#Point']]`: Anfang des Tunnels  - `tunnelDocRef[string]`: Verweis auf ein beim IB verfügbares Dokument mit einer genauen Beschreibung des Tunnels  - `tunnelIdentification[string]`: Identifizierung von Tunneln  - `tunnelKilometerEnd[number]`: Tunnelkilometer Ende  - `tunnelKilometerStart[number]`: Tunnelkilometer Start  - `type[string]`: NGSI-Datentyp. Er muss Tunnel sein  - `verificationSRT[string]`: EG-Prüferklärung für Tunnel (SRT)  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-Erforderliche Eigenschaften    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-Datenmodell, das von der ERA-Ontologie https://data-interop.era.europa.eu/era-vocabulary (European Union Agency for Railways) übernommen wurde    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## Datenmodell Beschreibung der Eigenschaften    
-Alphabetisch sortiert (für Details anklicken)    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: Ein alternativer Name für diesen Artikel  
+- `areaServed[string]`: Das geografische Gebiet, in dem eine Dienstleistung oder ein angebotener Artikel erbracht wird  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `complianceInfTsi[boolean]`: Übereinstimmung des Tunnels mit der TSI INF  
+- `crossSectionArea[number]`: Querschnittsfläche  
+- `dataProvider[string]`: Eine Folge von Zeichen zur Identifizierung des Anbieters der harmonisierten Dateneinheit  
+- `dateCreated[date-time]`: Zeitstempel der Entitätserstellung. Dieser wird normalerweise von der Speicherplattform zugewiesen  
+- `dateModified[date-time]`: Zeitstempel der letzten Änderung der Entität. Dieser wird in der Regel von der Speicherplattform vergeben  
+- `demonstrationSRT[string]`: EI-Demonstrationserklärung für Tunnel (SRT)  
+- `description[string]`: Eine Beschreibung dieses Artikels  
+- `dieselThermalAllowed[boolean]`: Diesel oder andere thermische Antriebe erlaubt  
+- `endLocation[['geosparql#Geometry', 'wgs84_pos#Point']]`: Das Ende des Tunnels  
+- `hasEmergencyPlan[boolean]`: Vorhandensein eines Notfallplans  
+- `hasEvacuationAndRescuePoints[boolean]`: Vorhandensein von Evakuierungs- und Rettungspunkten  
+- `hasWalkway[boolean]`: Vorhandensein von Gehwegen  
+- `id[*]`: Eindeutiger Bezeichner der Entität  
+- `location[*]`: Geojson-Referenz auf das Element. Es kann Punkt, LineString, Polygon, MultiPoint, MultiLineString oder MultiPolygon sein  
+- `name[string]`: Der Name dieses Artikels  
+- `nationalRollingStockFireCategory[string]`: Nationale Brandklasse der erforderlichen Fahrzeuge  
+- `owner[array]`: Eine Liste mit einer JSON-kodierten Zeichenfolge, die auf die eindeutigen Kennungen der Eigentümer verweist  
+- `rollingStockFireCategory[uri]`: Erforderliche Brandklasse der Fahrzeuge  
+- `seeAlso[*]`: Liste von URLs, die auf zusätzliche Ressourcen zu dem Artikel verweisen  
+- `source[string]`: Eine Folge von Zeichen, die die ursprüngliche Quelle der Entitätsdaten als URL angibt. Empfohlen wird der voll qualifizierte Domänenname des Quellanbieters oder die URL des Quellobjekts.  
+- `specialTunnelArea[uri]`: Besonderer Tunnelbereich  
+- `startLocation[['geosparql#Geometry', 'wgs84_pos#Point']]`: Anfang des Tunnels  
+- `tunnelDocRef[string]`: Verweis auf ein beim IB verfügbares Dokument mit einer genauen Beschreibung des Tunnels  
+- `tunnelIdentification[string]`: Identifizierung von Tunneln  
+- `tunnelKilometerEnd[number]`: Tunnelkilometer Ende  
+- `tunnelKilometerStart[number]`: Tunnelkilometer Start  
+- `type[string]`: NGSI-Datentyp. Er muss Tunnel sein  
+- `verificationSRT[string]`: EG-Prüferklärung für Tunnel (SRT)  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+Erforderliche Eigenschaften    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+Datenmodell, das von der ERA-Ontologie https://data-interop.era.europa.eu/era-vocabulary (European Union Agency for Railways) übernommen wurde    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## Datenmodell Beschreibung der Eigenschaften    
+
+Alphabetisch sortiert (für Details anklicken)    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 Tunnel:      
   description: 'A railway tunnel is an excavation or a construction around the track provided to allow the railway to pass for example higher land, buildings or water.'      
   properties:      
@@ -460,16 +521,25 @@ Tunnel:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## Beispiel-Nutzlasten    
-#### Tunnel NGSI-v2 Schlüsselwerte Beispiel    
-Hier ist ein Beispiel für einen Tunnel im JSON-LD-Format als Schlüsselwerte. Dies ist mit NGSI-v2 kompatibel, wenn `options=keyValues` verwendet wird und liefert die Kontextdaten einer einzelnen Entität.    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## Beispiel-Nutzlasten    
+
+#### Tunnel NGSI-v2 Schlüsselwerte Beispiel    
+
+Hier ist ein Beispiel für einen Tunnel im JSON-LD-Format als Schlüsselwerte. Dies ist mit NGSI-v2 kompatibel, wenn `options=keyValues` verwendet wird und liefert die Kontextdaten einer einzelnen Entität.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Tunnel:id:LHUX:38737711",  
   "dateCreated": "1993-07-30T17:21:52Z",  
   "dateModified": "1993-08-21T03:30:26Z",  
@@ -521,17 +591,21 @@ Tunnel:
   "rollingStockFireCategory": "urn:ngsi-ld:Tunnel:rollingStockFireCategory:HWDR:37365505",  
   "specialTunnelArea": "urn:ngsi-ld:Tunnel:specialTunnelArea:MEMD:08918829",  
   "startLocation": "urn:ngsi-ld:Tunnel:startLocation:ZKRP:09411129",  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### Tunnel NGSI-v2 normalisiert Beispiel    
-Hier ist ein Beispiel für einen Tunnel im JSON-LD-Format in normalisierter Form. Dies ist kompatibel mit NGSI-v2, wenn keine Optionen verwendet werden, und liefert die Kontextdaten einer einzelnen Entität.    
+
+#### Tunnel NGSI-v2 normalisiert Beispiel    
+
+Hier ist ein Beispiel für einen Tunnel im JSON-LD-Format in normalisierter Form. Dies ist kompatibel mit NGSI-v2, wenn keine Optionen verwendet werden, und liefert die Kontextdaten einer einzelnen Entität.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Tunnel:id:LHUX:38737711",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -696,21 +770,19 @@ Tunnel:
   "startLocation": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:Tunnel:startLocation:ZKRP:09411129"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### Tunnel NGSI-LD Schlüsselwerte Beispiel    
-Hier ist ein Beispiel für einen Tunnel im JSON-LD-Format als Schlüsselwerte. Dies ist mit NGSI-LD kompatibel, wenn `options=keyValues` verwendet wird und liefert die Kontextdaten einer einzelnen Entität.    
+
+#### Tunnel NGSI-LD Schlüsselwerte Beispiel    
+
+Hier ist ein Beispiel für einen Tunnel im JSON-LD-Format als Schlüsselwerte. Dies ist mit NGSI-LD kompatibel, wenn `options=keyValues` verwendet wird und liefert die Kontextdaten einer einzelnen Entität.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Tunnel:id:LHUX:38737711",  
   "dateCreated": "1993-07-30T17:21:52Z",  
   "dateModified": "1993-08-21T03:30:26Z",  
@@ -765,17 +837,21 @@ Tunnel:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### Tunnel NGSI-LD normalisiert Beispiel    
-Hier ist ein Beispiel für einen Tunnel im JSON-LD-Format in normalisierter Form. Dies ist kompatibel mit NGSI-LD, wenn keine Optionen verwendet werden, und liefert die Kontextdaten einer einzelnen Entität.    
+
+#### Tunnel NGSI-LD normalisiert Beispiel    
+
+Hier ist ein Beispiel für einen Tunnel im JSON-LD-Format in normalisierter Form. Dies ist kompatibel mit NGSI-LD, wenn keine Optionen verwendet werden, und liefert die Kontextdaten einer einzelnen Entität.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Tunnel:id:YMRP:29425393",  
   "dateCreated": {  
     "type": "Property",  
@@ -923,17 +999,26 @@ Tunnel:
   "@context": [  
     "https://smartdatamodels.org/context.jsonld"  
   ],  
-  "context": [  
+  "@contex": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-Siehe [FAQ 10] (https://smartdatamodels.org/index.php/faqs/), um eine Antwort auf die Frage zu erhalten, wie man mit Größeneinheiten umgeht    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+Siehe [FAQ 10] (https://smartdatamodels.org/index.php/faqs/), um eine Antwort auf die Frage zu erhalten, wie man mit Größeneinheiten umgeht    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

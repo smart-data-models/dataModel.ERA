@@ -1,19 +1,35 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-Entité : Plateforme    
-===================<!-- /10-Header -->    
-<!-- 15-License -->    
-[Licence ouverte] (https://github.com/smart-data-models//dataModel.ERA/blob/master/Platform/LICENSE.md)    
-[document généré automatiquement] (https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-Description globale : **Dans le cadre de RINF, on entend par "plate-forme" un bord de plate-forme. Un quai ne concerne que la partie de la structure voisine de la voie (en interface avec les trains).    
-version : 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## Liste des propriétés    
-<sup><sub>[*] S'il n'y a pas de type dans un attribut, c'est parce qu'il peut avoir plusieurs types ou différents formats/modèles</sub></sup>.    
-- `address[object]`: L'adresse postale  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: Le pays. Par exemple, l'Espagne  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+Entité : Plateforme    
+===================
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[Licence ouverte] (https://github.com/smart-data-models//dataModel.ERA/blob/master/Platform/LICENSE.md)    
+
+[document généré automatiquement] (https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+Description globale : **Dans le cadre de RINF, on entend par "plate-forme" un bord de plate-forme. Un quai ne concerne que la partie de la structure voisine de la voie (en interface avec les trains).    
+
+version : 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## Liste des propriétés    
+
+<sup><sub>[*] S'il n'y a pas de type dans un attribut, c'est parce qu'il peut avoir plusieurs types ou différents formats/modèles</sub></sup>.    
+- `address[object]`: L'adresse postale  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: Le pays. Par exemple, l'Espagne  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: La localité dans laquelle se trouve l'adresse et qui se trouve dans la région  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: La région dans laquelle se trouve la localité et qui se trouve dans le pays  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: Un district est un type de division administrative qui, dans certains pays, est géré par le gouvernement local.      
@@ -21,20 +37,54 @@
 	- `postalCode[string]`: Le code postal. Par exemple, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: L'adresse de la rue  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: Numéro identifiant une propriété spécifique sur une voie publique      
-- `alternateName[string]`: Un nom alternatif pour ce poste  - `areaBoardingAid[number]`: Information sur le niveau d'accès au train pour lequel l'aide à l'embarquement peut être utilisée.  - `areaServed[string]`: La zone géographique où un service ou un article est offert  . Model: [https://schema.org/Text](https://schema.org/Text)- `assistanceStartingTrain[boolean]`: Existence d'une assistance au quai pour le démarrage du train  - `dataProvider[string]`: Une séquence de caractères identifiant le fournisseur de l'entité de données harmonisées  - `dateCreated[date-time]`: Horodatage de la création de l'entité. Celle-ci est généralement attribuée par la plate-forme de stockage  - `dateModified[date-time]`: Date de la dernière modification de l'entité. Cette date est généralement attribuée par la plate-forme de stockage  - `description[string]`: Une description de l'article  - `hasPlatformCurvature[boolean]`: Existence de la courbure de la plate-forme  - `id[*]`: Identifiant unique de l'entité  - `location[*]`: Référence Geojson à l'élément. Il peut s'agir d'un point, d'une chaîne de ligne, d'un polygone, d'un point multiple, d'une chaîne de ligne multiple ou d'un polygone multiple.  - `name[string]`: Le nom de cet élément  - `owner[array]`: Une liste contenant une séquence de caractères encodés JSON référençant les identifiants uniques du ou des propriétaires.  - `platformHeight[uri]`: Hauteur de la plate-forme  - `platformId[string]`: Identifiant de la plate-forme  - `seeAlso[*]`: liste d'uri pointant vers des ressources supplémentaires concernant l'élément  - `source[string]`: Séquence de caractères indiquant la source originale des données de l'entité sous forme d'URL. Il est recommandé d'utiliser le nom de domaine complet du fournisseur de la source ou l'URL de l'objet source.  - `tenClassification[uri]`: Classification TEN (de la voie, du quai, de la voie d'évitement)  - `type[string]`: Type de données NGSI. Il doit s'agir de Platform  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-Propriétés requises    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-modèle de données mappé à partir de l'ontologie de l'ERA https://data-interop.era.europa.eu/era-vocabulary (Agence de l'Union européenne pour les chemins de fer)    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## Modèle de données description des propriétés    
-Classés par ordre alphabétique (cliquez pour plus de détails)    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: Un nom alternatif pour ce poste  
+- `areaBoardingAid[number]`: Information sur le niveau d'accès au train pour lequel l'aide à l'embarquement peut être utilisée.  
+- `areaServed[string]`: La zone géographique où un service ou un article est offert  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `assistanceStartingTrain[boolean]`: Existence d'une assistance au quai pour le démarrage du train  
+- `dataProvider[string]`: Une séquence de caractères identifiant le fournisseur de l'entité de données harmonisées  
+- `dateCreated[date-time]`: Horodatage de la création de l'entité. Celle-ci est généralement attribuée par la plate-forme de stockage  
+- `dateModified[date-time]`: Date de la dernière modification de l'entité. Cette date est généralement attribuée par la plate-forme de stockage  
+- `description[string]`: Une description de l'article  
+- `hasPlatformCurvature[boolean]`: Existence de la courbure de la plate-forme  
+- `id[*]`: Identifiant unique de l'entité  
+- `location[*]`: Référence Geojson à l'élément. Il peut s'agir d'un point, d'une chaîne de ligne, d'un polygone, d'un point multiple, d'une chaîne de ligne multiple ou d'un polygone multiple.  
+- `name[string]`: Le nom de cet élément  
+- `owner[array]`: Une liste contenant une séquence de caractères encodés JSON référençant les identifiants uniques du ou des propriétaires.  
+- `platformHeight[uri]`: Hauteur de la plate-forme  
+- `platformId[string]`: Identifiant de la plate-forme  
+- `seeAlso[*]`: liste d'uri pointant vers des ressources supplémentaires concernant l'élément  
+- `source[string]`: Séquence de caractères indiquant la source originale des données de l'entité sous forme d'URL. Il est recommandé d'utiliser le nom de domaine complet du fournisseur de la source ou l'URL de l'objet source.  
+- `tenClassification[uri]`: Classification TEN (de la voie, du quai, de la voie d'évitement)  
+- `type[string]`: Type de données NGSI. Il doit s'agir de Platform  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+Propriétés requises    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+modèle de données mappé à partir de l'ontologie de l'ERA https://data-interop.era.europa.eu/era-vocabulary (Agence de l'Union européenne pour les chemins de fer)    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## Modèle de données description des propriétés    
+
+Classés par ordre alphabétique (cliquez pour plus de détails)    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 Platform:      
   description: Platform for the purpose of RINF is understood as a platform edge. A platform concerns only the part of the structure neighbouring to the track (interfaced with trains).      
   properties:      
@@ -401,16 +451,25 @@ Platform:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## Exemples de charges utiles    
-#### Platform NGSI-v2 key-values Exemple    
-Voici un exemple de plate-forme au format JSON-LD en tant que valeurs clés. Ceci est compatible avec NGSI-v2 lorsque l'on utilise `options=keyValues` et renvoie les données de contexte d'une entité individuelle.    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## Exemples de charges utiles    
+
+#### Platform NGSI-v2 key-values Exemple    
+
+Voici un exemple de plate-forme au format JSON-LD en tant que valeurs clés. Ceci est compatible avec NGSI-v2 lorsque l'on utilise `options=keyValues` et renvoie les données de contexte d'une entité individuelle.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Platform:id:REDQ:77428165",  
   "dateCreated": "2014-05-22T17:31:26Z",  
   "dateModified": "2015-07-10T11:53:40Z",  
@@ -450,18 +509,19 @@ Platform:
   "hasPlatformCurvature": false,  
   "platformId": "Whole magazine truth st",  
   "platformHeight": "urn:ngsi-ld:Platform:platformHeight:TZIR:59382421",  
-  "tenClassification": "urn:ngsi-ld:Platform:tenClassification:DLNK:92411578",  
-  "context": [  
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-  ]  
+  "tenClassification": "urn:ngsi-ld:Platform:tenClassification:DLNK:92411578"
 }  
 ```  
 </details>    
-#### Plate-forme NGSI-v2 normalisée Exemple    
-Voici un exemple de plate-forme au format JSON-LD normalisé. Ce format est compatible avec la NGSI-v2 lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.    
+
+#### Plate-forme NGSI-v2 normalisée Exemple    
+
+Voici un exemple de plate-forme au format JSON-LD normalisé. Ce format est compatible avec la NGSI-v2 lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Platform:id:REDQ:77428165",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -555,21 +615,19 @@ Platform:
   "tenClassification": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:Platform:tenClassification:DLNK:92411578"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### Plate-forme NGSI-LD valeurs clés Exemple    
-Voici un exemple de plate-forme au format JSON-LD sous forme de valeurs-clés. Ceci est compatible avec NGSI-LD lorsque l'on utilise `options=keyValues` et renvoie les données contextuelles d'une entité individuelle.    
+
+#### Plate-forme NGSI-LD valeurs clés Exemple    
+
+Voici un exemple de plate-forme au format JSON-LD sous forme de valeurs-clés. Ceci est compatible avec NGSI-LD lorsque l'on utilise `options=keyValues` et renvoie les données contextuelles d'une entité individuelle.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Platform:id:REDQ:77428165",  
   "dateCreated": "2014-05-22T17:31:26Z",  
   "dateModified": "2015-07-10T11:53:40Z",  
@@ -611,19 +669,20 @@ Platform:
   "platformHeight": "urn:ngsi-ld:Platform:platformHeight:TZIR:59382421",  
   "tenClassification": "urn:ngsi-ld:Platform:tenClassification:DLNK:92411578",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### Plate-forme NGSI-LD normalisée Exemple    
-Voici un exemple de plate-forme au format JSON-LD normalisé. Ce format est compatible avec NGSI-LD lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.    
+
+#### Plate-forme NGSI-LD normalisée Exemple    
+
+Voici un exemple de plate-forme au format JSON-LD normalisé. Ce format est compatible avec NGSI-LD lorsqu'il n'utilise pas d'options et renvoie les données contextuelles d'une entité individuelle.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:Platform:id:IGEE:91325946",  
   "dateCreated": {  
     "type": "Property",  
@@ -725,19 +784,25 @@ Platform:
     "object": "urn:ngsi-ld:Platform:tenClassification:VRUU:42134110"  
   },  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-Voir [FAQ 10] (https://smartdatamodels.org/index.php/faqs/) pour obtenir une réponse à la question de savoir comment traiter les unités de magnitude.    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+Voir [FAQ 10] (https://smartdatamodels.org/index.php/faqs/) pour obtenir une réponse à la question de savoir comment traiter les unités de magnitude.    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

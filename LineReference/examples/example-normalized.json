@@ -76,11 +76,5 @@
   "lineNationalId": {
     "type": "Text",
     "value": "urn:ngsi-ld:LineReference:lineNationalId:IIBS:67837023"
-  },
-  "context": {
-    "type": "StructuredValue",
-    "value": [
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-    ]
   }
 }

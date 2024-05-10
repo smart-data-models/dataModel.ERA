@@ -84,9 +84,6 @@
     "object": "urn:ngsi-ld:LineReference:lineNationalId:HTQW:41563123"
   },
   "@context": [
-    "https://smartdatamodels.org/context.jsonld"
-  ],
-  "context": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
 }

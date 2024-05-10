@@ -1,19 +1,35 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-엔티티: 차량 유형    
-==========<!-- /10-Header -->    
-<!-- 15-License -->    
-[오픈 라이선스](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
-[문서 자동 생성](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-글로벌 설명: **EU 철도 인프라에서 운행할 수 있도록 승인된 차량 유형입니다.**    
-버전: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## 속성 목록    
-<sup><sub>[*] 속성에 유형이 없는 것은 여러 유형 또는 다른 형식/패턴을 가질 수 있기 때문입니다</sub></sup>.    
-- `address[object]`: 우편 주소  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: 국가. 예를 들어, 스페인  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+엔티티: 차량 유형    
+==========
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[오픈 라이선스](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
+
+[문서 자동 생성](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+글로벌 설명: **EU 철도 인프라에서 운행할 수 있도록 승인된 차량 유형입니다.**    
+
+버전: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## 속성 목록    
+
+<sup><sub>[*] 속성에 유형이 없는 것은 여러 유형 또는 다른 형식/패턴을 가질 수 있기 때문입니다</sub></sup>.    
+- `address[object]`: 우편 주소  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: 국가. 예를 들어, 스페인  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: 도로명 주소가 있는 지역 및 해당 지역에 속한 지역  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: 해당 지역이 위치한 지역과 해당 국가의 지역  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: 지구는 일부 국가에서는 지방 정부에서 관리하는 행정 구역의 일종입니다.      
@@ -21,20 +37,196 @@
 	- `postalCode[string]`: 우편 번호입니다. 예: 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: 거리 주소  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: 공공 도로의 특정 건물을 식별하는 번호      
-- `alternateName[string]`: 이 항목의 대체 이름  - `alternativeName[string]`: 대체 이름  - `altitudeRange[string]`: 고도 범위  - `altitudeRangeDetail[number]`: 고도 범위 세부 정보  - `areaServed[string]`: 서비스 또는 제공 품목이 제공되는 지리적 영역  . Model: [https://schema.org/Text](https://schema.org/Text)- `authorizedCountry[uri]`: 승인된 국가  - `axleBearingConditionMonitoring[uri]`: 차축 베어링 상태 모니터링  - `axleSpacing[string]`: 차축 간격  - `boardingAids[string]`: 탑승 보조 도구  - `brakeWeightPercentage[string]`: 브레이크 무게 비율  - `cantDefficiency[number]`: 캔 효율  - `category[uri]`: 차량 카테고리  - `catenaryMaxRatedCurrent[number]`: 전차선 최대 정격 전류  - `certificate[uri]`: 인증서  - `conditionsTrainFormation[string]`: 조건 열차 편성  - `contactStripMaterial[uri]`: 허용된 접촉 스트립 재질  - `dangerousGoodsTankCode[string]`: 위험물 탱크 코드  - `dataGSMRNetwork[uri]`: 데이터 GSM-R 네트워크  - `dataProvider[string]`: 조화된 데이터 엔티티의 공급자를 식별하는 일련의 문자  - `dataRadioCompatible[uri]`: 무선 시스템 호환성 데이터  - `dateCreated[date-time]`: 엔티티 생성 타임스탬프. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  - `dateModified[date-time]`: 엔티티의 마지막 수정 타임스탬프입니다. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  - `description[string]`: 이 항목에 대한 설명  - `designMassExceptionalPayload[number]`: 탁월한 페이로드 하에서 설계 질량  - `designMassNormalPayload[number]`: 일반 페이로드 하에서의 설계 질량  - `designMassWorkingOrder[number]`: 작동 중인 디자인 매스  - `drivingCabs[number]`: 택시 운전  - `eddyCurrentBrakePrevention[boolean]`: 와전류 브레이크 방지  - `eddyCurrentBrakingFitted[boolean]`: 와전류 제동 장착  - `emergencyBrake[string]`: 긴급 제동  - `endCouplingType[uri]`: 엔드 커플링 유형  - `energyMeterInstalled[boolean]`: 에너지 계량기 설치  - `energySupplyMaxPower[number]`: 에너지 공급 최대 전력  - `energySupplySystem[uri]`: 에너지 공급 시스템  - `etcsBaseline[uri]`: ETCS 기준선  - `etcsDataCommApp[string]`: ETCS 데이터 통신 애플리케이션  - `etcsEquipmentOnBoardLevel[uri]`: ETCS 장비 수준  - `etcsInfill[uri]`: ETCS 인필 설치 라인사이드  - `etcsNationalApplications[string]`: ETCS 국가별 애플리케이션  - `etcsOnBoardImplementation[string]`: ETCS 온보드 구현  - `etcsSystemCompatibility[uri]`: ETCS 시스템 호환성  - `ferromagneticWheelMaterial[boolean]`: 강자성 휠 소재  - `fireSafetyCategory[uri]`: 화재 안전 카테고리  - `fixedSeats[string]`: 고정 좌석  - `flangeLubricationFitted[boolean]`: 플랜지 윤활 장착  - `gaugingProfile[uri]`: 측정  - `gsmRRadioDataCommunication[uri]`: GSM-R 무선 데이터 통신  - `gsmRSetsInDrivingCab[number]`: 운전석에 장착된 GSM-R 세트  - `gsmRVersion[uri]`: GSM-R 버전  - `hasAutomaticDroppingDevice[boolean]`: 자동 낙하 장치 있음  - `hasCantDefficiencyCompensation[boolean]`: 캔트 효율 보정 기능 제공  - `hasCurrentLimitation[boolean]`: 전류 제한이 있습니다.  - `hasLubricationDevicePrevention[boolean]`: 윤활 장치 방지 기능이 있습니다.  - `hasParkingBrake[boolean]`: 주차 브레이크 있음  - `hasRegenerativeBrake[boolean]`: 회생 제동 권한  - `hasSandingPrevention[boolean]`: 샌딩 방지 기능  - `hasShuntingRestrictions[boolean]`: 션트 제한이 있습니다.  - `hasTrainIntegrityConfirmation[boolean]`: 열차 무결성 확인 기능  - `hasWheelSlideProtectionSystem[boolean]`: 휠 슬라이드 보호 시스템 포함  - `id[*]`: 엔티티의 고유 식별자  - `legacyRadioSystem[uri]`: 설치된 기타 무선 시스템(무선 레거시 시스템)  - `letterMarking[string]`: 문자 표시  - `loadingPlatformHeight[number]`: 적재 플랫폼 높이  - `location[*]`: 항목에 대한 지오숀 참조입니다. 포인트, 라인 문자열, 다각형, 멀티포인트, 멀티라인 문자열 또는 멀티폴리곤일 수 있습니다.  - `magneticBrakePrevention[boolean]`: 자기 브레이크 방지  - `magneticBrakingFitted[boolean]`: 마그네틱 브레이크 장착  - `manufacturer[uri]`: 제조업체  - `manufacturingCountry[uri]`: 제조 국가  - `massPerWheel[number]`: 바퀴당 질량  - `maxCurrentStandstillPantograph[number]`: 팬터그래프당 정지 상태에서의 최대 전류  - `maxDistConsecutiveAxles[number]`: TSI 미준수 시 연속된 두 차축 간 최대 허용 거리  - `maxFlangeHeight[number]`: 플랜지의 최대 허용 높이  - `maxImpedanceWheelset[number]`: TSI를 준수하지 않는 경우 휠셋의 반대쪽 휠 사이에 허용되는 최대 임피던스  - `maxLengthVehicleNose[number]`: 최대 길이 차량 노즈  - `maximumAverageDeceleration[number]`: 최대 평균 감속  - `maximumBrakeThermalEnergyCapacity[number]`: 최대 브레이크 열 에너지 용량  - `maximumContactWireHeight[number]`: 최대 접점 와이어 높이  - `maximumDesignSpeed[number]`: 최대 설계 속도  - `maximumLocomotivesCoupled[number]`: 최대 기관차 결합  - `maximumServiceBrake[string]`: 최대 서비스 휴식 시간  - `maximumSpeedAndCantDeficiency[string]`: 최대 속도 및 캔트 결핍  - `maximumSpeedEmpty[number]`: 최대 속도 비어 있음  - `maximumTemperature[number]`: 온도 범위(최대)  - `meetsRequirementVehicleAuthorisation[string]`: 차량 승인 요건 충족  - `minAxleLoad[number]`: 최소 허용 차축 하중  - `minDistConsecutiveAxles[number]`: 연속된 두 축 사이의 최소 허용 거리  - `minDistFirstLastAxle[number]`: 첫 번째 차축과 마지막 차축 사이의 최소 허용 거리  - `minFlangeHeight[number]`: 플랜지의 최소 허용 높이  - `minFlangeThickness[number]`: 플랜지의 최소 허용 두께  - `minRimWidth[number]`: 림의 최소 허용 너비  - `minVehicleImpedance[string]`: 차량 임피던스  - `minWheelDiameter[number]`: 허용되는 최소 휠 직경  - `minimumConcaveVerticalRadius[number]`: 최소 오목한 수직 반경  - `minimumContactWireHeight[number]`: 최소 접점 와이어 높이  - `minimumConvexVerticalRadius[number]`: 최소 볼록 수직 반경  - `minimumHorizontalRadius[number]`: 수평 커브의 최소 반경  - `minimumTemperature[number]`: 온도 범위(최소)  - `minimumWheelDiameter[number]`: 고정식 둔각 교차로용 최소 휠 직경  - `name[string]`: 이 항목의 이름  - `nonCodedRestrictions[string]`: 비코드 제한  - `numberElementsRakeFreightWagons[number]`: 숫자 요소 레이크 화물 마차  - `numberOfPantographsInContactWithOCL[number]`: OCL과 접촉하는 팬터그래프 수  - `numberOfToilets[number]`: 화장실 수  - `oclType[string]`: Ocl 유형  - `owner[array]`: 소유자의 고유 ID를 참조하는 JSON 인코딩된 문자 시퀀스가 포함된 목록입니다.  - `parkingBrake[boolean]`: 주차 브레이크  - `parkingBrakeMandatory[boolean]`: 주차 브레이크 필수  - `parkingBrakeMaximumGradient[number]`: 주차 브레이크 최대 경사도  - `parkingBrakeType[uri]`: 주차 브레이크 유형  - `passByNoiseLevel[number]`: 지나가는 소음 수준  - `permissiblePayload[string]`: 허용되는 페이로드  - `portableBoardingAids[string]`: 휴대용 탑승 보조 기구  - `preventRegenerativeBrakeUse[boolean]`: 회생 브레이크 사용 방지  - `previousVehicleType[uri]`: 이전 차량 유형  - `prioritySeats[string]`: 우선 좌석  - `prmAccessibleToilets[number]`: 장애인용 화장실  - `protectionLegacySystem[uri]`: 열차 보호 레거시 시스템  - `quasiStaticGuidingForce[number]`: 준정적 유도력  - `radioSwitchOverSpecialConditions[string]`: 특수 조건에 대한 무선 전환  - `railInclination[uri]`: 레일 경사  - `referencePassByNoiseLevel[boolean]`: 기준 통과 노이즈 레벨  - `seeAlso[*]`: 항목에 대한 추가 리소스를 가리키는 URL 목록  - `shortestDistanceBetweenPantographsInContactWithOCL[string]`: OCL과 접촉하는 팬터그래프 사이의 최단 거리  - `sleepingPlaces[string]`: 수면 장소  - `snowIceHailConditions[uri]`: 눈 우박 조건  - `source[string]`: 엔티티 데이터의 원본 소스를 URL로 제공하는 문자 시퀀스입니다. 소스 공급자의 정규화된 도메인 이름 또는 소스 개체에 대한 URL을 사용하는 것이 좋습니다.  - `startingNoiseLevel[number]`: 시작 소음 수준  - `staticAxleLoadExceptionalPayload[number]`: 탁월한 하중 하에서의 정적 차축 하중  - `staticAxleLoadNormalPayload[number]`: 정상 하중 하에서의 정적 차축 하중  - `staticAxleLoadWorkingOrder[number]`: 작동 중인 정적 차축 하중  - `stationaryNoiseLevel[number]`: 고정 소음 수준  - `structuralCategory[string]`: 구조 카테고리  - `subCategory[uri]`: 차량 하위 카테고리  - `supportedPlatformHeight[uri]`: 지원되는 플랫폼 높이  - `thermalCapacityDistance[number]`: 열 용량 거리  - `thermalCapacityGradient[number]`: 열 용량 구배  - `thermalCapacitySpeed[number]`: 열 용량 속도  - `thermalCapacityTSIReference[uri]`: 열 용량 TSI 참조  - `thermalCapacityTime[number]`: 열 용량 시간  - `totalVehicleMass[number]`: 총 차량 질량  - `trainControlSwitchOverSpecialConditions[string]`: 특수 조건에서 열차 제어 스위치  - `trainDetectionSystemType[uri]`: 열차 감지 시스템 유형  - `transportableOnFerry[boolean]`: 페리로 운송 가능  - `type[string]`: NGSI 데이터 유형입니다. VehicleType이어야 합니다.  - `typeVersionId[uri]`: 버전 ID 입력  - `typeVersionNumber[string]`: 버전 번호 입력  - `usesGroup555[boolean]`: 그룹 555의 GSM-R 사용  - `vehicleContactForce[number]`: 차량 접촉력  - `vehicleKinematicGaugeOther[string]`: 차량 운동학 게이지 기타  - `vehicleMaxSandingOutput[string]`: 차량 최대 샌딩 출력  - `vehiclePantographHead[string]`: 차량 팬터그래프 헤드  - `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: 전차 유형 최대 속도 및 캔트 결핍  - `vehiclesComposingFixedFormation[number]`: 고정 대형을 구성하는 전차  - `voiceGSMRNetwork[uri]`: 음성 GSM-R 네트워크  - `voiceOperationalCommImpl[string]`: 음성 운영 커뮤니케이션 구현  - `voiceRadioCompatible[uri]`: 무선 시스템 호환 음성  - `wheelSetGauge[uri]`: 공칭 트랙 게이지  - `wheelSetGaugeChangeoverFacility[uri]`: 휠셋 게이지 교체 기능  - `wheelSetGaugeTransformationMethod[string]`: 휠 세트 게이지 변환 방법  - `wheelchairSleepingPlaces[string]`: 휠체어 수면 공간  - `wheelchairSpaces[number]`: 휠체어 공간  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-필수 속성    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-ERA 온톨로지에서 매핑된 데이터 모델 https://data-interop.era.europa.eu/era-vocabulary(유럽 연합 철도청)    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## 속성에 대한 데이터 모델 설명    
-알파벳순으로 정렬(자세한 내용을 보려면 클릭)    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: 이 항목의 대체 이름  
+- `alternativeName[string]`: 대체 이름  
+- `altitudeRange[string]`: 고도 범위  
+- `altitudeRangeDetail[number]`: 고도 범위 세부 정보  
+- `areaServed[string]`: 서비스 또는 제공 품목이 제공되는 지리적 영역  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `authorizedCountry[uri]`: 승인된 국가  
+- `axleBearingConditionMonitoring[uri]`: 차축 베어링 상태 모니터링  
+- `axleSpacing[string]`: 차축 간격  
+- `boardingAids[string]`: 탑승 보조 도구  
+- `brakeWeightPercentage[string]`: 브레이크 무게 비율  
+- `cantDefficiency[number]`: 캔 효율  
+- `category[uri]`: 차량 카테고리  
+- `catenaryMaxRatedCurrent[number]`: 전차선 최대 정격 전류  
+- `certificate[uri]`: 인증서  
+- `conditionsTrainFormation[string]`: 조건 열차 편성  
+- `contactStripMaterial[uri]`: 허용된 접촉 스트립 재질  
+- `dangerousGoodsTankCode[string]`: 위험물 탱크 코드  
+- `dataGSMRNetwork[uri]`: 데이터 GSM-R 네트워크  
+- `dataProvider[string]`: 조화된 데이터 엔티티의 공급자를 식별하는 일련의 문자  
+- `dataRadioCompatible[uri]`: 무선 시스템 호환성 데이터  
+- `dateCreated[date-time]`: 엔티티 생성 타임스탬프. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  
+- `dateModified[date-time]`: 엔티티의 마지막 수정 타임스탬프입니다. 이는 일반적으로 스토리지 플랫폼에서 할당합니다.  
+- `description[string]`: 이 항목에 대한 설명  
+- `designMassExceptionalPayload[number]`: 탁월한 페이로드 하에서 설계 질량  
+- `designMassNormalPayload[number]`: 일반 페이로드 하에서의 설계 질량  
+- `designMassWorkingOrder[number]`: 작동 중인 디자인 매스  
+- `drivingCabs[number]`: 택시 운전  
+- `eddyCurrentBrakePrevention[boolean]`: 와전류 브레이크 방지  
+- `eddyCurrentBrakingFitted[boolean]`: 와전류 제동 장착  
+- `emergencyBrake[string]`: 긴급 제동  
+- `endCouplingType[uri]`: 엔드 커플링 유형  
+- `energyMeterInstalled[boolean]`: 에너지 계량기 설치  
+- `energySupplyMaxPower[number]`: 에너지 공급 최대 전력  
+- `energySupplySystem[uri]`: 에너지 공급 시스템  
+- `etcsBaseline[uri]`: ETCS 기준선  
+- `etcsDataCommApp[string]`: ETCS 데이터 통신 애플리케이션  
+- `etcsEquipmentOnBoardLevel[uri]`: ETCS 장비 수준  
+- `etcsInfill[uri]`: ETCS 인필 설치 라인사이드  
+- `etcsNationalApplications[string]`: ETCS 국가별 애플리케이션  
+- `etcsOnBoardImplementation[string]`: ETCS 온보드 구현  
+- `etcsSystemCompatibility[uri]`: ETCS 시스템 호환성  
+- `ferromagneticWheelMaterial[boolean]`: 강자성 휠 소재  
+- `fireSafetyCategory[uri]`: 화재 안전 카테고리  
+- `fixedSeats[string]`: 고정 좌석  
+- `flangeLubricationFitted[boolean]`: 플랜지 윤활 장착  
+- `gaugingProfile[uri]`: 측정  
+- `gsmRRadioDataCommunication[uri]`: GSM-R 무선 데이터 통신  
+- `gsmRSetsInDrivingCab[number]`: 운전석에 장착된 GSM-R 세트  
+- `gsmRVersion[uri]`: GSM-R 버전  
+- `hasAutomaticDroppingDevice[boolean]`: 자동 낙하 장치 있음  
+- `hasCantDefficiencyCompensation[boolean]`: 캔트 효율 보정 기능 제공  
+- `hasCurrentLimitation[boolean]`: 전류 제한이 있습니다.  
+- `hasLubricationDevicePrevention[boolean]`: 윤활 장치 방지 기능이 있습니다.  
+- `hasParkingBrake[boolean]`: 주차 브레이크 있음  
+- `hasRegenerativeBrake[boolean]`: 회생 제동 권한  
+- `hasSandingPrevention[boolean]`: 샌딩 방지 기능  
+- `hasShuntingRestrictions[boolean]`: 션트 제한이 있습니다.  
+- `hasTrainIntegrityConfirmation[boolean]`: 열차 무결성 확인 기능  
+- `hasWheelSlideProtectionSystem[boolean]`: 휠 슬라이드 보호 시스템 포함  
+- `id[*]`: 엔티티의 고유 식별자  
+- `legacyRadioSystem[uri]`: 설치된 기타 무선 시스템(무선 레거시 시스템)  
+- `letterMarking[string]`: 문자 표시  
+- `loadingPlatformHeight[number]`: 적재 플랫폼 높이  
+- `location[*]`: 항목에 대한 지오숀 참조입니다. 포인트, 라인 문자열, 다각형, 멀티포인트, 멀티라인 문자열 또는 멀티폴리곤일 수 있습니다.  
+- `magneticBrakePrevention[boolean]`: 자기 브레이크 방지  
+- `magneticBrakingFitted[boolean]`: 마그네틱 브레이크 장착  
+- `manufacturer[uri]`: 제조업체  
+- `manufacturingCountry[uri]`: 제조 국가  
+- `massPerWheel[number]`: 바퀴당 질량  
+- `maxCurrentStandstillPantograph[number]`: 팬터그래프당 정지 상태에서의 최대 전류  
+- `maxDistConsecutiveAxles[number]`: TSI 미준수 시 연속된 두 차축 간 최대 허용 거리  
+- `maxFlangeHeight[number]`: 플랜지의 최대 허용 높이  
+- `maxImpedanceWheelset[number]`: TSI를 준수하지 않는 경우 휠셋의 반대쪽 휠 사이에 허용되는 최대 임피던스  
+- `maxLengthVehicleNose[number]`: 최대 길이 차량 노즈  
+- `maximumAverageDeceleration[number]`: 최대 평균 감속  
+- `maximumBrakeThermalEnergyCapacity[number]`: 최대 브레이크 열 에너지 용량  
+- `maximumContactWireHeight[number]`: 최대 접점 와이어 높이  
+- `maximumDesignSpeed[number]`: 최대 설계 속도  
+- `maximumLocomotivesCoupled[number]`: 최대 기관차 결합  
+- `maximumServiceBrake[string]`: 최대 서비스 휴식 시간  
+- `maximumSpeedAndCantDeficiency[string]`: 최대 속도 및 캔트 결핍  
+- `maximumSpeedEmpty[number]`: 최대 속도 비어 있음  
+- `maximumTemperature[number]`: 온도 범위(최대)  
+- `meetsRequirementVehicleAuthorisation[string]`: 차량 승인 요건 충족  
+- `minAxleLoad[number]`: 최소 허용 차축 하중  
+- `minDistConsecutiveAxles[number]`: 연속된 두 축 사이의 최소 허용 거리  
+- `minDistFirstLastAxle[number]`: 첫 번째 차축과 마지막 차축 사이의 최소 허용 거리  
+- `minFlangeHeight[number]`: 플랜지의 최소 허용 높이  
+- `minFlangeThickness[number]`: 플랜지의 최소 허용 두께  
+- `minRimWidth[number]`: 림의 최소 허용 너비  
+- `minVehicleImpedance[string]`: 차량 임피던스  
+- `minWheelDiameter[number]`: 허용되는 최소 휠 직경  
+- `minimumConcaveVerticalRadius[number]`: 최소 오목한 수직 반경  
+- `minimumContactWireHeight[number]`: 최소 접점 와이어 높이  
+- `minimumConvexVerticalRadius[number]`: 최소 볼록 수직 반경  
+- `minimumHorizontalRadius[number]`: 수평 커브의 최소 반경  
+- `minimumTemperature[number]`: 온도 범위(최소)  
+- `minimumWheelDiameter[number]`: 고정식 둔각 교차로용 최소 휠 직경  
+- `name[string]`: 이 항목의 이름  
+- `nonCodedRestrictions[string]`: 비코드 제한  
+- `numberElementsRakeFreightWagons[number]`: 숫자 요소 레이크 화물 마차  
+- `numberOfPantographsInContactWithOCL[number]`: OCL과 접촉하는 팬터그래프 수  
+- `numberOfToilets[number]`: 화장실 수  
+- `oclType[string]`: Ocl 유형  
+- `owner[array]`: 소유자의 고유 ID를 참조하는 JSON 인코딩된 문자 시퀀스가 포함된 목록입니다.  
+- `parkingBrake[boolean]`: 주차 브레이크  
+- `parkingBrakeMandatory[boolean]`: 주차 브레이크 필수  
+- `parkingBrakeMaximumGradient[number]`: 주차 브레이크 최대 경사도  
+- `parkingBrakeType[uri]`: 주차 브레이크 유형  
+- `passByNoiseLevel[number]`: 지나가는 소음 수준  
+- `permissiblePayload[string]`: 허용되는 페이로드  
+- `portableBoardingAids[string]`: 휴대용 탑승 보조 기구  
+- `preventRegenerativeBrakeUse[boolean]`: 회생 브레이크 사용 방지  
+- `previousVehicleType[uri]`: 이전 차량 유형  
+- `prioritySeats[string]`: 우선 좌석  
+- `prmAccessibleToilets[number]`: 장애인용 화장실  
+- `protectionLegacySystem[uri]`: 열차 보호 레거시 시스템  
+- `quasiStaticGuidingForce[number]`: 준정적 유도력  
+- `radioSwitchOverSpecialConditions[string]`: 특수 조건에 대한 무선 전환  
+- `railInclination[uri]`: 레일 경사  
+- `referencePassByNoiseLevel[boolean]`: 기준 통과 노이즈 레벨  
+- `seeAlso[*]`: 항목에 대한 추가 리소스를 가리키는 URL 목록  
+- `shortestDistanceBetweenPantographsInContactWithOCL[string]`: OCL과 접촉하는 팬터그래프 사이의 최단 거리  
+- `sleepingPlaces[string]`: 수면 장소  
+- `snowIceHailConditions[uri]`: 눈 우박 조건  
+- `source[string]`: 엔티티 데이터의 원본 소스를 URL로 제공하는 문자 시퀀스입니다. 소스 공급자의 정규화된 도메인 이름 또는 소스 개체에 대한 URL을 사용하는 것이 좋습니다.  
+- `startingNoiseLevel[number]`: 시작 소음 수준  
+- `staticAxleLoadExceptionalPayload[number]`: 탁월한 하중 하에서의 정적 차축 하중  
+- `staticAxleLoadNormalPayload[number]`: 정상 하중 하에서의 정적 차축 하중  
+- `staticAxleLoadWorkingOrder[number]`: 작동 중인 정적 차축 하중  
+- `stationaryNoiseLevel[number]`: 고정 소음 수준  
+- `structuralCategory[string]`: 구조 카테고리  
+- `subCategory[uri]`: 차량 하위 카테고리  
+- `supportedPlatformHeight[uri]`: 지원되는 플랫폼 높이  
+- `thermalCapacityDistance[number]`: 열 용량 거리  
+- `thermalCapacityGradient[number]`: 열 용량 구배  
+- `thermalCapacitySpeed[number]`: 열 용량 속도  
+- `thermalCapacityTSIReference[uri]`: 열 용량 TSI 참조  
+- `thermalCapacityTime[number]`: 열 용량 시간  
+- `totalVehicleMass[number]`: 총 차량 질량  
+- `trainControlSwitchOverSpecialConditions[string]`: 특수 조건에서 열차 제어 스위치  
+- `trainDetectionSystemType[uri]`: 열차 감지 시스템 유형  
+- `transportableOnFerry[boolean]`: 페리로 운송 가능  
+- `type[string]`: NGSI 데이터 유형입니다. VehicleType이어야 합니다.  
+- `typeVersionId[uri]`: 버전 ID 입력  
+- `typeVersionNumber[string]`: 버전 번호 입력  
+- `usesGroup555[boolean]`: 그룹 555의 GSM-R 사용  
+- `vehicleContactForce[number]`: 차량 접촉력  
+- `vehicleKinematicGaugeOther[string]`: 차량 운동학 게이지 기타  
+- `vehicleMaxSandingOutput[string]`: 차량 최대 샌딩 출력  
+- `vehiclePantographHead[string]`: 차량 팬터그래프 헤드  
+- `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: 전차 유형 최대 속도 및 캔트 결핍  
+- `vehiclesComposingFixedFormation[number]`: 고정 대형을 구성하는 전차  
+- `voiceGSMRNetwork[uri]`: 음성 GSM-R 네트워크  
+- `voiceOperationalCommImpl[string]`: 음성 운영 커뮤니케이션 구현  
+- `voiceRadioCompatible[uri]`: 무선 시스템 호환 음성  
+- `wheelSetGauge[uri]`: 공칭 트랙 게이지  
+- `wheelSetGaugeChangeoverFacility[uri]`: 휠셋 게이지 교체 기능  
+- `wheelSetGaugeTransformationMethod[string]`: 휠 세트 게이지 변환 방법  
+- `wheelchairSleepingPlaces[string]`: 휠체어 수면 공간  
+- `wheelchairSpaces[number]`: 휠체어 공간  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+필수 속성    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+ERA 온톨로지에서 매핑된 데이터 모델 https://data-interop.era.europa.eu/era-vocabulary(유럽 연합 철도청)    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## 속성에 대한 데이터 모델 설명    
+
+알파벳순으로 정렬(자세한 내용을 보려면 클릭)    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 VehicleType:      
   description: A vehicle type that has been authorized to operate on the EU railway infrastructure.      
   properties:      
@@ -1144,16 +1336,25 @@ VehicleType:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## 페이로드 예시    
-#### 차량 유형 NGSI-v2 키 값 예시    
-다음은 키 값으로 JSON-LD 형식의 VehicleType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## 페이로드 예시    
+
+#### 차량 유형 NGSI-v2 키 값 예시    
+
+다음은 키 값으로 JSON-LD 형식의 VehicleType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": "1980-12-10T17:21:19Z",  
   "dateModified": "2012-03-07T09:15:20Z",  
@@ -1335,18 +1536,19 @@ VehicleType:
   "voiceGSMRNetwork": "urn:ngsi-ld:VehicleType:voiceGSMRNetwork:QXCJ:24173042",  
   "voiceRadioCompatible": "urn:ngsi-ld:VehicleType:voiceRadioCompatible:PKZZ:65461187",  
   "wheelSetGauge": "urn:ngsi-ld:VehicleType:wheelSetGauge:KXVE:51717604",  
-  "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133",  
-  "context": [  
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-  ]  
+  "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133"
 }  
 ```  
 </details>    
-#### 차량 유형 NGSI-v2 정규화 예제    
-다음은 정규화된 JSON-LD 형식의 VehicleType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+
+#### 차량 유형 NGSI-v2 정규화 예제    
+
+다음은 정규화된 JSON-LD 형식의 VehicleType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-v2와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -2008,21 +2210,19 @@ VehicleType:
   "wheelSetGaugeChangeoverFacility": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### 차량 유형 NGSI-LD 키 값 예시    
-다음은 키 값으로 JSON-LD 형식의 VehicleType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+
+#### 차량 유형 NGSI-LD 키 값 예시    
+
+다음은 키 값으로 JSON-LD 형식의 VehicleType의 예입니다. 이는 `옵션=키값`을 사용할 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": "1980-12-10T17:21:19Z",  
   "dateModified": "2012-03-07T09:15:20Z",  
@@ -2206,19 +2406,20 @@ VehicleType:
   "wheelSetGauge": "urn:ngsi-ld:VehicleType:wheelSetGauge:KXVE:51717604",  
   "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### 차량 유형 NGSI-LD 정규화 예제    
-다음은 정규화된 JSON-LD 형식의 VehicleType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
+
+#### 차량 유형 NGSI-LD 정규화 예제    
+
+다음은 정규화된 JSON-LD 형식의 VehicleType의 예입니다. 이는 옵션을 사용하지 않을 때 NGSI-LD와 호환되며 개별 엔티티의 컨텍스트 데이터를 반환합니다.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:RTWI:29731639",  
   "dateCreated": {  
     "type": "Property",  
@@ -2888,19 +3089,25 @@ VehicleType:
     "object": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:NFUQ:89252235"  
   },  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-10](https://smartdatamodels.org/index.php/faqs/)를 참조하여 규모 단위를 다루는 방법에 대한 답변을 확인하세요.    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+10](https://smartdatamodels.org/index.php/faqs/)를 참조하여 규모 단위를 다루는 방법에 대한 답변을 확인하세요.    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

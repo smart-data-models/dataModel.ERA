@@ -40,9 +40,6 @@
   "platformHeight": "urn:ngsi-ld:Platform:platformHeight:TZIR:59382421",
   "tenClassification": "urn:ngsi-ld:Platform:tenClassification:DLNK:92411578",
   "@context": [
-    "https://smartdatamodels.org/context.jsonld"
-  ],
-  "context": [
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
   ]
 }

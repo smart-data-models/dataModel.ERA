@@ -1,19 +1,35 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-Entidad: Tipo de vehículo    
-=========================<!-- /10-Header -->    
-<!-- 15-License -->    
-[Licencia abierta](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
-[documento generado automáticamente](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-Descripción global: **Un tipo de vehículo que ha sido autorizado para operar en la infraestructura ferroviaria de la UE.**    
-versión: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## Lista de propiedades    
-<sup><sub>[*] Si no hay un tipo en un atributo es porque puede tener varios tipos o diferentes formatos/patrones</sub></sup>.    
-- `address[object]`: La dirección postal  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: El país. Por ejemplo, España  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+Entidad: Tipo de vehículo    
+=========================
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[Licencia abierta](https://github.com/smart-data-models//dataModel.ERA/blob/master/VehicleType/LICENSE.md)    
+
+[documento generado automáticamente](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+Descripción global: **Un tipo de vehículo que ha sido autorizado para operar en la infraestructura ferroviaria de la UE.**    
+
+versión: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## Lista de propiedades    
+
+<sup><sub>[*] Si no hay un tipo en un atributo es porque puede tener varios tipos o diferentes formatos/patrones</sub></sup>.    
+- `address[object]`: La dirección postal  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: El país. Por ejemplo, España  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: La localidad en la que se encuentra la dirección postal, y que está en la región  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: La región en la que se encuentra la localidad, y que está en el país  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: Un distrito es un tipo de división administrativa que, en algunos países, gestiona el gobierno local      
@@ -21,20 +37,196 @@
 	- `postalCode[string]`: El código postal. Por ejemplo, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: La dirección  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: Número que identifica una propiedad específica en una vía pública      
-- `alternateName[string]`: Un nombre alternativo para este artículo  - `alternativeName[string]`: Nombre alternativo  - `altitudeRange[string]`: Altitud  - `altitudeRangeDetail[number]`: Detalle del rango de altitud  - `areaServed[string]`: La zona geográfica en la que se presta un servicio o se ofrece un artículo  . Model: [https://schema.org/Text](https://schema.org/Text)- `authorizedCountry[uri]`: País autorizado  - `axleBearingConditionMonitoring[uri]`: Control del estado de los rodamientos de los ejes  - `axleSpacing[string]`: Distancia entre ejes  - `boardingAids[string]`: Medios de embarque  - `brakeWeightPercentage[string]`: Porcentaje del peso del freno  - `cantDefficiency[number]`: Cant defficiency  - `category[uri]`: Categoría de vehículo  - `catenaryMaxRatedCurrent[number]`: Corriente nominal máxima de la catenaria  - `certificate[uri]`: Certificado  - `conditionsTrainFormation[string]`: Condiciones formación del tren  - `contactStripMaterial[uri]`: Material de la banda de contacto permitido  - `dangerousGoodsTankCode[string]`: Código de cisterna de mercancías peligrosas  - `dataGSMRNetwork[uri]`: Datos Red GSM-R  - `dataProvider[string]`: Una secuencia de caracteres que identifica al proveedor de la entidad de datos armonizada  - `dataRadioCompatible[uri]`: Datos de compatibilidad del sistema de radio  - `dateCreated[date-time]`: Fecha de creación de la entidad. Normalmente será asignada por la plataforma de almacenamiento  - `dateModified[date-time]`: Marca de tiempo de la última modificación de la entidad. Suele ser asignada por la plataforma de almacenamiento  - `description[string]`: Descripción de este artículo  - `designMassExceptionalPayload[number]`: Masa de diseño con carga útil excepcional  - `designMassNormalPayload[number]`: Masa de diseño con carga útil normal  - `designMassWorkingOrder[number]`: Masa de diseño en funcionamiento  - `drivingCabs[number]`: Conducir taxis  - `eddyCurrentBrakePrevention[boolean]`: Prevención de frenado por corrientes de Foucault  - `eddyCurrentBrakingFitted[boolean]`: Frenado por corrientes de Foucault instalado  - `emergencyBrake[string]`: Frenado de emergencia  - `endCouplingType[uri]`: Tipo de acoplamiento final  - `energyMeterInstalled[boolean]`: Contador de energía instalado  - `energySupplyMaxPower[number]`: Potencia máxima de alimentación  - `energySupplySystem[uri]`: Sistema de suministro de energía  - `etcsBaseline[uri]`: Línea de base ETCS  - `etcsDataCommApp[string]`: Aplicación de comunicación de datos ETCS  - `etcsEquipmentOnBoardLevel[uri]`: Nivel de equipamiento ETCS  - `etcsInfill[uri]`: Relleno ETCS instalado en el lado de la línea  - `etcsNationalApplications[string]`: Aplicaciones nacionales del ETCS  - `etcsOnBoardImplementation[string]`: Implantación del ETCS a bordo  - `etcsSystemCompatibility[uri]`: Compatibilidad del sistema ETCS  - `ferromagneticWheelMaterial[boolean]`: Material ferromagnético de la rueda  - `fireSafetyCategory[uri]`: Categoría de seguridad contra incendios  - `fixedSeats[string]`: Asientos fijos  - `flangeLubricationFitted[boolean]`: Lubricación de brida montada  - `gaugingProfile[uri]`: Calibrado  - `gsmRRadioDataCommunication[uri]`: Comunicación de datos por radio GSM-R  - `gsmRSetsInDrivingCab[number]`: Conjuntos GSM-R en cabina de conducción  - `gsmRVersion[uri]`: Versión GSM-R  - `hasAutomaticDroppingDevice[boolean]`: Dispone de dispositivo de caída automática  - `hasCantDefficiencyCompensation[boolean]`: Tiene compensación por deficiencia de peralte  - `hasCurrentLimitation[boolean]`: Tiene limitación de corriente  - `hasLubricationDevicePrevention[boolean]`: Dispone de dispositivo de prevención de lubricación  - `hasParkingBrake[boolean]`: Tiene freno de estacionamiento  - `hasRegenerativeBrake[boolean]`: Permiso para el frenado regenerativo  - `hasSandingPrevention[boolean]`: Tiene prevención de lijado  - `hasShuntingRestrictions[boolean]`: Tiene restricciones de maniobra  - `hasTrainIntegrityConfirmation[boolean]`: Tiene confirmación de integridad del tren  - `hasWheelSlideProtectionSystem[boolean]`: Dispone de sistema de protección contra el deslizamiento de las ruedas  - `id[*]`: Identificador único de la entidad  - `legacyRadioSystem[uri]`: Otros sistemas de radio instalados (sistemas heredados de radio)  - `letterMarking[string]`: Marcado de letras  - `loadingPlatformHeight[number]`: Altura de la plataforma de carga  - `location[*]`: Referencia Geojson al elemento. Puede ser Point, LineString, Polygon, MultiPoint, MultiLineString o MultiPolygon.  - `magneticBrakePrevention[boolean]`: Prevención de frenado magnético  - `magneticBrakingFitted[boolean]`: Freno magnético instalado  - `manufacturer[uri]`: Fabricante  - `manufacturingCountry[uri]`: País fabricante  - `massPerWheel[number]`: Masa por rueda  - `maxCurrentStandstillPantograph[number]`: Corriente máxima en reposo por pantógrafo  - `maxDistConsecutiveAxles[number]`: Distancia máxima permitida entre dos ejes consecutivos en caso de incumplimiento de la ETI  - `maxFlangeHeight[number]`: Altura máxima permitida de la brida  - `maxImpedanceWheelset[number]`: Impedancia máxima permitida entre ruedas opuestas de un juego de ruedas cuando no cumple la ETI  - `maxLengthVehicleNose[number]`: Longitud máxima del morro del vehículo  - `maximumAverageDeceleration[number]`: Deceleración media máxima  - `maximumBrakeThermalEnergyCapacity[number]`: Capacidad máxima de energía térmica de frenado  - `maximumContactWireHeight[number]`: Altura máxima del hilo de contacto  - `maximumDesignSpeed[number]`: Velocidad máxima de diseño  - `maximumLocomotivesCoupled[number]`: Máximo de locomotoras acopladas  - `maximumServiceBrake[string]`: Interrupción máxima del servicio  - `maximumSpeedAndCantDeficiency[string]`: Velocidad máxima y deficiencia de peralte  - `maximumSpeedEmpty[number]`: Velocidad máxima en vacío  - `maximumTemperature[number]`: Rango de temperatura (máximo)  - `meetsRequirementVehicleAuthorisation[string]`: Cumple el requisito de autorización del vehículo  - `minAxleLoad[number]`: Carga por eje mínima autorizada  - `minDistConsecutiveAxles[number]`: Distancia mínima permitida entre dos ejes consecutivos  - `minDistFirstLastAxle[number]`: Distancia mínima permitida entre el primer y el último eje  - `minFlangeHeight[number]`: Altura mínima permitida de la brida  - `minFlangeThickness[number]`: Espesor mínimo permitido de la brida  - `minRimWidth[number]`: Anchura mínima permitida de la llanta  - `minVehicleImpedance[string]`: Impedancia del vehículo  - `minWheelDiameter[number]`: Diámetro mínimo de rueda permitido  - `minimumConcaveVerticalRadius[number]`: Radio vertical cóncavo mínimo  - `minimumContactWireHeight[number]`: Altura mínima del hilo de contacto  - `minimumConvexVerticalRadius[number]`: Radio vertical convexo mínimo  - `minimumHorizontalRadius[number]`: Radio mínimo de curva horizontal  - `minimumTemperature[number]`: Rango de temperatura (mínimo)  - `minimumWheelDiameter[number]`: Diámetro mínimo de rueda para cruces obtusos fijos  - `name[string]`: El nombre de este artículo  - `nonCodedRestrictions[string]`: Restricciones no codificadas  - `numberElementsRakeFreightWagons[number]`: Número de elementos rastrillo vagones de mercancías  - `numberOfPantographsInContactWithOCL[number]`: Número de pantógrafos en contacto con OCL  - `numberOfToilets[number]`: Número de aseos  - `oclType[string]`: Tipo Ocl  - `owner[array]`: Una lista que contiene una secuencia de caracteres codificada en JSON que hace referencia a los identificadores únicos de los propietarios.  - `parkingBrake[boolean]`: Freno de estacionamiento  - `parkingBrakeMandatory[boolean]`: Freno de estacionamiento obligatorio  - `parkingBrakeMaximumGradient[number]`: Pendiente máxima del freno de estacionamiento  - `parkingBrakeType[uri]`: Tipo de freno de estacionamiento  - `passByNoiseLevel[number]`: Nivel de ruido de paso  - `permissiblePayload[string]`: Carga útil admisible  - `portableBoardingAids[string]`: Dispositivos portátiles de embarque  - `preventRegenerativeBrakeUse[boolean]`: Evitar el uso del freno regenerativo  - `previousVehicleType[uri]`: Tipo de vehículo anterior  - `prioritySeats[string]`: Asientos prioritarios  - `prmAccessibleToilets[number]`: Prm aseos accesibles  - `protectionLegacySystem[uri]`: Sistema heredado de protección de trenes  - `quasiStaticGuidingForce[number]`: Fuerza de guía casi estática  - `radioSwitchOverSpecialConditions[string]`: Condiciones especiales de conmutación por radio  - `railInclination[uri]`: Inclinación del carril  - `referencePassByNoiseLevel[boolean]`: Nivel de ruido de paso de referencia  - `seeAlso[*]`: lista de uri que apuntan a recursos adicionales sobre el artículo  - `shortestDistanceBetweenPantographsInContactWithOCL[string]`: Distancia más corta entre pantógrafos en contacto con OCL  - `sleepingPlaces[string]`: Plazas para dormir  - `snowIceHailConditions[uri]`: Condiciones de nieve, hielo y granizo  - `source[string]`: Secuencia de caracteres que indica la fuente original de los datos de la entidad en forma de URL. Se recomienda que sea el nombre de dominio completo del proveedor de origen o la URL del objeto de origen.  - `startingNoiseLevel[number]`: Nivel de ruido inicial  - `staticAxleLoadExceptionalPayload[number]`: Carga estática por eje con carga útil excepcional  - `staticAxleLoadNormalPayload[number]`: Carga estática por eje con carga útil normal  - `staticAxleLoadWorkingOrder[number]`: Carga estática por eje en funcionamiento  - `stationaryNoiseLevel[number]`: Nivel de ruido estacionario  - `structuralCategory[string]`: Categoría estructural  - `subCategory[uri]`: Subcategoría de vehículos  - `supportedPlatformHeight[uri]`: Altura de plataforma soportada  - `thermalCapacityDistance[number]`: Distancia de capacidad térmica  - `thermalCapacityGradient[number]`: Gradiente de capacidad térmica  - `thermalCapacitySpeed[number]`: Capacidad térmica Velocidad  - `thermalCapacityTSIReference[uri]`: Capacidad térmica ETI de referencia  - `thermalCapacityTime[number]`: Tiempo de capacidad térmica  - `totalVehicleMass[number]`: Masa total del vehículo  - `trainControlSwitchOverSpecialConditions[string]`: Interruptor de control del tren en condiciones especiales  - `trainDetectionSystemType[uri]`: Tipo de sistema de detección de trenes  - `transportableOnFerry[boolean]`: Transportable en transbordador  - `type[string]`: Tipo de datos NGSI. Tiene que ser VehicleType  - `typeVersionId[uri]`: Tipo id de versión  - `typeVersionNumber[string]`: Escriba el número de versión  - `usesGroup555[boolean]`: GSM-R uso del grupo 555  - `vehicleContactForce[number]`: Fuerza de contacto del vehículo  - `vehicleKinematicGaugeOther[string]`: Indicador cinemático del vehículo otros  - `vehicleMaxSandingOutput[string]`: Potencia máxima de lijado del vehículo  - `vehiclePantographHead[string]`: Cabezal del pantógrafo del vehículo  - `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: Tipo de vehículo velocidad máxima y deficiencia de peralte  - `vehiclesComposingFixedFormation[number]`: Vehículos que componen la formación fija  - `voiceGSMRNetwork[uri]`: Voz Red GSM-R  - `voiceOperationalCommImpl[string]`: Implantación de comunicaciones operativas de voz  - `voiceRadioCompatible[uri]`: Voz de compatibilidad del sistema de radio  - `wheelSetGauge[uri]`: Ancho de vía nominal  - `wheelSetGaugeChangeoverFacility[uri]`: Cambio de ancho de rueda  - `wheelSetGaugeTransformationMethod[string]`: Método de transformación del calibre del juego de ruedas  - `wheelchairSleepingPlaces[string]`: Plazas para sillas de ruedas  - `wheelchairSpaces[number]`: Espacios para sillas de ruedas  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-Propiedades requeridas    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-modelo de datos extraído de la ontología ERA https://data-interop.era.europa.eu/era-vocabulary (Agencia Ferroviaria de la Unión Europea)    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## Descripción de las propiedades del modelo de datos    
-Ordenados alfabéticamente (pulse para más detalles)    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: Un nombre alternativo para este artículo  
+- `alternativeName[string]`: Nombre alternativo  
+- `altitudeRange[string]`: Altitud  
+- `altitudeRangeDetail[number]`: Detalle del rango de altitud  
+- `areaServed[string]`: La zona geográfica en la que se presta un servicio o se ofrece un artículo  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `authorizedCountry[uri]`: País autorizado  
+- `axleBearingConditionMonitoring[uri]`: Control del estado de los rodamientos de los ejes  
+- `axleSpacing[string]`: Distancia entre ejes  
+- `boardingAids[string]`: Medios de embarque  
+- `brakeWeightPercentage[string]`: Porcentaje del peso del freno  
+- `cantDefficiency[number]`: Cant defficiency  
+- `category[uri]`: Categoría de vehículo  
+- `catenaryMaxRatedCurrent[number]`: Corriente nominal máxima de la catenaria  
+- `certificate[uri]`: Certificado  
+- `conditionsTrainFormation[string]`: Condiciones formación del tren  
+- `contactStripMaterial[uri]`: Material de la banda de contacto permitido  
+- `dangerousGoodsTankCode[string]`: Código de cisterna de mercancías peligrosas  
+- `dataGSMRNetwork[uri]`: Datos Red GSM-R  
+- `dataProvider[string]`: Una secuencia de caracteres que identifica al proveedor de la entidad de datos armonizada  
+- `dataRadioCompatible[uri]`: Datos de compatibilidad del sistema de radio  
+- `dateCreated[date-time]`: Fecha de creación de la entidad. Normalmente será asignada por la plataforma de almacenamiento  
+- `dateModified[date-time]`: Marca de tiempo de la última modificación de la entidad. Suele ser asignada por la plataforma de almacenamiento  
+- `description[string]`: Descripción de este artículo  
+- `designMassExceptionalPayload[number]`: Masa de diseño con carga útil excepcional  
+- `designMassNormalPayload[number]`: Masa de diseño con carga útil normal  
+- `designMassWorkingOrder[number]`: Masa de diseño en funcionamiento  
+- `drivingCabs[number]`: Conducir taxis  
+- `eddyCurrentBrakePrevention[boolean]`: Prevención de frenado por corrientes de Foucault  
+- `eddyCurrentBrakingFitted[boolean]`: Frenado por corrientes de Foucault instalado  
+- `emergencyBrake[string]`: Frenado de emergencia  
+- `endCouplingType[uri]`: Tipo de acoplamiento final  
+- `energyMeterInstalled[boolean]`: Contador de energía instalado  
+- `energySupplyMaxPower[number]`: Potencia máxima de alimentación  
+- `energySupplySystem[uri]`: Sistema de suministro de energía  
+- `etcsBaseline[uri]`: Línea de base ETCS  
+- `etcsDataCommApp[string]`: Aplicación de comunicación de datos ETCS  
+- `etcsEquipmentOnBoardLevel[uri]`: Nivel de equipamiento ETCS  
+- `etcsInfill[uri]`: Relleno ETCS instalado en el lado de la línea  
+- `etcsNationalApplications[string]`: Aplicaciones nacionales del ETCS  
+- `etcsOnBoardImplementation[string]`: Implantación del ETCS a bordo  
+- `etcsSystemCompatibility[uri]`: Compatibilidad del sistema ETCS  
+- `ferromagneticWheelMaterial[boolean]`: Material ferromagnético de la rueda  
+- `fireSafetyCategory[uri]`: Categoría de seguridad contra incendios  
+- `fixedSeats[string]`: Asientos fijos  
+- `flangeLubricationFitted[boolean]`: Lubricación de brida montada  
+- `gaugingProfile[uri]`: Calibrado  
+- `gsmRRadioDataCommunication[uri]`: Comunicación de datos por radio GSM-R  
+- `gsmRSetsInDrivingCab[number]`: Conjuntos GSM-R en cabina de conducción  
+- `gsmRVersion[uri]`: Versión GSM-R  
+- `hasAutomaticDroppingDevice[boolean]`: Dispone de dispositivo de caída automática  
+- `hasCantDefficiencyCompensation[boolean]`: Tiene compensación por deficiencia de peralte  
+- `hasCurrentLimitation[boolean]`: Tiene limitación de corriente  
+- `hasLubricationDevicePrevention[boolean]`: Dispone de dispositivo de prevención de lubricación  
+- `hasParkingBrake[boolean]`: Tiene freno de estacionamiento  
+- `hasRegenerativeBrake[boolean]`: Permiso para el frenado regenerativo  
+- `hasSandingPrevention[boolean]`: Tiene prevención de lijado  
+- `hasShuntingRestrictions[boolean]`: Tiene restricciones de maniobra  
+- `hasTrainIntegrityConfirmation[boolean]`: Tiene confirmación de integridad del tren  
+- `hasWheelSlideProtectionSystem[boolean]`: Dispone de sistema de protección contra el deslizamiento de las ruedas  
+- `id[*]`: Identificador único de la entidad  
+- `legacyRadioSystem[uri]`: Otros sistemas de radio instalados (sistemas heredados de radio)  
+- `letterMarking[string]`: Marcado de letras  
+- `loadingPlatformHeight[number]`: Altura de la plataforma de carga  
+- `location[*]`: Referencia Geojson al elemento. Puede ser Point, LineString, Polygon, MultiPoint, MultiLineString o MultiPolygon.  
+- `magneticBrakePrevention[boolean]`: Prevención de frenado magnético  
+- `magneticBrakingFitted[boolean]`: Freno magnético instalado  
+- `manufacturer[uri]`: Fabricante  
+- `manufacturingCountry[uri]`: País fabricante  
+- `massPerWheel[number]`: Masa por rueda  
+- `maxCurrentStandstillPantograph[number]`: Corriente máxima en reposo por pantógrafo  
+- `maxDistConsecutiveAxles[number]`: Distancia máxima permitida entre dos ejes consecutivos en caso de incumplimiento de la ETI  
+- `maxFlangeHeight[number]`: Altura máxima permitida de la brida  
+- `maxImpedanceWheelset[number]`: Impedancia máxima permitida entre ruedas opuestas de un juego de ruedas cuando no cumple la ETI  
+- `maxLengthVehicleNose[number]`: Longitud máxima del morro del vehículo  
+- `maximumAverageDeceleration[number]`: Deceleración media máxima  
+- `maximumBrakeThermalEnergyCapacity[number]`: Capacidad máxima de energía térmica de frenado  
+- `maximumContactWireHeight[number]`: Altura máxima del hilo de contacto  
+- `maximumDesignSpeed[number]`: Velocidad máxima de diseño  
+- `maximumLocomotivesCoupled[number]`: Máximo de locomotoras acopladas  
+- `maximumServiceBrake[string]`: Interrupción máxima del servicio  
+- `maximumSpeedAndCantDeficiency[string]`: Velocidad máxima y deficiencia de peralte  
+- `maximumSpeedEmpty[number]`: Velocidad máxima en vacío  
+- `maximumTemperature[number]`: Rango de temperatura (máximo)  
+- `meetsRequirementVehicleAuthorisation[string]`: Cumple el requisito de autorización del vehículo  
+- `minAxleLoad[number]`: Carga por eje mínima autorizada  
+- `minDistConsecutiveAxles[number]`: Distancia mínima permitida entre dos ejes consecutivos  
+- `minDistFirstLastAxle[number]`: Distancia mínima permitida entre el primer y el último eje  
+- `minFlangeHeight[number]`: Altura mínima permitida de la brida  
+- `minFlangeThickness[number]`: Espesor mínimo permitido de la brida  
+- `minRimWidth[number]`: Anchura mínima permitida de la llanta  
+- `minVehicleImpedance[string]`: Impedancia del vehículo  
+- `minWheelDiameter[number]`: Diámetro mínimo de rueda permitido  
+- `minimumConcaveVerticalRadius[number]`: Radio vertical cóncavo mínimo  
+- `minimumContactWireHeight[number]`: Altura mínima del hilo de contacto  
+- `minimumConvexVerticalRadius[number]`: Radio vertical convexo mínimo  
+- `minimumHorizontalRadius[number]`: Radio mínimo de curva horizontal  
+- `minimumTemperature[number]`: Rango de temperatura (mínimo)  
+- `minimumWheelDiameter[number]`: Diámetro mínimo de rueda para cruces obtusos fijos  
+- `name[string]`: El nombre de este artículo  
+- `nonCodedRestrictions[string]`: Restricciones no codificadas  
+- `numberElementsRakeFreightWagons[number]`: Número de elementos rastrillo vagones de mercancías  
+- `numberOfPantographsInContactWithOCL[number]`: Número de pantógrafos en contacto con OCL  
+- `numberOfToilets[number]`: Número de aseos  
+- `oclType[string]`: Tipo Ocl  
+- `owner[array]`: Una lista que contiene una secuencia de caracteres codificada en JSON que hace referencia a los identificadores únicos de los propietarios.  
+- `parkingBrake[boolean]`: Freno de estacionamiento  
+- `parkingBrakeMandatory[boolean]`: Freno de estacionamiento obligatorio  
+- `parkingBrakeMaximumGradient[number]`: Pendiente máxima del freno de estacionamiento  
+- `parkingBrakeType[uri]`: Tipo de freno de estacionamiento  
+- `passByNoiseLevel[number]`: Nivel de ruido de paso  
+- `permissiblePayload[string]`: Carga útil admisible  
+- `portableBoardingAids[string]`: Dispositivos portátiles de embarque  
+- `preventRegenerativeBrakeUse[boolean]`: Evitar el uso del freno regenerativo  
+- `previousVehicleType[uri]`: Tipo de vehículo anterior  
+- `prioritySeats[string]`: Asientos prioritarios  
+- `prmAccessibleToilets[number]`: Prm aseos accesibles  
+- `protectionLegacySystem[uri]`: Sistema heredado de protección de trenes  
+- `quasiStaticGuidingForce[number]`: Fuerza de guía casi estática  
+- `radioSwitchOverSpecialConditions[string]`: Condiciones especiales de conmutación por radio  
+- `railInclination[uri]`: Inclinación del carril  
+- `referencePassByNoiseLevel[boolean]`: Nivel de ruido de paso de referencia  
+- `seeAlso[*]`: lista de uri que apuntan a recursos adicionales sobre el artículo  
+- `shortestDistanceBetweenPantographsInContactWithOCL[string]`: Distancia más corta entre pantógrafos en contacto con OCL  
+- `sleepingPlaces[string]`: Plazas para dormir  
+- `snowIceHailConditions[uri]`: Condiciones de nieve, hielo y granizo  
+- `source[string]`: Secuencia de caracteres que indica la fuente original de los datos de la entidad en forma de URL. Se recomienda que sea el nombre de dominio completo del proveedor de origen o la URL del objeto de origen.  
+- `startingNoiseLevel[number]`: Nivel de ruido inicial  
+- `staticAxleLoadExceptionalPayload[number]`: Carga estática por eje con carga útil excepcional  
+- `staticAxleLoadNormalPayload[number]`: Carga estática por eje con carga útil normal  
+- `staticAxleLoadWorkingOrder[number]`: Carga estática por eje en funcionamiento  
+- `stationaryNoiseLevel[number]`: Nivel de ruido estacionario  
+- `structuralCategory[string]`: Categoría estructural  
+- `subCategory[uri]`: Subcategoría de vehículos  
+- `supportedPlatformHeight[uri]`: Altura de plataforma soportada  
+- `thermalCapacityDistance[number]`: Distancia de capacidad térmica  
+- `thermalCapacityGradient[number]`: Gradiente de capacidad térmica  
+- `thermalCapacitySpeed[number]`: Capacidad térmica Velocidad  
+- `thermalCapacityTSIReference[uri]`: Capacidad térmica ETI de referencia  
+- `thermalCapacityTime[number]`: Tiempo de capacidad térmica  
+- `totalVehicleMass[number]`: Masa total del vehículo  
+- `trainControlSwitchOverSpecialConditions[string]`: Interruptor de control del tren en condiciones especiales  
+- `trainDetectionSystemType[uri]`: Tipo de sistema de detección de trenes  
+- `transportableOnFerry[boolean]`: Transportable en transbordador  
+- `type[string]`: Tipo de datos NGSI. Tiene que ser VehicleType  
+- `typeVersionId[uri]`: Tipo id de versión  
+- `typeVersionNumber[string]`: Escriba el número de versión  
+- `usesGroup555[boolean]`: GSM-R uso del grupo 555  
+- `vehicleContactForce[number]`: Fuerza de contacto del vehículo  
+- `vehicleKinematicGaugeOther[string]`: Indicador cinemático del vehículo otros  
+- `vehicleMaxSandingOutput[string]`: Potencia máxima de lijado del vehículo  
+- `vehiclePantographHead[string]`: Cabezal del pantógrafo del vehículo  
+- `vehicleTypeMaximumSpeedAndCantDeficiency[uri]`: Tipo de vehículo velocidad máxima y deficiencia de peralte  
+- `vehiclesComposingFixedFormation[number]`: Vehículos que componen la formación fija  
+- `voiceGSMRNetwork[uri]`: Voz Red GSM-R  
+- `voiceOperationalCommImpl[string]`: Implantación de comunicaciones operativas de voz  
+- `voiceRadioCompatible[uri]`: Voz de compatibilidad del sistema de radio  
+- `wheelSetGauge[uri]`: Ancho de vía nominal  
+- `wheelSetGaugeChangeoverFacility[uri]`: Cambio de ancho de rueda  
+- `wheelSetGaugeTransformationMethod[string]`: Método de transformación del calibre del juego de ruedas  
+- `wheelchairSleepingPlaces[string]`: Plazas para sillas de ruedas  
+- `wheelchairSpaces[number]`: Espacios para sillas de ruedas  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+Propiedades requeridas    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+modelo de datos extraído de la ontología ERA https://data-interop.era.europa.eu/era-vocabulary (Agencia Ferroviaria de la Unión Europea)    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## Descripción de las propiedades del modelo de datos    
+
+Ordenados alfabéticamente (pulse para más detalles)    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 VehicleType:      
   description: A vehicle type that has been authorized to operate on the EU railway infrastructure.      
   properties:      
@@ -1144,16 +1336,25 @@ VehicleType:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## Ejemplo de carga útil    
-#### VehicleType NGSI-v2 key-values Ejemplo    
-He aquí un ejemplo de VehicleType en formato JSON-LD como valores clave. Esto es compatible con NGSI-v2 cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## Ejemplo de carga útil    
+
+#### VehicleType NGSI-v2 key-values Ejemplo    
+
+He aquí un ejemplo de VehicleType en formato JSON-LD como valores clave. Esto es compatible con NGSI-v2 cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": "1980-12-10T17:21:19Z",  
   "dateModified": "2012-03-07T09:15:20Z",  
@@ -1335,18 +1536,19 @@ VehicleType:
   "voiceGSMRNetwork": "urn:ngsi-ld:VehicleType:voiceGSMRNetwork:QXCJ:24173042",  
   "voiceRadioCompatible": "urn:ngsi-ld:VehicleType:voiceRadioCompatible:PKZZ:65461187",  
   "wheelSetGauge": "urn:ngsi-ld:VehicleType:wheelSetGauge:KXVE:51717604",  
-  "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133",  
-  "context": [  
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-  ]  
+  "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133"
 }  
 ```  
 </details>    
-#### VehicleType NGSI-v2 normalizado Ejemplo    
-He aquí un ejemplo de VehicleType en formato JSON-LD normalizado. Esto es compatible con NGSI-v2 cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
+
+#### VehicleType NGSI-v2 normalizado Ejemplo    
+
+He aquí un ejemplo de VehicleType en formato JSON-LD normalizado. Esto es compatible con NGSI-v2 cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -2008,21 +2210,19 @@ VehicleType:
   "wheelSetGaugeChangeoverFacility": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### VehicleType NGSI-LD key-values Ejemplo    
-Este es un ejemplo de un VehicleType en formato JSON-LD como key-values. Esto es compatible con NGSI-LD cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
+
+#### VehicleType NGSI-LD key-values Ejemplo    
+
+Este es un ejemplo de un VehicleType en formato JSON-LD como key-values. Esto es compatible con NGSI-LD cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:DXAW:12886056",  
   "dateCreated": "1980-12-10T17:21:19Z",  
   "dateModified": "2012-03-07T09:15:20Z",  
@@ -2206,19 +2406,20 @@ VehicleType:
   "wheelSetGauge": "urn:ngsi-ld:VehicleType:wheelSetGauge:KXVE:51717604",  
   "wheelSetGaugeChangeoverFacility": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:BMAD:29611133",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### VehicleType NGSI-LD normalizado Ejemplo    
-He aquí un ejemplo de VehicleType en formato JSON-LD normalizado. Esto es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
+
+#### VehicleType NGSI-LD normalizado Ejemplo    
+
+He aquí un ejemplo de VehicleType en formato JSON-LD normalizado. Esto es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:VehicleType:id:RTWI:29731639",  
   "dateCreated": {  
     "type": "Property",  
@@ -2888,19 +3089,25 @@ VehicleType:
     "object": "urn:ngsi-ld:VehicleType:wheelSetGaugeChangeoverFacility:NFUQ:89252235"  
   },  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-Consulte [FAQ 10](https://smartdatamodels.org/index.php/faqs/) para obtener una respuesta sobre cómo tratar las unidades de magnitud.    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+Consulte [FAQ 10](https://smartdatamodels.org/index.php/faqs/) para obtener una respuesta sobre cómo tratar las unidades de magnitud.    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    

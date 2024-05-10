@@ -34,8 +34,5 @@
   "areaServed": "White task performance blood. Hard eye road probably interview to.",
   "type": "InfrastructureManager",
   "imCode": "Responsibility information do paper either",
-  "definesSubset": "urn:ngsi-ld:InfrastructureManager:definesSubset:QKJR:78702924",
-  "context": [
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"
-  ]
+  "definesSubset": "urn:ngsi-ld:InfrastructureManager:definesSubset:QKJR:78702924"
 }

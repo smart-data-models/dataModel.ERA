@@ -1,20 +1,36 @@
-<!-- 10-Header -->    
+<!-- 10-Header -->
+    
 [![Smart Data Models](https://smartdatamodels.org/wp-content/uploads/2022/01/SmartDataModels_logo.png "Logo")](https://smartdatamodels.org)    
-Entidad: SectionOfLine    
-======================<!-- /10-Header -->    
-<!-- 15-License -->    
-[Licencia abierta](https://github.com/smart-data-models//dataModel.ERA/blob/master/SectionOfLine/LICENSE.md)    
-[documento generado automáticamente](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
-<!-- /15-License -->    
-<!-- 20-Description -->    
-Descripción global: **Se entiende por tramo de línea la parte de línea comprendida entre puntos operativos adyacentes y puede constar de varias vías.    
+
+Entidad: SectionOfLine    
+======================
+<!-- /10-Header -->
+    
+<!-- 15-License -->
+    
+
+[Licencia abierta](https://github.com/smart-data-models//dataModel.ERA/blob/master/SectionOfLine/LICENSE.md)    
+
+[documento generado automáticamente](https://docs.google.com/presentation/d/e/2PACX-1vTs-Ng5dIAwkg91oTTUdt8ua7woBXhPnwavZ0FxgR8BsAI_Ek3C5q97Nd94HS8KhP-r_quD4H0fgyt3/pub?start=false&loop=false&delayms=3000#slide=id.gb715ace035_0_60)    
+<!-- /15-License -->
+    
+<!-- 20-Description -->
+    
+
+Descripción global: **Se entiende por tramo de línea la parte de línea comprendida entre puntos operativos adyacentes y puede constar de varias vías.    
 En https://eur-lex.europa.eu/eli/reg_impl/2019/773/oj 2.1.1 Secciones de línea.**    
-versión: 0.0.1    
-<!-- /20-Description -->    
-<!-- 30-PropertiesList -->    
-## Lista de propiedades    
-<sup><sub>[*] Si no hay un tipo en un atributo es porque puede tener varios tipos o diferentes formatos/patrones</sub></sup>.    
-- `address[object]`: La dirección postal  . Model: [https://schema.org/address](https://schema.org/address)	- `addressCountry[string]`: El país. Por ejemplo, España  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
+
+versión: 0.0.1    
+<!-- /20-Description -->
+    
+<!-- 30-PropertiesList -->
+    
+
+## Lista de propiedades    
+
+<sup><sub>[*] Si no hay un tipo en un atributo es porque puede tener varios tipos o diferentes formatos/patrones</sub></sup>.    
+- `address[object]`: La dirección postal  . Model: [https://schema.org/address](https://schema.org/address)
+	- `addressCountry[string]`: El país. Por ejemplo, España  . Model: [https://schema.org/addressCountry](https://schema.org/addressCountry)    
 	- `addressLocality[string]`: La localidad en la que se encuentra la dirección postal, y que está en la región  . Model: [https://schema.org/addressLocality](https://schema.org/addressLocality)    
 	- `addressRegion[string]`: La región en la que se encuentra la localidad, y que está en el país  . Model: [https://schema.org/addressRegion](https://schema.org/addressRegion)    
 	- `district[string]`: Un distrito es un tipo de división administrativa que, en algunos países, gestiona el gobierno local      
@@ -22,20 +38,53 @@ En https://eur-lex.europa.eu/eli/reg_impl/2019/773/oj 2.1.1 Secciones de línea.
 	- `postalCode[string]`: El código postal. Por ejemplo, 24004  . Model: [https://schema.org/https://schema.org/postalCode](https://schema.org/https://schema.org/postalCode)    
 	- `streetAddress[string]`: La dirección  . Model: [https://schema.org/streetAddress](https://schema.org/streetAddress)    
 	- `streetNr[string]`: Número que identifica una propiedad específica en una vía pública      
-- `alternateName[string]`: Un nombre alternativo para este artículo  - `areaServed[string]`: La zona geográfica en la que se presta un servicio o se ofrece un artículo  . Model: [https://schema.org/Text](https://schema.org/Text)- `dataProvider[string]`: Una secuencia de caracteres que identifica al proveedor de la entidad de datos armonizada  - `dateCreated[date-time]`: Fecha de creación de la entidad. Normalmente será asignada por la plataforma de almacenamiento  - `dateModified[date-time]`: Marca de tiempo de la última modificación de la entidad. Suele ser asignada por la plataforma de almacenamiento  - `description[string]`: Descripción de este artículo  - `id[*]`: Identificador único de la entidad  - `lineNationalId[uri]`: Identificación de la línea nacional  - `location[*]`: Referencia Geojson al elemento. Puede ser Point, LineString, Polygon, MultiPoint, MultiLineString o MultiPolygon.  - `name[string]`: El nombre de este artículo  - `opEnd[uri]`: Punto operativo al final del tramo de línea  - `opStart[uri]`: Punto operativo al inicio del tramo de línea  - `owner[array]`: Una lista que contiene una secuencia de caracteres codificada en JSON que hace referencia a los identificadores únicos de los propietarios.  - `seeAlso[*]`: lista de uri que apuntan a recursos adicionales sobre el artículo  - `solNature[uri]`: Naturaleza de la sección de la línea  - `source[string]`: Secuencia de caracteres que indica la fuente original de los datos de la entidad en forma de URL. Se recomienda que sea el nombre de dominio completo del proveedor de origen o la URL del objeto de origen.  - `track[uri]`: Pista  - `type[string]`: Tipo de datos NGSI. Tiene que ser SectionOfLine  <!-- /30-PropertiesList -->    
-<!-- 35-RequiredProperties -->    
-Propiedades requeridas    
-- `id`  - `type`  <!-- /35-RequiredProperties -->    
-<!-- 40-RequiredProperties -->    
-modelo de datos extraído de la ontología ERA https://data-interop.era.europa.eu/era-vocabulary (Agencia Ferroviaria de la Unión Europea)    
-<!-- /40-RequiredProperties -->    
-<!-- 50-DataModelHeader -->    
-## Descripción de las propiedades del modelo de datos    
-Ordenados alfabéticamente (pulse para más detalles)    
-<!-- /50-DataModelHeader -->    
-<!-- 60-ModelYaml -->    
+- `alternateName[string]`: Un nombre alternativo para este artículo  
+- `areaServed[string]`: La zona geográfica en la que se presta un servicio o se ofrece un artículo  . Model: [https://schema.org/Text](https://schema.org/Text)
+- `dataProvider[string]`: Una secuencia de caracteres que identifica al proveedor de la entidad de datos armonizada  
+- `dateCreated[date-time]`: Fecha de creación de la entidad. Normalmente será asignada por la plataforma de almacenamiento  
+- `dateModified[date-time]`: Marca de tiempo de la última modificación de la entidad. Suele ser asignada por la plataforma de almacenamiento  
+- `description[string]`: Descripción de este artículo  
+- `id[*]`: Identificador único de la entidad  
+- `lineNationalId[uri]`: Identificación de la línea nacional  
+- `location[*]`: Referencia Geojson al elemento. Puede ser Point, LineString, Polygon, MultiPoint, MultiLineString o MultiPolygon.  
+- `name[string]`: El nombre de este artículo  
+- `opEnd[uri]`: Punto operativo al final del tramo de línea  
+- `opStart[uri]`: Punto operativo al inicio del tramo de línea  
+- `owner[array]`: Una lista que contiene una secuencia de caracteres codificada en JSON que hace referencia a los identificadores únicos de los propietarios.  
+- `seeAlso[*]`: lista de uri que apuntan a recursos adicionales sobre el artículo  
+- `solNature[uri]`: Naturaleza de la sección de la línea  
+- `source[string]`: Secuencia de caracteres que indica la fuente original de los datos de la entidad en forma de URL. Se recomienda que sea el nombre de dominio completo del proveedor de origen o la URL del objeto de origen.  
+- `track[uri]`: Pista  
+- `type[string]`: Tipo de datos NGSI. Tiene que ser SectionOfLine  
+<!-- /30-PropertiesList -->
+    
+<!-- 35-RequiredProperties -->
+    
+
+Propiedades requeridas    
+- `id`  
+- `type`  
+<!-- /35-RequiredProperties -->
+    
+<!-- 40-RequiredProperties -->
+    
+
+modelo de datos extraído de la ontología ERA https://data-interop.era.europa.eu/era-vocabulary (Agencia Ferroviaria de la Unión Europea)    
+<!-- /40-RequiredProperties -->
+    
+<!-- 50-DataModelHeader -->
+    
+
+## Descripción de las propiedades del modelo de datos    
+
+Ordenados alfabéticamente (pulse para más detalles)    
+<!-- /50-DataModelHeader -->
+    
+<!-- 60-ModelYaml -->
+    
 <details><summary><strong>full yaml details</strong></summary>      
-```yaml    
+
+```yaml    
 SectionOfLine:      
   description: |-      
     A section of line means the part of line between adjacent operational points and may consist of several tracks.      
@@ -402,16 +451,25 @@ SectionOfLine:
   x-version: 0.0.1      
 ```    
 </details>      
-<!-- /60-ModelYaml -->    
-<!-- 70-MiddleNotes -->    
-<!-- /70-MiddleNotes -->    
-<!-- 80-Examples -->    
-## Ejemplo de carga útil    
-#### SectionOfLine NGSI-v2 key-values Ejemplo    
-He aquí un ejemplo de una SectionOfLine en formato JSON-LD como key-values. Esto es compatible con NGSI-v2 cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
+<!-- /60-ModelYaml -->
+    
+<!-- 70-MiddleNotes -->
+    
+<!-- /70-MiddleNotes -->
+    
+<!-- 80-Examples -->
+    
+
+## Ejemplo de carga útil    
+
+#### SectionOfLine NGSI-v2 key-values Ejemplo    
+
+He aquí un ejemplo de una SectionOfLine en formato JSON-LD como key-values. Esto es compatible con NGSI-v2 cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:SectionOfLine:id:NVYV:48459502",  
   "dateCreated": "2019-05-29T20:37:27Z",  
   "dateModified": "1990-02-07T09:13:17Z",  
@@ -450,18 +508,19 @@ SectionOfLine:
   "opEnd": "urn:ngsi-ld:SectionOfLine:opEnd:MIJK:54736457",  
   "opStart": "urn:ngsi-ld:SectionOfLine:opStart:QOPP:74078654",  
   "solNature": "urn:ngsi-ld:SectionOfLine:solNature:UWFX:27604875",  
-  "track": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248",  
-  "context": [  
-    "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-  ]  
+  "track": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248"
 }  
 ```  
 </details>    
-#### SectionOfLine NGSI-v2 normalizado Ejemplo    
-He aquí un ejemplo de SectionOfLine en formato JSON-LD normalizado. Esto es compatible con NGSI-v2 cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
+
+#### SectionOfLine NGSI-v2 normalizado Ejemplo    
+
+He aquí un ejemplo de SectionOfLine en formato JSON-LD normalizado. Esto es compatible con NGSI-v2 cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:SectionOfLine:id:NVYV:48459502",  
   "dateCreated": {  
     "type": "DateTime",  
@@ -551,21 +610,19 @@ SectionOfLine:
   "track": {  
     "type": "Text",  
     "value": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248"  
-  },  
-  "context": {  
-    "type": "StructuredValue",  
-    "value": [  
-      "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
-    ]  
   }  
 }  
 ```  
 </details>    
-#### SectionOfLine NGSI-LD key-values Ejemplo    
-He aquí un ejemplo de una SectionOfLine en formato JSON-LD como key-values. Esto es compatible con NGSI-LD cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
+
+#### SectionOfLine NGSI-LD key-values Ejemplo    
+
+He aquí un ejemplo de una SectionOfLine en formato JSON-LD como key-values. Esto es compatible con NGSI-LD cuando se utiliza `options=keyValues` y devuelve los datos de contexto de una entidad individual.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:SectionOfLine:id:NVYV:48459502",  
   "dateCreated": "2019-05-29T20:37:27Z",  
   "dateModified": "1990-02-07T09:13:17Z",  
@@ -606,19 +663,20 @@ SectionOfLine:
   "solNature": "urn:ngsi-ld:SectionOfLine:solNature:UWFX:27604875",  
   "track": "urn:ngsi-ld:SectionOfLine:track:RKTG:26142248",  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
 </details>    
-#### SectionOfLine NGSI-LD normalizado Ejemplo    
-He aquí un ejemplo de SectionOfLine en formato JSON-LD normalizado. Esto es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
+
+#### SectionOfLine NGSI-LD normalizado Ejemplo    
+
+He aquí un ejemplo de SectionOfLine en formato JSON-LD normalizado. Esto es compatible con NGSI-LD cuando no se utilizan opciones y devuelve los datos de contexto de una entidad individual.    
 <details><summary><strong>show/hide example</strong></summary>      
-```json  
-{  
+
+```json  
+
+{  
   "id": "urn:ngsi-ld:SectionOfLine:id:BHSJ:12081625",  
   "dateCreated": {  
     "type": "Property",  
@@ -716,19 +774,25 @@ SectionOfLine:
     "object": "urn:ngsi-ld:SectionOfLine:track:ZVJB:17662025"  
   },  
   "@context": [  
-    "https://smartdatamodels.org/context.jsonld"  
-  ],  
-  "context": [  
     "https://raw.githubusercontent.com/smart-data-models/dataModel.ERA/master/context.jsonld"  
   ]  
 }  
 ```  
-</details><!-- /80-Examples -->    
-<!-- 90-FooterNotes -->    
-<!-- /90-FooterNotes -->    
-<!-- 95-Units -->    
-Consulte [FAQ 10](https://smartdatamodels.org/index.php/faqs/) para obtener una respuesta sobre cómo tratar las unidades de magnitud.    
-<!-- /95-Units -->    
-<!-- 97-LastFooter -->    
+</details><!-- /80-Examples -->
+    
+<!-- 90-FooterNotes -->
+    
+<!-- /90-FooterNotes -->
+    
+<!-- 95-Units -->
+    
+
+Consulte [FAQ 10](https://smartdatamodels.org/index.php/faqs/) para obtener una respuesta sobre cómo tratar las unidades de magnitud.    
+<!-- /95-Units -->
+    
+<!-- 97-LastFooter -->
+    
 ---    
-[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->    
+
+[Smart Data Models](https://smartdatamodels.org) +++ [Contribution Manual](https://bit.ly/contribution_manual) +++ [About](https://bit.ly/Introduction_SDM)<!-- /97-LastFooter -->
+    
