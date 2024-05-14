@@ -5,7 +5,7 @@
 <!-- 50-List of code -->
 
 <!-- [code entry](link) -->
-[code_for_using_dataModel.ERA_LineReference.py](https://github.com/smart-data-models/dataModel.ERAblob/master/LineReference/code/code_for_using_dataModel.ERA_LineReference.py)
+[code_for_using_dataModel.ERA_LineReference.py](https://github.com/smart-data-models/dataModel.ERA/blob/master/LineReference/code/code_for_using_dataModel.ERA_LineReference.py)
 
 
 <!-- /50-List of code -->
