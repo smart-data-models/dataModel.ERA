@@ -23,6 +23,8 @@
 #         # Check what entities are in the broker
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
+#         # now the python code you can use to insert some value in the context broker according to the data model
+#         
 from pysmartdatamodels import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
