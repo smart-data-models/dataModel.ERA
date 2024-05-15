@@ -30,13 +30,13 @@ import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "Feature"
 subject = "dataModel.ERA"
-currentlyValid = True
+currentlyValid = {'type': 'Property', 'value': True}
 attribute = "currentlyValid"
 value = currentlyValid
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-length = 845.9
+length = {'type': 'Property', 'value': 955.0}
 attribute = "length"
 value = length
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
