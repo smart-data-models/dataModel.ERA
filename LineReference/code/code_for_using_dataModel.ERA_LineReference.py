@@ -30,13 +30,13 @@ import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "LineReference"
 subject = "dataModel.ERA"
-kilometer = 239.9
+kilometer = {'type': 'Property', 'value': 890.1}
 attribute = "kilometer"
 value = kilometer
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-lineNationalId = "urn:ngsi-ld:LineReference:lineNationalId:IIBS:67837023"
+lineNationalId = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:LineReference:lineNationalId:HTQW:41563123'}"
 attribute = "lineNationalId"
 value = lineNationalId
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
