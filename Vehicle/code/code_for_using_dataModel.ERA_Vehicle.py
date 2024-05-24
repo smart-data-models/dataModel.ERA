@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "Vehicle"
 subject = "dataModel.ERA"
-compositeBrakeBlockRetrofitted = {'type': 'Property', 'value': False}
+compositeBrakeBlockRetrofitted = True
 attribute = "compositeBrakeBlockRetrofitted"
 value = compositeBrakeBlockRetrofitted
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-vehicleNumber = "{'type': 'Property', 'value': 'Sure stock standard child goal in. Option hand parent piece no.'}"
+vehicleNumber = "Of light force police. Indicate best need."
 attribute = "vehicleNumber"
 value = vehicleNumber
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-vehicleSeries = "{'type': 'Property', 'value': 'Public story thus wind whether. Sometimes attorney couple person hand green. Within seek sid'}"
+vehicleSeries = "High article bill "
 attribute = "vehicleSeries"
 value = vehicleSeries
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-manufacturingCountry = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:Vehicle:manufacturingCountry:YUHQ:94193670'}"
+manufacturingCountry = "urn:ngsi-ld:Vehicle:manufacturingCountry:TILS:75334975"
 attribute = "manufacturingCountry"
 value = manufacturingCountry
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
