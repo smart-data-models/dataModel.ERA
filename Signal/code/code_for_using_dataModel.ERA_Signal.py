@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "Signal"
 subject = "dataModel.ERA"
-relativeDistanceDangerPoint = {'type': 'Property', 'value': 859}
+relativeDistanceDangerPoint = 864
 attribute = "relativeDistanceDangerPoint"
 value = relativeDistanceDangerPoint
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-signalId = "{'type': 'Property', 'value': 'Mean PM capital car particular head. Claim ago brother forget. Benefit start body ask yet age believe.'}"
+signalId = "American whole magazine truth stop whose. On traditional measure example sense peac"
 attribute = "signalId"
 value = signalId
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-signalOrientation = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:Signal:signalOrientation:XSWZ:79200878'}"
+signalOrientation = "urn:ngsi-ld:Signal:signalOrientation:KTUG:11578156"
 attribute = "signalOrientation"
 value = signalOrientation
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-signalType = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:Signal:signalType:OIXR:27955866'}"
+signalType = "urn:ngsi-ld:Signal:signalType:CXMW:87784080"
 attribute = "signalType"
 value = signalType
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
