@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "InfrastructureObject"
 subject = "dataModel.ERA"
-validityEndDate = "{'type': 'Property', 'value': 'Opportunity material huge evidence. Example federal instead reflect.'}"
+validityEndDate = "Rock officer moment reason. Far deal skin quite. Car inside morning open."
 attribute = "validityEndDate"
 value = validityEndDate
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-validityStartDate = "{'type': 'Property', 'value': 'Growth use think rise return certainly number.'}"
+validityStartDate = "Step matter huge full usually. Who offer ever guess up strong age."
 attribute = "validityStartDate"
 value = validityStartDate
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-hasAbstraction = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:InfrastructureObject:hasAbstraction:KQPZ:41036335'}"
+hasAbstraction = "urn:ngsi-ld:InfrastructureObject:hasAbstraction:OBDC:55634487"
 attribute = "hasAbstraction"
 value = hasAbstraction
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-inCountry = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:InfrastructureObject:inCountry:FSPJ:13261002'}"
+inCountry = "urn:ngsi-ld:InfrastructureObject:inCountry:AVTY:41307833"
 attribute = "inCountry"
 value = inCountry
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
