@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "NetElement"
 subject = "dataModel.ERA"
-endIntrinsicCoordinate = {'type': 'Property', 'value': 437.0}
+endIntrinsicCoordinate = 172.2
 attribute = "endIntrinsicCoordinate"
 value = endIntrinsicCoordinate
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-startIntrinsicCoordinate = {'type': 'Property', 'value': 884.3}
+startIntrinsicCoordinate = 698.8
 attribute = "startIntrinsicCoordinate"
 value = startIntrinsicCoordinate
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-elementPart = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:NetElement:elementPart:QPYN:94443064'}"
+elementPart = "urn:ngsi-ld:NetElement:elementPart:MXDV:95711699"
 attribute = "elementPart"
 value = elementPart
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-hasImplementation = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:NetElement:hasImplementation:LVLV:02180509'}"
+hasImplementation = "urn:ngsi-ld:NetElement:hasImplementation:GOYF:07477051"
 attribute = "hasImplementation"
 value = hasImplementation
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
