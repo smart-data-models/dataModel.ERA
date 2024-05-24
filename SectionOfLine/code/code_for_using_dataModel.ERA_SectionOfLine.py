@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "SectionOfLine"
 subject = "dataModel.ERA"
-lineNationalId = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:SectionOfLine:lineNationalId:WWXI:47713875'}"
+lineNationalId = "urn:ngsi-ld:SectionOfLine:lineNationalId:ISBE:85077227"
 attribute = "lineNationalId"
 value = lineNationalId
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-opEnd = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:SectionOfLine:opEnd:ESDA:92317943'}"
+opEnd = "urn:ngsi-ld:SectionOfLine:opEnd:MIJK:54736457"
 attribute = "opEnd"
 value = opEnd
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-opStart = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:SectionOfLine:opStart:EXYH:90955448'}"
+opStart = "urn:ngsi-ld:SectionOfLine:opStart:QOPP:74078654"
 attribute = "opStart"
 value = opStart
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-solNature = "{'type': 'Relationship', 'object': 'urn:ngsi-ld:SectionOfLine:solNature:UBAH:75574617'}"
+solNature = "urn:ngsi-ld:SectionOfLine:solNature:UWFX:27604875"
 attribute = "solNature"
 value = solNature
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
