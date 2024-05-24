@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "Track"
 subject = "dataModel.ERA"
-IdPhoneErtmsRadioBlockCenter = "{'type': 'Property', 'value': 'Town myself religious would lose. Statement first ball experience threat. Oil position rule.'}"
+IdPhoneErtmsRadioBlockCenter = "Become name off project born far significant. Teacher water become big."
 attribute = "IdPhoneErtmsRadioBlockCenter"
 value = IdPhoneErtmsRadioBlockCenter
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-accelerationLevelCrossing = "{'type': 'Property', 'value': 'Us day century either. Job just either group message left born. Idea wear produce two.'}"
+accelerationLevelCrossing = "Today wait agree car build phone local."
 attribute = "accelerationLevelCrossing"
 value = accelerationLevelCrossing
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-additionalBrakingInformationDocument = "{'type': 'Property', 'value': 'Even product let cell last rule. Cultural require specific hold see police. Smile st'}"
+additionalBrakingInformationDocument = "Shake himself their lot. Home show two guess society find assume. Sign hand price apply likely art arrive."
 attribute = "additionalBrakingInformationDocument"
 value = additionalBrakingInformationDocument
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-atoErrorCorrectionsOnboard = "{'type': 'Property', 'value': 'Brother style drug place company PM. New past Democrat common piece reveal. Loss bed collection theory week netw'}"
+atoErrorCorrectionsOnboard = "Green writer religious even. Million up tax city everyone why strong comp"
 attribute = "atoErrorCorrectionsOnboard"
 value = atoErrorCorrectionsOnboard
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
