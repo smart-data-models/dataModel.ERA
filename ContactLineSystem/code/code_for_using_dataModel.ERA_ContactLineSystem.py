@@ -24,31 +24,36 @@
 #         curl -X GET http://localhost:1026/ngsi-ld/v1/entities?local=true&limit=1000
 #         
 #         # now the python code you can use to insert some value in the context broker according to the data model
+#         # Version Warning! 
+#         # This code is designed to work with the version 0.8 of pysmartdatamodels or later
+#         # to work with earlier version you need to replace the import instruction for
+#         # from pysmartdatamodels import pysmartdatamodels as sdm
 #         
-from pysmartdatamodels import pysmartdatamodels as sdm
+#         
+import pysmartdatamodels as sdm
 import subprocess
 serverUrl = "http://localhost:1026" # supposed that your broker is installed in localhost. Edit to match your configuration
 dataModel = "ContactLineSystem"
 subject = "dataModel.ERA"
-conditionalRegenerativeBrake = {'type': 'Property', 'value': False}
+conditionalRegenerativeBrake = True
 attribute = "conditionalRegenerativeBrake"
 value = conditionalRegenerativeBrake
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-conditionsAppliedRegenerativeBraking = "{'type': 'Property', 'value': 'Design hard short dream cost entire year. Better consumer recently. Population rich recent tough environmental rock image speech.'}"
+conditionsAppliedRegenerativeBraking = "Never understand could change arrive. Senior change can surface language."
 attribute = "conditionsAppliedRegenerativeBraking"
 value = conditionsAppliedRegenerativeBraking
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-conditionsChargingElectricEnergyStorage = "{'type': 'Property', 'value': 'Force inside tell. Daughter miss true member voice thus. Dream many which church strong '}"
+conditionsChargingElectricEnergyStorage = "Vo"
 attribute = "conditionsChargingElectricEnergyStorage"
 value = conditionsChargingElectricEnergyStorage
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
 print(sdm.update_broker(dataModel, subject, attribute, value, serverUrl=serverUrl, updateThenCreate=True))
 
-currentLimitationRequired = {'type': 'Property', 'value': True}
+currentLimitationRequired = False
 attribute = "currentLimitationRequired"
 value = currentLimitationRequired
 # The next line creates the query for inserting this attribute in a NGSI-LD context broker if the attribute does not exist it creates it
