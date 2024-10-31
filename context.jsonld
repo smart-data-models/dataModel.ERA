@@ -3,7 +3,7 @@
         "Certificate": "https://smartdatamodels.org/dataModel.ERA/Certificate",
         "ContactLineSystem": "https://smartdatamodels.org/dataModel.ERA/ContactLineSystem",
         "ETCSLevel": "https://smartdatamodels.org/dataModel.ERA/ETCSLevel",
-        "Feature": "geojson:Feature",
+        "Feature": "https://purl.org/geojson/vocab#Feature",
         "FrenchTrainDetectionSystemLimitation": "https://smartdatamodels.org/dataModel.ERA/FrenchTrainDetectionSystemLimitation",
         "IdPhoneErtmsRadioBlockCenter": "https://smartdatamodels.org/dataModel.ERA/IdPhoneErtmsRadioBlockCenter",
         "InfrastructureManager": "https://smartdatamodels.org/dataModel.ERA/InfrastructureManager",
@@ -60,7 +60,7 @@
         "axleSpacing": "https://smartdatamodels.org/dataModel.ERA/axleSpacing",
         "bbox": {
             "@container": "@list",
-            "@id": "geojson:bbox"
+            "@id": "https://purl.org/geojson/vocab#bbox"
         },
         "bigMetalMass": "https://smartdatamodels.org/dataModel.ERA/bigMetalMass",
         "boardingAids": "https://smartdatamodels.org/dataModel.ERA/boardingAids",
@@ -89,7 +89,7 @@
         "contactStripMaterialMetallicContent": "https://smartdatamodels.org/dataModel.ERA/contactStripMaterialMetallicContent",
         "coordinates": {
             "@container": "@list",
-            "@id": "geojson:coordinates"
+            "@id": "https://purl.org/geojson/vocab#coordinates"
         },
         "crossSectionArea": "https://smartdatamodels.org/dataModel.ERA/crossSectionArea",
         "currentLimitationRequired": "https://smartdatamodels.org/dataModel.ERA/currentLimitationRequired",
@@ -241,7 +241,7 @@
         "loadingPlatformHeight": "https://smartdatamodels.org/dataModel.ERA/loadingPlatformHeight",
         "localRulesOrRestrictions": "https://smartdatamodels.org/dataModel.ERA/localRulesOrRestrictions",
         "localRulesOrRestrictionsDoc": "https://smartdatamodels.org/dataModel.ERA/localRulesOrRestrictionsDoc",
-        "location": "ngsi-ld:location",
+        "location": "https://uri.etsi.org/ngsi-ld/location",
         "mNvcontact": "https://smartdatamodels.org/dataModel.ERA/mNvcontact",
         "mNvderun": "https://smartdatamodels.org/dataModel.ERA/mNvderun",
         "magneticBrakePrevention": "https://smartdatamodels.org/dataModel.ERA/magneticBrakePrevention",
