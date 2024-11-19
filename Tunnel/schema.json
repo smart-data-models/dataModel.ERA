@@ -75,10 +75,8 @@
           "description": "Property. EC declaration of verification for tunnel (SRT)"
         },
         "endLocation": {
-          "type": [
-            "geosparql#Geometry",
-            "wgs84_pos#Point"
-          ],
+          "type": "string",
+          "format": "uri",
           "description": "Relationship. End of tunnel"
         },
         "rollingStockFireCategory": {
