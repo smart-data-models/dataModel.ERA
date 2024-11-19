@@ -103,7 +103,7 @@ VehicleKeeper:
             type: Property
       description: Unique identifier of the entity
       x-ngsi:
-        type: Property
+        type: Relationship
     location:
       description: 'Geojson reference to the item. It can be Point, LineString, Polygon, MultiPoint, MultiLineString or MultiPolygon'
       oneOf:
@@ -292,7 +292,7 @@ VehicleKeeper:
               type: Property
         description: Unique identifier of the entity
         x-ngsi:
-          type: Property
+          type: Relationship
       type: array
       x-ngsi:
         type: Property
@@ -325,7 +325,7 @@ VehicleKeeper:
     - type
   type: object
   x-derived-from: http://data.europa.eu/949/VehicleKeeper
-  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2023 Contributors to Smart Data Models Program'
+  x-disclaimer: 'Redistribution and use in source and binary forms, with or without modification, are permitted  provided that the license conditions are met. Copyleft (c) 2024 Contributors to Smart Data Models Program'
   x-license-url: https://github.com/smart-data-models/dataModel.ERA/blob/master/VehicleKeeper/LICENSE.md
   x-model-schema: https://smart-data-models.github.io/dataModel.ERA/Certificate/schema.json
   x-model-tags: 'ERA vocabulary, railway, train'
