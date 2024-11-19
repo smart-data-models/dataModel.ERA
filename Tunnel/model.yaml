@@ -373,9 +373,8 @@ Tunnel:
         type: Relationship
     startLocation:
       description: Start of tunnel
-      type:
-        - "geosparql#Geometry"
-        - "wgs84_pos#Point"
+      format: uri
+      type: string
       x-ngsi:
         type: Relationship
     tunnelDocRef:
