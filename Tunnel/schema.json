@@ -90,10 +90,8 @@
           "description": "Relationship. Special tunnel area"
         },
         "startLocation": {
-          "type": [
-            "geosparql#Geometry",
-            "wgs84_pos#Point"
-          ],
+          "type": "string",
+          "format": "uri",
           "description": "Relationship. Start of tunnel"
         }
       }
