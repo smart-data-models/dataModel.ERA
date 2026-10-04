@@ -1,6 +1,25 @@
 # dataModel.ERA
 Subject direct mapping of the ERA ontology https://data-interop.era.europa.eu/era-vocabulary/. Adaptaded to NGSI systems by adding the type to all data models and some general attributes.
 
+### 📢 Newer ERA ontology version available (Candidates)
+
+The models below map an earlier version of the ERA ontology. A newer
+translation, built directly from ERA ontology **v3.3.3** (parsed from the
+source `ontology.ttl`, cross-referenced against the real `era-skos` concept
+schemes, and — for the authorisation/certification classes — the Verified
+Permissions Ontology), is available as four Candidate standards in the
+[Candidates repository](https://github.com/smart-data-models/Candidates):
+
+- [era-rinf](https://github.com/smart-data-models/Candidates/tree/master/standards/era-rinf) — Register of Infrastructure (38 models)
+- [era-eratv](https://github.com/smart-data-models/Candidates/tree/master/standards/era-eratv) — European Register of Authorised Vehicle Types (8 models)
+- [era-eradis](https://github.com/smart-data-models/Candidates/tree/master/standards/era-eradis) — documents / certification register (14 models)
+- [era-evr](https://github.com/smart-data-models/Candidates/tree/master/standards/era-evr) — European Vehicle Register (14 models)
+
+These are **Candidates**, not yet part of this official subject — nothing
+below has been changed or replaced. If you are implementing a real use case
+against the newer version, contact **alberto.abella@transparentia.net** and
+we will help make it official.
+
 ### List of data models
 
 The following entity types are available:
