@@ -1,3 +1,20 @@
 /* (Beta) Export of data model MinAxleLoadVehicleCategory of the subject dataModel.ERA for a PostgreSQL database. Pending translation of enumerations and multityped attributes */
 CREATE TYPE MinAxleLoadVehicleCategory_type AS ENUM ('MinAxleLoadVehicleCategory');
-CREATE TABLE MinAxleLoadVehicleCategory (address JSON, alternateName TEXT, areaServed TEXT, dataProvider TEXT, dateCreated TIMESTAMP, dateModified TIMESTAMP, description TEXT, id TEXT PRIMARY KEY, location JSON, minAxleLoad NUMERIC, minAxleLoadVehicleCategory TEXT, name TEXT, owner JSON, seeAlso JSON, source TEXT, type MinAxleLoadVehicleCategory_type);
+CREATE TABLE MinAxleLoadVehicleCategory (
+  "address" JSON,
+  "alternateName" TEXT,
+  "areaServed" TEXT,
+  "dataProvider" TEXT,
+  "dateCreated" TIMESTAMP,
+  "dateModified" TIMESTAMP,
+  "description" TEXT,
+  "id" TEXT PRIMARY KEY,
+  "location" JSON,
+  "minAxleLoad" NUMERIC,
+  "minAxleLoadVehicleCategory" TEXT,
+  "name" TEXT,
+  "owner" JSON,
+  "seeAlso" JSON,
+  "source" TEXT,
+  "type" MinAxleLoadVehicleCategory_type
+);
